@@ -2,14 +2,7 @@ state,county,party,total_votes,number,per capita income,median household income,
 Delaware,Kent,DEM,44552.0,1077,"$24,851 ","$55,149 ","$64,414 "
 Delaware,NewCastle,DEM,195034.0,206,"$32,406 ","$64,537 ","$79,954 "
 Delaware,Sussex,DEM,56682.0,667,"$26,908 ","$52,710 ","$61,308 "
-District of Columbia,DistrictofColumbia,DEM,38037.0,,,,
-District of Columbia,Ward2,DEM,28185.0,,,,
-District of Columbia,Ward3,DEM,38436.0,,,,
-District of Columbia,Ward4,DEM,41604.0,,,,
-District of Columbia,Ward5,DEM,42453.0,,,,
-District of Columbia,Ward6,DEM,52357.0,,,,
-District of Columbia,Ward7,DEM,35861.0,,,,
-District of Columbia,Ward8,DEM,30332.0,,,,
+District of Columbia,DistrictofColumbia,DEM,38037.0,23,"$45,290 ","$65,830 ","$79,665 "
 Florida,Alachua,DEM,89527.0,1076,"$24,857 ","$42,149 ","$62,139 "
 Florida,Baker,DEM,2037.0,2373,"$19,852 ","$49,236 ","$58,850 "
 Florida,Bay,DEM,25572.0,1167,"$24,498 ","$47,461 ","$57,295 "
@@ -300,6 +293,7 @@ Illinois,Clay,DEM,1129.0,1745,"$22,279 ","$40,640 ","$52,000 "
 Illinois,Clinton,DEM,4459.0,522,"$27,802 ","$61,720 ","$76,109 "
 Illinois,Coles,DEM,7997.0,1830,"$21,970 ","$37,040 ","$53,465 "
 Illinois,Cook,DEM,1682455.0,318,"$30,183 ","$54,548 ","$66,187 "
+Illinois,Cook,DEM,749899.0,318,"$30,183 ","$54,548 ","$66,187 "
 Illinois,Crawford,DEM,2198.0,1009,"$25,214 ","$46,216 ","$59,235 "
 Illinois,Cumberland,DEM,1141.0,1562,"$22,952 ","$43,958 ","$54,423 "
 Illinois,DeKalb,DEM,24484.0,1361,"$23,696 ","$53,375 ","$71,343 "
@@ -386,7 +380,6 @@ Illinois,Will,DEM,182957.0,309,"$30,377 ","$76,147 ","$86,747 "
 Illinois,Williamson,DEM,10107.0,1387,"$23,605 ","$43,125 ","$54,242 "
 Illinois,Winnebago,DEM,58791.0,1171,"$24,495 ","$47,072 ","$58,536 "
 Illinois,Woodford,DEM,5976.0,279,"$30,926 ","$66,639 ","$78,590 "
-Illinois,CookSuburbs,DEM,749899.0,,,,
 Indiana,Adams,DEM,3236.0,2305,"$20,160 ","$46,695 ","$56,345 "
 Indiana,Allen,DEM,73189.0,995,"$25,279 ","$49,370 ","$60,867 "
 Indiana,Bartholomew,DEM,12934.0,587,"$27,359 ","$54,165 ","$64,614 "
@@ -744,7 +737,7 @@ Kentucky,Johnson,DEM,1607.0,2471,"$19,445 ","$34,090 ","$41,981 "
 Kentucky,Kenton,DEM,32265.0,537,"$27,704 ","$54,270 ","$66,229 "
 Kentucky,Knott,DEM,1412.0,2697,"$18,448 ","$33,889 ","$43,684 "
 Kentucky,Knox,DEM,2111.0,3085,"$14,367 ","$24,038 ","$32,879 "
-Kentucky,Larue,DEM,1504.0,,,,
+Kentucky,LaRue,DEM,1504.0,2433,"$19,611 ","$39,753 ","$50,559 "
 Kentucky,Laurel,DEM,4474.0,2353,"$19,923 ","$36,570 ","$43,075 "
 Kentucky,Lawrence,DEM,1238.0,2784,"$17,960 ","$33,525 ","$42,182 "
 Kentucky,Lee,DEM,459.0,3101,"$13,969 ","$22,920 ","$30,036 "
@@ -803,571 +796,94 @@ Kentucky,Webster,DEM,1412.0,2251,"$20,337 ","$41,415 ","$54,448 "
 Kentucky,Whitley,DEM,2552.0,3019,"$15,960 ","$29,769 ","$37,441 "
 Kentucky,Wolfe,DEM,837.0,3095,"$14,157 ","$22,574 ","$30,407 "
 Kentucky,Woodford,DEM,6530.0,375,"$29,277 ","$57,580 ","$71,995 "
-Louisiana,AcadiaParish,DEM,5443.0,,,,
-Louisiana,AllenParish,DEM,2108.0,,,,
-Louisiana,AscensionParish,DEM,20399.0,,,,
-Louisiana,AssumptionParish,DEM,3833.0,,,,
-Louisiana,AvoyellesParish,DEM,4979.0,,,,
-Louisiana,BeauregardParish,DEM,2542.0,,,,
-Louisiana,BienvilleParish,DEM,3067.0,,,,
-Louisiana,BossierParish,DEM,15662.0,,,,
-Louisiana,CaddoParish,DEM,55110.0,,,,
-Louisiana,CalcasieuParish,DEM,25982.0,,,,
-Louisiana,CaldwellParish,DEM,745.0,,,,
-Louisiana,CameronParish,DEM,324.0,,,,
-Louisiana,CatahoulaParish,DEM,1269.0,,,,
-Louisiana,ClaiborneParish,DEM,2731.0,,,,
-Louisiana,ConcordiaParish,DEM,3177.0,,,,
-Louisiana,DeSotoParish,DEM,5457.0,,,,
-Louisiana,EastBatonRougeParish,DEM,115577.0,,,,
-Louisiana,EastCarrollParish,DEM,1900.0,,,,
-Louisiana,EastFelicianaParish,DEM,4280.0,,,,
-Louisiana,EvangelineParish,DEM,4158.0,,,,
-Louisiana,FranklinParish,DEM,2658.0,,,,
-Louisiana,GrantParish,DEM,1157.0,,,,
-Louisiana,IberiaParish,DEM,11027.0,,,,
-Louisiana,IbervilleParish,DEM,8514.0,,,,
-Louisiana,JacksonParish,DEM,2143.0,,,,
-Louisiana,JeffersonParish,DEM,84477.0,,,,
-Louisiana,JeffersonDavisParish,DEM,3208.0,,,,
-Louisiana,LafayetteParish,DEM,39685.0,,,,
-Louisiana,LafourcheParish,DEM,8672.0,,,,
-Louisiana,LaSalleParish,DEM,638.0,,,,
-Louisiana,LincolnParish,DEM,7559.0,,,,
-Louisiana,LivingstonParish,DEM,9249.0,,,,
-Louisiana,MadisonParish,DEM,2654.0,,,,
-Louisiana,MorehouseParish,DEM,4946.0,,,,
-Louisiana,NatchitochesParish,DEM,6896.0,,,,
-Louisiana,OrleansParish,DEM,147854.0,,,,
-Louisiana,OuachitaParish,DEM,25913.0,,,,
-Louisiana,PlaqueminesParish,DEM,3414.0,,,,
-Louisiana,PointeCoupeeParish,DEM,4683.0,,,,
-Louisiana,RapidesParish,DEM,19475.0,,,,
-Louisiana,RedRiverParish,DEM,1644.0,,,,
-Louisiana,RichlandParish,DEM,3225.0,,,,
-Louisiana,SabineParish,DEM,1731.0,,,,
-Louisiana,St.BernardParish,DEM,6151.0,,,,
-Louisiana,St.CharlesParish,DEM,9800.0,,,,
-Louisiana,St.HelenaParish,DEM,3346.0,,,,
-Louisiana,St.JamesParish,DEM,6510.0,,,,
-Louisiana,St.JohntheBaptistParish,DEM,13582.0,,,,
-Louisiana,St.LandryParish,DEM,17372.0,,,,
-Louisiana,St.MartinParish,DEM,8439.0,,,,
-Louisiana,St.MaryParish,DEM,8055.0,,,,
-Louisiana,St.TammanyParish,DEM,37746.0,,,,
-Louisiana,TangipahoaParish,DEM,18887.0,,,,
-Louisiana,TensasParish,DEM,1329.0,,,,
-Louisiana,TerrebonneParish,DEM,11198.0,,,,
-Louisiana,UnionParish,DEM,2654.0,,,,
-Louisiana,VermilionParish,DEM,5009.0,,,,
-Louisiana,VernonParish,DEM,2898.0,,,,
-Louisiana,WashingtonParish,DEM,5970.0,2828,"$17,735 ","$31,778 ","$41,963 "
-Louisiana,WebsterParish,DEM,6172.0,,,,
-Louisiana,WestBatonRougeParish,DEM,6200.0,,,,
-Louisiana,WestCarrollParish,DEM,710.0,,,,
-Louisiana,WestFelicianaParish,DEM,2298.0,,,,
-Louisiana,WinnParish,DEM,1543.0,,,,
-Maine,AroostookCtyTownships,DEM,1069.0,,,,
-Maine,FranklinCtyTownships,DEM,0.0,,,,
-Maine,HancockCtyTownships,DEM,0.0,,,,
-Maine,OxfordCtyTownships,DEM,0.0,,,,
-Maine,PenobscotCtyTownships,DEM,0.0,,,,
-Maine,PiscataquisCtyTownshps,DEM,26.0,,,,
-Maine,SomersetCtyTownships,DEM,0.0,,,,
-Maine,WashingtonCtyTownships,DEM,0.0,,,,
-Maine,IndianTownshipVtngDst,DEM,0.0,,,,
-Maine,OxbowPlt.,DEM,0.0,,,,
-Maine,PleasantPointVotngDst,DEM,0.0,,,,
-Maine,Auburn,DEM,6471.0,,,,
-Maine,Durham,DEM,1361.0,,,,
-Maine,Greene,DEM,914.0,,,,
-Maine,Leeds,DEM,505.0,,,,
-Maine,Lewiston,DEM,9578.0,,,,
-Maine,Lisbon,DEM,2190.0,,,,
-Maine,Livermore,DEM,573.0,,,,
-Maine,LivermoreFalls,DEM,540.0,,,,
-Maine,MechanicFalls,DEM,650.0,,,,
-Maine,Minot,DEM,676.0,,,,
-Maine,Poland,DEM,1513.0,,,,
-Maine,Sabattus,DEM,1034.0,,,,
-Maine,Turner,DEM,1288.0,,,,
-Maine,Wales,DEM,275.0,,,,
-Maine,Allagash,DEM,74.0,,,,
-Maine,Amity,DEM,0.0,,,,
-Maine,Ashland,DEM,0.0,,,,
-Maine,Blaine,DEM,0.0,,,,
-Maine,Bridgewater,DEM,82.0,,,,
-Maine,Caribou,DEM,1702.0,,,,
-Maine,CaryPlt.,DEM,0.0,,,,
-Maine,CastleHill,DEM,97.0,,,,
-Maine,Caswell,DEM,0.0,,,,
-Maine,Chapman,DEM,97.0,,,,
-Maine,Crystal,DEM,39.0,,,,
-Maine,CyrPlt.,DEM,0.0,,,,
-Maine,DyerBrook,DEM,40.0,,,,
-Maine,EagleLake,DEM,197.0,,,,
-Maine,Easton,DEM,241.0,,,,
-Maine,FortFairfield,DEM,674.0,,,,
-Maine,FortKent,DEM,1069.0,,,,
-Maine,Frenchville,DEM,235.0,,,,
-Maine,GarfieldPlt.,DEM,0.0,,,,
-Maine,GlenwoodPlt.,DEM,0.0,,,,
-Maine,GrandIsle,DEM,107.0,,,,
-Maine,Hamlin,DEM,0.0,,,,
-Maine,Hammond,DEM,0.0,,,,
-Maine,Haynesville,DEM,0.0,,,,
-Maine,Hersey,DEM,8.0,,,,
-Maine,Hodgdon,DEM,113.0,,,,
-Maine,Houlton,DEM,1046.0,,,,
-Maine,IslandFalls,DEM,132.0,,,,
-Maine,Limestone,DEM,325.0,,,,
-Maine,Linneus,DEM,93.0,,,,
-Maine,Littleton,DEM,141.0,,,,
-Maine,Ludlow,DEM,0.0,,,,
-Maine,MacwahocPlt.,DEM,12.0,,,,
-Maine,Madawaska,DEM,1143.0,,,,
-Maine,Mapleton,DEM,406.0,,,,
-Maine,MarsHill,DEM,222.0,,,,
-Maine,Masardis,DEM,0.0,,,,
-Maine,Merrill,DEM,43.0,,,,
-Maine,Monticello,DEM,96.0,,,,
-Maine,MoroPlt.,DEM,0.0,,,,
-Maine,NashvillePlt.,DEM,7.0,,,,
-Maine,NewCanada,DEM,61.0,,,,
-Maine,NewLimerick,DEM,115.0,,,,
-Maine,NewSweden,DEM,137.0,,,,
-Maine,Oakfield,DEM,0.0,,,,
-Maine,Orient,DEM,0.0,,,,
-Maine,PenobscotNationVotDst,DEM,0.0,,,,
-Maine,Perham,DEM,0.0,,,,
-Maine,PortageLake,DEM,99.0,,,,
-Maine,PresqueIsle,DEM,1849.0,,,,
-Maine,ReedPlt.,DEM,0.0,,,,
-Maine,SaintAgatha,DEM,292.0,,,,
-Maine,St.Francis,DEM,0.0,,,,
-Maine,St.JohnPlt.,DEM,63.0,,,,
-Maine,Sherman,DEM,157.0,,,,
-Maine,Smyrna,DEM,46.0,,,,
-Maine,Stockholm,DEM,70.0,,,,
-Maine,VanBuren,DEM,0.0,,,,
-Maine,Wade,DEM,53.0,,,,
-Maine,Wallagrass,DEM,153.0,,,,
-Maine,Washburn,DEM,278.0,,,,
-Maine,Westfield,DEM,92.0,,,,
-Maine,Westmanland,DEM,0.0,,,,
-Maine,Weston,DEM,55.0,,,,
-Maine,WintervillePlt.,DEM,49.0,,,,
-Maine,Woodland,DEM,239.0,,,,
-Maine,Baldwin,DEM,350.0,,,,
-Maine,Bridgton,DEM,1656.0,,,,
-Maine,Brunswick,DEM,9708.0,,,,
-Maine,CapeElizabeth,DEM,5349.0,,,,
-Maine,Casco,DEM,1036.0,,,,
-Maine,ChebeagueIsland,DEM,0.0,,,,
-Maine,Cumberland,DEM,4074.0,188,"$32,880 ","$57,461 ","$75,432 "
-Maine,Falmouth,DEM,6147.0,,,,
-Maine,Freeport,DEM,4327.0,,,,
-Maine,FryeIsland,DEM,38.0,,,,
-Maine,Gorham,DEM,6460.0,,,,
-Maine,Gray,DEM,2653.0,,,,
-Maine,Harpswell,DEM,2379.0,,,,
-Maine,Harrison,DEM,741.0,,,,
-Maine,LongIsland,DEM,133.0,,,,
-Maine,Naples,DEM,1039.0,,,,
-Maine,NewGloucester,DEM,1720.0,,,,
-Maine,NorthYarmouth,DEM,1862.0,,,,
-Maine,Portland,DEM,33784.0,,,,
-Maine,Pownal,DEM,685.0,,,,
-Maine,Raymond,DEM,1589.0,,,,
-Maine,Scarborough,DEM,9487.0,,,,
-Maine,Sebago,DEM,529.0,,,,
-Maine,SouthPortland,DEM,12075.0,,,,
-Maine,Standish,DEM,2818.0,,,,
-Maine,Westbrook,DEM,7359.0,,,,
-Maine,Windham,DEM,5780.0,,,,
-Maine,Yarmouth,DEM,4785.0,,,,
-Maine,Avon,DEM,0.0,,,,
-Maine,CarrabassettValley,DEM,348.0,,,,
-Maine,Carthage,DEM,0.0,,,,
-Maine,Chesterville,DEM,0.0,,,,
-Maine,CoplinPlt.,DEM,0.0,,,,
-Maine,DallasPlt.,DEM,0.0,,,,
-Maine,Eustis,DEM,173.0,,,,
-Maine,Farmington,DEM,2225.0,,,,
-Maine,Industry,DEM,232.0,,,,
-Maine,Jay,DEM,1220.0,,,,
-Maine,Kingfield,DEM,407.0,,,,
-Maine,NewSharon,DEM,391.0,,,,
-Maine,NewVineyard,DEM,154.0,,,,
-Maine,Phillips,DEM,0.0,,,,
-Maine,Rangeley,DEM,294.0,,,,
-Maine,RangeleyPlt.,DEM,57.0,,,,
-Maine,SandyRiverPlt.,DEM,0.0,,,,
-Maine,Strong,DEM,266.0,,,,
-Maine,Temple,DEM,172.0,,,,
-Maine,Weld,DEM,149.0,,,,
-Maine,Wilton,DEM,973.0,,,,
-Maine,Amherst,DEM,0.0,,,,
-Maine,Aurora,DEM,0.0,,,,
-Maine,BarHarbor,DEM,2678.0,,,,
-Maine,BlueHill,DEM,1310.0,,,,
-Maine,Brooklin,DEM,426.0,,,,
-Maine,Brooksville,DEM,450.0,,,,
-Maine,Bucksport,DEM,1278.0,,,,
-Maine,Castine,DEM,346.0,,,,
-Maine,CranberryIsles,DEM,95.0,,,,
-Maine,Dedham,DEM,545.0,,,,
-Maine,DeerIsle,DEM,806.0,,,,
-Maine,Eastbrook,DEM,0.0,,,,
-Maine,Ellsworth,DEM,2273.0,,,,
+Louisiana,Acadia,DEM,5443.0,2357,"$19,910 ","$37,587 ","$46,159 "
+Louisiana,Allen,DEM,2108.0,2613,"$18,857 ","$38,429 ","$48,306 "
+Louisiana,Ascension,DEM,20399.0,475,"$28,178 ","$69,070 ","$77,640 "
+Louisiana,Assumption,DEM,3833.0,1888,"$21,743 ","$46,116 ","$55,603 "
+Louisiana,Avoyelles,DEM,4979.0,2773,"$18,006 ","$33,942 ","$40,311 "
+Louisiana,Beauregard,DEM,2542.0,1684,"$22,509 ","$46,385 ","$59,364 "
+Louisiana,Bienville,DEM,3067.0,2588,"$18,958 ","$31,543 ","$42,271 "
+Louisiana,Bossier,DEM,15662.0,575,"$27,429 ","$53,248 ","$67,961 "
+Louisiana,Caddo,DEM,55110.0,1207,"$24,308 ","$41,053 ","$52,823 "
+Louisiana,Calcasieu,DEM,25982.0,1196,"$24,355 ","$43,499 ","$55,484 "
+Louisiana,Caldwell,DEM,745.0,1615,"$22,782 ","$39,385 ","$47,327 "
+Louisiana,Cameron,DEM,324.0,358,"$29,559 ","$64,574 ","$71,310 "
+Louisiana,Catahoula,DEM,1269.0,2344,"$19,970 ","$36,165 ","$44,627 "
+Louisiana,Claiborne,DEM,2731.0,2857,"$17,512 ","$32,996 ","$39,539 "
+Louisiana,Concordia,DEM,3177.0,2987,"$16,431 ","$29,022 ","$38,125 "
+Louisiana,DeSoto,DEM,5457.0,1944,"$21,547 ","$39,162 ","$51,734 "
+Louisiana,EastBatonRouge,DEM,115577.0,559,"$27,505 ","$48,506 ","$63,558 "
+Louisiana,EastCarroll,DEM,1900.0,3134,"$12,055 ","$25,321 ","$30,840 "
+Louisiana,EastFeliciana,DEM,4280.0,1794,"$22,099 ","$47,225 ","$54,664 "
+Louisiana,Evangeline,DEM,4158.0,2771,"$18,023 ","$31,832 ","$41,022 "
+Louisiana,Franklin,DEM,2658.0,2822,"$17,752 ","$31,214 ","$40,147 "
+Louisiana,Grant,DEM,1157.0,2569,"$19,018 ","$39,654 ","$47,832 "
+Louisiana,Iberia,DEM,11027.0,1552,"$22,997 ","$44,262 ","$51,402 "
+Louisiana,Iberville,DEM,8514.0,2055,"$21,177 ","$45,368 ","$54,191 "
+Louisiana,Jackson,DEM,2143.0,2529,"$19,188 ","$37,388 ","$45,490 "
+Louisiana,Jefferson,DEM,84477.0,668,"$26,908 ","$48,261 ","$61,131 "
+Louisiana,JeffersonDavis,DEM,3208.0,2063,"$21,132 ","$41,622 ","$51,772 "
+Louisiana,Lafayette,DEM,39685.0,405,"$28,901 ","$51,462 ","$67,061 "
+Louisiana,Lafourche,DEM,8672.0,1089,"$24,798 ","$50,572 ","$59,941 "
+Louisiana,LaSalle,DEM,638.0,1692,"$22,481 ","$42,528 ","$55,587 "
+Louisiana,Lincoln,DEM,7559.0,2171,"$20,633 ","$35,769 ","$51,206 "
+Louisiana,Livingston,DEM,9249.0,1038,"$25,076 ","$56,811 ","$66,164 "
+Louisiana,Madison,DEM,2654.0,3112,"$13,585 ","$25,498 ","$33,063 "
+Louisiana,Morehouse,DEM,4946.0,2963,"$16,683 ","$28,585 ","$39,570 "
+Louisiana,Natchitoches,DEM,6896.0,2134,"$20,802 ","$33,953 ","$47,936 "
+Louisiana,Orleans,DEM,147854.0,744,"$26,500 ","$37,146 ","$46,512 "
+Louisiana,Ouachita,DEM,25913.0,1848,"$21,917 ","$38,955 ","$50,992 "
+Louisiana,Plaquemines,DEM,3414.0,897,"$25,748 ","$55,138 ","$66,800 "
+Louisiana,PointeCoupee,DEM,4683.0,1350,"$23,742 ","$45,363 ","$59,064 "
+Louisiana,Rapides,DEM,19475.0,1791,"$22,126 ","$40,930 ","$51,092 "
+Louisiana,RedRiver,DEM,1644.0,1983,"$21,443 ","$39,346 ","$46,024 "
+Louisiana,Richland,DEM,3225.0,2656,"$18,669 ","$36,835 ","$45,070 "
+Louisiana,Sabine,DEM,1731.0,1767,"$22,229 ","$35,159 ","$46,816 "
+Louisiana,St.Bernard,DEM,6151.0,2263,"$20,316 ","$41,353 ","$45,087 "
+Louisiana,St.Charles,DEM,9800.0,697,"$26,756 ","$58,758 ","$66,392 "
+Louisiana,St.Helena,DEM,3346.0,2468,"$19,457 ","$33,143 ","$40,590 "
+Louisiana,St.James,DEM,6510.0,1063,"$24,930 ","$55,443 ","$63,632 "
+Louisiana,St.JohntheBaptist,DEM,13582.0,2012,"$21,335 ","$50,635 ","$56,540 "
+Louisiana,St.Landry,DEM,17372.0,2488,"$19,387 ","$35,503 ","$45,574 "
+Louisiana,St.Martin,DEM,8439.0,1782,"$22,164 ","$42,186 ","$54,589 "
+Louisiana,St.Mary,DEM,8055.0,2020,"$21,313 ","$41,571 ","$48,754 "
+Louisiana,St.Tammany,DEM,37746.0,310,"$30,363 ","$60,799 ","$74,834 "
+Louisiana,Tangipahoa,DEM,18887.0,2030,"$21,273 ","$40,654 ","$53,101 "
+Louisiana,Tensas,DEM,1329.0,2899,"$17,175 ","$27,543 ","$35,328 "
+Louisiana,Terrebonne,DEM,11198.0,1262,"$24,114 ","$49,960 ","$60,417 "
+Louisiana,Union,DEM,2654.0,2480,"$19,412 ","$35,828 ","$48,125 "
+Louisiana,Vermilion,DEM,5009.0,1669,"$22,589 ","$44,665 ","$54,061 "
+Louisiana,Vernon,DEM,2898.0,1996,"$21,396 ","$46,572 ","$51,718 "
+Louisiana,Washington,DEM,5970.0,2828,"$17,735 ","$31,778 ","$41,963 "
+Louisiana,Webster,DEM,6172.0,2367,"$19,871 ","$35,071 ","$44,436 "
+Louisiana,WestBatonRouge,DEM,6200.0,1080,"$24,838 ","$50,926 ","$64,567 "
+Louisiana,WestCarroll,DEM,710.0,2778,"$17,980 ","$33,848 ","$44,018 "
+Louisiana,WestFeliciana,DEM,2298.0,1894,"$21,720 ","$61,616 ","$75,613 "
+Louisiana,Winn,DEM,1543.0,2953,"$16,789 ","$34,322 ","$45,200 "
+Maine,Aroostook,DEM,1069.0,1938,"$21,566 ","$37,855 ","$50,779 "
+Maine,Franklin,DEM,0.0,1798,"$22,083 ","$41,626 ","$50,251 "
 Maine,Franklin,DEM,381.0,1798,"$22,083 ","$41,626 ","$50,251 "
-Maine,Frenchboro,DEM,12.0,,,,
-Maine,Gouldsboro,DEM,477.0,,,,
-Maine,GreatPond,DEM,18.0,,,,
+Maine,Hancock,DEM,0.0,524,"$27,797 ","$47,460 ","$60,022 "
 Maine,Hancock,DEM,659.0,524,"$27,797 ","$47,460 ","$60,022 "
-Maine,Lamoine,DEM,616.0,,,,
-Maine,Mariaville,DEM,0.0,,,,
-Maine,MountDesert,DEM,1066.0,,,,
-Maine,Orland,DEM,691.0,,,,
-Maine,Osborn,DEM,0.0,,,,
-Maine,Otis,DEM,153.0,,,,
-Maine,Penobscot,DEM,512.0,1304,"$23,895 ","$43,734 ","$56,155 "
-Maine,Sedgwick,DEM,511.0,,,,
-Maine,Sorrento,DEM,0.0,,,,
-Maine,SouthwestHarbor,DEM,728.0,,,,
-Maine,Stonington,DEM,409.0,,,,
-Maine,Sullivan,DEM,0.0,,,,
-Maine,Surry,DEM,596.0,,,,
-Maine,Swan'sIsland,DEM,132.0,,,,
-Maine,Tremont,DEM,590.0,,,,
-Maine,Trenton,DEM,509.0,,,,
-Maine,Verona,DEM,0.0,,,,
-Maine,Waltham,DEM,0.0,,,,
-Maine,WinterHarbor,DEM,145.0,,,,
-Maine,Albion,DEM,385.0,,,,
-Maine,Augusta,DEM,5248.0,,,,
-Maine,Belgrade,DEM,993.0,,,,
-Maine,Benton,DEM,607.0,,,,
-Maine,Chelsea,DEM,605.0,,,,
-Maine,China,DEM,1107.0,,,,
-Maine,Clinton,DEM,641.0,,,,
-Maine,Farmingdale,DEM,903.0,,,,
-Maine,Fayette,DEM,388.0,,,,
-Maine,Gardiner,DEM,1694.0,,,,
-Maine,Hallowell,DEM,1277.0,,,,
-Maine,Litchfield,DEM,850.0,,,,
-Maine,Manchester,DEM,832.0,,,,
-Maine,Monmouth,DEM,1079.0,,,,
-Maine,MountVernon,DEM,0.0,,,,
-Maine,Oakland,DEM,1681.0,,,,
-Maine,Pittston,DEM,691.0,,,,
-Maine,Randolph,DEM,467.0,,,,
-Maine,Readfield,DEM,943.0,,,,
-Maine,Rome,DEM,340.0,,,,
-Maine,Sidney,DEM,1184.0,,,,
-Maine,Unity,DEM,444.0,,,,
-Maine,Vassalboro,DEM,1075.0,,,,
-Maine,Vienna,DEM,186.0,,,,
-Maine,Waterville,DEM,4991.0,,,,
-Maine,Wayne,DEM,506.0,,,,
-Maine,WestGardiner,DEM,1000.0,,,,
-Maine,Windsor,DEM,477.0,,,,
-Maine,Winslow,DEM,2184.0,,,,
-Maine,Winthrop,DEM,1963.0,,,,
-Maine,Appleton,DEM,478.0,,,,
-Maine,Camden,DEM,2931.0,,,,
-Maine,Cushing,DEM,424.0,,,,
-Maine,Friendship,DEM,309.0,,,,
-Maine,Hope,DEM,653.0,,,,
-Maine,IsleAuHaut,DEM,0.0,,,,
-Maine,MatinicusIslePlt.,DEM,0.0,,,,
-Maine,NorthHaven,DEM,0.0,,,,
-Maine,Owl'sHead,DEM,584.0,,,,
-Maine,Rockland,DEM,2493.0,,,,
-Maine,Rockport,DEM,1694.0,,,,
-Maine,St.George,DEM,1108.0,,,,
-Maine,SouthThomaston,DEM,574.0,,,,
-Maine,Thomaston,DEM,960.0,,,,
-Maine,Union,DEM,726.0,,,,
-Maine,Vinalhaven,DEM,531.0,,,,
-Maine,Warren,DEM,918.0,,,,
-Maine,Washington,DEM,415.0,2133,"$20,807 ","$37,236 ","$45,117 "
-Maine,Alna,DEM,320.0,,,,
-Maine,Boothbay,DEM,1229.0,,,,
-Maine,BoothbayHarbor,DEM,814.0,,,,
-Maine,Bremen,DEM,0.0,,,,
-Maine,Bristol,DEM,1275.0,,,,
-Maine,Damariscotta,DEM,980.0,,,,
-Maine,Dresden,DEM,542.0,,,,
-Maine,Edgecomb,DEM,0.0,,,,
-Maine,Jefferson,DEM,679.0,,,,
-Maine,MonheganPlt.,DEM,51.0,,,,
-Maine,Newcastle,DEM,923.0,,,,
-Maine,Nobleboro,DEM,729.0,,,,
-Maine,Somerville,DEM,131.0,,,,
-Maine,SouthBristol,DEM,429.0,,,,
-Maine,Southport,DEM,306.0,,,,
-Maine,Waldoboro,DEM,1294.0,,,,
-Maine,Westport,DEM,303.0,,,,
-Maine,Whitefield,DEM,688.0,,,,
-Maine,Wiscasset,DEM,1114.0,,,,
-Maine,Andover,DEM,223.0,,,,
-Maine,Bethel,DEM,1006.0,,,,
-Maine,Brownfield,DEM,468.0,,,,
-Maine,Buckfield,DEM,436.0,,,,
-Maine,Byron,DEM,0.0,,,,
-Maine,Canton,DEM,154.0,,,,
-Maine,Denmark,DEM,404.0,,,,
-Maine,Dixfield,DEM,460.0,,,,
-Maine,Fryeburg,DEM,1060.0,,,,
-Maine,Gilead,DEM,0.0,,,,
-Maine,Greenwood,DEM,278.0,,,,
-Maine,Hanover,DEM,101.0,,,,
-Maine,Hartford,DEM,278.0,,,,
-Maine,Hebron,DEM,323.0,,,,
-Maine,Hiram,DEM,373.0,,,,
-Maine,LincolnPlt.,DEM,0.0,,,,
-Maine,Lovell,DEM,399.0,,,,
-Maine,MagallowayPlt.,DEM,0.0,,,,
-Maine,Mexico,DEM,556.0,,,,
-Maine,Newry,DEM,163.0,,,,
-Maine,Norway,DEM,1400.0,,,,
-Maine,Otisfield,DEM,535.0,,,,
+Maine,Oxford,DEM,0.0,1984,"$21,441 ","$40,674 ","$49,920 "
 Maine,Oxford,DEM,807.0,1984,"$21,441 ","$40,674 ","$49,920 "
-Maine,Paris,DEM,1280.0,,,,
-Maine,Peru,DEM,322.0,,,,
-Maine,Porter,DEM,328.0,,,,
-Maine,Roxbury,DEM,0.0,,,,
-Maine,Rumford,DEM,1275.0,,,,
-Maine,Stoneham,DEM,0.0,,,,
-Maine,Stow,DEM,0.0,,,,
-Maine,Sumner,DEM,206.0,,,,
-Maine,Sweden,DEM,0.0,,,,
-Maine,Upton,DEM,0.0,,,,
-Maine,Waterford,DEM,452.0,,,,
-Maine,WestParis,DEM,372.0,,,,
-Maine,Woodstock,DEM,368.0,,,,
-Maine,Alton,DEM,0.0,,,,
-Maine,Bangor,DEM,8575.0,,,,
-Maine,Bradford,DEM,0.0,,,,
-Maine,Bradley,DEM,378.0,,,,
-Maine,Brewer,DEM,2533.0,,,,
-Maine,Burlington,DEM,56.0,,,,
-Maine,Carmel,DEM,560.0,,,,
-Maine,CarrollPlt.,DEM,17.0,,,,
-Maine,Charleston,DEM,164.0,,,,
-Maine,Chester,DEM,0.0,,,,
-Maine,Clifton,DEM,187.0,,,,
-Maine,Corinna,DEM,363.0,,,,
-Maine,Corinth,DEM,390.0,,,,
-Maine,Dexter,DEM,617.0,,,,
-Maine,Dixmont,DEM,265.0,,,,
-Maine,DrewPlt.,DEM,0.0,,,,
-Maine,EastMillinocket,DEM,1144.0,,,,
-Maine,Eddington,DEM,503.0,,,,
-Maine,Edinburg,DEM,0.0,,,,
-Maine,Enfield,DEM,279.0,,,,
-Maine,Etna,DEM,216.0,,,,
-Maine,Exeter,DEM,190.0,,,,
-Maine,Garland,DEM,177.0,,,,
-Maine,Glenburn,DEM,1108.0,,,,
-Maine,Greenbush,DEM,193.0,,,,
-Maine,Hampden,DEM,2451.0,,,,
-Maine,Hermon,DEM,1447.0,,,,
-Maine,Holden,DEM,871.0,,,,
-Maine,Howland,DEM,221.0,,,,
-Maine,Hudson,DEM,120.0,,,,
-Maine,Kenduskeag,DEM,242.0,,,,
-Maine,LaGrange,DEM,0.0,,,,
-Maine,Lakeville,DEM,0.0,,,,
-Maine,Lee,DEM,140.0,,,,
-Maine,Levant,DEM,477.0,,,,
+Maine,Penobscot,DEM,0.0,1304,"$23,895 ","$43,734 ","$56,155 "
+Maine,Penobscot,DEM,512.0,1304,"$23,895 ","$43,734 ","$56,155 "
+Maine,Piscataquis,DEM,26.0,1874,"$21,818 ","$36,646 ","$45,917 "
+Maine,Somerset,DEM,0.0,1956,"$21,513 ","$38,642 ","$50,051 "
+Maine,Washington,DEM,0.0,2133,"$20,807 ","$37,236 ","$45,117 "
+Maine,Washington,DEM,415.0,2133,"$20,807 ","$37,236 ","$45,117 "
+Maine,Cumberland,DEM,4074.0,188,"$32,880 ","$57,461 ","$75,432 "
 Maine,Lincoln,DEM,813.0,487,"$28,070 ","$50,181 ","$59,398 "
-Maine,Lowell,DEM,56.0,,,,
-Maine,Mattawamkeag,DEM,120.0,,,,
-Maine,Maxfield,DEM,0.0,,,,
-Maine,Medway,DEM,0.0,,,,
-Maine,Milford,DEM,861.0,,,,
-Maine,Millinocket,DEM,1049.0,,,,
-Maine,MountChase,DEM,39.0,,,,
-Maine,Newburgh,DEM,366.0,,,,
-Maine,Newport,DEM,0.0,,,,
-Maine,OldTown,DEM,2365.0,,,,
-Maine,Orono,DEM,3728.0,,,,
-Maine,Orrington,DEM,1089.0,,,,
-Maine,Passadumkeag,DEM,0.0,,,,
-Maine,Patten,DEM,0.0,,,,
-Maine,Plymouth,DEM,230.0,,,,
-Maine,SeboeisPlt.,DEM,22.0,,,,
-Maine,Springfield,DEM,0.0,,,,
-Maine,Stacyville,DEM,0.0,,,,
-Maine,Stetson,DEM,0.0,,,,
-Maine,Veazie,DEM,645.0,,,,
-Maine,WebsterPlt.,DEM,0.0,,,,
-Maine,Winn,DEM,60.0,,,,
-Maine,Woodville,DEM,0.0,,,,
-Maine,Abbot,DEM,121.0,,,,
-Maine,Atkinson,DEM,49.0,,,,
-Maine,BeaverCove,DEM,0.0,,,,
-Maine,Bowerbank,DEM,0.0,,,,
-Maine,Brownville,DEM,280.0,,,,
-Maine,Dover-Foxcroft,DEM,914.0,,,,
-Maine,Greenville,DEM,486.0,,,,
-Maine,Guilford,DEM,248.0,,,,
-Maine,KingsburyPlt.,DEM,0.0,,,,
-Maine,LakeViewPlt.,DEM,0.0,,,,
-Maine,Medford,DEM,46.0,,,,
-Maine,Milo,DEM,410.0,,,,
-Maine,Monson,DEM,173.0,,,,
-Maine,Parkman,DEM,148.0,,,,
-Maine,Sangerville,DEM,255.0,,,,
-Maine,Sebec,DEM,117.0,,,,
-Maine,Shirley,DEM,0.0,,,,
-Maine,Wellington,DEM,0.0,,,,
-Maine,Willimantic,DEM,0.0,,,,
-Maine,Arrowsic,DEM,260.0,,,,
-Maine,Bath,DEM,3421.0,,,,
-Maine,Bowdoin,DEM,755.0,,,,
-Maine,Bowdoinham,DEM,1123.0,,,,
-Maine,Georgetown,DEM,525.0,,,,
-Maine,Phippsburg,DEM,794.0,,,,
-Maine,Richmond,DEM,934.0,,,,
-Maine,Topsham,DEM,3944.0,,,,
-Maine,WestBath,DEM,737.0,,,,
-Maine,Woolwich,DEM,1038.0,,,,
-Maine,Anson,DEM,398.0,,,,
-Maine,Athens,DEM,167.0,,,,
-Maine,Bingham,DEM,215.0,,,,
-Maine,BrightonPlt.,DEM,0.0,,,,
-Maine,Cambridge,DEM,0.0,,,,
-Maine,Canaan,DEM,384.0,,,,
-Maine,Caratunk,DEM,0.0,,,,
-Maine,Cornville,DEM,283.0,,,,
-Maine,DennistownPlt.,DEM,0.0,,,,
-Maine,Detroit,DEM,151.0,,,,
-Maine,Embden,DEM,181.0,,,,
-Maine,Fairfield,DEM,1428.0,,,,
-Maine,Harmony,DEM,0.0,,,,
-Maine,Hartland,DEM,266.0,,,,
-Maine,HighlandPlt.,DEM,42.0,,,,
-Maine,Jackman,DEM,0.0,,,,
-Maine,Madison,DEM,928.0,,,,
-Maine,Mercer,DEM,0.0,,,,
-Maine,MooseRiver,DEM,0.0,,,,
-Maine,Moscow,DEM,74.0,,,,
-Maine,NewPortland,DEM,0.0,,,,
-Maine,Norridgewock,DEM,687.0,,,,
-Maine,Palmyra,DEM,325.0,,,,
-Maine,Pittsfield,DEM,817.0,,,,
-Maine,PleasantRidgePlt.,DEM,0.0,,,,
-Maine,Ripley,DEM,100.0,,,,
-Maine,St.Albans,DEM,0.0,,,,
-Maine,Skowhegan,DEM,1876.0,,,,
-Maine,Smithfield,DEM,269.0,,,,
-Maine,Solon,DEM,243.0,,,,
-Maine,Starks,DEM,137.0,,,,
-Maine,TheForksPlt.,DEM,0.0,,,,
-Maine,WestForksPlt.,DEM,0.0,,,,
-Maine,Belfast,DEM,2847.0,,,,
-Maine,Belmont,DEM,259.0,,,,
-Maine,Brooks,DEM,246.0,,,,
-Maine,Burnham,DEM,234.0,,,,
-Maine,Frankfort,DEM,220.0,,,,
-Maine,Freedom,DEM,201.0,,,,
-Maine,Islesboro,DEM,309.0,,,,
-Maine,Jackson,DEM,134.0,,,,
 Maine,Knox,DEM,415.0,515,"$27,865 ","$49,755 ","$60,581 "
-Maine,Liberty,DEM,265.0,,,,
-Maine,Lincolnville,DEM,1059.0,,,,
-Maine,Monroe,DEM,308.0,,,,
-Maine,Montville,DEM,346.0,,,,
-Maine,Morrill,DEM,242.0,,,,
-Maine,Northport,DEM,670.0,,,,
-Maine,Palermo,DEM,381.0,,,,
-Maine,Prospect,DEM,170.0,,,,
-Maine,Searsmont,DEM,430.0,,,,
-Maine,Searsport,DEM,843.0,,,,
-Maine,StocktonSprings,DEM,529.0,,,,
-Maine,Swanville,DEM,339.0,,,,
-Maine,Thorndike,DEM,0.0,,,,
-Maine,Troy,DEM,233.0,,,,
 Maine,Waldo,DEM,233.0,1596,"$22,853 ","$42,221 ","$52,614 "
-Maine,Winterport,DEM,1032.0,,,,
-Maine,Addison,DEM,235.0,,,,
-Maine,Alexander,DEM,73.0,,,,
-Maine,Baileyville,DEM,239.0,,,,
-Maine,BaringPlt.,DEM,0.0,,,,
-Maine,Beals,DEM,0.0,,,,
-Maine,Beddington,DEM,0.0,,,,
-Maine,Calais,DEM,626.0,,,,
-Maine,Charlotte,DEM,0.0,,,,
-Maine,Cherryfield,DEM,212.0,,,,
-Maine,Columbia,DEM,0.0,,,,
-Maine,ColumbiaFalls,DEM,119.0,,,,
-Maine,Cooper,DEM,35.0,,,,
-Maine,Crawford,DEM,0.0,,,,
-Maine,Cutler,DEM,0.0,,,,
-Maine,Danforth,DEM,0.0,,,,
-Maine,Deblois,DEM,0.0,,,,
-Maine,Dennysville,DEM,0.0,,,,
-Maine,EastMachias,DEM,270.0,,,,
-Maine,Eastport,DEM,474.0,,,,
-Maine,GrandLakeStreamPlt,DEM,37.0,,,,
-Maine,Harrington,DEM,168.0,,,,
-Maine,Jonesboro,DEM,0.0,,,,
-Maine,Jonesport,DEM,243.0,,,,
-Maine,Lubec,DEM,457.0,,,,
-Maine,Machias,DEM,395.0,,,,
-Maine,Machiasport,DEM,216.0,,,,
-Maine,Marshfield,DEM,102.0,,,,
-Maine,Meddybemps,DEM,0.0,,,,
-Maine,Milbridge,DEM,326.0,,,,
-Maine,Northfield,DEM,38.0,,,,
-Maine,Pembroke,DEM,0.0,,,,
-Maine,Perry,DEM,0.0,,,,
-Maine,Princeton,DEM,118.0,,,,
-Maine,Robbinston,DEM,0.0,,,,
-Maine,RoqueBluffs,DEM,0.0,,,,
-Maine,Steuben,DEM,245.0,,,,
-Maine,Talmadge,DEM,0.0,,,,
-Maine,Topsfield,DEM,24.0,,,,
-Maine,Vanceboro,DEM,0.0,,,,
-Maine,Waite,DEM,0.0,,,,
-Maine,Wesley,DEM,0.0,,,,
-Maine,Whiting,DEM,0.0,,,,
-Maine,Whitneyville,DEM,0.0,,,,
-Maine,Acton,DEM,651.0,,,,
-Maine,Alfred,DEM,983.0,,,,
-Maine,Arundel,DEM,1405.0,,,,
-Maine,Berwick,DEM,3186.0,,,,
-Maine,Biddeford,DEM,7019.0,,,,
-Maine,Buxton,DEM,2416.0,,,,
-Maine,Cornish,DEM,429.0,,,,
-Maine,Dayton,DEM,582.0,,,,
-Maine,Eliot,DEM,2839.0,,,,
-Maine,Hollis,DEM,1268.0,,,,
-Maine,Kennebunk,DEM,5368.0,,,,
-Maine,Kennebunkport,DEM,1777.0,,,,
-Maine,Kittery,DEM,4418.0,,,,
-Maine,Lebanon,DEM,1232.0,,,,
-Maine,Limerick,DEM,813.0,,,,
-Maine,Limington,DEM,856.0,,,,
-Maine,Lyman,DEM,1315.0,,,,
-Maine,Newfield,DEM,362.0,,,,
-Maine,NorthBerwick,DEM,1465.0,,,,
-Maine,Ogunquit,DEM,731.0,,,,
-Maine,OldOrchrdBch,DEM,3708.0,,,,
-Maine,Parsonsfield,DEM,469.0,,,,
-Maine,Saco,DEM,7794.0,,,,
-Maine,Sanford,DEM,5382.0,,,,
-Maine,Shapleigh,DEM,704.0,,,,
-Maine,SouthBerwick,DEM,2748.0,,,,
-Maine,Waterboro,DEM,1861.0,,,,
-Maine,Wells,DEM,4465.0,,,,
 Maine,York,DEM,6117.0,390,"$29,125 ","$57,348 ","$70,642 "
 Maryland,Allegany,DEM,9158.0,2043,"$21,211 ","$39,293 ","$54,022 "
 Maryland,AnneArundel,DEM,172823.0,42,"$40,415 ","$87,430 ","$101,268 "
 Maryland,Baltimore,DEM,229339.0,135,"$34,374 ","$66,486 ","$81,116 "
+Maryland,Baltimore,DEM,201995.0,135,"$34,374 ","$66,486 ","$81,116 "
+Maryland,Baltimore,DEM,229339.0,1103,"$24,750 ","$41,385 ","$50,151 "
+Maryland,Baltimore,DEM,201995.0,1103,"$24,750 ","$41,385 ","$50,151 "
 Maryland,Calvert,DEM,22587.0,59,"$38,260 ","$95,477 ","$107,684 "
 Maryland,Caroline,DEM,5095.0,1012,"$25,211 ","$58,632 ","$66,471 "
 Maryland,Carroll,DEM,36454.0,101,"$36,153 ","$84,790 ","$100,643 "
@@ -1388,357 +904,13 @@ Maryland,Talbot,DEM,11062.0,63,"$38,022 ","$61,597 ","$74,811 "
 Maryland,Washington,DEM,26044.0,737,"$26,532 ","$55,609 ","$66,435 "
 Maryland,Wicomico,DEM,22054.0,965,"$25,378 ","$51,092 ","$59,379 "
 Maryland,Worcester,DEM,12560.0,187,"$32,887 ","$57,952 ","$68,840 "
-Maryland,Baltimorecity,DEM,201995.0,,,,
 Massachusetts,Barnstable,DEM,15685.0,102,"$36,142 ","$60,526 ","$76,311 "
-Massachusetts,Bourne,DEM,5988.0,,,,
-Massachusetts,Brewster,DEM,4905.0,,,,
-Massachusetts,Chatham,DEM,3043.0,,,,
-Massachusetts,Dennis,DEM,6179.0,,,,
-Massachusetts,Eastham,DEM,2862.0,,,,
-Massachusetts,Falmouth,DEM,13911.0,,,,
-Massachusetts,Harwich,DEM,5761.0,,,,
-Massachusetts,Mashpee,DEM,5977.0,,,,
-Massachusetts,Orleans,DEM,3285.0,,,,
-Massachusetts,Provincetown,DEM,2399.0,,,,
-Massachusetts,Sandwich,DEM,7519.0,,,,
-Massachusetts,Truro,DEM,1386.0,,,,
-Massachusetts,Wellfleet,DEM,1887.0,,,,
-Massachusetts,Yarmouth,DEM,9025.0,,,,
-Massachusetts,Adams,DEM,2894.0,,,,
-Massachusetts,Alford,DEM,271.0,,,,
-Massachusetts,Becket,DEM,0.0,,,,
-Massachusetts,Cheshire,DEM,1121.0,,,,
-Massachusetts,Clarksburg,DEM,0.0,,,,
-Massachusetts,Dalton,DEM,0.0,,,,
-Massachusetts,Egremont,DEM,782.0,,,,
-Massachusetts,Florida,DEM,209.0,,,,
-Massachusetts,GreatBarrington,DEM,3364.0,,,,
-Massachusetts,Hancock,DEM,257.0,,,,
-Massachusetts,Hinsdale,DEM,771.0,,,,
-Massachusetts,Lanesborough,DEM,1230.0,,,,
-Massachusetts,Lee,DEM,2404.0,,,,
-Massachusetts,Lenox,DEM,2657.0,,,,
-Massachusetts,Monterey,DEM,481.0,,,,
-Massachusetts,MountWashington,DEM,101.0,,,,
-Massachusetts,NewAshford,DEM,0.0,,,,
-Massachusetts,NewMarlborough,DEM,677.0,,,,
-Massachusetts,NorthAdams,DEM,4216.0,,,,
-Massachusetts,Otis,DEM,550.0,,,,
-Massachusetts,Peru,DEM,299.0,,,,
-Massachusetts,Pittsfield,DEM,16158.0,,,,
-Massachusetts,Richmond,DEM,827.0,,,,
-Massachusetts,Sandisfield,DEM,305.0,,,,
-Massachusetts,Savoy,DEM,226.0,,,,
-Massachusetts,Sheffield,DEM,1541.0,,,,
-Massachusetts,Stockbridge,DEM,1098.0,,,,
-Massachusetts,Tyringham,DEM,233.0,,,,
-Massachusetts,Washington,DEM,510.0,,,,
-Massachusetts,WestStockbridge,DEM,784.0,,,,
-Massachusetts,Williamstown,DEM,3088.0,,,,
-Massachusetts,Windsor,DEM,370.0,,,,
-Massachusetts,Acushnet,DEM,2550.0,,,,
-Massachusetts,Attleboro,DEM,13408.0,,,,
-Massachusetts,Berkley,DEM,1744.0,,,,
-Massachusetts,Dartmouth,DEM,9456.0,,,,
-Massachusetts,Dighton,DEM,2139.0,,,,
-Massachusetts,Easton,DEM,8440.0,,,,
-Massachusetts,Fairhaven,DEM,5028.0,,,,
-Massachusetts,FallRiver,DEM,17379.0,,,,
-Massachusetts,Freetown,DEM,2446.0,,,,
-Massachusetts,Mansfield,DEM,9012.0,,,,
-Massachusetts,NewBedford,DEM,20805.0,,,,
-Massachusetts,NorthAttleborough,DEM,8943.0,,,,
-Massachusetts,Norton,DEM,5602.0,,,,
-Massachusetts,Raynham,DEM,4348.0,,,,
-Massachusetts,Rehoboth,DEM,3590.0,,,,
-Massachusetts,Seekonk,DEM,4769.0,,,,
-Massachusetts,Somerset,DEM,5811.0,,,,
-Massachusetts,Swansea,DEM,4734.0,,,,
-Massachusetts,Taunton,DEM,14704.0,,,,
-Massachusetts,Westport,DEM,5155.0,,,,
-Massachusetts,Aquinnah,DEM,311.0,,,,
-Massachusetts,Chilmark,DEM,796.0,,,,
-Massachusetts,Edgartown,DEM,2181.0,,,,
-Massachusetts,Gosnold,DEM,0.0,,,,
-Massachusetts,OakBluffs,DEM,2401.0,,,,
-Massachusetts,Tisbury,DEM,2156.0,,,,
-Massachusetts,WestTisbury,DEM,1918.0,,,,
-Massachusetts,Amesbury,DEM,6692.0,,,,
-Massachusetts,Andover,DEM,13430.0,,,,
-Massachusetts,Beverly,DEM,16380.0,,,,
-Massachusetts,Boxford,DEM,3056.0,,,,
-Massachusetts,Danvers,DEM,9698.0,,,,
 Massachusetts,Essex,DEM,1629.0,117,"$35,167 ","$67,311 ","$84,185 "
-Massachusetts,Georgetown,DEM,3002.0,,,,
-Massachusetts,Gloucester,DEM,11572.0,,,,
-Massachusetts,Groveland,DEM,2391.0,,,,
-Massachusetts,Hamilton,DEM,3289.0,,,,
-Massachusetts,Haverhill,DEM,18658.0,,,,
-Massachusetts,Ipswich,DEM,6189.0,,,,
-Massachusetts,Lawrence,DEM,16854.0,,,,
-Massachusetts,Lynn,DEM,24123.0,,,,
-Massachusetts,Lynnfield,DEM,4162.0,,,,
-Massachusetts,Manchester,DEM,2645.0,,,,
-Massachusetts,Marblehead,DEM,10089.0,,,,
-Massachusetts,Merrimac,DEM,2505.0,,,,
-Massachusetts,Methuen,DEM,14103.0,,,,
-Massachusetts,Middleton,DEM,2717.0,,,,
-Massachusetts,Nahant,DEM,1599.0,,,,
-Massachusetts,Newbury,DEM,3112.0,,,,
-Massachusetts,Newburyport,DEM,9097.0,,,,
-Massachusetts,NorthAndover,DEM,11004.0,,,,
-Massachusetts,Peabody,DEM,16826.0,,,,
-Massachusetts,Rockport,DEM,3859.0,,,,
-Massachusetts,Rowley,DEM,2176.0,,,,
-Massachusetts,Salem,DEM,17786.0,,,,
-Massachusetts,Salisbury,DEM,2830.0,,,,
-Massachusetts,Saugus,DEM,7722.0,,,,
-Massachusetts,Swampscott,DEM,6816.0,,,,
-Massachusetts,Topsfield,DEM,2457.0,,,,
-Massachusetts,Wenham,DEM,1757.0,,,,
-Massachusetts,WestNewbury,DEM,2072.0,,,,
-Massachusetts,Ashfield,DEM,993.0,,,,
-Massachusetts,Bernardston,DEM,915.0,,,,
-Massachusetts,Buckland,DEM,887.0,,,,
-Massachusetts,Charlemont,DEM,492.0,,,,
-Massachusetts,Colrain,DEM,667.0,,,,
-Massachusetts,Conway,DEM,989.0,,,,
-Massachusetts,Deerfield,DEM,2421.0,,,,
-Massachusetts,Erving,DEM,0.0,,,,
-Massachusetts,Gill,DEM,670.0,,,,
-Massachusetts,Greenfield,DEM,6852.0,,,,
-Massachusetts,Hawley,DEM,155.0,,,,
-Massachusetts,Heath,DEM,0.0,,,,
-Massachusetts,Leverett,DEM,1140.0,,,,
-Massachusetts,Leyden,DEM,330.0,,,,
-Massachusetts,Monroe,DEM,0.0,,,,
-Massachusetts,Montague,DEM,3468.0,,,,
-Massachusetts,NewSalem,DEM,418.0,,,,
-Massachusetts,Northfield,DEM,1211.0,,,,
-Massachusetts,Orange,DEM,1984.0,,,,
-Massachusetts,Rowe,DEM,152.0,,,,
-Massachusetts,Shelburne,DEM,910.0,,,,
-Massachusetts,Shutesbury,DEM,1153.0,,,,
-Massachusetts,Sunderland,DEM,0.0,,,,
-Massachusetts,Warwick,DEM,343.0,,,,
-Massachusetts,Wendell,DEM,0.0,,,,
-Massachusetts,Whately,DEM,744.0,,,,
-Massachusetts,Agawam,DEM,7725.0,,,,
-Massachusetts,Blandford,DEM,0.0,,,,
-Massachusetts,Brimfield,DEM,0.0,,,,
-Massachusetts,Chester,DEM,313.0,,,,
-Massachusetts,Chicopee,DEM,14452.0,,,,
-Massachusetts,EastLongmeadow,DEM,5260.0,,,,
-Massachusetts,Granville,DEM,402.0,,,,
 Massachusetts,Hampden,DEM,1532.0,874,"$25,817 ","$49,094 ","$61,474 "
-Massachusetts,Holland,DEM,690.0,,,,
-Massachusetts,Holyoke,DEM,11013.0,,,,
-Massachusetts,Longmeadow,DEM,6599.0,,,,
-Massachusetts,Ludlow,DEM,5419.0,,,,
-Massachusetts,Monson,DEM,2440.0,,,,
-Massachusetts,Montgomery,DEM,0.0,,,,
-Massachusetts,Palmer,DEM,3105.0,,,,
-Massachusetts,Russell,DEM,0.0,,,,
-Massachusetts,Southwick,DEM,2359.0,,,,
-Massachusetts,Springfield,DEM,38849.0,,,,
-Massachusetts,Tolland,DEM,136.0,,,,
-Massachusetts,Wales,DEM,430.0,,,,
-Massachusetts,Westfield,DEM,9986.0,,,,
-Massachusetts,WestSpringfield,DEM,6985.0,,,,
-Massachusetts,Wilbraham,DEM,4920.0,,,,
-Massachusetts,Amherst,DEM,10234.0,,,,
-Massachusetts,Belchertown,DEM,5728.0,,,,
-Massachusetts,Chesterfield,DEM,510.0,,,,
-Massachusetts,Cummington,DEM,412.0,,,,
-Massachusetts,Easthampton,DEM,7733.0,,,,
-Massachusetts,Goshen,DEM,418.0,,,,
-Massachusetts,Granby,DEM,2039.0,,,,
-Massachusetts,Hadley,DEM,2445.0,,,,
-Massachusetts,Hatfield,DEM,1552.0,,,,
-Massachusetts,Huntington,DEM,583.0,,,,
-Massachusetts,Middlefield,DEM,199.0,,,,
-Massachusetts,Northampton,DEM,15219.0,,,,
-Massachusetts,Pelham,DEM,818.0,,,,
-Massachusetts,Plainfield,DEM,316.0,,,,
-Massachusetts,Southampton,DEM,2231.0,,,,
-Massachusetts,SouthHadley,DEM,6587.0,,,,
-Massachusetts,Ware,DEM,2340.0,,,,
-Massachusetts,Westhampton,DEM,746.0,,,,
-Massachusetts,Williamsburg,DEM,1445.0,,,,
-Massachusetts,Worthington,DEM,0.0,,,,
-Massachusetts,Acton,DEM,10793.0,,,,
-Massachusetts,Arlington,DEM,23024.0,,,,
-Massachusetts,Ashby,DEM,956.0,,,,
-Massachusetts,Ashland,DEM,7254.0,,,,
-Massachusetts,Ayer,DEM,2924.0,,,,
-Massachusetts,Bedford,DEM,6065.0,,,,
-Massachusetts,Belmont,DEM,11605.0,,,,
-Massachusetts,Billerica,DEM,12917.0,,,,
-Massachusetts,Boxborough,DEM,2516.0,,,,
-Massachusetts,Burlington,DEM,9314.0,,,,
-Massachusetts,Cambridge,DEM,45426.0,,,,
-Massachusetts,Carlisle,DEM,2746.0,,,,
-Massachusetts,Chelmsford,DEM,13635.0,,,,
-Massachusetts,Concord,DEM,10002.0,,,,
-Massachusetts,Dracut,DEM,8582.0,,,,
-Massachusetts,Dunstable,DEM,1224.0,,,,
-Massachusetts,Everett,DEM,10343.0,,,,
-Massachusetts,Framingham,DEM,23613.0,,,,
-Massachusetts,Groton,DEM,4819.0,,,,
-Massachusetts,Holliston,DEM,6672.0,,,,
-Massachusetts,Hopkinton,DEM,6976.0,,,,
-Massachusetts,Hudson,DEM,7409.0,,,,
-Massachusetts,Lexington,DEM,16138.0,,,,
-Massachusetts,Lincoln,DEM,3374.0,,,,
-Massachusetts,Littleton,DEM,4474.0,,,,
-Massachusetts,Lowell,DEM,24492.0,,,,
-Massachusetts,Malden,DEM,18417.0,,,,
-Massachusetts,Marlborough,DEM,12332.0,,,,
-Massachusetts,Maynard,DEM,4851.0,,,,
-Massachusetts,Medford,DEM,22717.0,,,,
-Massachusetts,Melrose,DEM,12847.0,,,,
-Massachusetts,Natick,DEM,15972.0,,,,
-Massachusetts,Newton,DEM,39428.0,,,,
-Massachusetts,NorthReading,DEM,5501.0,,,,
-Massachusetts,Pepperell,DEM,3809.0,,,,
-Massachusetts,Reading,DEM,10791.0,,,,
-Massachusetts,Sherborn,DEM,2206.0,,,,
-Massachusetts,Shirley,DEM,2099.0,,,,
-Massachusetts,Somerville,DEM,35392.0,,,,
-Massachusetts,Stoneham,DEM,8607.0,,,,
-Massachusetts,Stow,DEM,3544.0,,,,
-Massachusetts,Sudbury,DEM,9075.0,,,,
-Massachusetts,Tewksbury,DEM,9709.0,,,,
-Massachusetts,Townsend,DEM,2663.0,,,,
-Massachusetts,Tyngsborough,DEM,4028.0,,,,
-Massachusetts,Wakefield,DEM,10170.0,,,,
-Massachusetts,Waltham,DEM,19847.0,,,,
-Massachusetts,Watertown,DEM,14855.0,,,,
-Massachusetts,Wayland,DEM,7191.0,,,,
-Massachusetts,Westford,DEM,10078.0,,,,
-Massachusetts,Weston,DEM,5049.0,,,,
-Massachusetts,Wilmington,DEM,7950.0,,,,
-Massachusetts,Winchester,DEM,9445.0,,,,
-Massachusetts,Woburn,DEM,13504.0,,,,
 Massachusetts,Nantucket,DEM,5234.0,18,"$47,331 ","$85,478 ","$92,500 "
-Massachusetts,Avon,DEM,1599.0,,,,
-Massachusetts,Bellingham,DEM,5165.0,,,,
-Massachusetts,Braintree,DEM,12464.0,,,,
-Massachusetts,Brookline,DEM,26046.0,,,,
-Massachusetts,Canton,DEM,9147.0,,,,
-Massachusetts,Cohasset,DEM,3835.0,,,,
-Massachusetts,Dedham,DEM,10658.0,,,,
-Massachusetts,Dover,DEM,2759.0,,,,
-Massachusetts,Foxborough,DEM,6583.0,,,,
 Massachusetts,Franklin,DEM,12053.0,378,"$29,259 ","$53,663 ","$67,785 "
-Massachusetts,Holbrook,DEM,3710.0,,,,
-Massachusetts,Medfield,DEM,5668.0,,,,
-Massachusetts,Medway,DEM,5149.0,,,,
-Massachusetts,Millis,DEM,3464.0,,,,
-Massachusetts,Milton,DEM,12497.0,,,,
-Massachusetts,Needham,DEM,15538.0,,,,
 Massachusetts,Norfolk,DEM,4037.0,25,"$44,692 ","$84,916 ","$108,943 "
-Massachusetts,Norwood,DEM,10941.0,,,,
-Massachusetts,Plainville,DEM,3154.0,,,,
-Massachusetts,Quincy,DEM,29956.0,,,,
-Massachusetts,Randolph,DEM,13586.0,,,,
-Massachusetts,Sharon,DEM,8530.0,,,,
-Massachusetts,Stoughton,DEM,0.0,,,,
-Massachusetts,Walpole,DEM,9237.0,,,,
-Massachusetts,Wellesley,DEM,12295.0,,,,
-Massachusetts,Westwood,DEM,6812.0,,,,
-Massachusetts,Weymouth,DEM,19254.0,,,,
-Massachusetts,Wrentham,DEM,4220.0,,,,
-Massachusetts,Abington,DEM,5127.0,,,,
-Massachusetts,Bridgewater,DEM,7507.0,,,,
-Massachusetts,Brockton,DEM,0.0,,,,
-Massachusetts,Carver,DEM,3265.0,,,,
-Massachusetts,Duxbury,DEM,6758.0,,,,
-Massachusetts,EastBridgewater,DEM,4096.0,,,,
-Massachusetts,Halifax,DEM,2329.0,,,,
-Massachusetts,Hanover,DEM,4859.0,,,,
-Massachusetts,Hanson,DEM,3240.0,,,,
-Massachusetts,Hingham,DEM,10403.0,,,,
-Massachusetts,Hull,DEM,4446.0,,,,
-Massachusetts,Kingston,DEM,4498.0,,,,
-Massachusetts,Lakeville,DEM,3326.0,,,,
-Massachusetts,Marion,DEM,2367.0,,,,
-Massachusetts,Marshfield,DEM,9473.0,,,,
-Massachusetts,Mattapoisett,DEM,2712.0,,,,
-Massachusetts,Middleborough,DEM,6155.0,,,,
-Massachusetts,Norwell,DEM,4262.0,,,,
-Massachusetts,Pembroke,DEM,6118.0,,,,
 Massachusetts,Plymouth,DEM,20780.0,115,"$35,220 ","$75,092 ","$90,431 "
-Massachusetts,Plympton,DEM,962.0,,,,
-Massachusetts,Rochester,DEM,1757.0,,,,
-Massachusetts,Rockland,DEM,5400.0,,,,
-Massachusetts,Scituate,DEM,8595.0,,,,
-Massachusetts,Wareham,DEM,6733.0,,,,
-Massachusetts,WestBridgewater,DEM,2217.0,,,,
-Massachusetts,Whitman,DEM,4487.0,,,,
-Massachusetts,Boston,DEM,225368.0,,,,
-Massachusetts,Chelsea,DEM,7953.0,,,,
-Massachusetts,Revere,DEM,13283.0,,,,
-Massachusetts,Winthrop,DEM,6057.0,,,,
-Massachusetts,Ashburnham,DEM,1982.0,,,,
-Massachusetts,Athol,DEM,2653.0,,,,
-Massachusetts,Auburn,DEM,5547.0,,,,
-Massachusetts,Barre,DEM,1528.0,,,,
-Massachusetts,Berlin,DEM,1366.0,,,,
-Massachusetts,Blackstone,DEM,2381.0,,,,
-Massachusetts,Bolton,DEM,2484.0,,,,
-Massachusetts,Boylston,DEM,1876.0,,,,
-Massachusetts,Brookfield,DEM,944.0,,,,
-Massachusetts,Charlton,DEM,3749.0,,,,
-Massachusetts,Clinton,DEM,4661.0,,,,
-Massachusetts,Douglas,DEM,2457.0,,,,
-Massachusetts,Dudley,DEM,2716.0,,,,
-Massachusetts,EastBrookfield,DEM,592.0,,,,
-Massachusetts,Fitchburg,DEM,8837.0,,,,
-Massachusetts,Gardner,DEM,5075.0,,,,
-Massachusetts,Grafton,DEM,6977.0,,,,
-Massachusetts,Hardwick,DEM,746.0,,,,
-Massachusetts,Harvard,DEM,3005.0,,,,
-Massachusetts,Holden,DEM,7133.0,,,,
-Massachusetts,Hopedale,DEM,2235.0,,,,
-Massachusetts,Hubbardston,DEM,1387.0,,,,
-Massachusetts,Lancaster,DEM,2381.0,,,,
-Massachusetts,Leicester,DEM,3099.0,,,,
-Massachusetts,Leominster,DEM,12084.0,,,,
-Massachusetts,Lunenburg,DEM,3911.0,,,,
-Massachusetts,Mendon,DEM,2041.0,,,,
-Massachusetts,Milford,DEM,8691.0,,,,
-Massachusetts,Millbury,DEM,4117.0,,,,
-Massachusetts,Millville,DEM,820.0,,,,
-Massachusetts,NewBraintree,DEM,319.0,,,,
-Massachusetts,Northborough,DEM,6273.0,,,,
-Massachusetts,Northbridge,DEM,4718.0,,,,
-Massachusetts,NorthBrookfield,DEM,1176.0,,,,
-Massachusetts,Oakham,DEM,553.0,,,,
-Massachusetts,Oxford,DEM,3573.0,,,,
-Massachusetts,Paxton,DEM,1612.0,,,,
-Massachusetts,Petersham,DEM,0.0,,,,
-Massachusetts,Phillipston,DEM,484.0,,,,
-Massachusetts,Princeton,DEM,1514.0,,,,
-Massachusetts,Royalston,DEM,404.0,,,,
-Massachusetts,Rutland,DEM,2800.0,,,,
-Massachusetts,Shrewsbury,DEM,13325.0,,,,
-Massachusetts,Southborough,DEM,4477.0,,,,
-Massachusetts,Southbridge,DEM,4074.0,,,,
-Massachusetts,Spencer,DEM,3005.0,,,,
-Massachusetts,Sterling,DEM,2801.0,,,,
-Massachusetts,Sturbridge,DEM,3387.0,,,,
-Massachusetts,Sutton,DEM,3042.0,,,,
-Massachusetts,Templeton,DEM,2060.0,,,,
-Massachusetts,Upton,DEM,3099.0,,,,
-Massachusetts,Uxbridge,DEM,4347.0,,,,
-Massachusetts,Warren,DEM,1146.0,,,,
-Massachusetts,Webster,DEM,4003.0,,,,
-Massachusetts,Westborough,DEM,7490.0,,,,
-Massachusetts,WestBoylston,DEM,2742.0,,,,
-Massachusetts,WestBrookfield,DEM,1137.0,,,,
-Massachusetts,Westminster,DEM,2556.0,,,,
-Massachusetts,Winchendon,DEM,2310.0,,,,
 Massachusetts,Worcester,DEM,48030.0,244,"$31,537 ","$65,223 ","$81,519 "
 Michigan,Alcona,DEM,2142.0,1628,"$22,719 ","$37,189 ","$45,424 "
 Michigan,Alger,DEM,2053.0,2409,"$19,717 ","$37,586 ","$46,083 "
@@ -2088,6 +1260,9 @@ Missouri,St.Clair,DEM,988.0,2879,"$17,337 ","$31,539 ","$42,242 "
 Missouri,Ste.Genevieve,DEM,2713.0,1569,"$22,921 ","$48,433 ","$55,208 "
 Missouri,St.Francois,DEM,7044.0,2680,"$18,544 ","$37,238 ","$46,537 "
 Missouri,St.Louis,DEM,322802.0,126,"$34,795 ","$58,910 ","$75,532 "
+Missouri,St.Louis,DEM,108385.0,126,"$34,795 ","$58,910 ","$75,532 "
+Missouri,St.Louis,DEM,322802.0,1538,"$23,048 ","$34,582 ","$43,627 "
+Missouri,St.Louis,DEM,108385.0,1538,"$23,048 ","$34,582 ","$43,627 "
 Missouri,Saline,DEM,2903.0,2574,"$19,006 ","$39,519 ","$46,731 "
 Missouri,Schuyler,DEM,373.0,2743,"$18,160 ","$34,688 ","$45,269 "
 Missouri,Scotland,DEM,387.0,2246,"$20,363 ","$39,028 ","$49,328 "
@@ -2106,7 +1281,6 @@ Missouri,Wayne,DEM,844.0,2583,"$18,970 ","$33,159 ","$39,465 "
 Missouri,Webster,DEM,3572.0,2348,"$19,955 ","$44,596 ","$50,033 "
 Missouri,Worth,DEM,215.0,1558,"$22,967 ","$39,348 ","$49,034 "
 Missouri,Wright,DEM,1167.0,3074,"$14,752 ","$28,645 ","$37,295 "
-Missouri,St.Louiscity,DEM,108385.0,,,,
 Montana,Beaverhead,DEM,1608.0,1589,"$22,872 ","$41,614 ","$54,294 "
 Montana,BigHorn,DEM,2491.0,3034,"$15,695 ","$39,966 ","$46,968 "
 Montana,Blaine,DEM,1589.0,2864,"$17,437 ","$37,151 ","$41,797 "
@@ -2272,244 +1446,13 @@ Nevada,Pershing,DEM,547.0,2735,"$18,203 ","$52,101 ","$56,250 "
 Nevada,Storey,DEM,902.0,163,"$33,472 ","$61,573 ","$64,173 "
 Nevada,Washoe,DEM,128128.0,430,"$28,670 ","$53,040 ","$64,556 "
 Nevada,WhitePine,DEM,859.0,1183,"$24,435 ","$48,586 ","$63,982 "
-Nevada,CarsonCity,DEM,12735.0,782,"$26,264 ","$51,957 ","$63,883 "
-New Hampshire,Alton,DEM,1438.0,,,,
-New Hampshire,Barnstead,DEM,1150.0,,,,
-New Hampshire,Belmont,DEM,1609.0,,,,
-New Hampshire,CenterHarbor,DEM,379.0,,,,
-New Hampshire,Gilford,DEM,2508.0,,,,
-New Hampshire,Gilmanton,DEM,1020.0,,,,
-New Hampshire,Laconia,DEM,4141.0,,,,
-New Hampshire,Meredith,DEM,2139.0,,,,
-New Hampshire,NewHampton,DEM,697.0,,,,
-New Hampshire,Sanbornton,DEM,875.0,,,,
-New Hampshire,Tilton,DEM,938.0,,,,
-New Hampshire,Albany,DEM,250.0,,,,
-New Hampshire,Bartlett,DEM,1374.0,,,,
-New Hampshire,Brookfield,DEM,218.0,,,,
-New Hampshire,Chatham,DEM,106.0,,,,
-New Hampshire,Conway,DEM,3411.0,,,,
-New Hampshire,Eaton,DEM,188.0,,,,
-New Hampshire,Effingham,DEM,391.0,,,,
-New Hampshire,Freedom,DEM,538.0,,,,
-New Hampshire,HartsLocation,DEM,23.0,,,,
-New Hampshire,Jackson,DEM,567.0,,,,
-New Hampshire,Madison,DEM,926.0,,,,
-New Hampshire,Moultonborough,DEM,1605.0,,,,
-New Hampshire,Ossipee,DEM,965.0,,,,
-New Hampshire,Sandwich,DEM,718.0,,,,
-New Hampshire,Tamworth,DEM,899.0,,,,
-New Hampshire,Tuftonboro,DEM,875.0,,,,
-New Hampshire,Wakefield,DEM,1240.0,,,,
-New Hampshire,Wolfeboro,DEM,2355.0,,,,
-New Hampshire,Alstead,DEM,684.0,,,,
-New Hampshire,Chesterfield,DEM,1390.0,,,,
-New Hampshire,Dublin,DEM,687.0,,,,
-New Hampshire,Fitzwilliam,DEM,666.0,,,,
-New Hampshire,Gilsum,DEM,240.0,,,,
-New Hampshire,Harrisville,DEM,553.0,,,,
-New Hampshire,Hinsdale,DEM,1048.0,,,,
-New Hampshire,Jaffrey,DEM,1528.0,,,,
-New Hampshire,Keene,DEM,8966.0,,,,
-New Hampshire,Marlborough,DEM,806.0,,,,
-New Hampshire,Marlow,DEM,277.0,,,,
-New Hampshire,Nelson,DEM,275.0,,,,
-New Hampshire,Richmond,DEM,292.0,,,,
-New Hampshire,Rindge,DEM,1443.0,,,,
-New Hampshire,Roxbury,DEM,92.0,,,,
-New Hampshire,Stoddard,DEM,419.0,,,,
+Nevada,Carson,DEM,12735.0,782,"$26,264 ","$51,957 ","$63,883 "
 New Hampshire,Sullivan,DEM,216.0,434,"$28,582 ","$54,463 ","$65,969 "
-New Hampshire,Surry,DEM,307.0,,,,
-New Hampshire,Swanzey,DEM,2008.0,,,,
-New Hampshire,Troy,DEM,509.0,,,,
-New Hampshire,Walpole,DEM,1470.0,,,,
-New Hampshire,Westmoreland,DEM,660.0,,,,
-New Hampshire,Winchester,DEM,986.0,,,,
-New Hampshire,Berlin,DEM,2147.0,,,,
 New Hampshire,Carroll,DEM,266.0,243,"$31,558 ","$50,866 ","$58,867 "
-New Hampshire,Clarksville,DEM,72.0,,,,
-New Hampshire,Colebrook,DEM,418.0,,,,
-New Hampshire,Columbia,DEM,114.0,,,,
-New Hampshire,Dalton,DEM,231.0,,,,
-New Hampshire,Dixville,DEM,5.0,,,,
-New Hampshire,Dummer,DEM,67.0,,,,
-New Hampshire,Errol,DEM,74.0,,,,
-New Hampshire,Gorham,DEM,906.0,,,,
-New Hampshire,Jefferson,DEM,257.0,,,,
-New Hampshire,Lancaster,DEM,817.0,,,,
-New Hampshire,Milan,DEM,345.0,,,,
-New Hampshire,Millsfield,DEM,5.0,,,,
-New Hampshire,Northumberland,DEM,424.0,,,,
-New Hampshire,Pittsburg,DEM,158.0,,,,
-New Hampshire,Randolph,DEM,186.0,,,,
-New Hampshire,Shelburne,DEM,131.0,,,,
-New Hampshire,Stark,DEM,106.0,,,,
-New Hampshire,Stewartstown,DEM,117.0,,,,
-New Hampshire,Stratford,DEM,159.0,,,,
-New Hampshire,Wentworth'sLocation,DEM,4.0,,,,
-New Hampshire,Whitefield,DEM,631.0,,,,
-New Hampshire,Alexandria,DEM,440.0,,,,
-New Hampshire,Ashland,DEM,632.0,,,,
-New Hampshire,Bath,DEM,259.0,,,,
-New Hampshire,Benton,DEM,89.0,,,,
-New Hampshire,Bethlehem,DEM,1021.0,,,,
-New Hampshire,Bridgewater,DEM,364.0,,,,
-New Hampshire,Bristol,DEM,842.0,,,,
-New Hampshire,Campton,DEM,1120.0,,,,
-New Hampshire,Canaan,DEM,1162.0,,,,
-New Hampshire,Dorchester,DEM,105.0,,,,
-New Hampshire,Easton,DEM,167.0,,,,
-New Hampshire,Ellsworth,DEM,45.0,,,,
-New Hampshire,Enfield,DEM,1777.0,,,,
-New Hampshire,Franconia,DEM,542.0,,,,
 New Hampshire,Grafton,DEM,345.0,285,"$30,738 ","$54,912 ","$71,158 "
-New Hampshire,Groton,DEM,142.0,,,,
-New Hampshire,Hanover,DEM,6210.0,,,,
-New Hampshire,Haverhill,DEM,925.0,,,,
-New Hampshire,Hebron,DEM,239.0,,,,
-New Hampshire,Holderness,DEM,890.0,,,,
-New Hampshire,Landaff,DEM,126.0,,,,
-New Hampshire,Lebanon,DEM,5895.0,,,,
-New Hampshire,Lincoln,DEM,513.0,,,,
-New Hampshire,Lisbon,DEM,353.0,,,,
-New Hampshire,Littleton,DEM,1557.0,,,,
-New Hampshire,Lyman,DEM,174.0,,,,
-New Hampshire,Lyme,DEM,1074.0,,,,
-New Hampshire,Monroe,DEM,227.0,,,,
-New Hampshire,Orange,DEM,80.0,,,,
-New Hampshire,Orford,DEM,539.0,,,,
-New Hampshire,Piermont,DEM,241.0,,,,
-New Hampshire,Plymouth,DEM,2214.0,,,,
-New Hampshire,Rumney,DEM,410.0,,,,
-New Hampshire,SugarHill,DEM,316.0,,,,
-New Hampshire,Thornton,DEM,958.0,,,,
-New Hampshire,Warren,DEM,189.0,,,,
-New Hampshire,Waterville,DEM,238.0,,,,
-New Hampshire,Wentworth,DEM,280.0,,,,
-New Hampshire,Woodstock,DEM,480.0,,,,
-New Hampshire,Amherst,DEM,4796.0,,,,
-New Hampshire,Antrim,DEM,761.0,,,,
-New Hampshire,Bedford,DEM,7521.0,,,,
-New Hampshire,Bennington,DEM,395.0,,,,
-New Hampshire,Brookline,DEM,1903.0,,,,
-New Hampshire,Deering,DEM,462.0,,,,
-New Hampshire,Francestown,DEM,592.0,,,,
-New Hampshire,Goffstown,DEM,4967.0,,,,
-New Hampshire,Greenfield,DEM,529.0,,,,
-New Hampshire,Greenville,DEM,501.0,,,,
-New Hampshire,Hancock,DEM,875.0,,,,
 New Hampshire,Hillsborough,DEM,1475.0,134,"$34,390 ","$69,829 ","$84,430 "
-New Hampshire,Hollis,DEM,3277.0,,,,
-New Hampshire,Hudson,DEM,6632.0,,,,
-New Hampshire,Litchfield,DEM,2497.0,,,,
-New Hampshire,Lyndeborough,DEM,564.0,,,,
-New Hampshire,Manchester,DEM,29464.0,,,,
-New Hampshire,Mason,DEM,380.0,,,,
 New Hampshire,Merrimack,DEM,8725.0,258,"$31,310 ","$65,353 ","$80,655 "
-New Hampshire,Milford,DEM,4644.0,,,,
-New Hampshire,MontVernon,DEM,1011.0,,,,
-New Hampshire,Nashua,DEM,26770.0,,,,
-New Hampshire,NewBoston,DEM,1826.0,,,,
-New Hampshire,NewIpswich,DEM,962.0,,,,
-New Hampshire,Pelham,DEM,3480.0,,,,
-New Hampshire,Peterborough,DEM,3090.0,,,,
-New Hampshire,Sharon,DEM,153.0,,,,
-New Hampshire,Temple,DEM,518.0,,,,
-New Hampshire,Weare,DEM,2211.0,,,,
-New Hampshire,Wilton,DEM,1330.0,,,,
-New Hampshire,Windsor,DEM,33.0,,,,
-New Hampshire,Allenstown,DEM,1050.0,,,,
-New Hampshire,Andover,DEM,844.0,,,,
-New Hampshire,Boscawen,DEM,931.0,,,,
-New Hampshire,Bow,DEM,3256.0,,,,
-New Hampshire,Bradford,DEM,563.0,,,,
-New Hampshire,Canterbury,DEM,1009.0,,,,
-New Hampshire,Chichester,DEM,770.0,,,,
-New Hampshire,Concord,DEM,15511.0,,,,
-New Hampshire,Danbury,DEM,290.0,,,,
-New Hampshire,Dunbarton,DEM,877.0,,,,
-New Hampshire,Epsom,DEM,1180.0,,,,
-New Hampshire,Franklin,DEM,1804.0,,,,
-New Hampshire,Henniker,DEM,1569.0,,,,
-New Hampshire,Hill,DEM,224.0,,,,
-New Hampshire,Hooksett,DEM,4060.0,,,,
-New Hampshire,Hopkinton,DEM,2688.0,,,,
-New Hampshire,Loudon,DEM,1489.0,,,,
-New Hampshire,Newbury,DEM,905.0,,,,
-New Hampshire,NewLondon,DEM,2081.0,,,,
-New Hampshire,Northfield,DEM,1122.0,,,,
-New Hampshire,Pembroke,DEM,2189.0,,,,
-New Hampshire,Pittsfield,DEM,807.0,,,,
-New Hampshire,Salisbury,DEM,380.0,,,,
-New Hampshire,Sutton,DEM,753.0,,,,
-New Hampshire,Warner,DEM,1050.0,,,,
-New Hampshire,Webster,DEM,548.0,,,,
-New Hampshire,Wilmot,DEM,583.0,,,,
-New Hampshire,Atkinson,DEM,2250.0,,,,
-New Hampshire,Auburn,DEM,1619.0,,,,
-New Hampshire,Brentwood,DEM,1505.0,,,,
-New Hampshire,Candia,DEM,1039.0,,,,
-New Hampshire,Chester,DEM,1465.0,,,,
-New Hampshire,Danville,DEM,1082.0,,,,
-New Hampshire,Deerfield,DEM,1360.0,,,,
-New Hampshire,Derry,DEM,8215.0,,,,
-New Hampshire,EastKingston,DEM,781.0,,,,
-New Hampshire,Epping,DEM,2047.0,,,,
-New Hampshire,Exeter,DEM,6820.0,,,,
-New Hampshire,Fremont,DEM,1151.0,,,,
-New Hampshire,Greenland,DEM,1723.0,,,,
-New Hampshire,Hampstead,DEM,2494.0,,,,
-New Hampshire,Hampton,DEM,6150.0,,,,
-New Hampshire,HamptonFalls,DEM,845.0,,,,
-New Hampshire,Kensington,DEM,805.0,,,,
-New Hampshire,Kingston,DEM,1731.0,,,,
-New Hampshire,Londonderry,DEM,7738.0,,,,
-New Hampshire,NewCastle,DEM,619.0,,,,
-New Hampshire,Newfields,DEM,719.0,,,,
-New Hampshire,Newington,DEM,304.0,,,,
-New Hampshire,Newmarket,DEM,3953.0,,,,
-New Hampshire,Newton,DEM,1277.0,,,,
-New Hampshire,NorthHampton,DEM,1987.0,,,,
-New Hampshire,Northwood,DEM,1329.0,,,,
-New Hampshire,Nottingham,DEM,1769.0,,,,
-New Hampshire,Plaistow,DEM,2045.0,,,,
-New Hampshire,Portsmouth,DEM,10663.0,,,,
-New Hampshire,Raymond,DEM,2378.0,,,,
-New Hampshire,Rye,DEM,2781.0,,,,
-New Hampshire,Salem,DEM,7638.0,,,,
-New Hampshire,Sandown,DEM,1632.0,,,,
-New Hampshire,Seabrook,DEM,1973.0,,,,
-New Hampshire,SouthHampton,DEM,304.0,,,,
-New Hampshire,Stratham,DEM,3306.0,,,,
-New Hampshire,Windham,DEM,4567.0,,,,
-New Hampshire,Barrington,DEM,3142.0,,,,
-New Hampshire,Dover,DEM,12508.0,,,,
-New Hampshire,Durham,DEM,5970.0,,,,
-New Hampshire,Farmington,DEM,1365.0,,,,
-New Hampshire,Lee,DEM,1957.0,,,,
-New Hampshire,Madbury,DEM,824.0,,,,
-New Hampshire,Middleton,DEM,378.0,,,,
-New Hampshire,Milton,DEM,1015.0,,,,
-New Hampshire,NewDurham,DEM,727.0,,,,
-New Hampshire,Rochester,DEM,8132.0,,,,
-New Hampshire,Rollinsford,DEM,951.0,,,,
-New Hampshire,Somersworth,DEM,3422.0,,,,
 New Hampshire,Strafford,DEM,1330.0,369,"$29,369 ","$58,825 ","$73,260 "
-New Hampshire,Acworth,DEM,293.0,,,,
-New Hampshire,Charlestown,DEM,1185.0,,,,
-New Hampshire,Claremont,DEM,2895.0,,,,
-New Hampshire,Cornish,DEM,679.0,,,,
-New Hampshire,Croydon,DEM,172.0,,,,
-New Hampshire,Goshen,DEM,186.0,,,,
-New Hampshire,Grantham,DEM,1669.0,,,,
-New Hampshire,Langdon,DEM,206.0,,,,
-New Hampshire,Lempster,DEM,274.0,,,,
-New Hampshire,Newport,DEM,1301.0,,,,
-New Hampshire,Plainfield,DEM,1135.0,,,,
-New Hampshire,Springfield,DEM,437.0,,,,
-New Hampshire,Sunapee,DEM,1309.0,,,,
-New Hampshire,Unity,DEM,335.0,,,,
-New Hampshire,Washington,DEM,314.0,,,,
 New Jersey,Atlantic,DEM,68978.0,581,"$27,391 ","$54,235 ","$66,619 "
 New Jersey,Bergen,DEM,259358.0,29,"$43,347 ","$83,794 ","$102,222 "
 New Jersey,Burlington,DEM,145987.0,88,"$36,835 ","$78,446 ","$94,324 "
@@ -2538,7 +1481,6 @@ New Mexico,Cibola,DEM,4745.0,3012,"$16,129 ","$37,237 ","$42,024 "
 New Mexico,Colfax,DEM,2611.0,1999,"$21,387 ","$37,734 ","$47,100 "
 New Mexico,Curry,DEM,4307.0,2033,"$21,259 ","$39,871 ","$50,963 "
 New Mexico,DeBaca,DEM,231.0,1071,"$24,879 ","$37,660 ","$46,534 "
-New Mexico,Do�aAna,DEM,47958.0,,,,
 New Mexico,Eddy,DEM,5424.0,448,"$28,438 ","$49,165 ","$60,891 "
 New Mexico,Grant,DEM,7590.0,1619,"$22,755 ","$37,899 ","$45,616 "
 New Mexico,Guadalupe,DEM,1234.0,3094,"$14,198 ","$29,071 ","$36,435 "
@@ -3047,45 +1989,9 @@ Pennsylvania,Wayne,DEM,9191.0,1281,"$24,005 ","$49,313 ","$58,934 "
 Pennsylvania,Westmoreland,DEM,71099.0,491,"$28,051 ","$50,736 ","$65,027 "
 Pennsylvania,Wyoming,DEM,4704.0,1234,"$24,195 ","$48,482 ","$58,479 "
 Pennsylvania,York,DEM,85491.0,480,"$28,132 ","$58,745 ","$70,001 "
-Rhode Island,EastProvidence,DEM,14735.0,,,,
-Rhode Island,Exeter,DEM,1974.0,,,,
-Rhode Island,Foster,DEM,1224.0,,,,
-Rhode Island,Glocester,DEM,2638.0,,,,
-Rhode Island,Hopkinton,DEM,2298.0,,,,
-Rhode Island,Jamestown,DEM,2794.0,,,,
-Rhode Island,Johnston,DEM,6837.0,,,,
-Rhode Island,Lincoln,DEM,6633.0,,,,
-Rhode Island,LittleCompton,DEM,1524.0,,,,
-Rhode Island,Middletown,DEM,5529.0,,,,
-Rhode Island,Barrington,DEM,7713.0,,,,
-Rhode Island,Narragansett,DEM,5333.0,,,,
 Rhode Island,Newport,DEM,7866.0,44,"$40,293 ","$71,713 ","$88,962 "
-Rhode Island,NewShoreham,DEM,748.0,,,,
-Rhode Island,NorthKingstown,DEM,10534.0,,,,
-Rhode Island,NorthProvidence,DEM,9438.0,,,,
-Rhode Island,NorthSmithfield,DEM,3506.0,,,,
-Rhode Island,Pawtucket,DEM,18046.0,,,,
-Rhode Island,Portsmouth,DEM,6649.0,,,,
 Rhode Island,Providence,DEM,45938.0,773,"$26,308 ","$49,297 ","$62,348 "
-Rhode Island,Richmond,DEM,2346.0,,,,
 Rhode Island,Bristol,DEM,6813.0,52,"$38,893 ","$71,238 ","$93,131 "
-Rhode Island,Scituate,DEM,2735.0,,,,
-Rhode Island,Smithfield,DEM,5566.0,,,,
-Rhode Island,SouthKingstown,DEM,11254.0,,,,
-Rhode Island,Tiverton,DEM,5123.0,,,,
-Rhode Island,Warren,DEM,3524.0,,,,
-Rhode Island,Warwick,DEM,25845.0,,,,
-Rhode Island,Westerly,DEM,7152.0,,,,
-Rhode Island,WestGreenwich,DEM,1693.0,,,,
-Rhode Island,WestWarwick,DEM,7234.0,,,,
-Rhode Island,Woonsocket,DEM,7288.0,,,,
-Rhode Island,Burrillville,DEM,3434.0,,,,
-Rhode Island,CentralFalls,DEM,3073.0,,,,
-Rhode Island,Charlestown,DEM,2909.0,,,,
-Rhode Island,Coventry,DEM,9122.0,,,,
-Rhode Island,Cranston,DEM,23037.0,,,,
-Rhode Island,Cumberland,DEM,10869.0,,,,
-Rhode Island,EastGreenwich,DEM,5218.0,,,,
 South Carolina,Abbeville,DEM,4101.0,2750,"$18,134 ","$35,947 ","$47,211 "
 South Carolina,Aiken,DEM,32275.0,1099,"$24,769 ","$44,509 ","$56,150 "
 South Carolina,Allendale,DEM,2718.0,3115,"$13,334 ","$25,252 ","$30,276 "
@@ -3576,252 +2482,17 @@ Utah,Wasatch,DEM,6090.0,884,"$25,777 ","$65,050 ","$70,303 "
 Utah,Washington,DEM,20346.0,1975,"$21,472 ","$49,279 ","$55,881 "
 Utah,Wayne,DEM,365.0,2372,"$19,858 ","$41,458 ","$48,125 "
 Utah,Weber,DEM,40458.0,1523,"$23,106 ","$54,974 ","$62,642 "
-Vermont,Jamaica,DEM,406.0,,,,
-Vermont,Jay,DEM,144.0,,,,
-Vermont,Jericho,DEM,2657.0,,,,
-Vermont,Johnson,DEM,994.0,,,,
-Vermont,Kirby,DEM,190.0,,,,
-Vermont,Landgrove,DEM,114.0,,,,
-Vermont,Leicester,DEM,296.0,,,,
-Vermont,Lemington,DEM,25.0,,,,
-Vermont,Lincoln,DEM,723.0,,,,
-Vermont,Londonderry,DEM,744.0,,,,
-Vermont,Barnet,DEM,624.0,,,,
-Vermont,Lowell,DEM,201.0,,,,
-Vermont,Ludlow,DEM,718.0,,,,
-Vermont,Lunenburg,DEM,243.0,,,,
-Vermont,Lyndon,DEM,1207.0,,,,
-Vermont,Maidstone,DEM,67.0,,,,
-Vermont,Manchester,DEM,1985.0,,,,
-Vermont,Marlboro,DEM,528.0,,,,
-Vermont,Marshfield,DEM,586.0,,,,
-Vermont,Mendon,DEM,445.0,,,,
-Vermont,Middlebury,DEM,3476.0,,,,
-Vermont,Barre,DEM,2380.0,,,,
-Vermont,Middlesex,DEM,977.0,,,,
-Vermont,MiddletownSprings,DEM,308.0,,,,
-Vermont,Milton,DEM,3344.0,,,,
-Vermont,Monkton,DEM,960.0,,,,
-Vermont,Montgomery,DEM,449.0,,,,
-Vermont,Montpelier,DEM,4576.0,,,,
-Vermont,Moretown,DEM,926.0,,,,
-Vermont,Morgan,DEM,172.0,,,,
-Vermont,Morristown,DEM,2256.0,,,,
-Vermont,MountHolly,DEM,452.0,,,,
-Vermont,BarreTown,DEM,2512.0,,,,
-Vermont,MountTabor,DEM,55.0,,,,
-Vermont,Newark,DEM,169.0,,,,
-Vermont,Newbury,DEM,682.0,,,,
-Vermont,Newfane,DEM,842.0,,,,
-Vermont,NewHaven,DEM,732.0,,,,
-Vermont,Newport,DEM,1033.0,,,,
-Vermont,NewportTown,DEM,341.0,,,,
-Vermont,Northfield,DEM,1508.0,,,,
-Vermont,NorthHero,DEM,430.0,,,,
-Vermont,Norton,DEM,44.0,,,,
-Vermont,Barton,DEM,687.0,,,,
-Vermont,Norwich,DEM,2316.0,,,,
 Vermont,Orange,DEM,261.0,599,"$27,289 ","$52,480 ","$63,253 "
-Vermont,Orwell,DEM,367.0,,,,
-Vermont,Panton,DEM,271.0,,,,
-Vermont,Pawlet,DEM,496.0,,,,
-Vermont,Peacham,DEM,357.0,,,,
-Vermont,Peru,DEM,218.0,,,,
-Vermont,Pittsfield,DEM,206.0,,,,
-Vermont,Pittsford,DEM,896.0,,,,
-Vermont,Plainfield,DEM,606.0,,,,
-Vermont,Belvidere,DEM,79.0,,,,
-Vermont,Plymouth,DEM,267.0,,,,
-Vermont,Pomfret,DEM,509.0,,,,
-Vermont,Poultney,DEM,844.0,,,,
-Vermont,Pownal,DEM,892.0,,,,
-Vermont,Proctor,DEM,534.0,,,,
-Vermont,Putney,DEM,1234.0,,,,
-Vermont,Randolph,DEM,1685.0,,,,
-Vermont,Reading,DEM,312.0,,,,
-Vermont,Readsboro,DEM,203.0,,,,
-Vermont,Richford,DEM,434.0,,,,
 Vermont,Bennington,DEM,4369.0,383,"$29,196 ","$50,221 ","$61,270 "
-Vermont,Richmond,DEM,2287.0,,,,
-Vermont,Ripton,DEM,280.0,,,,
-Vermont,Rochester,DEM,526.0,,,,
-Vermont,Rockingham,DEM,1703.0,,,,
-Vermont,Roxbury,DEM,281.0,,,,
-Vermont,Royalton,DEM,930.0,,,,
-Vermont,Rupert,DEM,269.0,,,,
 Vermont,Rutland,DEM,4679.0,795,"$26,205 ","$49,271 ","$61,516 "
-Vermont,RutlandTown,DEM,1376.0,,,,
-Vermont,Ryegate,DEM,329.0,,,,
-Vermont,Benson,DEM,258.0,,,,
-Vermont,St.Albans,DEM,1982.0,,,,
-Vermont,St.AlbansTown,DEM,2126.0,,,,
-Vermont,St.George,DEM,310.0,,,,
-Vermont,St.Johnsbury,DEM,2033.0,,,,
-Vermont,Salisbury,DEM,393.0,,,,
-Vermont,Sandgate,DEM,147.0,,,,
-Vermont,Searsburg,DEM,28.0,,,,
-Vermont,Shaftsbury,DEM,1346.0,,,,
-Vermont,Sharon,DEM,585.0,,,,
-Vermont,Sheffield,DEM,197.0,,,,
-Vermont,Berkshire,DEM,284.0,,,,
-Vermont,Shelburne,DEM,4358.0,,,,
-Vermont,Sheldon,DEM,435.0,,,,
-Vermont,Killington,DEM,560.0,,,,
-Vermont,Shoreham,DEM,445.0,,,,
-Vermont,Shrewsbury,DEM,395.0,,,,
-Vermont,SouthBurlington,DEM,10057.0,,,,
-Vermont,SouthHero,DEM,903.0,,,,
-Vermont,Springfield,DEM,2583.0,,,,
-Vermont,Stamford,DEM,254.0,,,,
-Vermont,Stannard,DEM,82.0,,,,
-Vermont,Berlin,DEM,960.0,,,,
-Vermont,Starksboro,DEM,636.0,,,,
-Vermont,Stockbridge,DEM,341.0,,,,
-Vermont,Stowe,DEM,2706.0,,,,
-Vermont,Strafford,DEM,656.0,,,,
-Vermont,Stratton,DEM,119.0,,,,
-Vermont,Sudbury,DEM,252.0,,,,
-Vermont,Sunderland,DEM,386.0,,,,
-Vermont,Sutton,DEM,245.0,,,,
-Vermont,Swanton,DEM,1566.0,,,,
-Vermont,Thetford,DEM,1448.0,,,,
-Vermont,Bethel,DEM,728.0,,,,
 Vermont,Addison,DEM,445.0,425,"$28,722 ","$57,565 ","$69,157 "
-Vermont,Tinmouth,DEM,170.0,,,,
-Vermont,Topsham,DEM,273.0,,,,
-Vermont,Townshend,DEM,553.0,,,,
-Vermont,Troy,DEM,370.0,,,,
-Vermont,Tunbridge,DEM,514.0,,,,
-Vermont,Underhill,DEM,1633.0,,,,
-Vermont,Vergennes,DEM,1016.0,,,,
-Vermont,Vernon,DEM,718.0,,,,
-Vermont,Vershire,DEM,264.0,,,,
-Vermont,Victory,DEM,17.0,,,,
-Vermont,Bloomfield,DEM,55.0,,,,
-Vermont,Waitsfield,DEM,1023.0,,,,
-Vermont,Walden,DEM,351.0,,,,
-Vermont,Wallingford,DEM,703.0,,,,
-Vermont,Waltham,DEM,216.0,,,,
-Vermont,Wardsboro,DEM,325.0,,,,
-Vermont,Warren,DEM,1039.0,,,,
 Vermont,Washington,DEM,306.0,346,"$29,761 ","$57,281 ","$70,640 "
-Vermont,Waterbury,DEM,2778.0,,,,
-Vermont,Waterford,DEM,421.0,,,,
-Vermont,Waterville,DEM,227.0,,,,
-Vermont,Bolton,DEM,537.0,,,,
-Vermont,Weathersfield,DEM,1018.0,,,,
-Vermont,Wells,DEM,315.0,,,,
-Vermont,WestFairlee,DEM,219.0,,,,
-Vermont,Westfield,DEM,190.0,,,,
-Vermont,Westford,DEM,964.0,,,,
-Vermont,WestHaven,DEM,78.0,,,,
-Vermont,Westminster,DEM,1303.0,,,,
-Vermont,Westmore,DEM,126.0,,,,
-Vermont,Weston,DEM,332.0,,,,
-Vermont,WestRutland,DEM,510.0,,,,
-Vermont,Bradford,DEM,893.0,,,,
-Vermont,WestWindsor,DEM,618.0,,,,
-Vermont,Weybridge,DEM,517.0,,,,
-Vermont,Wheelock,DEM,236.0,,,,
-Vermont,Whiting,DEM,124.0,,,,
-Vermont,Whitingham,DEM,397.0,,,,
-Vermont,Williamstown,DEM,858.0,,,,
-Vermont,Williston,DEM,4961.0,,,,
-Vermont,Wilmington,DEM,789.0,,,,
 Vermont,Windham,DEM,187.0,410,"$28,867 ","$50,234 ","$63,509 "
 Vermont,Windsor,DEM,1266.0,278,"$30,932 ","$52,460 ","$70,467 "
-Vermont,Braintree,DEM,434.0,,,,
-Vermont,Winhall,DEM,473.0,,,,
-Vermont,Winooski,DEM,3005.0,,,,
-Vermont,Wolcott,DEM,589.0,,,,
-Vermont,Woodbury,DEM,372.0,,,,
-Vermont,Woodford,DEM,95.0,,,,
-Vermont,Woodstock,DEM,1645.0,,,,
-Vermont,Worcester,DEM,464.0,,,,
-Vermont,Brandon,DEM,1213.0,,,,
-Vermont,Brattleboro,DEM,5423.0,,,,
-Vermont,Bridgewater,DEM,372.0,,,,
-Vermont,Bridport,DEM,392.0,,,,
-Vermont,Brighton,DEM,258.0,,,,
-Vermont,Bristol,DEM,1482.0,,,,
-Vermont,Albany,DEM,286.0,,,,
-Vermont,Brookfield,DEM,506.0,,,,
-Vermont,Brookline,DEM,217.0,,,,
-Vermont,Brownington,DEM,218.0,,,,
-Vermont,Brunswick,DEM,27.0,,,,
-Vermont,Burke,DEM,534.0,,,,
-Vermont,Burlington,DEM,19238.0,,,,
-Vermont,Cabot,DEM,558.0,,,,
-Vermont,Calais,DEM,886.0,,,,
-Vermont,Cambridge,DEM,1521.0,,,,
-Vermont,Canaan,DEM,239.0,,,,
-Vermont,Alburgh,DEM,550.0,,,,
-Vermont,Castleton,DEM,1056.0,,,,
-Vermont,Cavendish,DEM,466.0,,,,
-Vermont,Charleston,DEM,247.0,,,,
-Vermont,Charlotte,DEM,2285.0,,,,
-Vermont,Chelsea,DEM,404.0,,,,
-Vermont,Chester,DEM,1089.0,,,,
 Vermont,Chittenden,DEM,473.0,167,"$33,281 ","$63,989 ","$83,887 "
-Vermont,Clarendon,DEM,656.0,,,,
-Vermont,Colchester,DEM,6452.0,,,,
-Vermont,Concord,DEM,262.0,,,,
-Vermont,Andover,DEM,216.0,,,,
-Vermont,Corinth,DEM,459.0,,,,
-Vermont,Cornwall,DEM,663.0,,,,
-Vermont,Coventry,DEM,245.0,,,,
-Vermont,Craftsbury,DEM,558.0,,,,
-Vermont,Danby,DEM,325.0,,,,
-Vermont,Danville,DEM,855.0,,,,
-Vermont,Derby,DEM,1167.0,,,,
-Vermont,Dorset,DEM,997.0,,,,
-Vermont,Dover,DEM,613.0,,,,
-Vermont,Dummerston,DEM,1034.0,,,,
-Vermont,Arlington,DEM,929.0,,,,
-Vermont,Duxbury,DEM,648.0,,,,
-Vermont,EastHaven,DEM,69.0,,,,
-Vermont,EastMontpelier,DEM,1315.0,,,,
-Vermont,Eden,DEM,303.0,,,,
-Vermont,Elmore,DEM,447.0,,,,
-Vermont,Enosburgh,DEM,640.0,,,,
 Vermont,Essex,DEM,9573.0,2114,"$20,887 ","$35,916 ","$45,000 "
-Vermont,Fairfax,DEM,1648.0,,,,
-Vermont,Fairfield,DEM,625.0,,,,
-Vermont,FairHaven,DEM,624.0,,,,
-Vermont,Athens,DEM,120.0,,,,
-Vermont,Fairlee,DEM,442.0,,,,
-Vermont,Fayston,DEM,796.0,,,,
-Vermont,Ferrisburg,DEM,1202.0,,,,
-Vermont,Fletcher,DEM,494.0,,,,
 Vermont,Franklin,DEM,318.0,580,"$27,398 ","$56,240 ","$68,408 "
-Vermont,Georgia,DEM,1517.0,,,,
-Vermont,Glover,DEM,401.0,,,,
-Vermont,Goshen,DEM,90.0,,,,
-Vermont,Grafton,DEM,263.0,,,,
-Vermont,Granby,DEM,20.0,,,,
-Vermont,Bakersfield,DEM,395.0,,,,
 Vermont,GrandIsle,DEM,831.0,175,"$33,159 ","$59,509 ","$69,722 "
-Vermont,Granville,DEM,136.0,,,,
-Vermont,Greensboro,DEM,365.0,,,,
-Vermont,Groton,DEM,248.0,,,,
-Vermont,Guildhall,DEM,79.0,,,,
-Vermont,Guilford,DEM,975.0,,,,
-Vermont,Halifax,DEM,273.0,,,,
-Vermont,Hancock,DEM,102.0,,,,
-Vermont,Hardwick,DEM,932.0,,,,
-Vermont,Hartford,DEM,4525.0,,,,
-Vermont,Baltimore,DEM,63.0,,,,
-Vermont,Hartland,DEM,1511.0,,,,
-Vermont,Highgate,DEM,698.0,,,,
-Vermont,Hinesburg,DEM,2254.0,,,,
-Vermont,Holland,DEM,139.0,,,,
-Vermont,Hubbardton,DEM,221.0,,,,
-Vermont,Huntington,DEM,1047.0,,,,
-Vermont,HydePark,DEM,1118.0,,,,
-Vermont,Ira,DEM,130.0,,,,
-Vermont,Irasburg,DEM,257.0,,,,
-Vermont,IsleLaMotte,DEM,191.0,,,,
-Vermont,Barnard,DEM,465.0,,,,
 Virginia,Accomack,DEM,7578.0,1634,"$22,703 ","$39,328 ","$48,708 "
 Virginia,Albemarle,DEM,42466.0,81,"$37,239 ","$67,725 ","$89,889 "
 Virginia,Alleghany,DEM,2243.0,1247,"$24,162 ","$44,848 ","$59,384 "
@@ -3832,6 +2503,7 @@ Virginia,Arlington,DEM,105344.0,2,"$62,018 ","$103,208 ","$139,244 "
 Virginia,Augusta,DEM,10840.0,941,"$25,519 ","$52,027 ","$60,614 "
 Virginia,Bath,DEM,674.0,426,"$28,704 ","$51,365 ","$55,112 "
 Virginia,Bedford,DEM,12176.0,427,"$28,697 ","$57,596 ","$69,792 "
+Virginia,Bedford,DEM,12176.0,1731,"$22,322 ","$35,593 ","$44,058 "
 Virginia,Bland,DEM,532.0,2685,"$18,501 ","$42,139 ","$48,906 "
 Virginia,Botetourt,DEM,5705.0,204,"$32,490 ","$65,935 ","$74,798 "
 Virginia,Brunswick,DEM,4552.0,3014,"$16,060 ","$36,293 ","$45,838 "
@@ -3840,7 +2512,7 @@ Virginia,Buckingham,DEM,3471.0,2902,"$17,167 ","$38,648 ","$48,786 "
 Virginia,Campbell,DEM,8073.0,1484,"$23,231 ","$47,162 ","$56,168 "
 Virginia,Caroline,DEM,7657.0,901,"$25,718 ","$57,218 ","$64,258 "
 Virginia,Carroll,DEM,2842.0,2491,"$19,385 ","$32,853 ","$43,349 "
-Virginia,CharlesCity,DEM,2624.0,797,"$26,198 ","$48,428 ","$58,893 "
+Virginia,Charles,DEM,2624.0,797,"$26,198 ","$48,428 ","$58,893 "
 Virginia,Charlotte,DEM,2317.0,2635,"$18,762 ","$33,015 ","$43,384 "
 Virginia,Chesterfield,DEM,106935.0,200,"$32,572 ","$72,088 ","$83,877 "
 Virginia,Clarke,DEM,3920.0,54,"$38,748 ","$77,597 ","$95,654 "
@@ -3851,10 +2523,16 @@ Virginia,Dickenson,DEM,1503.0,2732,"$18,215 ","$33,318 ","$41,314 "
 Virginia,Dinwiddie,DEM,6224.0,1337,"$23,781 ","$52,027 ","$58,543 "
 Virginia,Essex,DEM,3038.0,1948,"$21,532 ","$44,885 ","$53,946 "
 Virginia,Fairfax,DEM,419943.0,8,"$50,532 ","$110,292 ","$128,596 "
+Virginia,Fairfax,DEM,9192.0,8,"$50,532 ","$110,292 ","$128,596 "
+Virginia,Fairfax,DEM,419943.0,26,"$44,345 ","$97,242 ","$113,538 "
+Virginia,Fairfax,DEM,9192.0,26,"$44,345 ","$97,242 ","$113,538 "
 Virginia,Fauquier,DEM,17565.0,48,"$39,600 ","$88,409 ","$103,556 "
 Virginia,Floyd,DEM,3004.0,1875,"$21,816 ","$44,618 ","$50,969 "
 Virginia,Fluvanna,DEM,7414.0,283,"$30,881 ","$68,288 ","$79,101 "
 Virginia,Franklin,DEM,8381.0,1146,"$24,557 ","$45,624 ","$55,970 "
+Virginia,Franklin,DEM,2525.0,1146,"$24,557 ","$45,624 ","$55,970 "
+Virginia,Franklin,DEM,8381.0,2437,"$19,588 ","$31,928 ","$43,780 "
+Virginia,Franklin,DEM,2525.0,2437,"$19,588 ","$31,928 ","$43,780 "
 Virginia,Frederick,DEM,17200.0,324,"$30,112 ","$68,424 ","$76,530 "
 Virginia,Giles,DEM,2156.0,1418,"$23,485 ","$45,141 ","$54,697 "
 Virginia,Gloucester,DEM,6964.0,429,"$28,673 ","$60,519 ","$72,719 "
@@ -3868,7 +2546,7 @@ Virginia,Henrico,DEM,116572.0,176,"$33,115 ","$61,048 ","$75,640 "
 Virginia,Henry,DEM,9127.0,2374,"$19,852 ","$34,984 ","$43,284 "
 Virginia,Highland,DEM,417.0,758,"$26,372 ","$49,625 ","$56,625 "
 Virginia,IsleofWight,DEM,9399.0,282,"$30,903 ","$63,942 ","$77,524 "
-Virginia,JamesCity,DEM,25553.0,51,"$39,133 ","$76,960 ","$90,406 "
+Virginia,James,DEM,25553.0,51,"$39,133 ","$76,960 ","$90,406 "
 Virginia,KingandQueen,DEM,1590.0,1313,"$23,868 ","$48,372 ","$55,182 "
 Virginia,KingGeorge,DEM,5404.0,138,"$34,234 ","$81,753 ","$90,752 "
 Virginia,KingWilliam,DEM,3260.0,660,"$26,940 ","$62,670 ","$68,397 "
@@ -3897,8 +2575,14 @@ Virginia,PrinceGeorge,DEM,7103.0,1184,"$24,434 ","$63,074 ","$70,566 "
 Virginia,PrinceWilliam,DEM,142863.0,79,"$37,401 ","$98,071 ","$106,544 "
 Virginia,Pulaski,DEM,4925.0,1287,"$23,987 ","$44,312 ","$54,224 "
 Virginia,Rappahannock,DEM,2096.0,92,"$36,505 ","$56,438 ","$66,773 "
+Virginia,Richmond,DEM,1513.0,612,"$27,184 ","$40,496 ","$48,681 "
+Virginia,Richmond,DEM,91503.0,612,"$27,184 ","$40,496 ","$48,681 "
 Virginia,Richmond,DEM,1513.0,2118,"$20,875 ","$47,083 ","$68,487 "
+Virginia,Richmond,DEM,91503.0,2118,"$20,875 ","$47,083 ","$68,487 "
 Virginia,Roanoke,DEM,22261.0,235,"$31,728 ","$60,795 ","$75,860 "
+Virginia,Roanoke,DEM,26773.0,235,"$31,728 ","$60,795 ","$75,860 "
+Virginia,Roanoke,DEM,22261.0,1465,"$23,295 ","$38,145 ","$48,879 "
+Virginia,Roanoke,DEM,26773.0,1465,"$23,295 ","$38,145 ","$48,879 "
 Virginia,Rockbridge,DEM,4022.0,916,"$25,638 ","$48,313 ","$59,165 "
 Virginia,Rockingham,DEM,12644.0,596,"$27,298 ","$52,195 ","$60,869 "
 Virginia,Russell,DEM,2373.0,2405,"$19,735 ","$33,872 ","$43,459 "
@@ -3917,44 +2601,40 @@ Virginia,Westmoreland,DEM,4501.0,1006,"$25,245 ","$49,157 ","$55,966 "
 Virginia,Wise,DEM,3110.0,2547,"$19,107 ","$36,218 ","$46,628 "
 Virginia,Wythe,DEM,3143.0,1491,"$23,219 ","$41,275 ","$49,044 "
 Virginia,York,DEM,17683.0,95,"$36,373 ","$82,073 ","$95,392 "
-Virginia,Alexandriacity,DEM,66240.0,,,,
-Virginia,Bristolcity,DEM,2313.0,,,,
-Virginia,BuenaVistacity,DEM,825.0,,,,
-Virginia,Charlottesvillecity,DEM,20696.0,,,,
-Virginia,Chesapeakecity,DEM,66377.0,,,,
-Virginia,ColonialHeightscity,DEM,2972.0,,,,
-Virginia,Covingtoncity,DEM,964.0,,,,
-Virginia,Danvillecity,DEM,11710.0,,,,
-Virginia,Emporiacity,DEM,1612.0,,,,
-Virginia,Fairfaxcity,DEM,9192.0,,,,
-Virginia,FallsChurchcity,DEM,7146.0,,,,
-Virginia,Franklincity,DEM,2525.0,,,,
-Virginia,Fredericksburgcity,DEM,8517.0,,,,
-Virginia,Galaxcity,DEM,777.0,,,,
-Virginia,Hamptoncity,DEM,46220.0,,,,
-Virginia,Harrisonburgcity,DEM,11022.0,,,,
-Virginia,Hopewellcity,DEM,5427.0,,,,
-Virginia,Lexingtoncity,DEM,1797.0,,,,
-Virginia,Lynchburgcity,DEM,18048.0,,,,
-Virginia,Manassascity,DEM,10356.0,,,,
-Virginia,ManassasParkcity,DEM,3913.0,,,,
-Virginia,Martinsvillecity,DEM,3766.0,,,,
-Virginia,NewportNewscity,DEM,53099.0,,,,
-Virginia,Norfolkcity,DEM,64440.0,,,,
-Virginia,Nortoncity,DEM,464.0,,,,
-Virginia,Petersburgcity,DEM,12389.0,,,,
-Virginia,Poquosoncity,DEM,2054.0,,,,
-Virginia,Portsmouthcity,DEM,30948.0,,,,
-Virginia,Radfordcity,DEM,3358.0,,,,
-Virginia,Richmondcity,DEM,91503.0,,,,
-Virginia,Roanokecity,DEM,26773.0,,,,
-Virginia,Salemcity,DEM,5148.0,,,,
-Virginia,Stauntoncity,DEM,6981.0,,,,
-Virginia,Suffolkcity,DEM,28676.0,,,,
-Virginia,VirginiaBeachcity,DEM,117393.0,,,,
-Virginia,Waynesborocity,DEM,4961.0,,,,
-Virginia,Williamsburgcity,DEM,4790.0,,,,
-Virginia,Winchestercity,DEM,6610.0,,,,
+Virginia,Alexandria,DEM,66240.0,5,"$54,608 ","$85,706 ","$107,511 "
+Virginia,Bristol,DEM,2313.0,2622,"$18,820 ","$32,221 ","$41,025 "
+Virginia,BuenaVista,DEM,825.0,2695,"$18,453 ","$36,591 ","$49,429 "
+Virginia,Charlottesville,DEM,20696.0,602,"$27,268 ","$44,601 ","$65,579 "
+Virginia,Chesapeake,DEM,66377.0,338,"$29,905 ","$69,743 ","$80,767 "
+Virginia,ColonialHeights,DEM,2972.0,550,"$27,610 ","$50,835 ","$66,704 "
+Virginia,Covington,DEM,964.0,2306,"$20,160 ","$34,319 ","$45,742 "
+Virginia,Danville,DEM,11710.0,2430,"$19,626 ","$30,786 ","$40,768 "
+Virginia,Emporia,DEM,1612.0,2413,"$19,710 ","$32,155 ","$41,429 "
+Virginia,FallsChurch,DEM,7146.0,3,"$59,088 ","$120,000 ","$152,857 "
+Virginia,Fredericksburg,DEM,8517.0,608,"$27,222 ","$47,040 ","$57,404 "
+Virginia,Galax,DEM,777.0,1885,"$21,769 ","$30,325 ","$47,297 "
+Virginia,Hampton,DEM,46220.0,1005,"$25,247 ","$50,705 ","$62,991 "
+Virginia,Harrisonburg,DEM,11022.0,2915,"$17,080 ","$38,048 ","$53,588 "
+Virginia,Hopewell,DEM,5427.0,2237,"$20,388 ","$37,933 ","$47,214 "
+Virginia,Lexington,DEM,1797.0,3072,"$14,763 ","$36,505 ","$57,868 "
+Virginia,Lynchburg,DEM,18048.0,1985,"$21,440 ","$38,138 ","$50,676 "
+Virginia,Manassas,DEM,10356.0,419,"$28,752 ","$71,036 ","$75,810 "
+Virginia,ManassasPark,DEM,3913.0,659,"$26,944 ","$71,227 ","$74,552 "
+Virginia,Martinsville,DEM,3766.0,2361,"$19,900 ","$28,116 ","$40,875 "
+Virginia,NewportNews,DEM,53099.0,986,"$25,310 ","$51,027 ","$59,514 "
+Virginia,Norfolk,DEM,64440.0,1121,"$24,659 ","$44,747 ","$51,986 "
+Virginia,Norton,DEM,464.0,1639,"$22,699 ","$39,416 ","$56,290 "
+Virginia,Petersburg,DEM,12389.0,2593,"$18,936 ","$34,424 ","$40,559 "
+Virginia,Poquoson,DEM,2054.0,57,"$38,444 ","$81,892 ","$98,848 "
+Virginia,Portsmouth,DEM,30948.0,1512,"$23,138 ","$46,166 ","$53,632 "
+Virginia,Radford,DEM,3358.0,3006,"$16,181 ","$30,714 ","$57,450 "
+Virginia,Salem,DEM,5148.0,715,"$26,661 ","$48,733 ","$60,742 "
+Virginia,Staunton,DEM,6981.0,1102,"$24,753 ","$38,501 ","$61,671 "
+Virginia,Suffolk,DEM,28676.0,386,"$29,135 ","$66,085 ","$78,565 "
+Virginia,VirginiaBeach,DEM,117393.0,226,"$31,934 ","$65,219 ","$76,285 "
+Virginia,Waynesboro,DEM,4961.0,1588,"$22,872 ","$44,847 ","$57,726 "
+Virginia,Williamsburg,DEM,4790.0,1518,"$23,127 ","$48,616 ","$64,329 "
+Virginia,Winchester,DEM,6610.0,823,"$26,060 ","$44,200 ","$56,967 "
 Washington,Adams,DEM,1789.0,2931,"$16,940 ","$43,926 ","$48,121 "
 Washington,Asotin,DEM,4233.0,1122,"$24,659 ","$43,175 ","$55,321 "
 Washington,Benton,DEM,38293.0,433,"$28,583 ","$60,485 ","$72,126 "
@@ -4211,46 +2891,6 @@ Alabama,Bullock,DEM,3439.0,2662,"$18,628 ","$32,033 ","$44,933 "
 Alabama,Butler,DEM,3953.0,2870,"$17,403 ","$29,918 ","$38,500 "
 Alabama,Calhoun,DEM,15118.0,2131,"$20,828 ","$39,962 ","$50,851 "
 Alabama,Chambers,DEM,6356.0,2514,"$19,291 ","$32,402 ","$41,040 "
-Alaska,ED10,DEM,2680.0,,,,
-Alaska,ED11,DEM,3084.0,,,,
-Alaska,ED12,DEM,2887.0,,,,
-Alaska,ED13,DEM,2372.0,,,,
-Alaska,ED14,DEM,3826.0,,,,
-Alaska,ED15,DEM,2335.0,,,,
-Alaska,ED16,DEM,3960.0,,,,
-Alaska,ED17,DEM,3785.0,,,,
-Alaska,ED18,DEM,4336.0,,,,
-Alaska,ED19,DEM,2896.0,,,,
-Alaska,ED1,DEM,3401.0,,,,
-Alaska,ED20,DEM,4526.0,,,,
-Alaska,ED21,DEM,5046.0,,,,
-Alaska,ED22,DEM,4236.0,,,,
-Alaska,ED23,DEM,3513.0,,,,
-Alaska,ED24,DEM,4452.0,,,,
-Alaska,ED25,DEM,4302.0,,,,
-Alaska,ED26,DEM,4228.0,,,,
-Alaska,ED27,DEM,4476.0,,,,
-Alaska,ED28,DEM,5906.0,,,,
-Alaska,ED29,DEM,2631.0,,,,
-Alaska,ED2,DEM,2073.0,,,,
-Alaska,ED30,DEM,2543.0,,,,
-Alaska,ED31,DEM,4988.0,,,,
-Alaska,ED32,DEM,3164.0,,,,
-Alaska,ED33,DEM,6982.0,,,,
-Alaska,ED34,DEM,5484.0,,,,
-Alaska,ED35,DEM,4755.0,,,,
-Alaska,ED36,DEM,3762.0,,,,
-Alaska,ED37,DEM,1486.0,,,,
-Alaska,ED38,DEM,2176.0,,,,
-Alaska,ED39,DEM,2946.0,,,,
-Alaska,ED3,DEM,1879.0,,,,
-Alaska,ED40,DEM,1951.0,,,,
-Alaska,ED4,DEM,5769.0,,,,
-Alaska,ED5,DEM,4135.0,,,,
-Alaska,ED6,DEM,3224.0,,,,
-Alaska,ED7,DEM,2173.0,,,,
-Alaska,ED8,DEM,1931.0,,,,
-Alaska,ED9,DEM,2738.0,,,,
 Arkansas,Clark,DEM,3413.0,2785,"$17,960 ","$32,721 ","$48,735 "
 Arkansas,Clay,DEM,962.0,2684,"$18,509 ","$31,502 ","$41,121 "
 Arkansas,Cleburne,DEM,1962.0,1540,"$23,044 ","$40,246 ","$49,059 "
@@ -4448,175 +3088,13 @@ Colorado,Bent,DEM,732.0,3064,"$15,081 ","$37,340 ","$42,598 "
 Colorado,Boulder,DEM,159089.0,65,"$38,011 ","$67,956 ","$92,667 "
 Colorado,Chaffee,DEM,7112.0,614,"$27,182 ","$46,504 ","$59,631 "
 Colorado,Cheyenne,DEM,131.0,1376,"$23,647 ","$51,641 ","$63,938 "
-Connecticut,NorthCanaan,DEM,862.0,,,,
-Connecticut,NorthHaven,DEM,7389.0,,,,
-Connecticut,NorthStonington,DEM,1601.0,,,,
-Connecticut,Norwalk,DEM,29382.0,,,,
-Connecticut,Norwich,DEM,9306.0,,,,
-Connecticut,OldLyme,DEM,3226.0,,,,
-Connecticut,OldSaybrook,DEM,4253.0,,,,
-Connecticut,Orange,DEM,4816.0,,,,
-Connecticut,Oxford,DEM,3269.0,,,,
-Connecticut,Plainfield,DEM,2849.0,,,,
-Connecticut,Bethlehem,DEM,937.0,,,,
-Connecticut,Plainville,DEM,4670.0,,,,
-Connecticut,Plymouth,DEM,2477.0,,,,
-Connecticut,Pomfret,DEM,1357.0,,,,
-Connecticut,Portland,DEM,3155.0,,,,
-Connecticut,Preston,DEM,1270.0,,,,
-Connecticut,Prospect,DEM,2110.0,,,,
-Connecticut,Putnam,DEM,2063.0,,,,
-Connecticut,Redding,DEM,3829.0,,,,
-Connecticut,Ridgefield,DEM,10114.0,,,,
-Connecticut,RockyHill,DEM,6115.0,,,,
-Connecticut,Bloomfield,DEM,11007.0,,,,
-Connecticut,Roxbury,DEM,937.0,,,,
-Connecticut,Salem,DEM,1285.0,,,,
-Connecticut,Salisbury,DEM,2023.0,,,,
-Connecticut,Scotland,DEM,406.0,,,,
-Connecticut,Seymour,DEM,4011.0,,,,
-Connecticut,Sharon,DEM,1019.0,,,,
-Connecticut,Shelton,DEM,10837.0,,,,
-Connecticut,Sherman,DEM,1234.0,,,,
-Connecticut,Simsbury,DEM,10296.0,,,,
-Connecticut,Somers,DEM,2445.0,,,,
-Connecticut,Bolton,DEM,1727.0,,,,
-Connecticut,Southbury,DEM,6570.0,,,,
-Connecticut,Southington,DEM,12855.0,,,,
-Connecticut,SouthWindsor,DEM,9595.0,,,,
-Connecticut,Sprague,DEM,641.0,,,,
-Connecticut,Stafford,DEM,2809.0,,,,
-Connecticut,Stamford,DEM,40437.0,,,,
-Connecticut,Sterling,DEM,639.0,,,,
-Connecticut,Stonington,DEM,7453.0,,,,
-Connecticut,Stratford,DEM,16210.0,,,,
-Connecticut,Suffield,DEM,4363.0,,,,
-Connecticut,Bozrah,DEM,703.0,,,,
-Connecticut,Thomaston,DEM,1528.0,,,,
-Connecticut,Thompson,DEM,2050.0,,,,
 Connecticut,Tolland,DEM,5103.0,133,"$34,392 ","$80,529 ","$95,996 "
-Connecticut,Torrington,DEM,7283.0,,,,
-Connecticut,Trumbull,DEM,11919.0,,,,
-Connecticut,Union,DEM,249.0,,,,
-Connecticut,Vernon,DEM,9259.0,,,,
-Connecticut,Voluntown,DEM,566.0,,,,
-Connecticut,Wallingford,DEM,13560.0,,,,
-Connecticut,Warren,DEM,465.0,,,,
-Connecticut,Branford,DEM,10562.0,,,,
-Connecticut,Washington,DEM,1461.0,,,,
-Connecticut,Waterbury,DEM,21573.0,,,,
-Connecticut,Waterford,DEM,6917.0,,,,
-Connecticut,Watertown,DEM,4612.0,,,,
-Connecticut,Westbrook,DEM,2288.0,,,,
-Connecticut,WestHartford,DEM,27298.0,,,,
-Connecticut,WestHaven,DEM,14245.0,,,,
-Connecticut,Weston,DEM,4733.0,,,,
-Connecticut,Westport,DEM,13048.0,,,,
-Connecticut,Wethersfield,DEM,9612.0,,,,
-Connecticut,Bridgeport,DEM,33515.0,,,,
-Connecticut,Willington,DEM,1674.0,,,,
-Connecticut,Wilton,DEM,7676.0,,,,
-Connecticut,Winchester,DEM,2304.0,,,,
 Connecticut,Windham,DEM,5365.0,510,"$27,893 ","$59,333 ","$74,484 "
-Connecticut,Windsor,DEM,13183.0,,,,
-Connecticut,WindsorLocks,DEM,3751.0,,,,
-Connecticut,Wolcott,DEM,3333.0,,,,
-Connecticut,Woodbridge,DEM,3855.0,,,,
-Connecticut,Woodbury,DEM,3181.0,,,,
-Connecticut,Woodstock,DEM,2549.0,,,,
-Connecticut,Bridgewater,DEM,667.0,,,,
-Connecticut,Bristol,DEM,15463.0,,,,
-Connecticut,Brookfield,DEM,5426.0,,,,
-Connecticut,Brooklyn,DEM,1876.0,,,,
-Connecticut,Andover,DEM,1058.0,,,,
-Connecticut,Burlington,DEM,3099.0,,,,
-Connecticut,Canaan,DEM,437.0,,,,
-Connecticut,Canterbury,DEM,1182.0,,,,
-Connecticut,Canton,DEM,3878.0,,,,
-Connecticut,Chaplin,DEM,598.0,,,,
-Connecticut,Cheshire,DEM,9745.0,,,,
-Connecticut,Chester,DEM,1701.0,,,,
-Connecticut,Clinton,DEM,4368.0,,,,
-Connecticut,Colchester,DEM,5216.0,,,,
-Connecticut,Colebrook,DEM,403.0,,,,
-Connecticut,Ansonia,DEM,4521.0,,,,
-Connecticut,Columbia,DEM,1888.0,,,,
-Connecticut,Cornwall,DEM,760.0,,,,
-Connecticut,Coventry,DEM,4011.0,,,,
-Connecticut,Cromwell,DEM,4872.0,,,,
-Connecticut,Danbury,DEM,18869.0,,,,
-Connecticut,Darien,DEM,7876.0,,,,
-Connecticut,DeepRiver,DEM,1785.0,,,,
-Connecticut,Derby,DEM,2963.0,,,,
-Connecticut,Durham,DEM,2363.0,,,,
-Connecticut,Eastford,DEM,464.0,,,,
-Connecticut,Ashford,DEM,1330.0,,,,
-Connecticut,EastGranby,DEM,1789.0,,,,
-Connecticut,EastHaddam,DEM,2980.0,,,,
-Connecticut,EastHampton,DEM,4051.0,,,,
-Connecticut,EastHartford,DEM,14787.0,,,,
-Connecticut,EastHaven,DEM,6569.0,,,,
-Connecticut,EastLyme,DEM,7290.0,,,,
-Connecticut,Easton,DEM,2777.0,,,,
-Connecticut,EastWindsor,DEM,3891.0,,,,
-Connecticut,Ellington,DEM,4787.0,,,,
-Connecticut,Enfield,DEM,11263.0,,,,
-Connecticut,Avon,DEM,7299.0,,,,
-Connecticut,Essex,DEM,3011.0,,,,
 Connecticut,Fairfield,DEM,22861.0,13,"$48,721 ","$82,283 ","$104,250 "
-Connecticut,Farmington,DEM,9706.0,,,,
-Connecticut,Franklin,DEM,553.0,,,,
-Connecticut,Glastonbury,DEM,13990.0,,,,
-Connecticut,Goshen,DEM,902.0,,,,
-Connecticut,Granby,DEM,4029.0,,,,
-Connecticut,Greenwich,DEM,22239.0,,,,
-Connecticut,Griswold,DEM,2565.0,,,,
-Connecticut,Groton,DEM,10699.0,,,,
-Connecticut,Barkhamsted,DEM,1154.0,,,,
-Connecticut,Guilford,DEM,9616.0,,,,
-Connecticut,Haddam,DEM,2728.0,,,,
-Connecticut,Hamden,DEM,21839.0,,,,
-Connecticut,Hampton,DEM,572.0,,,,
 Connecticut,Hartford,DEM,28301.0,127,"$34,698 ","$64,967 ","$81,805 "
-Connecticut,Hartland,DEM,457.0,,,,
-Connecticut,Harwinton,DEM,1397.0,,,,
-Connecticut,Hebron,DEM,3388.0,,,,
-Connecticut,Kent,DEM,1277.0,,,,
-Connecticut,Killingly,DEM,3402.0,,,,
-Connecticut,BeaconFalls,DEM,1543.0,,,,
-Connecticut,Killingworth,DEM,2343.0,,,,
-Connecticut,Lebanon,DEM,2052.0,,,,
-Connecticut,Ledyard,DEM,4534.0,,,,
-Connecticut,Lisbon,DEM,1099.0,,,,
 Connecticut,Litchfield,DEM,2673.0,70,"$37,667 ","$71,338 ","$87,945 "
-Connecticut,Lyme,DEM,1165.0,,,,
-Connecticut,Madison,DEM,7625.0,,,,
-Connecticut,Manchester,DEM,19455.0,,,,
-Connecticut,Mansfield,DEM,5608.0,,,,
-Connecticut,Marlborough,DEM,2119.0,,,,
-Connecticut,Berlin,DEM,6008.0,,,,
-Connecticut,Meriden,DEM,14955.0,,,,
-Connecticut,Middlebury,DEM,2259.0,,,,
-Connecticut,Middlefield,DEM,1442.0,,,,
-Connecticut,Middletown,DEM,15508.0,,,,
-Connecticut,Milford,DEM,17626.0,,,,
-Connecticut,Monroe,DEM,5838.0,,,,
-Connecticut,Montville,DEM,4406.0,,,,
-Connecticut,Morris,DEM,653.0,,,,
-Connecticut,Naugatuck,DEM,6923.0,,,,
-Connecticut,NewBritain,DEM,16031.0,,,,
-Connecticut,Bethany,DEM,1912.0,,,,
-Connecticut,NewCanaan,DEM,7298.0,,,,
-Connecticut,NewFairfield,DEM,4101.0,,,,
-Connecticut,NewHartford,DEM,2089.0,,,,
 Connecticut,NewHaven,DEM,35521.0,201,"$32,523 ","$61,996 ","$79,408 "
-Connecticut,Newington,DEM,10031.0,,,,
 Connecticut,NewLondon,DEM,6912.0,154,"$33,782 ","$66,583 ","$82,076 "
-Connecticut,NewMilford,DEM,8004.0,,,,
-Connecticut,Newtown,DEM,9750.0,,,,
-Connecticut,Norfolk,DEM,659.0,,,,
-Connecticut,NorthBranford,DEM,3718.0,,,,
-Connecticut,Bethel,DEM,6270.0,,,,
 Arizona,Navajo,DEM,23383.0,2971,"$16,626 ","$36,927 ","$43,516 "
 Arizona,Pima,DEM,304981.0,998,"$25,269 ","$45,841 ","$57,757 "
 Arizona,Pinal,DEM,75106.0,2107,"$20,910 ","$50,027 ","$55,282 "
@@ -4632,23 +3110,16 @@ Arizona,Greenlee,DEM,1182.0,2207,"$20,516 ","$47,992 ","$48,074 "
 Arizona,LaPaz,DEM,2236.0,1773,"$22,200 ","$35,776 ","$42,729 "
 Arizona,Maricopa,DEM,1040774.0,604,"$27,256 ","$53,596 ","$63,910 "
 Arizona,Mohave,DEM,24831.0,2130,"$20,833 ","$39,200 ","$47,136 "
-Virginia,FallsChurchCity,,,3,"$59,088 ","$120,000 ","$152,857 "
-Virginia,AlexandriaCity,,,5,"$54,608 ","$85,706 ","$107,511 "
 Alaska,NorthSlope,,,20,"$46,457 ","$80,761 ","$82,500 "
 Hawaii,Kalawao,,,22,"$45,515 ","$59,375 ","$88,750 "
-District of Columbia,WashingtonCity,,,23,"$45,290 ","$65,830 ","$79,665 "
-Virginia,FairfaxCity,,,26,"$44,345 ","$97,242 ","$113,538 "
 Massachusetts,Middlesex,,,30,"$42,861 ","$82,090 ","$104,032 "
 Connecticut,Middlesex,,,46,"$39,992 ","$76,994 ","$98,501 "
-Virginia,PoquosonCity,,,57,"$38,444 ","$81,892 ","$98,848 "
 New Hampshire,Rockingham,,,58,"$38,399 ","$77,348 ","$93,420 "
 Alaska,Juneau,,,72,"$37,558 ","$81,490 ","$95,112 "
 Alaska,Skagway,,,82,"$37,139 ","$71,667 ","$77,500 "
 Alaska,BristolBay,,,83,"$37,024 ","$79,531 ","$96,458 "
 Rhode Island,Washington,,,84,"$37,023 ","$72,138 ","$91,532 "
-Maryland,,,,,"$36,354 ","$73,538 ","$88,738 "
 Alaska,Anchorage,,,98,"$36,214 ","$77,454 ","$90,466 "
-New Jersey,,,,,"$36,027 ","$71,629 ","$87,347 "
 Alaska,Denali,,,114,"$35,295 ","$72,500 ","$99,091 "
 Alaska,Yakutat,,,137,"$34,317 ","$72,500 ","$80,875 "
 Alaska,PetersburgCensusArea,,,139,"$34,183 ","$63,934 ","$84,861 "
@@ -4658,141 +3129,36 @@ Massachusetts,Suffolk,,,193,"$32,835 ","$53,540 ","$61,449 "
 Alaska,Valdez-CordovaCensusArea,,,199,"$32,579 ","$74,878 ","$88,480 "
 Alaska,Sitka,,,202,"$32,521 ","$69,405 ","$78,000 "
 Alaska,FairbanksNorthStar,,,217,"$32,143 ","$69,223 ","$82,930 "
-Virginia,VirginiaBeachCity,,,226,"$31,934 ","$65,219 ","$76,285 "
 Alaska,AleutiansWestCensusArea,,,230,"$31,790 ","$81,853 ","$87,159 "
 Alaska,KetchikanGateway,,,240,"$31,589 ","$62,519 ","$85,638 "
 Alaska,KenaiPeninsula,,,261,"$31,256 ","$61,793 ","$75,689 "
 Alaska,Haines,,,268,"$31,096 ","$52,866 ","$68,207 "
 New Hampshire,Belknap,,,299,"$30,518 ","$58,654 ","$67,570 "
-Louisiana,St.Tammany,,,310,"$30,363 ","$60,799 ","$74,834 "
-Virginia,ChesapeakeCity,,,338,"$29,905 ","$69,743 ","$80,767 "
-Louisiana,Cameron,,,358,"$29,559 ","$64,574 ","$71,310 "
 Alaska,Matanuska-Susitna,,,361,"$29,534 ","$71,037 ","$81,821 "
 Massachusetts,Hampshire,,,365,"$29,460 ","$61,227 ","$81,385 "
 Alaska,SoutheastFairbanksCensusArea,,,366,"$29,437 ","$56,801 ","$66,369 "
 Massachusetts,Berkshire,,,374,"$29,294 ","$48,450 ","$65,216 "
-Virginia,SuffolkCity,,,386,"$29,135 ","$66,085 ","$78,565 "
-Louisiana,Lafayette,,,405,"$28,901 ","$51,462 ","$67,061 "
 Massachusetts,Bristol,,,412,"$28,837 ","$55,298 ","$72,018 "
 Maine,Sagadahoc,,,413,"$28,829 ","$56,733 ","$69,561 "
 Alaska,Hoonah-AngoonCensusArea,,,415,"$28,806 ","$49,545 ","$60,000 "
-Virginia,ManassasCity,,,419,"$28,752 ","$71,036 ","$75,810 "
 Alaska,KodiakIsland,,,438,"$28,562 ","$68,718 ","$73,887 "
 Alaska,Wrangell,,,443,"$28,474 ","$45,841 ","$55,286 "
-Louisiana,Ascension,,,475,"$28,178 ","$69,070 ","$77,640 "
 New Hampshire,Cheshire,,,514,"$27,874 ","$55,155 ","$70,026 "
-Virginia,ColonialHeightsCity,,,550,"$27,610 ","$50,835 ","$66,704 "
-Louisiana,EastBatonRouge,,,559,"$27,505 ","$48,506 ","$63,558 "
-Louisiana,Bossier,,,575,"$27,429 ","$53,248 ","$67,961 "
-Virginia,CharlottesvilleCity,,,602,"$27,268 ","$44,601 ","$65,579 "
-Virginia,FredericksburgCity,,,608,"$27,222 ","$47,040 ","$57,404 "
-Virginia,RichmondCity,,,612,"$27,184 ","$40,496 ","$48,681 "
 Vermont,Lamoille,,,617,"$27,157 ","$52,686 ","$64,500 "
-Virginia,ManassasParkCity,,,659,"$26,944 ","$71,227 ","$74,552 "
-Louisiana,Jefferson,,,668,"$26,908 ","$48,261 ","$61,131 "
-Louisiana,St.Charles,,,697,"$26,756 ","$58,758 ","$66,392 "
-Virginia,SalemCity,,,715,"$26,661 ","$48,733 ","$60,742 "
 Alaska,AleutiansEast,,,736,"$26,535 ","$61,250 ","$67,750 "
-Louisiana,Orleans,,,744,"$26,500 ","$37,146 ","$46,512 "
-Virginia,WinchesterCity,,,823,"$26,060 ","$44,200 ","$56,967 "
 Maine,Kennebec,,,887,"$25,770 ","$46,808 ","$59,915 "
-Louisiana,Plaquemines,,,897,"$25,748 ","$55,138 ","$66,800 "
-Virginia,NewportNewsCity,,,986,"$25,310 ","$51,027 ","$59,514 "
-Virginia,HamptonCity,,,1005,"$25,247 ","$50,705 ","$62,991 "
-Louisiana,Livingston,,,1038,"$25,076 ","$56,811 ","$66,164 "
-Louisiana,St.James,,,1063,"$24,930 ","$55,443 ","$63,632 "
-Louisiana,WestBatonRouge,,,1080,"$24,838 ","$50,926 ","$64,567 "
-Louisiana,Lafourche,,,1089,"$24,798 ","$50,572 ","$59,941 "
-Virginia,StauntonCity,,,1102,"$24,753 ","$38,501 ","$61,671 "
-Maryland,BaltimoreCity,,,1103,"$24,750 ","$41,385 ","$50,151 "
-Virginia,NorfolkCity,,,1121,"$24,659 ","$44,747 ","$51,986 "
 Alaska,PrinceofWales-HyderCensusArea,,,1138,"$24,581 ","$46,071 ","$53,333 "
 Maine,Androscoggin,,,1181,"$24,442 ","$44,921 ","$57,444 "
 New Hampshire,Coos,,,1194,"$24,367 ","$41,985 ","$53,813 "
-Louisiana,Calcasieu,,,1196,"$24,355 ","$43,499 ","$55,484 "
-Louisiana,Caddo,,,1207,"$24,308 ","$41,053 ","$52,823 "
-Louisiana,Terrebonne,,,1262,"$24,114 ","$49,960 ","$60,417 "
-Louisiana,PointeCoupee,,,1350,"$23,742 ","$45,363 ","$59,064 "
 Vermont,Caledonia,,,1391,"$23,584 ","$45,395 ","$54,941 "
-Virginia,RoanokeCity,,,1465,"$23,295 ","$38,145 ","$48,879 "
-Virginia,PortsmouthCity,,,1512,"$23,138 ","$46,166 ","$53,632 "
-Virginia,WilliamsburgCity,,,1518,"$23,127 ","$48,616 ","$64,329 "
-Missouri,St.LouisCity,,,1538,"$23,048 ","$34,582 ","$43,627 "
-Louisiana,Iberia,,,1552,"$22,997 ","$44,262 ","$51,402 "
-Virginia,WaynesboroCity,,,1588,"$22,872 ","$44,847 ","$57,726 "
-Louisiana,Caldwell,,,1615,"$22,782 ","$39,385 ","$47,327 "
-Virginia,NortonCity,,,1639,"$22,699 ","$39,416 ","$56,290 "
-Louisiana,Vermilion,,,1669,"$22,589 ","$44,665 ","$54,061 "
-Louisiana,Beauregard,,,1684,"$22,509 ","$46,385 ","$59,364 "
-Louisiana,LaSalle,,,1692,"$22,481 ","$42,528 ","$55,587 "
-Virginia,BedfordCity,,,1731,"$22,322 ","$35,593 ","$44,058 "
 Vermont,Orleans,,,1737,"$22,303 ","$41,953 ","$52,235 "
-Louisiana,Sabine,,,1767,"$22,229 ","$35,159 ","$46,816 "
-Louisiana,St.Martin,,,1782,"$22,164 ","$42,186 ","$54,589 "
-Louisiana,Rapides,,,1791,"$22,126 ","$40,930 ","$51,092 "
-Louisiana,EastFeliciana,,,1794,"$22,099 ","$47,225 ","$54,664 "
-Louisiana,Ouachita,,,1848,"$21,917 ","$38,955 ","$50,992 "
-Maine,Piscataquis,,,1874,"$21,818 ","$36,646 ","$45,917 "
-Virginia,GalaxCity,,,1885,"$21,769 ","$30,325 ","$47,297 "
-Louisiana,Assumption,,,1888,"$21,743 ","$46,116 ","$55,603 "
-Louisiana,WestFeliciana,,,1894,"$21,720 ","$61,616 ","$75,613 "
 Alaska,LakeandPeninsula,,,1921,"$21,616 ","$51,786 ","$53,828 "
-Maine,Aroostook,,,1938,"$21,566 ","$37,855 ","$50,779 "
-Louisiana,DeSoto,,,1944,"$21,547 ","$39,162 ","$51,734 "
-Maine,Somerset,,,1956,"$21,513 ","$38,642 ","$50,051 "
 Alaska,DillinghamCensusArea,,,1961,"$21,498 ","$54,150 ","$56,089 "
 Alaska,NorthwestArctic,,,1977,"$21,461 ","$61,607 ","$57,866 "
-Louisiana,RedRiver,,,1983,"$21,443 ","$39,346 ","$46,024 "
-Virginia,LynchburgCity,,,1985,"$21,440 ","$38,138 ","$50,676 "
-Louisiana,Vernon,,,1996,"$21,396 ","$46,572 ","$51,718 "
-Louisiana,St.JohntheBaptist,,,2012,"$21,335 ","$50,635 ","$56,540 "
-Louisiana,St.Mary,,,2020,"$21,313 ","$41,571 ","$48,754 "
-Louisiana,Tangipahoa,,,2030,"$21,273 ","$40,654 ","$53,101 "
-Louisiana,Iberville,,,2055,"$21,177 ","$45,368 ","$54,191 "
-Louisiana,JeffersonDavis,,,2063,"$21,132 ","$41,622 ","$51,772 "
-Louisiana,Natchitoches,,,2134,"$20,802 ","$33,953 ","$47,936 "
-Louisiana,Lincoln,,,2171,"$20,633 ","$35,769 ","$51,206 "
 ,,,,30%,"$20,530 ",,
 ,,,,20%,"$19,280 ",,
-Virginia,HopewellCity,,,2237,"$20,388 ","$37,933 ","$47,214 "
-Louisiana,St.Bernard,,,2263,"$20,316 ","$41,353 ","$45,087 "
 Alaska,NomeCensusArea,,,2276,"$20,271 ","$49,974 ","$47,078 "
-Virginia,CovingtonCity,,,2306,"$20,160 ","$34,319 ","$45,742 "
-Louisiana,Catahoula,,,2344,"$19,970 ","$36,165 ","$44,627 "
-Louisiana,Acadia,,,2357,"$19,910 ","$37,587 ","$46,159 "
-Virginia,MartinsvilleCity,,,2361,"$19,900 ","$28,116 ","$40,875 "
-Louisiana,Webster,,,2367,"$19,871 ","$35,071 ","$44,436 "
 Alaska,Yukon-KoyukukCensusArea,,,2407,"$19,729 ","$34,710 ","$46,875 "
-Virginia,EmporiaCity,,,2413,"$19,710 ","$32,155 ","$41,429 "
-Virginia,DanvilleCity,,,2430,"$19,626 ","$30,786 ","$40,768 "
-Kentucky,LaRue,,,2433,"$19,611 ","$39,753 ","$50,559 "
-Virginia,FranklinCity,,,2437,"$19,588 ","$31,928 ","$43,780 "
 New Mexico,DoñaAna,,,2442,"$19,565 ","$37,933 ","$44,518 "
-Louisiana,St.Helena,,,2468,"$19,457 ","$33,143 ","$40,590 "
-Louisiana,Union,,,2480,"$19,412 ","$35,828 ","$48,125 "
-Louisiana,St.Landry,,,2488,"$19,387 ","$35,503 ","$45,574 "
-Louisiana,Jackson,,,2529,"$19,188 ","$37,388 ","$45,490 "
-Louisiana,Grant,,,2569,"$19,018 ","$39,654 ","$47,832 "
-Louisiana,Bienville,,,2588,"$18,958 ","$31,543 ","$42,271 "
-Virginia,PetersburgCity,,,2593,"$18,936 ","$34,424 ","$40,559 "
-Louisiana,Allen,,,2613,"$18,857 ","$38,429 ","$48,306 "
-Virginia,BristolCity,,,2622,"$18,820 ","$32,221 ","$41,025 "
-Louisiana,Richland,,,2656,"$18,669 ","$36,835 ","$45,070 "
 Alaska,BethelCensusArea,,,2687,"$18,497 ","$51,689 ","$53,224 "
-Virginia,BuenaVistaCity,,,2695,"$18,453 ","$36,591 ","$49,429 "
-Louisiana,Evangeline,,,2771,"$18,023 ","$31,832 ","$41,022 "
-Louisiana,Avoyelles,,,2773,"$18,006 ","$33,942 ","$40,311 "
-Louisiana,WestCarroll,,,2778,"$17,980 ","$33,848 ","$44,018 "
-Louisiana,Franklin,,,2822,"$17,752 ","$31,214 ","$40,147 "
-Louisiana,Claiborne,,,2857,"$17,512 ","$32,996 ","$39,539 "
-Louisiana,Tensas,,,2899,"$17,175 ","$27,543 ","$35,328 "
-Virginia,HarrisonburgCity,,,2915,"$17,080 ","$38,048 ","$53,588 "
-Louisiana,Winn,,,2953,"$16,789 ","$34,322 ","$45,200 "
-Louisiana,Morehouse,,,2963,"$16,683 ","$28,585 ","$39,570 "
-Louisiana,Concordia,,,2987,"$16,431 ","$29,022 ","$38,125 "
-Virginia,RadfordCity,,,3006,"$16,181 ","$30,714 ","$57,450 "
-Virginia,LexingtonCity,,,3072,"$14,763 ","$36,505 ","$57,868 "
-Louisiana,Madison,,,3112,"$13,585 ","$25,498 ","$33,063 "
-Puerto Rico,,,,,"$12,081 ","$19,775 ","$23,793 "
-Louisiana,EastCarroll,,,3134,"$12,055 ","$25,321 ","$30,840 "
 Alaska,KusilvakCensusArea,,,3140,"$11,210 ","$40,176 ","$40,750 "

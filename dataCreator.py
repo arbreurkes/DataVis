@@ -3,28 +3,53 @@ import pandas as pd
 income = pd.read_csv(
     "./data/Farmers Markets in the United States/wiki_county_info.csv")
 election = pd.read_csv("./data/election/president_county_candidate.csv")
-election = election[election['candidate'] == 'Joe Biden']
-# Select only counties in US:
+# Only select counties in US
 income = income[income['number'] != '—']
+income = income[income['number'] != '']
+income = income.dropna(subset = ['number'])
+
+# For testing, select only Joe Biden Votes
+election = election[election['candidate'] == 'Joe Biden']
 
 count = {}
 # pat = "(.)+[' '](County)"
 # repl = lambda m: m.group('two').swapcase()
 # pd.Series(['One Two Three', 'Foo Bar Baz']).str.replace(' State', '')
+
+# Washington City -> District of Columbia
+income['county'] = income['county'].replace({'Washington City': 'District of Columbia'}, regex=True)
+election['county'] = election['county'].replace({'Larue': 'LaRue'}, regex=True)
+
+election['county'] = election['county'].replace({' Suburbs': ''}, regex=True)
+election['county'] = election['county'].replace({' Cty Townships': ''}, regex=True)
+election['county'] = election['county'].replace({' Cty Townshps': ''}, regex=True)
+
+# Remove 'Parish'
+election['county'] = election['county'].replace({' Parish': ''}, regex=True)
+income['county'] = income['county'].replace({' Parish': ''}, regex=True)
+
+# Remove 'County'
 election['county'] = election['county'].replace({' County': ''}, regex=True)
-election['county'] = election['county'].replace({' ': ''}, regex=True)
 income['county'] = income['county'].replace({' County': ''}, regex=True)
+
+# Remove 'City' and 'city'
+election['county'] = election['county'].replace({' City': ''}, regex=True)
+income['county'] = income['county'].replace({' City': ''}, regex=True)
+election['county'] = election['county'].replace({' city': ''}, regex=True)
+income['county'] = income['county'].replace({' city': ''}, regex=True)
+
+# Remove Spaces NOTE: Do this last
+election['county'] = election['county'].replace({' ': ''}, regex=True)
 income['county'] = income['county'].replace({' ': ''}, regex=True)
-print(election.head())
 
+# Merge dataframes
 result = pd.merge(election[['state', 'county', 'party', 'total_votes']],
-                    income[['number', 'county', 'state', 'per capita income', 'median household income', 'median family income']],
-                   how='outer', on=['state', 'county'])
+                  income[['number', 'county', 'state', 'per capita income', 'median household income',
+                          'median family income']],
+                  how='right', on=['state', 'county'])
 print(result.head())
-result = result[result['number'] != '']
+print(result['number'])
 result.to_csv(r'./data/output/out.csv', index=False)
-
-
 
 #
 # for _, row in election.iterrows():
