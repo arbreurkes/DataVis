@@ -3,18 +3,57 @@ import pandas as pd
 income = pd.read_csv(
     "./data/Farmers Markets in the United States/wiki_county_info.csv")
 election = pd.read_csv("./data/election/president_county_candidate.csv")
+
 # Only select counties in US
 income = income[income['number'] != '—']
 income = income[income['number'] != '']
-income = income.dropna(subset = ['number'])
+income = income.dropna()
 
-# For testing, select only Joe Biden Votes
-election = election[election['candidate'] == 'Joe Biden']
+# Format
+income['per capita income'] = income['per capita income'].str.replace('$', '')
+income['per capita income'] = income['per capita income'].replace({',': ''}, regex=True)
+income['per capita income'] = income['per capita income'].replace({' ': ''}, regex=True)
 
-count = {}
-# pat = "(.)+[' '](County)"
-# repl = lambda m: m.group('two').swapcase()
-# pd.Series(['One Two Three', 'Foo Bar Baz']).str.replace(' State', '')
+income['population'] = income['population'].replace({',': ''}, regex=True)
+
+
+# Select DEM en REP votes only
+election = election[election['party'].isin(['DEM', 'REP'])]
+
+
+# Method to combine election data of all counties within a state:
+def combineElectionState(state, df):
+    # Select all data of state:
+    counties = df[df['state'] == state]
+    # Group per party
+    groups = counties.groupby('party')
+    for party, data in groups:
+        # Sum all votes
+        sum = data['total_votes'].sum()
+        # Adjust the votes to the total
+        df.loc[(df['state'] == state) & (df['party'] == party), 'total_votes'] = str(sum)
+        df.loc[(df['state'] == state) & (df['party'] == party), 'county'] = state
+
+
+def combineIncomeData(state, df):
+    # print(df['per capita income'])
+    counties = df[df['state'] == state]
+    newIncome = 0
+    sum = 0
+    for s in counties['population']:
+        sum += int(s)
+    for income, weight in zip(counties['per capita income'], counties['population']):
+        newIncome += int(income) * int(weight) / int(sum)
+    df.loc[df['state'] == state, 'per capita income'] = str(newIncome)
+    df.loc[df['state'] == state, 'county'] = state
+    df.loc[df['state'] == state, 'number'] = -1
+
+
+# Collapse Columbia
+combineElectionState('District of Columbia', election)
+combineElectionState('Alaska', election)
+
+combineIncomeData('Alaska', income)
 
 # Washington City -> District of Columbia
 income['county'] = income['county'].replace({'Washington City': 'District of Columbia'}, regex=True)
@@ -44,11 +83,9 @@ income['county'] = income['county'].replace({' ': ''}, regex=True)
 
 # Merge dataframes
 result = pd.merge(election[['state', 'county', 'party', 'total_votes']],
-                  income[['number', 'county', 'state', 'per capita income', 'median household income',
-                          'median family income']],
+                  income[['number', 'county', 'state', 'per capita income']],
                   how='right', on=['state', 'county'])
-print(result.head())
-print(result['number'])
+result = result.drop_duplicates()
 result.to_csv(r'./data/output/out.csv', index=False)
 
 #
