@@ -66,85 +66,84 @@ export default {
           .attr("width", width)
           .attr("height", height);
 
-      // var div = d3.select('#map-' + that.hashCode).append("div")
-      //     .attr("class", "tooltip")
-      //     .style("opacity", 0);
+      var div = d3.select("body").append("div")
+          .attr("id", "county-tt")
+          .attr("class", "tooltip")
+          .style("opacity", 0);
+
+      d3.selection.prototype.moveToFront = function () {
+        return this.each(function () {
+          this.parentNode.appendChild(this);
+        });
+      };
+
+      d3.selection.prototype.moveToBack = function () {
+        return this.each(function () {
+          var firstChild = this.parentNode.firstChild;
+          if (firstChild) {
+            this.parentNode.insertBefore(this, firstChild);
+          }
+        });
+      };
 
       d3.json("/data/uscounties.json").then(json => {
-            that.counties = json;
+        that.counties = json;
 
-            d3.csv("/data/out.csv").then(data => {
-              that.results = data.reduce((k, v) => ({...k, [v.id]: v}), {})
+        d3.csv("/data/out.csv").then(data => {
+          that.results = data.reduce((k, v) => ({...k, [v.id]: v}), {})
 
-              svg.selectAll("path")
-                  .data(topojson.feature(that.counties, that.counties.objects.counties).features)
-                  .enter()
-                  .append("path")
-                  .attr("d", path)
-                  .style("stroke", "#fff")
-                  .style("stroke-width", "1")
-                  .style("fill", function (d) {
-                    if (that.results[d.id]) {
-                      var result = that.results[d.id]["normalized_election_outcome"];
-                      var value = result === "" ? null : result > .5 ? "DEM" : "REP";
+          svg.selectAll("path")
+              .data(topojson.feature(that.counties, that.counties.objects.counties).features)
+              .enter()
+              .append("path")
+              .attr("d", path)
+              .attr("id", function (d) {
+                return d.id
+              })
+              .style("stroke", "#fff")
+              .style("stroke-width", "1")
+              .style("fill", function (d) {
+                if (that.results[d.id]) {
+                  var result = that.results[d.id]["normalized_election_outcome"];
+                  var value = result === "" ? null : result > .5 ? "DEM" : "REP";
 
-                      if (value) return color[value];
-                      return "#888";
-                    }
+                  if (value) return color[value];
+                  return "#888";
+                }
 
-                    return "#888";
-                  });
-            });
-
-            // .style("opacity", 0.8)
-            //     .on("mouseover", function (d) {
-            //       var sel = d3.select(this);
-            //       sel.moveToFront();
-            //       d3.select(this).transition().duration(300).style({'opacity': 1, 'stroke': 'black', 'stroke-width': 1.5});
-            //       div.transition().duration(300)
-            //           .style("opacity", 1)
-            //       div.text(pairNameWithId[d.id] + ": " + pairRateWithId[d.id])
-            //           .style("left", (d3.event.pageX) + "px")
-            //           .style("top", (d3.event.pageY - 30) + "px");
-            //     })
-            //     .on("mouseout", function () {
-            //       var sel = d3.select(this);
-            //       sel.moveToBack();
-            //       d3.select(this)
-            //           .transition().duration(300)
-            //           .style({'opacity': 0.8, 'stroke': 'white', 'stroke-width': 1});
-            //       div.transition().duration(300)
-            //           .style("opacity", 0);
-            //     });
-
-            // d3.csv("/data/farms.csv").then(data => {
-            //   for (var i = 0; i < data.length; i++) {
-            //     that.states.features[i].party = data[i].party;
-            //   }
-            //
-            //   svg.selectAll("path")
-            //       .data(that.states.features)
-            //       .enter()
-            //       .append("path")
-            //       .attr("d", path)
-            //       .style("stroke", "#fff")
-            //       .style("stroke-width", "1")
-            //       .style("fill", function (d) {
-            //         var value = d.party;
-            //
-            //         if (value) return color[value];
-            //         return "#888";
-            //       });
-            // });
-          }
-      )
-      ;
+                return "#888";
+              })
+              .on("mouseover", function (d) {
+                var sel = d3.select(this);
+                sel.moveToFront();
+                d3.select(this).transition().duration(300)
+                    .style('stroke', 'black')
+                    .style('stroke-width', 1.5);
+                div.transition().duration(300)
+                    .style("opacity", 1)
+                div.text(that.results[this.id]["county"])
+                    .style("left", (d.pageX) + "px")
+                    .style("top", (d.pageY -30) + "px")
+                    .style("opacity", 1);
+              })
+              .on("mouseout", function () {
+                var sel = d3.select(this);
+                sel.moveToBack();
+                d3.select(this)
+                    .transition().duration(300)
+                    .style('stroke', 'white')
+                    .style('stroke-width', 1);
+                div.transition().duration(300)
+                    .style("opacity", 0);
+              });
+        });
+      });
     }
   }
 }
 ;
 </script>
-<style scoped>
+<style>
 .card-content {
   /*height: 530px !important;*/
 }
@@ -157,7 +156,8 @@ div.tooltip {
   position: absolute;
   left: 75px;
   text-align: center;
-  height: 16px;
+  height: 36px;
+  line-height: 16px;
   padding: 10px;
   font-size: 14px;
   background: #FFFFFF;
