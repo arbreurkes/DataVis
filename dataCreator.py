@@ -11,10 +11,10 @@ income = income[income['number'] != '']
 income = income.dropna()
 
 # Format
+
 income['per capita income'] = income['per capita income'].str.replace('$', '')
 income['per capita income'] = income['per capita income'].replace({',': ''}, regex=True)
 income['per capita income'] = income['per capita income'].replace({' ': ''}, regex=True)
-
 income['population'] = income['population'].replace({',': ''}, regex=True)
 
 
@@ -102,12 +102,6 @@ repVotes = result[result['party'] == 'REP']
 
 result = demVotes.merge(repVotes, on=['state', 'county','number','per capita income'], how='left', sort=False)
 
-# g = result.groupby(['state', 'county'])
-# for name, group in g:
-#     if len(group) > 1:
-#         print(name)
-# # print(result.head(10))
-
 names = []
 index = []
 with open("./data/d3align/usstates.json") as json_file:
@@ -126,7 +120,18 @@ countyId = countyId.set_index('state_id')
 
 # Merge County and State Data
 linkingData = pd.merge(stateId, countyId, how='right', left_index=True, right_index=True)
+
+# Fix names in linking data
 linkingData['name'] = linkingData['name'].replace({' ': ''}, regex=True)
+linkingData['name'] = linkingData['name'].replace({'JamesCity': 'James'}, regex=True)
+linkingData['name'] = linkingData['name'].replace({'CharlesCity': 'Charles'}, regex=True)
+linkingData['name'] = linkingData['name'].replace({'Shannon': 'OglalaLakota'}, regex=True)
+linkingData['name'] = linkingData['name'].replace({'CarsonCitycity': 'Carson'}, regex=True)
+linkingData['name'] = linkingData['name'].replace({'Larue': 'LaRue'}, regex=True)
+
+# Fix for Alaska:
+linkingData.loc[linkingData['state'] == 'Alaska', 'name'] = 'Alaska'
+# df.loc[df['state'] == state, 'per capita income'] = str(newIncome)
 
 # Merge Linking data with result
 out = pd.merge(result, linkingData, how='outer', left_on=['state', 'county'], right_on=['state', 'name'])
@@ -140,7 +145,18 @@ for (a, b) in zip(out['total_votes_x'].astype("Float32"), out['total_votes_y'].a
         normalized.append(-1)
 out['normalized_election_outcome'] = normalized
 
-# Data Output
+# Rename Columns:
+out.rename(columns={"per capita income": "per_capita_income"}, inplace=True)
+out.rename(columns={"total_votes_x": "DEM_votes"}, inplace=True)
+out.rename(columns={"total_votes_y": "REP_votes"}, inplace=True)
+
+out['id'] = out['id'].astype("Int32")
+
+# Drop columns:
+out.drop(['party_x', 'party_y', 'number', 'name'], axis=1, inplace=True)
+
+# Data Out
 linkingData.to_csv(r'./data/output/link.csv', index=False)
 result.to_csv(r'./data/output/result.csv', index=False)
 out.to_csv(r'./data/output/out.csv', index=False)
+out.to_csv(r'./public/data/out.csv', index=False)
