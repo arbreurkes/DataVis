@@ -11,10 +11,10 @@ income = income[income['number'] != '']
 income = income.dropna()
 
 # Format
+
 income['per capita income'] = income['per capita income'].str.replace('$', '')
 income['per capita income'] = income['per capita income'].replace({',': ''}, regex=True)
 income['per capita income'] = income['per capita income'].replace({' ': ''}, regex=True)
-
 income['population'] = income['population'].replace({',': ''}, regex=True)
 
 
@@ -139,6 +139,16 @@ for (a, b) in zip(out['total_votes_x'].astype("Float32"), out['total_votes_y'].a
     except:
         normalized.append(-1)
 out['normalized_election_outcome'] = normalized
+
+# Rename Columns:
+out.rename(columns={"per capita income": "per_capita_income"}, inplace=True)
+out.rename(columns={"total_votes_x": "DEM_votes"}, inplace=True)
+out.rename(columns={"total_votes_y": "REP_votes"}, inplace=True)
+
+out['id'] = out['id'].astype("Int32")
+
+# Drop columns:
+out.drop(['party_x', 'party_y'], axis=1, inplace=True)
 
 # Data Output
 linkingData.to_csv(r'./data/output/link.csv', index=False)
