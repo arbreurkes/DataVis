@@ -9,11 +9,6 @@
       </md-card-actions>
       <md-card-content class="card-content">
         <div :id="'map-' + this.hashCode"></div>
-        <!--        <md-empty-state-->
-        <!--            v-if="stats === null"-->
-        <!--            md-icon="track_changes"-->
-        <!--            :md-label="'No ' + title + ' Statistics'">-->
-        <!--        </md-empty-state>-->
       </md-card-content>
       <!--      <md-card-actions v-if="stats !== null" class="actions">-->
       <!--        <md-button class="vote-button md-raised" @click="verifyPrompt = true">VOTE</md-button>-->
@@ -26,7 +21,7 @@ import * as d3 from "d3";
 import {mapActions, mapGetters} from 'vuex';
 
 export default {
-  name: 'StatsCard',
+  name: 'StatesCard',
   props: {
     title: String, // Title of the card.
     size: String, // Size of card in gutter.
@@ -54,11 +49,11 @@ export default {
     initializeMap: function () {
       var that = this;
       var width = this.$refs.card.$el.scrollWidth - 32;
-      var height = 500;
+      var height = width / 2.16; // Keep ratio of map.
 
       var projection = d3.geoAlbersUsa()
           .translate([width / 2, height / 2])
-          .scale([1000]);
+          .scale([width]);
 
       var path = d3.geoPath(projection)
 
@@ -98,7 +93,7 @@ export default {
 </script>
 <style scoped>
 .card-content {
-  height: 530px !important;
+  /*height: 530px !important;*/
 }
 
 .actions {
