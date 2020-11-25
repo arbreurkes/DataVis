@@ -1,4 +1,5 @@
 import pandas as pd
+import json
 
 income = pd.read_csv(
     "./data/Farmers Markets in the United States/wiki_county_info.csv")
@@ -20,6 +21,15 @@ income['population'] = income['population'].replace({',': ''}, regex=True)
 # Select DEM en REP votes only
 election = election[election['party'].isin(['DEM', 'REP'])]
 
+# Remove:
+election = election.drop(election[(election['state'] == 'Maryland') & (election['county'] == 'Baltimore city')].index)
+election = election.drop(election[(election['state'] == 'Maine') & (election['county'] == 'Franklin Cty Townships')].index)
+election = election.drop(election[(election['state'] == 'Illinois') & (election['county'] == 'Cook')].index)
+election = election.drop(election[(election['state'] == 'Maine') & (election['county'] == 'Hancock Cty Townships')].index)
+election = election.drop(election[(election['state'] == 'Maine') & (election['county'] == 'Oxford Cty Townships')].index)
+election = election.drop(election[(election['state'] == 'Maine') & (election['county'] == 'Penobscot Cty Townships')].index)
+election = election.drop(election[(election['state'] == 'Maine') & (election['county'] == 'Washington Cty Townships')].index)
+election = election.drop(election[(election['state'] == 'Maine') & (election['county'] == 'Somerset Cty Townships')].index)
 
 # Method to combine election data of all counties within a state:
 def combineElectionState(state, df):
@@ -59,7 +69,7 @@ combineIncomeData('Alaska', income)
 income['county'] = income['county'].replace({'Washington City': 'District of Columbia'}, regex=True)
 election['county'] = election['county'].replace({'Larue': 'LaRue'}, regex=True)
 
-election['county'] = election['county'].replace({' Suburbs': ''}, regex=True)
+# election['county'] = election['county'].replace({' Suburbs': ''}, regex=True)
 election['county'] = election['county'].replace({' Cty Townships': ''}, regex=True)
 election['county'] = election['county'].replace({' Cty Townshps': ''}, regex=True)
 
@@ -91,27 +101,40 @@ demVotes = result[result['party'] == 'DEM']
 repVotes = result[result['party'] == 'REP']
 
 result = demVotes.merge(repVotes, on=['state', 'county','number','per capita income'], how='left', sort=False)
-print(result.head(10))
-result.to_csv(r'./data/output/out.csv', index=False)
 
-#
-# for _, row in election.iterrows():
-#     county = row['state'] + "," + row['county']
-#     party = row['party']
-#     if party == 'DEM' or party == 'REP':
-#         count[county + '-total'] = count.get(county + '-total', 0) + row['total_votes']
-#         count[county + '-' + party] = count.get(county + '-' + party, 0) + row['total_votes']
-#
-# print(count)
-#
-# income['DEM'] = -1
-# income['REP'] = -1
-# income['total'] = -1
-#
-# for i, row in income.iterrows():
-#     county = row['State_Name'] + "," + row['County']
-#     income.at[i, 'total'] = count.get(county + '-total', 0)
-#     income.at[i, 'DEM'] = count.get(county + '-DEM', 0)
-#     income.at[i, 'REP'] = count.get(county + '-REP', 0)
-#
-# print(income.head(1000))
+# g = result.groupby(['state', 'county'])
+# for name, group in g:
+#     if len(group) > 1:
+#         print(name)
+# # print(result.head(10))
+
+
+
+
+names = []
+index = []
+with open("./data/d3align/usstates.json") as json_file:
+    data = json.load(json_file)
+    for p in data:
+        index.append(p['id'])
+        names.append([p['properties']['name']])
+
+stateId = (pd.DataFrame(names, columns=['state'], index=index))
+
+# Load county id, and split id in state and county id:
+countyId = pd.read_csv("./data/d3align/county_id.csv")
+countyId['county_id'] = [str(x)[len(str(x)) - 3:] for x in countyId['id']]
+countyId['state_id'] = [str(x)[0:len(str(x)) - 3] if len(str(x)[0:len(str(x)) - 3]) > 1 else "0" + str(x)[0:len(str(x)) - 3] for x in countyId['id']]
+countyId = countyId.set_index('state_id')
+
+# Merge County and State Data
+linkingData = pd.merge(stateId, countyId, how='right', left_index=True, right_index=True)
+linkingData['name'] = linkingData['name'].replace({' ': ''}, regex=True)
+
+# Merge Linking data with result
+out = pd.merge(result, linkingData, how='outer', left_on=['state', 'county'], right_on=['state', 'name'])
+
+# Data Output
+linkingData.to_csv(r'./data/output/link.csv', index=False)
+result.to_csv(r'./data/output/result.csv', index=False)
+out.to_csv(r'./data/output/out.csv', index=False)
