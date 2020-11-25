@@ -108,9 +108,6 @@ result = demVotes.merge(repVotes, on=['state', 'county','number','per capita inc
 #         print(name)
 # # print(result.head(10))
 
-
-
-
 names = []
 index = []
 with open("./data/d3align/usstates.json") as json_file:
@@ -133,6 +130,15 @@ linkingData['name'] = linkingData['name'].replace({' ': ''}, regex=True)
 
 # Merge Linking data with result
 out = pd.merge(result, linkingData, how='outer', left_on=['state', 'county'], right_on=['state', 'name'])
+
+# Normalize election data:
+normalized = []
+for (a, b) in zip(out['total_votes_x'].astype("Float32"), out['total_votes_y'].astype("Float32")):
+    try:
+        normalized.append(a/(a+b))
+    except:
+        normalized.append(-1)
+out['normalized_election_outcome'] = normalized
 
 # Data Output
 linkingData.to_csv(r'./data/output/link.csv', index=False)
