@@ -86,6 +86,12 @@ result = pd.merge(election[['state', 'county', 'party', 'total_votes']],
                   income[['number', 'county', 'state', 'per capita income']],
                   how='right', on=['state', 'county'])
 result = result.drop_duplicates()
+
+demVotes = result[result['party'] == 'DEM']
+repVotes = result[result['party'] == 'REP']
+
+result = demVotes.merge(repVotes, on=['state', 'county','number','per capita income'], how='left', sort=False)
+print(result.head(10))
 result.to_csv(r'./data/output/out.csv', index=False)
 
 #
