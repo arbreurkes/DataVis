@@ -59,7 +59,9 @@ export default {
 
       var path = d3.geoPath(projection)
 
-      var color = {"DEM": "rgb(67,154,211)", "REP": "rgb(198,52,50)"};
+      var color = d3.scaleLinear()
+          .domain([0, .5, 1])
+          .range(["rgb(198,52,50)", "#FFFFFF", "rgb(67,154,211)"]);
 
       var svg = d3.select('#map-' + that.hashCode)
           .append("svg")
@@ -100,14 +102,14 @@ export default {
               .attr("id", function (d) {
                 return d.id
               })
-              .style("stroke", "#fff")
+              .style("stroke", "#FFF")
               .style("stroke-width", "1")
               .style("fill", function (d) {
                 if (that.results[d.id]) {
                   var result = that.results[d.id]["normalized_election_outcome"];
                   var value = result === "" ? null : result > .5 ? "DEM" : "REP";
 
-                  if (value) return color[value];
+                  if (value) return color(result);
                   return "#888";
                 }
 
@@ -117,11 +119,12 @@ export default {
                 var sel = d3.select(this);
                 sel.moveToFront();
                 d3.select(this).transition().duration(300)
-                    .style('stroke', 'black')
+                    .style('stroke', '#000')
                     .style('stroke-width', 1.5);
                 div.transition().duration(300)
                     .style("opacity", 1)
-                div.text(that.results[this.id]["county"])
+                div.text(that.results[this.id]["county"] !== ""
+                    ? that.results[this.id]["county"] : "No Data")
                     .style("left", (d.pageX) + "px")
                     .style("top", (d.pageY -30) + "px")
                     .style("opacity", 1);
@@ -131,7 +134,7 @@ export default {
                 sel.moveToBack();
                 d3.select(this)
                     .transition().duration(300)
-                    .style('stroke', 'white')
+                    .style('stroke', '#FFF')
                     .style('stroke-width', 1);
                 div.transition().duration(300)
                     .style("opacity", 0);
