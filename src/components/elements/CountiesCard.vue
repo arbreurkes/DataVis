@@ -73,8 +73,8 @@ export default {
       d3.json("/data/uscounties.json").then(json => {
             that.counties = json;
 
-            d3.csv("/data/countiesElection.csv").then(data => {
-              that.results = data.reduce((k, v) => ({...k, [v.id]: {"name": v.name, "party": v.party}}), {})
+            d3.csv("/data/out.csv").then(data => {
+              that.results = data.reduce((k, v) => ({...k, [v.id]: v}), {})
 
               svg.selectAll("path")
                   .data(topojson.feature(that.counties, that.counties.objects.counties).features)
@@ -84,9 +84,14 @@ export default {
                   .style("stroke", "#fff")
                   .style("stroke-width", "1")
                   .style("fill", function (d) {
-                    var value = that.results[d.id];
+                    if (that.results[d.id]) {
+                      var result = that.results[d.id]["normalized_election_outcome"];
+                      var value = result === "" ? null : result > .5 ? "DEM" : "REP";
 
-                    if (value) return color[value.party];
+                      if (value) return color[value];
+                      return "#888";
+                    }
+
                     return "#888";
                   });
             });
