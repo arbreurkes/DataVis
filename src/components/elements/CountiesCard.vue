@@ -76,8 +76,6 @@ export default {
             d3.csv("/data/countiesElection.csv").then(data => {
               that.results = data.reduce((k, v) => ({...k, [v.id]: {"name": v.name, "party": v.party}}), {})
 
-              console.log(that.results)
-              var empty = [];
               svg.selectAll("path")
                   .data(topojson.feature(that.counties, that.counties.objects.counties).features)
                   .enter()
@@ -89,11 +87,8 @@ export default {
                     var value = that.results[d.id];
 
                     if (value) return color[value.party];
-                    empty.push(d);
                     return "#888";
                   });
-
-              console.log(empty);
             });
 
             // .style("opacity", 0.8)
