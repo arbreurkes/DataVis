@@ -69,35 +69,35 @@ Alabama,1025,Clarke,025
 Alabama,1037,Coosa,037
 Alabama,1113,Russell,113
 Alabama,1007,Bibb,007
-Alaska,2020,Anchorage,020
-Alaska,2090,FairbanksNorthStar,090
-Alaska,2122,KenaiPeninsula,122
-Alaska,2016,AleutiansWest,016
-Alaska,2110,Juneau,110
-Alaska,2013,AleutiansEast,013
-Alaska,2050,Bethel,050
-Alaska,2060,BristolBay,060
-Alaska,2068,Denali,068
-Alaska,2070,Dillingham,070
-Alaska,2100,Haines,100
-Alaska,2105,Hoonah-Angoon,105
-Alaska,2130,KetchikanGateway,130
-Alaska,2150,KodiakIsland,150
-Alaska,2164,LakeandPeninsula,164
-Alaska,2170,Matanuska-Susitna,170
-Alaska,2180,Nome,180
-Alaska,2185,NorthSlope,185
-Alaska,2188,NorthwestArctic,188
-Alaska,2195,Petersburg,195
-Alaska,2198,PrinceofWales-Hyder,198
-Alaska,2220,Sitka,220
-Alaska,2230,Skagway,230
-Alaska,2240,SoutheastFairbanks,240
-Alaska,2261,Valdez-Cordova,261
-Alaska,2270,WadeHampton,270
-Alaska,2275,Wrangell,275
-Alaska,2282,Yakutat,282
-Alaska,2290,Yukon-Koyukuk,290
+Alaska,2020,Alaska,020
+Alaska,2090,Alaska,090
+Alaska,2122,Alaska,122
+Alaska,2016,Alaska,016
+Alaska,2110,Alaska,110
+Alaska,2013,Alaska,013
+Alaska,2050,Alaska,050
+Alaska,2060,Alaska,060
+Alaska,2068,Alaska,068
+Alaska,2070,Alaska,070
+Alaska,2100,Alaska,100
+Alaska,2105,Alaska,105
+Alaska,2130,Alaska,130
+Alaska,2150,Alaska,150
+Alaska,2164,Alaska,164
+Alaska,2170,Alaska,170
+Alaska,2180,Alaska,180
+Alaska,2185,Alaska,185
+Alaska,2188,Alaska,188
+Alaska,2195,Alaska,195
+Alaska,2198,Alaska,198
+Alaska,2220,Alaska,220
+Alaska,2230,Alaska,230
+Alaska,2240,Alaska,240
+Alaska,2261,Alaska,261
+Alaska,2270,Alaska,270
+Alaska,2275,Alaska,275
+Alaska,2282,Alaska,282
+Alaska,2290,Alaska,290
 Arizona,4013,Maricopa,013
 Arizona,4003,Cochise,003
 Arizona,4027,Yuma,027
@@ -1032,7 +1032,7 @@ Kentucky,21079,Garrard,079
 Kentucky,21163,Meade,163
 Kentucky,21187,Owen,187
 Kentucky,21049,Clark,049
-Kentucky,21123,Larue,123
+Kentucky,21123,LaRue,123
 Kentucky,21209,Scott,209
 Kentucky,21203,Rockcastle,203
 Kentucky,21089,Greenup,089
@@ -1585,7 +1585,7 @@ Missouri,29197,Schuyler,197
 Missouri,29181,Ripley,181
 Missouri,29129,Mercer,129
 Missouri,29221,Washington,221
-Missouri,29203,Shannon,203
+Missouri,29203,OglalaLakota,203
 Missouri,29087,Holt,087
 Missouri,29005,Atchison,005
 Missouri,29143,NewMadrid,143
@@ -1763,7 +1763,7 @@ Nevada,32033,WhitePine,033
 Nevada,32015,Lander,015
 Nevada,32011,Eureka,011
 Nevada,32021,Mineral,021
-Nevada,32510,CarsonCitycity,510
+Nevada,32510,Carson,510
 Nevada,32009,Esmeralda,009
 Nevada,32029,Storey,029
 New Hampshire,33009,Grafton,009
@@ -2426,7 +2426,7 @@ South Dakota,46065,Hughes,065
 South Dakota,46063,Harding,063
 South Dakota,46121,Todd,121
 South Dakota,46069,Hyde,069
-South Dakota,46113,Shannon,113
+South Dakota,46113,OglalaLakota,113
 South Dakota,46117,Stanley,117
 South Dakota,46075,Jones,075
 South Dakota,46017,Buffalo,017
@@ -2915,9 +2915,9 @@ Virginia,51181,Surry,181
 Virginia,51119,Middlesex,119
 Virginia,51103,Lancaster,103
 Virginia,51127,NewKent,127
-Virginia,51036,CharlesCity,036
+Virginia,51036,Charles,036
 Virginia,51115,Mathews,115
-Virginia,51095,JamesCity,095
+Virginia,51095,James,095
 Virginia,51199,York,199
 Virginia,51013,Arlington,013
 Virginia,51510,Alexandria,510
