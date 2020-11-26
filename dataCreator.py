@@ -1,6 +1,9 @@
 import pandas as pd
 import json
 
+# Create state/county data
+createStateData = False
+
 income = pd.read_csv(
     "./data/Farmers Markets in the United States/wiki_county_info.csv")
 election = pd.read_csv("./data/election/president_county_candidate.csv")
@@ -10,26 +13,31 @@ income = income[income['number'] != '—']
 income = income[income['number'] != '']
 income = income.dropna()
 
-# Format
-
+# Format income data:
 income['per capita income'] = income['per capita income'].str.replace('$', '')
 income['per capita income'] = income['per capita income'].replace({',': ''}, regex=True)
 income['per capita income'] = income['per capita income'].replace({' ': ''}, regex=True)
 income['population'] = income['population'].replace({',': ''}, regex=True)
-
 
 # Select DEM en REP votes only
 election = election[election['party'].isin(['DEM', 'REP'])]
 
 # Remove:
 election = election.drop(election[(election['state'] == 'Maryland') & (election['county'] == 'Baltimore city')].index)
-election = election.drop(election[(election['state'] == 'Maine') & (election['county'] == 'Franklin Cty Townships')].index)
+election = election.drop(
+    election[(election['state'] == 'Maine') & (election['county'] == 'Franklin Cty Townships')].index)
 election = election.drop(election[(election['state'] == 'Illinois') & (election['county'] == 'Cook')].index)
-election = election.drop(election[(election['state'] == 'Maine') & (election['county'] == 'Hancock Cty Townships')].index)
-election = election.drop(election[(election['state'] == 'Maine') & (election['county'] == 'Oxford Cty Townships')].index)
-election = election.drop(election[(election['state'] == 'Maine') & (election['county'] == 'Penobscot Cty Townships')].index)
-election = election.drop(election[(election['state'] == 'Maine') & (election['county'] == 'Washington Cty Townships')].index)
-election = election.drop(election[(election['state'] == 'Maine') & (election['county'] == 'Somerset Cty Townships')].index)
+election = election.drop(
+    election[(election['state'] == 'Maine') & (election['county'] == 'Hancock Cty Townships')].index)
+election = election.drop(
+    election[(election['state'] == 'Maine') & (election['county'] == 'Oxford Cty Townships')].index)
+election = election.drop(
+    election[(election['state'] == 'Maine') & (election['county'] == 'Penobscot Cty Townships')].index)
+election = election.drop(
+    election[(election['state'] == 'Maine') & (election['county'] == 'Washington Cty Townships')].index)
+election = election.drop(
+    election[(election['state'] == 'Maine') & (election['county'] == 'Somerset Cty Townships')].index)
+
 
 # Method to combine election data of all counties within a state:
 def combineElectionState(state, df):
@@ -53,7 +61,7 @@ def combineIncomeData(state, df):
     for s in counties['population']:
         sum += int(s)
     for income, weight in zip(counties['per capita income'], counties['population']):
-        newIncome += int(income) * int(weight) / int(sum)
+        newIncome += float(income) * float(weight) / float(sum)
     df.loc[df['state'] == state, 'per capita income'] = str(newIncome)
     df.loc[df['state'] == state, 'county'] = state
     df.loc[df['state'] == state, 'number'] = -1
@@ -64,6 +72,12 @@ combineElectionState('District of Columbia', election)
 combineElectionState('Alaska', election)
 
 combineIncomeData('Alaska', income)
+
+if createStateData:
+    for state in election['state'].unique():
+        combineElectionState(state, election)
+    for state in income['state'].unique():
+        combineIncomeData(state, income)
 
 # Washington City -> District of Columbia
 income['county'] = income['county'].replace({'Washington City': 'District of Columbia'}, regex=True)
@@ -97,11 +111,12 @@ result = pd.merge(election[['state', 'county', 'party', 'total_votes']],
                   how='right', on=['state', 'county'])
 result = result.drop_duplicates()
 
+# Flatten DataFrame
 demVotes = result[result['party'] == 'DEM']
 repVotes = result[result['party'] == 'REP']
+result = demVotes.merge(repVotes, on=['state', 'county', 'number', 'per capita income'], how='left', sort=False)
 
-result = demVotes.merge(repVotes, on=['state', 'county','number','per capita income'], how='left', sort=False)
-
+# Aligning data
 names = []
 index = []
 with open("./data/d3align/usstates.json") as json_file:
@@ -109,13 +124,14 @@ with open("./data/d3align/usstates.json") as json_file:
     for p in data:
         index.append(p['id'])
         names.append([p['properties']['name']])
-
 stateId = (pd.DataFrame(names, columns=['state'], index=index))
 
 # Load county id, and split id in state and county id:
 countyId = pd.read_csv("./data/d3align/county_id.csv")
 countyId['county_id'] = [str(x)[len(str(x)) - 3:] for x in countyId['id']]
-countyId['state_id'] = [str(x)[0:len(str(x)) - 3] if len(str(x)[0:len(str(x)) - 3]) > 1 else "0" + str(x)[0:len(str(x)) - 3] for x in countyId['id']]
+countyId['state_id'] = [
+    str(x)[0:len(str(x)) - 3] if len(str(x)[0:len(str(x)) - 3]) > 1 else "0" + str(x)[0:len(str(x)) - 3] for x in
+    countyId['id']]
 countyId = countyId.set_index('state_id')
 
 # Merge County and State Data
@@ -131,7 +147,6 @@ linkingData['name'] = linkingData['name'].replace({'Larue': 'LaRue'}, regex=True
 
 # Fix for Alaska:
 linkingData.loc[linkingData['state'] == 'Alaska', 'name'] = 'Alaska'
-# df.loc[df['state'] == state, 'per capita income'] = str(newIncome)
 
 # Merge Linking data with result
 out = pd.merge(result, linkingData, how='outer', left_on=['state', 'county'], right_on=['state', 'name'])
@@ -140,9 +155,9 @@ out = pd.merge(result, linkingData, how='outer', left_on=['state', 'county'], ri
 normalized = []
 for (a, b) in zip(out['total_votes_x'].astype("Float32"), out['total_votes_y'].astype("Float32")):
     try:
-        normalized.append(a/(a+b))
+        normalized.append(a / (a + b))
     except:
-        normalized.append(-1)
+        normalized.append('')
 out['normalized_election_outcome'] = normalized
 
 # Rename Columns:
@@ -158,5 +173,18 @@ out.drop(['party_x', 'party_y', 'number', 'name'], axis=1, inplace=True)
 # Data Out
 linkingData.to_csv(r'./data/output/link.csv', index=False)
 result.to_csv(r'./data/output/result.csv', index=False)
-out.to_csv(r'./data/output/out.csv', index=False)
-out.to_csv(r'./public/data/out.csv', index=False)
+
+if createStateData:
+    # [['state','DEM_votes','per_capita_income','REP_votes','id','normalized_election_outcome']]
+    out = out[['state', 'DEM_votes', 'per_capita_income', 'REP_votes',
+               'normalized_election_outcome']].drop_duplicates().dropna()
+    stateId.reset_index(inplace=True)
+    stateId = stateId.rename(columns = {'index':'state_id'})
+    print(stateId)
+    out = out.merge(stateId, left_on='state', right_on='state', how='outer')
+    print(out)
+    out.to_csv(r'./data/output/out_state.csv', index=False)
+else:
+    out.to_csv(r'./data/output/out.csv', index=False)
+    out.to_csv(r'./public/data/out.csv', index=False)
+
