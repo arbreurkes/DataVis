@@ -2,7 +2,7 @@ import pandas as pd
 import json
 
 # Create state/county data
-createStateData = False
+createStateData = True
 
 income = pd.read_csv(
     "./data/Farmers Markets in the United States/wiki_county_info.csv")
@@ -179,12 +179,11 @@ if createStateData:
     out = out[['state', 'DEM_votes', 'per_capita_income', 'REP_votes',
                'normalized_election_outcome']].drop_duplicates().dropna()
     stateId.reset_index(inplace=True)
-    stateId = stateId.rename(columns = {'index':'state_id'})
+    stateId = stateId.rename(columns={'index': 'state_id'})
     print(stateId)
     out = out.merge(stateId, left_on='state', right_on='state', how='outer')
     print(out)
-    out.to_csv(r'./data/output/out_state.csv', index=False)
+    out[['state', 'normalized_election_outcome', 'state_id']].to_csv(r'./data/output/out_state.csv', index=False)
 else:
     out.to_csv(r'./data/output/out.csv', index=False)
     out.to_csv(r'./public/data/out.csv', index=False)
-
