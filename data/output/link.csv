@@ -1,7 +1,4 @@
 state,id,name,county_id
-,529,RHODEISLAND,529
-,430,ALASKA,430
-,0,DistrictofColumbia,0
 Alabama,1043,Cullman,043
 Alabama,1049,DeKalb,049
 Alabama,1095,Marshall,095
@@ -26,7 +23,7 @@ Alabama,1093,Marion,093
 Alabama,1015,Calhoun,015
 Alabama,1133,Winston,133
 Alabama,1111,Randolph,111
-Alabama,1115,St.Clair,115
+Alabama,1115,St. Clair,115
 Alabama,1109,Pike,109
 Alabama,1051,Elmore,051
 Alabama,1033,Colbert,033
@@ -69,35 +66,35 @@ Alabama,1025,Clarke,025
 Alabama,1037,Coosa,037
 Alabama,1113,Russell,113
 Alabama,1007,Bibb,007
-Alaska,2020,Alaska,020
-Alaska,2090,Alaska,090
-Alaska,2122,Alaska,122
-Alaska,2016,Alaska,016
-Alaska,2110,Alaska,110
-Alaska,2013,Alaska,013
-Alaska,2050,Alaska,050
-Alaska,2060,Alaska,060
-Alaska,2068,Alaska,068
-Alaska,2070,Alaska,070
-Alaska,2100,Alaska,100
-Alaska,2105,Alaska,105
-Alaska,2130,Alaska,130
-Alaska,2150,Alaska,150
-Alaska,2164,Alaska,164
-Alaska,2170,Alaska,170
-Alaska,2180,Alaska,180
-Alaska,2185,Alaska,185
-Alaska,2188,Alaska,188
-Alaska,2195,Alaska,195
-Alaska,2198,Alaska,198
-Alaska,2220,Alaska,220
-Alaska,2230,Alaska,230
-Alaska,2240,Alaska,240
-Alaska,2261,Alaska,261
-Alaska,2270,Alaska,270
-Alaska,2275,Alaska,275
-Alaska,2282,Alaska,282
-Alaska,2290,Alaska,290
+Alaska,2020,Anchorage,020
+Alaska,2090,Fairbanks North Star,090
+Alaska,2122,Kenai Peninsula,122
+Alaska,2016,Aleutians West,016
+Alaska,2110,Juneau,110
+Alaska,2013,Aleutians East,013
+Alaska,2050,Bethel,050
+Alaska,2060,Bristol Bay,060
+Alaska,2068,Denali,068
+Alaska,2070,Dillingham,070
+Alaska,2100,Haines,100
+Alaska,2105,Hoonah-Angoon,105
+Alaska,2130,Ketchikan Gateway,130
+Alaska,2150,Kodiak Island,150
+Alaska,2164,Lake and Peninsula,164
+Alaska,2170,Matanuska-Susitna,170
+Alaska,2180,Nome,180
+Alaska,2185,North Slope,185
+Alaska,2188,Northwest Arctic,188
+Alaska,2195,Petersburg,195
+Alaska,2198,Prince of Wales-Hyder,198
+Alaska,2220,Sitka,220
+Alaska,2230,Skagway,230
+Alaska,2240,Southeast Fairbanks,240
+Alaska,2261,Valdez-Cordova,261
+Alaska,2270,Wade Hampton,270
+Alaska,2275,Wrangell,275
+Alaska,2282,Yakutat,282
+Alaska,2290,Yukon-Koyukuk,290
 Arizona,4013,Maricopa,013
 Arizona,4003,Cochise,003
 Arizona,4027,Yuma,027
@@ -109,10 +106,10 @@ Arizona,4001,Apache,001
 Arizona,4009,Graham,009
 Arizona,4005,Coconino,005
 Arizona,4015,Mohave,015
-Arizona,4023,SantaCruz,023
+Arizona,4023,Santa Cruz,023
 Arizona,4007,Gila,007
 Arizona,4011,Greenlee,011
-Arizona,4012,LaPaz,012
+Arizona,4012,La Paz,012
 Arkansas,5143,Washington,143
 Arkansas,5007,Benton,007
 Arkansas,5145,White,145
@@ -147,12 +144,12 @@ Arkansas,5133,Sevier,133
 Arkansas,5021,Clay,021
 Arkansas,5135,Sharp,135
 Arkansas,5089,Marion,089
-Arkansas,5141,VanBuren,141
+Arkansas,5141,Van Buren,141
 Arkansas,5101,Newton,101
 Arkansas,5091,Miller,091
 Arkansas,5111,Poinsett,111
 Arkansas,5005,Baxter,005
-Arkansas,5059,HotSpring,059
+Arkansas,5059,Hot Spring,059
 Arkansas,5093,Mississippi,093
 Arkansas,5109,Pike,109
 Arkansas,5097,Montgomery,097
@@ -160,14 +157,14 @@ Arkansas,5099,Nevada,099
 Arkansas,5051,Garland,051
 Arkansas,5105,Perry,105
 Arkansas,5119,Pulaski,119
-Arkansas,5081,LittleRiver,081
+Arkansas,5081,Little River,081
 Arkansas,5019,Clark,019
 Arkansas,5125,Saline,125
 Arkansas,5067,Jackson,067
 Arkansas,5001,Arkansas,001
 Arkansas,5027,Columbia,027
 Arkansas,5117,Prairie,117
-Arkansas,5123,St.Francis,123
+Arkansas,5123,St. Francis,123
 Arkansas,5037,Cross,037
 Arkansas,5107,Phillips,107
 Arkansas,5043,Drew,043
@@ -188,30 +185,30 @@ Arkansas,5147,Woodruff,147
 Arkansas,5103,Ouachita,103
 Arkansas,5013,Calhoun,013
 Arkansas,5039,Dallas,039
-California,6073,SanDiego,073
+California,6073,San Diego,073
 California,6019,Fresno,019
 California,6107,Tulare,107
 California,6099,Stanislaus,099
-California,6077,SanJoaquin,077
+California,6077,San Joaquin,077
 California,6065,Riverside,065
 California,6047,Merced,047
 California,6097,Sonoma,097
-California,6079,SanLuisObispo,079
+California,6079,San Luis Obispo,079
 California,6111,Ventura,111
 California,6007,Butte,007
-California,6071,SanBernardino,071
+California,6071,San Bernardino,071
 California,6029,Kern,029
 California,6039,Madera,039
 California,6103,Tehama,103
-California,6083,SantaBarbara,083
+California,6083,Santa Barbara,083
 California,6067,Sacramento,067
-California,6037,LosAngeles,037
+California,6037,Los Angeles,037
 California,6061,Placer,061
 California,6101,Sutter,101
 California,6045,Mendocino,045
 California,6021,Glenn,021
 California,6055,Napa,055
-California,6085,SantaClara,085
+California,6085,Santa Clara,085
 California,6031,Kings,031
 California,6053,Monterey,053
 California,6089,Shasta,089
@@ -219,13 +216,13 @@ California,6023,Humboldt,023
 California,6033,Lake,033
 California,6095,Solano,095
 California,6113,Yolo,113
-California,6017,ElDorado,017
+California,6017,El Dorado,017
 California,6115,Yuba,115
 California,6011,Colusa,011
 California,6093,Siskiyou,093
-California,6013,ContraCosta,013
-California,6087,SantaCruz,087
-California,6069,SanBenito,069
+California,6013,Contra Costa,013
+California,6087,Santa Cruz,087
+California,6069,San Benito,069
 California,6025,Imperial,025
 California,6001,Alameda,001
 California,6057,Nevada,057
@@ -236,16 +233,16 @@ California,6059,Orange,059
 California,6035,Lassen,035
 California,6109,Tuolumne,109
 California,6043,Mariposa,043
-California,6081,SanMateo,081
+California,6081,San Mateo,081
 California,6041,Marin,041
 California,6063,Plumas,063
 California,6105,Trinity,105
-California,6015,DelNorte,015
+California,6015,Del Norte,015
 California,6027,Inyo,027
 California,6051,Mono,051
 California,6091,Sierra,091
 California,6003,Alpine,003
-California,6075,SanFrancisco,075
+California,6075,San Francisco,075
 Colorado,8123,Weld,123
 Colorado,8077,Mesa,077
 Colorado,8069,Larimer,069
@@ -255,12 +252,12 @@ Colorado,8075,Logan,075
 Colorado,8085,Montrose,085
 Colorado,8087,Morgan,087
 Colorado,8121,Washington,121
-Colorado,8041,ElPaso,041
+Colorado,8041,El Paso,041
 Colorado,8013,Boulder,013
 Colorado,8039,Elbert,039
-Colorado,8067,LaPlata,067
+Colorado,8067,La Plata,067
 Colorado,8083,Montezuma,083
-Colorado,8063,KitCarson,063
+Colorado,8063,Kit Carson,063
 Colorado,8001,Adams,001
 Colorado,8101,Pueblo,101
 Colorado,8009,Baca,009
@@ -268,7 +265,7 @@ Colorado,8035,Douglas,035
 Colorado,8099,Prowers,099
 Colorado,8089,Otero,089
 Colorado,8043,Fremont,043
-Colorado,8071,LasAnimas,071
+Colorado,8071,Las Animas,071
 Colorado,8021,Conejos,021
 Colorado,8045,Garfield,045
 Colorado,8073,Lincoln,073
@@ -276,14 +273,14 @@ Colorado,8107,Routt,107
 Colorado,8059,Jefferson,059
 Colorado,8095,Phillips,095
 Colorado,8081,Moffat,081
-Colorado,8105,RioGrande,105
+Colorado,8105,Rio Grande,105
 Colorado,8061,Kiowa,061
 Colorado,8017,Cheyenne,017
 Colorado,8003,Alamosa,003
 Colorado,8011,Bent,011
 Colorado,8005,Arapahoe,005
 Colorado,8055,Huerfano,055
-Colorado,8103,RioBlanco,103
+Colorado,8103,Rio Blanco,103
 Colorado,8025,Crowley,025
 Colorado,8115,Sedgwick,115
 Colorado,8109,Saguache,109
@@ -296,7 +293,7 @@ Colorado,8033,Dolores,033
 Colorado,8049,Grand,049
 Colorado,8027,Custer,027
 Colorado,8037,Eagle,037
-Colorado,8113,SanMiguel,113
+Colorado,8113,San Miguel,113
 Colorado,8057,Jackson,057
 Colorado,8119,Teller,119
 Colorado,8091,Ouray,091
@@ -306,21 +303,21 @@ Colorado,8117,Summit,117
 Colorado,8031,Denver,031
 Colorado,8047,Gilpin,047
 Colorado,8053,Hinsdale,053
-Colorado,8019,ClearCreek,019
+Colorado,8019,Clear Creek,019
 Colorado,8079,Mineral,079
-Colorado,8111,SanJuan,111
+Colorado,8111,San Juan,111
 Colorado,8014,Broomfield,014
 Connecticut,9005,Litchfield,005
-Connecticut,9011,NewLondon,011
+Connecticut,9011,New London,011
 Connecticut,9003,Hartford,003
 Connecticut,9015,Windham,015
-Connecticut,9009,NewHaven,009
+Connecticut,9009,New Haven,009
 Connecticut,9013,Tolland,013
 Connecticut,9007,Middlesex,007
 Connecticut,9001,Fairfield,001
 Delaware,10005,Sussex,005
 Delaware,10001,Kent,001
-Delaware,10003,NewCastle,003
+Delaware,10003,New Castle,003
 Florida,12057,Hillsborough,057
 Florida,12105,Polk,105
 Florida,12083,Marion,083
@@ -338,13 +335,13 @@ Florida,12027,DeSoto,027
 Florida,12059,Holmes,059
 Florida,12081,Manatee,081
 Florida,12023,Columbia,023
-Florida,12099,PalmBeach,099
+Florida,12099,Palm Beach,099
 Florida,12055,Highlands,055
 Florida,12033,Escambia,033
 Florida,12079,Madison,079
 Florida,12075,Levy,075
 Florida,12097,Osceola,097
-Florida,12113,SantaRosa,113
+Florida,12113,Santa Rosa,113
 Florida,12071,Lee,071
 Florida,12009,Brevard,009
 Florida,12053,Hernando,053
@@ -352,12 +349,12 @@ Florida,12131,Walton,131
 Florida,12107,Putnam,107
 Florida,12031,Duval,031
 Florida,12093,Okeechobee,093
-Florida,12111,St.Lucie,111
+Florida,12111,St. Lucie,111
 Florida,12091,Okaloosa,091
 Florida,12041,Gilchrist,041
 Florida,12039,Gadsden,039
 Florida,12007,Bradford,007
-Florida,12061,IndianRiver,061
+Florida,12061,Indian River,061
 Florida,12133,Washington,133
 Florida,12017,Citrus,017
 Florida,12115,Sarasota,115
@@ -376,7 +373,7 @@ Florida,12125,Union,125
 Florida,12043,Glades,043
 Florida,12021,Collier,021
 Florida,12015,Charlotte,015
-Florida,12109,St.Johns,109
+Florida,12109,St. Johns,109
 Florida,12013,Calhoun,013
 Florida,12123,Taylor,123
 Florida,12029,Dixie,029
@@ -451,7 +448,7 @@ Georgia,13075,Cook,075
 Georgia,13143,Haralson,143
 Georgia,13291,Union,291
 Georgia,13199,Meriwether,199
-Georgia,13161,JeffDavis,161
+Georgia,13161,Jeff Davis,161
 Georgia,13201,Miller,201
 Georgia,13287,Turner,287
 Georgia,13055,Chattooga,055
@@ -481,7 +478,7 @@ Georgia,13171,Lamar,171
 Georgia,13023,Bleckley,023
 Georgia,13083,Dade,083
 Georgia,13227,Pickens,227
-Georgia,13017,BenHill,017
+Georgia,13017,Ben Hill,017
 Georgia,13081,Crisp,081
 Georgia,13257,Stephens,257
 Georgia,13103,Effingham,103
@@ -553,7 +550,7 @@ Hawaii,15003,Honolulu,003
 Hawaii,15007,Kauai,007
 Hawaii,15005,Kalawao,005
 Idaho,16027,Canyon,027
-Idaho,16083,TwinFalls,083
+Idaho,16083,Twin Falls,083
 Idaho,16011,Bingham,011
 Idaho,16001,Ada,001
 Idaho,16053,Jerome,053
@@ -574,9 +571,9 @@ Idaho,16017,Bonner,017
 Idaho,16043,Fremont,043
 Idaho,16065,Madison,065
 Idaho,16087,Washington,087
-Idaho,16007,BearLake,007
+Idaho,16007,Bear Lake,007
 Idaho,16029,Caribou,029
-Idaho,16069,NezPerce,069
+Idaho,16069,Nez Perce,069
 Idaho,16059,Lemhi,059
 Idaho,16071,Oneida,071
 Idaho,16063,Lincoln,063
@@ -627,9 +624,9 @@ Illinois,17143,Peoria,143
 Illinois,17157,Randolph,157
 Illinois,17027,Clinton,027
 Illinois,17203,Woodford,203
-Illinois,17163,St.Clair,163
+Illinois,17163,St. Clair,163
 Illinois,17081,Jefferson,081
-Illinois,17085,JoDaviess,085
+Illinois,17085,Jo Daviess,085
 Illinois,17121,Marion,121
 Illinois,17111,McHenry,111
 Illinois,17091,Kankakee,091
@@ -655,7 +652,7 @@ Illinois,17041,Douglas,041
 Illinois,17089,Kane,089
 Illinois,17005,Bond,005
 Illinois,17015,Carroll,015
-Illinois,17161,RockIsland,161
+Illinois,17161,Rock Island,161
 Illinois,17053,Ford,053
 Illinois,17199,Williamson,199
 Illinois,17133,Monroe,133
@@ -670,7 +667,7 @@ Illinois,17147,Piatt,147
 Illinois,17181,Union,181
 Illinois,17125,Mason,125
 Illinois,17093,Kendall,093
-Illinois,17039,DeWitt,039
+Illinois,17039,De Witt,039
 Illinois,17063,Grundy,063
 Illinois,17139,Moultrie,139
 Illinois,17169,Schuyler,169
@@ -722,7 +719,7 @@ Indiana,18047,Franklin,047
 Indiana,18017,Cass,017
 Indiana,18091,LaPorte,091
 Indiana,18063,Hendricks,063
-Indiana,18141,St.Joseph,141
+Indiana,18141,St. Joseph,141
 Indiana,18177,Wayne,177
 Indiana,18095,Madison,095
 Indiana,18029,Dearborn,029
@@ -817,7 +814,7 @@ Iowa,19141,O'Brien,141
 Iowa,19017,Bremer,017
 Iowa,19165,Shelby,165
 Iowa,19121,Madison,121
-Iowa,19013,BlackHawk,013
+Iowa,19013,Black Hawk,013
 Iowa,19187,Webster,187
 Iowa,19105,Jones,105
 Iowa,19123,Mahaska,123
@@ -832,7 +829,7 @@ Iowa,19035,Cherokee,035
 Iowa,19183,Washington,183
 Iowa,19081,Hancock,081
 Iowa,19161,Sac,161
-Iowa,19021,BuenaVista,021
+Iowa,19021,Buena Vista,021
 Iowa,19051,Davis,051
 Iowa,19151,Pocahontas,151
 Iowa,19025,Calhoun,025
@@ -853,7 +850,7 @@ Iowa,19001,Adair,001
 Iowa,19067,Floyd,067
 Iowa,19111,Lee,111
 Iowa,19015,Boone,015
-Iowa,19147,PaloAlto,147
+Iowa,19147,Palo Alto,147
 Iowa,19075,Grundy,075
 Iowa,19131,Mitchell,131
 Iowa,19179,Wapello,179
@@ -861,14 +858,14 @@ Iowa,19197,Wright,197
 Iowa,19153,Polk,153
 Iowa,19073,Greene,073
 Iowa,19133,Monona,133
-Iowa,19033,CerroGordo,033
+Iowa,19033,Cerro Gordo,033
 Iowa,19139,Muscatine,139
 Iowa,19087,Henry,087
 Iowa,19009,Audubon,009
 Iowa,19173,Taylor,173
 Iowa,19185,Wayne,185
 Iowa,19101,Jefferson,101
-Iowa,19177,VanBuren,177
+Iowa,19177,Van Buren,177
 Iowa,19041,Clay,041
 Iowa,19039,Clarke,039
 Iowa,19143,Osceola,143
@@ -877,7 +874,7 @@ Iowa,19135,Monroe,135
 Iowa,19175,Union,175
 Iowa,19091,Humboldt,091
 Iowa,19159,Ringgold,159
-Iowa,19057,DesMoines,057
+Iowa,19057,Des Moines,057
 Iowa,19053,Decatur,053
 Iowa,19117,Lucas,117
 Iowa,19195,Worth,195
@@ -1032,7 +1029,7 @@ Kentucky,21079,Garrard,079
 Kentucky,21163,Meade,163
 Kentucky,21187,Owen,187
 Kentucky,21049,Clark,049
-Kentucky,21123,LaRue,123
+Kentucky,21123,Larue,123
 Kentucky,21209,Scott,209
 Kentucky,21203,Rockcastle,203
 Kentucky,21089,Greenup,089
@@ -1115,7 +1112,7 @@ Kentucky,21095,Harlan,095
 Kentucky,21159,Martin,159
 Kentucky,21131,Leslie,131
 Louisiana,22113,Vermilion,113
-Louisiana,22097,St.Landry,097
+Louisiana,22097,St. Landry,097
 Louisiana,22105,Tangipahoa,105
 Louisiana,22009,Avoyelles,009
 Louisiana,22041,Franklin,041
@@ -1126,26 +1123,26 @@ Louisiana,22019,Calcasieu,019
 Louisiana,22055,Lafayette,055
 Louisiana,22001,Acadia,001
 Louisiana,22039,Evangeline,039
-Louisiana,22031,DeSoto,031
+Louisiana,22031,De Soto,031
 Louisiana,22069,Natchitoches,069
-Louisiana,22033,EastBatonRouge,033
+Louisiana,22033,East Baton Rouge,033
 Louisiana,22083,Richland,083
-Louisiana,22053,JeffersonDavis,053
+Louisiana,22053,Jefferson Davis,053
 Louisiana,22115,Vernon,115
-Louisiana,22123,WestCarroll,123
-Louisiana,22037,EastFeliciana,037
+Louisiana,22123,West Carroll,123
+Louisiana,22037,East Feliciana,037
 Louisiana,22023,Cameron,023
 Louisiana,22017,Caddo,017
 Louisiana,22111,Union,111
 Louisiana,22085,Sabine,085
-Louisiana,22103,St.Tammany,103
-Louisiana,22077,PointeCoupee,077
+Louisiana,22103,St. Tammany,103
+Louisiana,22077,Pointe Coupee,077
 Louisiana,22025,Catahoula,025
 Louisiana,22063,Livingston,063
 Louisiana,22119,Webster,119
 Louisiana,22015,Bossier,015
 Louisiana,22003,Allen,003
-Louisiana,22091,St.Helena,091
+Louisiana,22091,St. Helena,091
 Louisiana,22045,Iberia,045
 Louisiana,22057,Lafourche,057
 Louisiana,22073,Ouachita,073
@@ -1155,28 +1152,28 @@ Louisiana,22061,Lincoln,061
 Louisiana,22029,Concordia,029
 Louisiana,22065,Madison,065
 Louisiana,22013,Bienville,013
-Louisiana,22099,St.Martin,099
+Louisiana,22099,St. Martin,099
 Louisiana,22027,Claiborne,027
 Louisiana,22021,Caldwell,021
-Louisiana,22081,RedRiver,081
+Louisiana,22081,Red River,081
 Louisiana,22043,Grant,043
 Louisiana,22107,Tensas,107
-Louisiana,22059,LaSalle,059
-Louisiana,22035,EastCarroll,035
+Louisiana,22059,La Salle,059
+Louisiana,22035,East Carroll,035
 Louisiana,22049,Jackson,049
-Louisiana,22125,WestFeliciana,125
+Louisiana,22125,West Feliciana,125
 Louisiana,22127,Winn,127
 Louisiana,22047,Iberville,047
 Louisiana,22075,Plaquemines,075
 Louisiana,22109,Terrebonne,109
-Louisiana,22121,WestBatonRouge,121
-Louisiana,22101,St.Mary,101
-Louisiana,22089,St.Charles,089
+Louisiana,22121,West Baton Rouge,121
+Louisiana,22101,St. Mary,101
+Louisiana,22089,St. Charles,089
 Louisiana,22051,Jefferson,051
 Louisiana,22007,Assumption,007
-Louisiana,22093,St.James,093
-Louisiana,22087,St.Bernard,087
-Louisiana,22095,St.JohntheBaptist,095
+Louisiana,22093,St. James,093
+Louisiana,22087,St. Bernard,087
+Louisiana,22095,St. John the Baptist,095
 Louisiana,22071,Orleans,071
 Maine,23003,Aroostook,003
 Maine,23019,Penobscot,019
@@ -1198,26 +1195,26 @@ Maryland,24021,Frederick,021
 Maryland,24013,Carroll,013
 Maryland,24043,Washington,043
 Maryland,24005,Baltimore,005
-Maryland,24037,St.Mary's,037
+Maryland,24037,St. Mary's,037
 Maryland,24025,Harford,025
 Maryland,24045,Wicomico,045
 Maryland,24023,Garrett,023
 Maryland,24011,Caroline,011
-Maryland,24033,PrinceGeorge's,033
+Maryland,24033,Prince George's,033
 Maryland,24031,Montgomery,031
 Maryland,24017,Charles,017
-Maryland,24003,AnneArundel,003
+Maryland,24003,Anne Arundel,003
 Maryland,24047,Worcester,047
 Maryland,24015,Cecil,015
 Maryland,24009,Calvert,009
-Maryland,24035,QueenAnne's,035
+Maryland,24035,Queen Anne's,035
 Maryland,24027,Howard,027
 Maryland,24039,Somerset,039
 Maryland,24019,Dorchester,019
 Maryland,24029,Kent,029
 Maryland,24001,Allegany,001
 Maryland,24041,Talbot,041
-Maryland,24510,Baltimorecity,510
+Maryland,24510,Baltimore city,510
 Massachusetts,25027,Worcester,027
 Massachusetts,25023,Plymouth,023
 Massachusetts,25015,Hampshire,015
@@ -1241,14 +1238,14 @@ Michigan,26139,Ottawa,139
 Michigan,26091,Lenawee,091
 Michigan,26037,Clinton,037
 Michigan,26115,Monroe,115
-Michigan,26159,VanBuren,159
+Michigan,26159,Van Buren,159
 Michigan,26081,Kent,081
 Michigan,26155,Shiawassee,155
 Michigan,26087,Lapeer,087
 Michigan,26045,Eaton,045
 Michigan,26025,Calhoun,025
 Michigan,26157,Tuscola,157
-Michigan,26147,St.Clair,147
+Michigan,26147,St. Clair,147
 Michigan,26161,Washtenaw,161
 Michigan,26059,Hillsdale,059
 Michigan,26075,Jackson,075
@@ -1257,7 +1254,7 @@ Michigan,26023,Branch,023
 Michigan,26117,Montcalm,117
 Michigan,26057,Gratiot,057
 Michigan,26073,Isabella,073
-Michigan,26149,St.Joseph,149
+Michigan,26149,St. Joseph,149
 Michigan,26015,Barry,015
 Michigan,26049,Genesee,049
 Michigan,26065,Ingham,065
@@ -1276,14 +1273,14 @@ Michigan,26051,Gladwin,051
 Michigan,26121,Muskegon,121
 Michigan,26007,Alpena,007
 Michigan,26105,Mason,105
-Michigan,26055,GrandTraverse,055
+Michigan,26055,Grand Traverse,055
 Michigan,26033,Chippewa,033
 Michigan,26089,Leelanau,089
 Michigan,26109,Menominee,109
 Michigan,26035,Clare,035
 Michigan,26011,Arenac,011
 Michigan,26113,Missaukee,113
-Michigan,26141,PresqueIsle,141
+Michigan,26141,Presque Isle,141
 Michigan,26163,Wayne,163
 Michigan,26129,Ogemaw,129
 Michigan,26101,Manistee,101
@@ -1316,7 +1313,7 @@ Michigan,26095,Luce,095
 Michigan,26039,Crawford,039
 Michigan,26083,Keweenaw,083
 Minnesota,27145,Stearns,145
-Minnesota,27111,OtterTail,111
+Minnesota,27111,Otter Tail,111
 Minnesota,27153,Todd,153
 Minnesota,27097,Morrison,097
 Minnesota,27171,Wright,171
@@ -1333,7 +1330,7 @@ Minnesota,27085,McLeod,085
 Minnesota,27119,Polk,119
 Minnesota,27067,Kandiyohi,067
 Minnesota,27131,Rice,131
-Minnesota,27013,BlueEarth,013
+Minnesota,27013,Blue Earth,013
 Minnesota,27091,Martin,091
 Minnesota,27093,Meeker,093
 Minnesota,27143,Sibley,143
@@ -1346,15 +1343,15 @@ Minnesota,27063,Jackson,063
 Minnesota,27089,Marshall,089
 Minnesota,27083,Lyon,083
 Minnesota,27055,Houston,055
-Minnesota,27173,YellowMedicine,173
+Minnesota,27173,Yellow Medicine,173
 Minnesota,27157,Wabasha,157
-Minnesota,27073,LacquiParle,073
+Minnesota,27073,Lac qui Parle,073
 Minnesota,27101,Murray,101
 Minnesota,27009,Benton,009
 Minnesota,27135,Roseau,135
 Minnesota,27019,Carver,019
 Minnesota,27033,Cottonwood,033
-Minnesota,27079,LeSueur,079
+Minnesota,27079,Le Sueur,079
 Minnesota,27139,Scott,139
 Minnesota,27037,Dakota,037
 Minnesota,27147,Steele,147
@@ -1362,7 +1359,7 @@ Minnesota,27025,Chisago,025
 Minnesota,27117,Pipestone,117
 Minnesota,27121,Pope,121
 Minnesota,27133,Rock,133
-Minnesota,27095,MilleLacs,095
+Minnesota,27095,Mille Lacs,095
 Minnesota,27027,Clay,027
 Minnesota,27151,Swift,151
 Minnesota,27103,Nicollet,103
@@ -1370,7 +1367,7 @@ Minnesota,27161,Waseca,161
 Minnesota,27039,Dodge,039
 Minnesota,27059,Isanti,059
 Minnesota,27081,Lincoln,081
-Minnesota,27137,St.Louis,137
+Minnesota,27137,St. Louis,137
 Minnesota,27023,Chippewa,023
 Minnesota,27065,Kanabec,065
 Minnesota,27165,Watonwan,165
@@ -1384,21 +1381,21 @@ Minnesota,27001,Aitkin,001
 Minnesota,27107,Norman,107
 Minnesota,27017,Carlton,017
 Minnesota,27149,Stevens,149
-Minnesota,27035,CrowWing,035
+Minnesota,27035,Crow Wing,035
 Minnesota,27003,Anoka,003
 Minnesota,27141,Sherburne,141
 Minnesota,27051,Grant,051
 Minnesota,27113,Pennington,113
 Minnesota,27167,Wilkin,167
-Minnesota,27011,BigStone,011
+Minnesota,27011,Big Stone,011
 Minnesota,27061,Itasca,061
 Minnesota,27069,Kittson,069
 Minnesota,27057,Hubbard,057
 Minnesota,27155,Traverse,155
 Minnesota,27087,Mahnomen,087
-Minnesota,27125,RedLake,125
+Minnesota,27125,Red Lake,125
 Minnesota,27071,Koochiching,071
-Minnesota,27077,LakeoftheWoods,077
+Minnesota,27077,Lake of the Woods,077
 Minnesota,27075,Lake,075
 Minnesota,27123,Ramsey,123
 Minnesota,27031,Cook,031
@@ -1411,7 +1408,7 @@ Mississippi,28079,Leake,079
 Mississippi,28101,Newton,101
 Mississippi,28127,Simpson,127
 Mississippi,28147,Walthall,147
-Mississippi,28109,PearlRiver,109
+Mississippi,28109,Pearl River,109
 Mississippi,28115,Pontotoc,115
 Mississippi,28139,Tippah,139
 Mississippi,28107,Panola,107
@@ -1432,7 +1429,7 @@ Mississippi,28153,Wayne,153
 Mississippi,28005,Amite,005
 Mississippi,28163,Yazoo,163
 Mississippi,28017,Chickasaw,017
-Mississippi,28065,JeffersonDavis,065
+Mississippi,28065,Jefferson Davis,065
 Mississippi,28089,Madison,089
 Mississippi,28075,Lauderdale,075
 Mississippi,28057,Itawamba,057
@@ -1507,7 +1504,7 @@ Missouri,29217,Vernon,217
 Missouri,29019,Boone,019
 Missouri,29067,Douglas,067
 Missouri,29013,Bates,013
-Missouri,29031,CapeGirardeau,031
+Missouri,29031,Cape Girardeau,031
 Missouri,29151,Osage,151
 Missouri,29059,Dallas,059
 Missouri,29121,Macon,121
@@ -1547,7 +1544,7 @@ Missouri,29211,Sullivan,211
 Missouri,29175,Randolph,175
 Missouri,29023,Butler,023
 Missouri,29095,Jackson,095
-Missouri,29185,St.Clair,185
+Missouri,29185,St. Clair,185
 Missouri,29209,Stone,209
 Missouri,29063,DeKalb,063
 Missouri,29065,Dent,065
@@ -1556,9 +1553,9 @@ Missouri,29117,Livingston,117
 Missouri,29021,Buchanan,021
 Missouri,29049,Clinton,049
 Missouri,29139,Montgomery,139
-Missouri,29187,St.Francois,187
+Missouri,29187,St. Francois,187
 Missouri,29055,Crawford,055
-Missouri,29183,St.Charles,183
+Missouri,29183,St. Charles,183
 Missouri,29127,Marion,127
 Missouri,29099,Jefferson,099
 Missouri,29089,Howard,089
@@ -1569,7 +1566,7 @@ Missouri,29205,Shelby,205
 Missouri,29079,Grundy,079
 Missouri,29045,Clark,045
 Missouri,29029,Camden,029
-Missouri,29186,Ste.Genevieve,186
+Missouri,29186,Ste. Genevieve,186
 Missouri,29075,Gentry,075
 Missouri,29171,Putnam,171
 Missouri,29103,Knox,103
@@ -1585,20 +1582,20 @@ Missouri,29197,Schuyler,197
 Missouri,29181,Ripley,181
 Missouri,29129,Mercer,129
 Missouri,29221,Washington,221
-Missouri,29203,OglalaLakota,203
+Missouri,29203,Shannon,203
 Missouri,29087,Holt,087
 Missouri,29005,Atchison,005
-Missouri,29143,NewMadrid,143
+Missouri,29143,New Madrid,143
 Missouri,29123,Madison,123
 Missouri,29223,Wayne,223
 Missouri,29227,Worth,227
 Missouri,29155,Pemiscot,155
 Missouri,29179,Reynolds,179
 Missouri,29093,Iron,093
-Missouri,29189,St.Louis,189
+Missouri,29189,St. Louis,189
 Missouri,29133,Mississippi,133
 Missouri,29035,Carter,035
-Missouri,29510,St.Louiscity,510
+Missouri,29510,St. Louis city,510
 Montana,30081,Ravalli,081
 Montana,30047,Lake,047
 Montana,30111,Yellowstone,111
@@ -1616,8 +1613,8 @@ Montana,30005,Blaine,005
 Montana,30083,Richland,083
 Montana,30091,Sheridan,091
 Montana,30063,Missoula,063
-Montana,30049,LewisandClark,049
-Montana,30003,BigHorn,003
+Montana,30049,Lewis and Clark,049
+Montana,30003,Big Horn,003
 Montana,30071,Phillips,071
 Montana,30021,Dawson,021
 Montana,30095,Stillwater,095
@@ -1629,13 +1626,13 @@ Montana,30057,Madison,057
 Montana,30055,McCone,055
 Montana,30067,Park,067
 Montana,30019,Daniels,019
-Montana,30045,JudithBasin,045
+Montana,30045,Judith Basin,045
 Montana,30087,Rosebud,087
 Montana,30011,Carter,011
 Montana,30101,Toole,101
-Montana,30097,SweetGrass,097
+Montana,30097,Sweet Grass,097
 Montana,30025,Fallon,025
-Montana,30075,PowderRiver,075
+Montana,30075,Powder River,075
 Montana,30001,Beaverhead,001
 Montana,30065,Musselshell,065
 Montana,30053,Lincoln,053
@@ -1649,13 +1646,13 @@ Montana,30051,Liberty,051
 Montana,30107,Wheatland,107
 Montana,30039,Granite,039
 Montana,30059,Meagher,059
-Montana,30093,SilverBow,093
-Montana,30037,GoldenValley,037
+Montana,30093,Silver Bow,093
+Montana,30037,Golden Valley,037
 Montana,30103,Treasure,103
 Montana,30069,Petroleum,069
 Montana,30061,Mineral,061
-Montana,30023,DeerLodge,023
-Montana,30113,YellowstoneNationalPark,113
+Montana,30023,Deer Lodge,023
+Montana,30113,Yellowstone National Park,113
 Nebraska,31109,Lancaster,109
 Nebraska,31041,Custer,041
 Nebraska,31155,Saunders,155
@@ -1681,7 +1678,7 @@ Nebraska,31047,Dawson,047
 Nebraska,31079,Hall,079
 Nebraska,31025,Cass,025
 Nebraska,31037,Colfax,037
-Nebraska,31157,ScottsBluff,157
+Nebraska,31157,Scotts Bluff,157
 Nebraska,31147,Richardson,147
 Nebraska,31177,Washington,177
 Nebraska,31093,Howard,093
@@ -1701,7 +1698,7 @@ Nebraska,31167,Stanton,167
 Nebraska,31035,Clay,035
 Nebraska,31021,Burt,021
 Nebraska,31129,Nuckolls,129
-Nebraska,31013,BoxButte,013
+Nebraska,31013,Box Butte,013
 Nebraska,31097,Johnson,097
 Nebraska,31127,Nemaha,127
 Nebraska,31163,Sherman,163
@@ -1719,7 +1716,7 @@ Nebraska,31061,Franklin,061
 Nebraska,31015,Boyd,015
 Nebraska,31077,Greeley,077
 Nebraska,31063,Frontier,063
-Nebraska,31145,RedWillow,145
+Nebraska,31145,Red Willow,145
 Nebraska,31173,Thurston,173
 Nebraska,31083,Harlan,083
 Nebraska,31087,Hitchcock,087
@@ -1738,7 +1735,7 @@ Nebraska,31073,Gosper,073
 Nebraska,31085,Hayes,085
 Nebraska,31049,Deuel,049
 Nebraska,31071,Garfield,071
-Nebraska,31103,KeyaPaha,103
+Nebraska,31103,Keya Paha,103
 Nebraska,31183,Wheeler,183
 Nebraska,31007,Banner,007
 Nebraska,31113,Logan,113
@@ -1759,11 +1756,11 @@ Nevada,32005,Douglas,005
 Nevada,32023,Nye,023
 Nevada,32027,Pershing,027
 Nevada,32017,Lincoln,017
-Nevada,32033,WhitePine,033
+Nevada,32033,White Pine,033
 Nevada,32015,Lander,015
 Nevada,32011,Eureka,011
 Nevada,32021,Mineral,021
-Nevada,32510,Carson,510
+Nevada,32510,Carson City city,510
 Nevada,32009,Esmeralda,009
 Nevada,32029,Storey,029
 New Hampshire,33009,Grafton,009
@@ -1791,17 +1788,17 @@ New Jersey,34021,Mercer,021
 New Jersey,34029,Ocean,029
 New Jersey,34023,Middlesex,023
 New Jersey,34007,Camden,007
-New Jersey,34009,CapeMay,009
+New Jersey,34009,Cape May,009
 New Jersey,34003,Bergen,003
 New Jersey,34031,Passaic,031
 New Jersey,34013,Essex,013
 New Jersey,34039,Union,039
 New Jersey,34017,Hudson,017
-New Mexico,35013,DonaAna,013
-New Mexico,35039,RioArriba,039
+New Mexico,35013,Dona Ana,013
+New Mexico,35039,Rio Arriba,039
 New Mexico,35041,Roosevelt,041
-New Mexico,35047,SanMiguel,047
-New Mexico,35045,SanJuan,045
+New Mexico,35047,San Miguel,047
+New Mexico,35045,San Juan,045
 New Mexico,35061,Valencia,061
 New Mexico,35037,Quay,037
 New Mexico,35009,Curry,009
@@ -1817,7 +1814,7 @@ New Mexico,35033,Mora,033
 New Mexico,35053,Socorro,053
 New Mexico,35027,Lincoln,027
 New Mexico,35043,Sandoval,043
-New Mexico,35049,SantaFe,049
+New Mexico,35049,Santa Fe,049
 New Mexico,35017,Grant,017
 New Mexico,35019,Guadalupe,019
 New Mexico,35007,Colfax,007
@@ -1825,13 +1822,13 @@ New Mexico,35003,Catron,003
 New Mexico,35031,McKinley,031
 New Mexico,35006,Cibola,006
 New Mexico,35021,Harding,021
-New Mexico,35011,DeBaca,011
+New Mexico,35011,De Baca,011
 New Mexico,35051,Sierra,051
 New Mexico,35029,Luna,029
 New Mexico,35023,Hidalgo,023
-New Mexico,35028,LosAlamos,028
+New Mexico,35028,Los Alamos,028
 New York,36013,Chautauqua,013
-New York,36089,St.Lawrence,089
+New York,36089,St. Lawrence,089
 New York,36101,Steuben,101
 New York,36065,Oneida,065
 New York,36029,Erie,029
@@ -1890,7 +1887,7 @@ New York,36041,Hamilton,041
 New York,36047,Kings,047
 New York,36085,Richmond,085
 New York,36005,Bronx,005
-New York,36061,NewYork,061
+New York,36061,New York,061
 New York,36081,Queens,081
 North Carolina,37101,Johnston,101
 North Carolina,37061,Duplin,061
@@ -1990,7 +1987,7 @@ North Carolina,37173,Swain,173
 North Carolina,37029,Camden,029
 North Carolina,37053,Currituck,053
 North Carolina,37137,Pamlico,137
-North Carolina,37129,NewHanover,129
+North Carolina,37129,New Hanover,129
 North Carolina,37055,Dare,055
 North Dakota,38101,Ward,101
 North Dakota,38093,Stutsman,093
@@ -2008,7 +2005,7 @@ North Dakota,38029,Emmons,029
 North Dakota,38061,Mountrail,061
 North Dakota,38053,McKenzie,053
 North Dakota,38019,Cavalier,019
-North Dakota,38035,GrandForks,035
+North Dakota,38035,Grand Forks,035
 North Dakota,38099,Walsh,099
 North Dakota,38045,LaMoure,045
 North Dakota,38025,Dunn,025
@@ -2043,7 +2040,7 @@ North Dakota,38027,Eddy,027
 North Dakota,38031,Foster,031
 North Dakota,38087,Slope,087
 North Dakota,38007,Billings,007
-North Dakota,38033,GoldenValley,033
+North Dakota,38033,Golden Valley,033
 North Dakota,38085,Sioux,085
 Ohio,39037,Darke,037
 Ohio,39169,Wayne,169
@@ -2093,7 +2090,7 @@ Ohio,39057,Greene,057
 Ohio,39091,Logan,091
 Ohio,39117,Morrow,117
 Ohio,39171,Williams,171
-Ohio,39161,VanWert,161
+Ohio,39161,Van Wert,161
 Ohio,39159,Union,159
 Ohio,39033,Crawford,033
 Ohio,39133,Portage,133
@@ -2134,7 +2131,7 @@ Ohio,39085,Lake,085
 Ohio,39163,Vinton,163
 Ohio,39035,Cuyahoga,035
 Oklahoma,40081,Lincoln,081
-Oklahoma,40079,LeFlore,079
+Oklahoma,40079,Le Flore,079
 Oklahoma,40051,Grady,051
 Oklahoma,40121,Pittsburg,121
 Oklahoma,40015,Caddo,015
@@ -2189,7 +2186,7 @@ Oklahoma,40103,Noble,103
 Oklahoma,40127,Pushmataha,127
 Oklahoma,40007,Beaver,007
 Oklahoma,40075,Kiowa,075
-Oklahoma,40129,RogerMills,129
+Oklahoma,40129,Roger Mills,129
 Oklahoma,40147,Washington,147
 Oklahoma,40117,Pawnee,117
 Oklahoma,40043,Dewey,043
@@ -2230,7 +2227,7 @@ Oregon,41003,Benton,003
 Oregon,41033,Josephine,033
 Oregon,41051,Multnomah,051
 Oregon,41001,Baker,001
-Oregon,41027,HoodRiver,027
+Oregon,41027,Hood River,027
 Oregon,41013,Crook,013
 Oregon,41063,Wallowa,063
 Oregon,41065,Wasco,065
@@ -2373,8 +2370,8 @@ South Dakota,46011,Brookings,011
 South Dakota,46109,Roberts,109
 South Dakota,46005,Beadle,005
 South Dakota,46093,Meade,093
-South Dakota,46023,CharlesMix,023
-South Dakota,46009,BonHomme,009
+South Dakota,46023,Charles Mix,023
+South Dakota,46009,Bon Homme,009
 South Dakota,46037,Day,037
 South Dakota,46135,Yankton,135
 South Dakota,46115,Spink,115
@@ -2415,7 +2412,7 @@ South Dakota,46055,Haakon,055
 South Dakota,46021,Campbell,021
 South Dakota,46071,Jackson,071
 South Dakota,46073,Jerauld,073
-South Dakota,46047,FallRiver,047
+South Dakota,46047,Fall River,047
 South Dakota,46107,Potter,107
 South Dakota,46007,Bennett,007
 South Dakota,46081,Lawrence,081
@@ -2426,7 +2423,7 @@ South Dakota,46065,Hughes,065
 South Dakota,46063,Harding,063
 South Dakota,46121,Todd,121
 South Dakota,46069,Hyde,069
-South Dakota,46113,OglalaLakota,113
+South Dakota,46113,Shannon,113
 South Dakota,46117,Stanley,117
 South Dakota,46075,Jones,075
 South Dakota,46017,Buffalo,017
@@ -2520,14 +2517,14 @@ Tennessee,47139,Polk,139
 Tennessee,47171,Unicoi,171
 Tennessee,47083,Houston,083
 Tennessee,47151,Scott,151
-Tennessee,47175,VanBuren,175
+Tennessee,47175,Van Buren,175
 Tennessee,47135,Perry,135
 Tennessee,47101,Lewis,101
 Tennessee,47153,Sequatchie,153
 Tennessee,47095,Lake,095
 Texas,48149,Fayette,149
 Texas,48285,Lavaca,285
-Texas,48467,VanZandt,467
+Texas,48467,Van Zandt,467
 Texas,48367,Parker,367
 Texas,48231,Hunt,231
 Texas,48477,Washington,477
@@ -2580,7 +2577,7 @@ Texas,48013,Atascosa,013
 Texas,48293,Limestone,293
 Texas,48347,Nacogdoches,347
 Texas,48337,Montague,337
-Texas,48157,FortBend,157
+Texas,48157,Fort Bend,157
 Texas,48481,Wharton,481
 Texas,48133,Eastland,133
 Texas,48049,Brown,049
@@ -2598,7 +2595,7 @@ Texas,48041,Brazos,041
 Texas,48439,Tarrant,439
 Texas,48053,Burnet,053
 Texas,48055,Caldwell,055
-Texas,48387,RedRiver,387
+Texas,48387,Red River,387
 Texas,48131,Duval,131
 Texas,48339,Montgomery,339
 Texas,48193,Hamilton,193
@@ -2610,12 +2607,12 @@ Texas,48067,Cass,067
 Texas,48365,Panola,365
 Texas,48061,Cameron,061
 Texas,48399,Runnels,399
-Texas,48451,TomGreen,451
+Texas,48451,Tom Green,451
 Texas,48077,Clay,077
 Texas,48313,Madison,313
 Texas,48253,Jones,253
 Texas,48059,Callahan,059
-Texas,48363,PaloPinto,363
+Texas,48363,Palo Pinto,363
 Texas,48471,Walker,471
 Texas,48083,Coleman,083
 Texas,48449,Titus,449
@@ -2624,10 +2621,10 @@ Texas,48239,Jackson,239
 Texas,48005,Angelina,005
 Texas,48209,Hays,209
 Texas,48281,Lampasas,281
-Texas,48297,LiveOak,297
+Texas,48297,Live Oak,297
 Texas,48189,Hale,189
 Texas,48333,Mills,333
-Texas,48249,JimWells,249
+Texas,48249,Jim Wells,249
 Texas,48321,Matagorda,321
 Texas,48113,Dallas,113
 Texas,48237,Jack,237
@@ -2637,7 +2634,7 @@ Texas,48259,Kendall,259
 Texas,48025,Bee,025
 Texas,48503,Young,503
 Texas,48091,Comal,091
-Texas,48411,SanSaba,411
+Texas,48411,San Saba,411
 Texas,48265,Kerr,265
 Texas,48279,Lamb,279
 Texas,48415,Scurry,415
@@ -2650,7 +2647,7 @@ Texas,48165,Gaines,165
 Texas,48151,Fisher,151
 Texas,48373,Polk,373
 Texas,48455,Trinity,455
-Texas,48117,DeafSmith,117
+Texas,48117,Deaf Smith,117
 Texas,48307,McCulloch,307
 Texas,48319,Mason,319
 Texas,48219,Hockley,219
@@ -2679,8 +2676,8 @@ Texas,48353,Nolan,353
 Texas,48115,Dawson,115
 Texas,48069,Castro,069
 Texas,48009,Archer,009
-Texas,48141,ElPaso,141
-Texas,48409,SanPatricio,409
+Texas,48141,El Paso,141
+Texas,48409,San Patricio,409
 Texas,48119,Delta,119
 Texas,48095,Concho,095
 Texas,48343,Morris,343
@@ -2688,7 +2685,7 @@ Texas,48479,Webb,479
 Texas,48017,Bailey,017
 Texas,48081,Coke,081
 Texas,48335,Mitchell,335
-Texas,48407,SanJacinto,407
+Texas,48407,San Jacinto,407
 Texas,48357,Ochiltree,357
 Texas,48227,Howard,227
 Texas,48433,Stonewall,433
@@ -2696,7 +2693,7 @@ Texas,48065,Carson,065
 Texas,48107,Crosby,107
 Texas,48129,Donley,129
 Texas,48505,Zapata,505
-Texas,48405,SanAugustine,405
+Texas,48405,San Augustine,405
 Texas,48199,Hardin,199
 Texas,48071,Chambers,071
 Texas,48183,Gregg,183
@@ -2724,7 +2721,7 @@ Texas,48137,Edwards,137
 Texas,48075,Childress,075
 Texas,48371,Pecos,371
 Texas,48273,Kleberg,273
-Texas,48283,LaSalle,283
+Texas,48283,La Salle,283
 Texas,48045,Briscoe,045
 Texas,48195,Hansford,195
 Texas,48489,Willacy,489
@@ -2736,7 +2733,7 @@ Texas,48417,Shackelford,417
 Texas,48011,Armstrong,011
 Texas,48079,Cochran,079
 Texas,48311,McMullen,311
-Texas,48465,ValVerde,465
+Texas,48465,Val Verde,465
 Texas,48403,Sabine,403
 Texas,48507,Zavala,507
 Texas,48315,Marion,315
@@ -2748,7 +2745,7 @@ Texas,48155,Foard,155
 Texas,48173,Glasscock,173
 Texas,48435,Sutton,435
 Texas,48345,Motley,345
-Texas,48247,JimHogg,247
+Texas,48247,Jim Hogg,247
 Texas,48323,Maverick,323
 Texas,48205,Hartley,205
 Texas,48101,Cottle,101
@@ -2771,7 +2768,7 @@ Texas,48443,Terrell,443
 Texas,48383,Reagan,383
 Texas,48475,Ward,475
 Texas,48109,Culberson,109
-Texas,48243,JeffDavis,243
+Texas,48243,Jeff Davis,243
 Texas,48431,Sterling,431
 Texas,48103,Crane,103
 Texas,48007,Aransas,007
@@ -2781,11 +2778,11 @@ Texas,48495,Winkler,495
 Texas,48301,Loving,301
 Utah,49049,Utah,049
 Utah,49005,Cache,005
-Utah,49003,BoxElder,003
+Utah,49003,Box Elder,003
 Utah,49057,Weber,057
 Utah,49013,Duchesne,013
 Utah,49047,Uintah,047
-Utah,49035,SaltLake,035
+Utah,49035,Salt Lake,035
 Utah,49039,Sanpete,039
 Utah,49027,Millard,027
 Utah,49011,Davis,011
@@ -2799,7 +2796,7 @@ Utah,49051,Wasatch,051
 Utah,49029,Morgan,029
 Utah,49017,Garfield,017
 Utah,49001,Beaver,001
-Utah,49037,SanJuan,037
+Utah,49037,San Juan,037
 Utah,49023,Juab,023
 Utah,49007,Carbon,007
 Utah,49055,Wayne,055
@@ -2820,7 +2817,7 @@ Vermont,50023,Washington,023
 Vermont,50025,Windham,025
 Vermont,50015,Lamoille,015
 Vermont,50003,Bennington,003
-Vermont,50013,GrandIsle,013
+Vermont,50013,Grand Isle,013
 Vermont,50009,Essex,009
 Virginia,51191,Washington,191
 Virginia,51165,Rockingham,165
@@ -2867,7 +2864,7 @@ Virginia,51029,Buckingham,029
 Virginia,51021,Bland,021
 Virginia,51025,Brunswick,025
 Virginia,51157,Rappahannock,157
-Virginia,51147,PrinceEdward,147
+Virginia,51147,Prince Edward,147
 Virginia,51135,Nottoway,135
 Virginia,51091,Highland,091
 Virginia,51175,Southampton,175
@@ -2876,7 +2873,7 @@ Virginia,51089,Henry,089
 Virginia,51007,Amelia,007
 Virginia,51161,Roanoke,161
 Virginia,51065,Fluvanna,065
-Virginia,51153,PrinceWilliam,153
+Virginia,51153,Prince William,153
 Virginia,51177,Spotsylvania,177
 Virginia,51800,Suffolk,800
 Virginia,51001,Accomack,001
@@ -2885,53 +2882,53 @@ Virginia,51075,Goochland,075
 Virginia,51079,Greene,079
 Virginia,51187,Warren,187
 Virginia,51145,Powhatan,145
-Virginia,51093,IsleofWight,093
+Virginia,51093,Isle of Wight,093
 Virginia,51033,Caroline,033
 Virginia,51045,Craig,045
 Virginia,51179,Stafford,179
 Virginia,51550,Chesapeake,550
 Virginia,51005,Alleghany,005
 Virginia,51131,Northampton,131
-Virginia,51149,PrinceGeorge,149
+Virginia,51149,Prince George,149
 Virginia,51081,Greensville,081
 Virginia,51183,Sussex,183
-Virginia,51810,VirginiaBeach,810
+Virginia,51810,Virginia Beach,810
 Virginia,51087,Henrico,087
-Virginia,51097,KingandQueen,097
+Virginia,51097,King and Queen,097
 Virginia,51041,Chesterfield,041
 Virginia,51159,Richmond,159
 Virginia,51193,Westmoreland,193
 Virginia,51195,Wise,195
 Virginia,51059,Fairfax,059
-Virginia,51099,KingGeorge,099
+Virginia,51099,King George,099
 Virginia,51133,Northumberland,133
 Virginia,51017,Bath,017
 Virginia,51057,Essex,057
-Virginia,51101,KingWilliam,101
+Virginia,51101,King William,101
 Virginia,51073,Gloucester,073
 Virginia,51051,Dickenson,051
 Virginia,51027,Buchanan,027
 Virginia,51181,Surry,181
 Virginia,51119,Middlesex,119
 Virginia,51103,Lancaster,103
-Virginia,51127,NewKent,127
-Virginia,51036,Charles,036
+Virginia,51127,New Kent,127
+Virginia,51036,Charles City,036
 Virginia,51115,Mathews,115
-Virginia,51095,James,095
+Virginia,51095,James City,095
 Virginia,51199,York,199
 Virginia,51013,Arlington,013
 Virginia,51510,Alexandria,510
 Virginia,51515,Bedford,515
 Virginia,51520,Bristol,520
-Virginia,51530,BuenaVista,530
+Virginia,51530,Buena Vista,530
 Virginia,51540,Charlottesville,540
-Virginia,51560,CliftonForge,560
-Virginia,51570,ColonialHeights,570
+Virginia,51560,Clifton Forge,560
+Virginia,51570,Colonial Heights,570
 Virginia,51580,Covington,580
 Virginia,51590,Danville,590
 Virginia,51595,Emporia,595
 Virginia,51600,Fairfax,600
-Virginia,51610,FallsChurch,610
+Virginia,51610,Falls Church,610
 Virginia,51620,Franklin,620
 Virginia,51630,Fredericksburg,630
 Virginia,51640,Galax,640
@@ -2941,9 +2938,9 @@ Virginia,51670,Hopewell,670
 Virginia,51678,Lexington,678
 Virginia,51680,Lynchburg,680
 Virginia,51683,Manassas,683
-Virginia,51685,ManassasPark,685
+Virginia,51685,Manassas Park,685
 Virginia,51690,Martinsville,690
-Virginia,51700,NewportNews,700
+Virginia,51700,Newport News,700
 Virginia,51710,Norfolk,710
 Virginia,51720,Norton,720
 Virginia,51730,Petersburg,730
@@ -2953,7 +2950,7 @@ Virginia,51750,Radford,750
 Virginia,51760,Richmond,760
 Virginia,51770,Roanoke,770
 Virginia,51775,Salem,775
-Virginia,51780,SouthBoston,780
+Virginia,51780,South Boston,780
 Virginia,51790,Staunton,790
 Virginia,51820,Waynesboro,820
 Virginia,51830,Williamsburg,830
@@ -2977,20 +2974,20 @@ Washington,53037,Kittitas,037
 Washington,53017,Douglas,017
 Washington,53021,Franklin,021
 Washington,53057,Skagit,057
-Washington,53071,WallaWalla,071
+Washington,53071,Walla Walla,071
 Washington,53043,Lincoln,043
 Washington,53039,Klickitat,039
 Washington,53001,Adams,001
 Washington,53015,Cowlitz,015
-Washington,53027,GraysHarbor,027
+Washington,53027,Grays Harbor,027
 Washington,53035,Kitsap,035
 Washington,53009,Clallam,009
 Washington,53029,Island,029
 Washington,53049,Pacific,049
-Washington,53051,PendOreille,051
+Washington,53051,Pend Oreille,051
 Washington,53019,Ferry,019
 Washington,53013,Columbia,013
-Washington,53055,SanJuan,055
+Washington,53055,San Juan,055
 Washington,53045,Mason,045
 Washington,53023,Garfield,023
 Washington,53031,Jefferson,031
@@ -3062,13 +3059,13 @@ Wisconsin,55017,Chippewa,017
 Wisconsin,55005,Barron,005
 Wisconsin,55081,Monroe,081
 Wisconsin,55115,Shawano,115
-Wisconsin,55039,FondduLac,039
+Wisconsin,55039,Fond du Lac,039
 Wisconsin,55021,Columbia,021
 Wisconsin,55095,Polk,095
 Wisconsin,55121,Trempealeau,121
 Wisconsin,55033,Dunn,033
 Wisconsin,55087,Outagamie,087
-Wisconsin,55109,St.Croix,109
+Wisconsin,55109,St. Croix,109
 Wisconsin,55071,Manitowoc,071
 Wisconsin,55111,Sauk,111
 Wisconsin,55105,Rock,105
@@ -3086,7 +3083,7 @@ Wisconsin,55119,Taylor,119
 Wisconsin,55083,Oconto,083
 Wisconsin,55023,Crawford,023
 Wisconsin,55011,Buffalo,011
-Wisconsin,55035,EauClaire,035
+Wisconsin,55035,Eau Claire,035
 Wisconsin,55097,Portage,097
 Wisconsin,55061,Kewaunee,061
 Wisconsin,55139,Winnebago,139
@@ -3094,11 +3091,11 @@ Wisconsin,55131,Washington,131
 Wisconsin,55029,Door,029
 Wisconsin,55127,Walworth,127
 Wisconsin,55015,Calumet,015
-Wisconsin,55063,LaCrosse,063
+Wisconsin,55063,La Crosse,063
 Wisconsin,55053,Jackson,053
 Wisconsin,55057,Juneau,057
 Wisconsin,55107,Rusk,107
-Wisconsin,55047,GreenLake,047
+Wisconsin,55047,Green Lake,047
 Wisconsin,55133,Waukesha,133
 Wisconsin,55075,Marinette,075
 Wisconsin,55137,Waushara,137
@@ -3129,7 +3126,7 @@ Wyoming,56015,Goshen,015
 Wyoming,56029,Park,029
 Wyoming,56021,Laramie,021
 Wyoming,56033,Sheridan,033
-Wyoming,56003,BigHorn,003
+Wyoming,56003,Big Horn,003
 Wyoming,56023,Lincoln,023
 Wyoming,56005,Campbell,005
 Wyoming,56031,Platte,031
@@ -3145,5 +3142,5 @@ Wyoming,56007,Carbon,007
 Wyoming,56035,Sublette,035
 Wyoming,56043,Washakie,043
 Wyoming,56037,Sweetwater,037
-Wyoming,56017,HotSprings,017
+Wyoming,56017,Hot Springs,017
 Wyoming,56039,Teton,039

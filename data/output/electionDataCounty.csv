@@ -1,0 +1,4652 @@
+state,county,party_x,DEM_votes,party_y,REP_votes
+Delaware,Kent,REP,41009,DEM,44552
+Delaware,New Castle,REP,88364,DEM,195034
+Delaware,Sussex,REP,71230,DEM,56682
+District of Columbia,District of Columbia,REP,1703,DEM,38037
+District of Columbia,Ward 2,REP,2874,DEM,28185
+District of Columbia,Ward 3,REP,3638,DEM,38436
+District of Columbia,Ward 4,REP,1885,DEM,41604
+District of Columbia,Ward 5,REP,1725,DEM,42453
+District of Columbia,Ward 6,REP,4176,DEM,52357
+District of Columbia,Ward 7,REP,1116,DEM,35861
+District of Columbia,Ward 8,REP,1055,DEM,30332
+Florida,Alachua,REP,50891,DEM,89527
+Florida,Baker,REP,11911,DEM,2037
+Florida,Bay,REP,66063,DEM,25572
+Florida,Bradford,REP,10334,DEM,3160
+Florida,Brevard,REP,207857,DEM,148479
+Florida,Broward,REP,333346,DEM,618597
+Florida,Calhoun,REP,5274,DEM,1209
+Florida,Charlotte,REP,73202,DEM,42240
+Florida,Citrus,REP,65348,DEM,27088
+Florida,Clay,REP,84470,DEM,38294
+Florida,Collier,REP,128936,DEM,77595
+Florida,Columbia,REP,23835,DEM,8912
+Florida,DeSoto,REP,8313,DEM,4259
+Florida,Dixie,REP,6758,DEM,1364
+Florida,Duval,REP,233687,DEM,252450
+Florida,Escambia,REP,96655,DEM,70893
+Florida,Flagler,REP,43039,DEM,28148
+Florida,Franklin,REP,4675,DEM,2118
+Florida,Gadsden,REP,7465,DEM,16152
+Florida,Gilchrist,REP,7895,DEM,1700
+Florida,Glades,REP,3781,DEM,1384
+Florida,Gulf,REP,6113,DEM,1985
+Florida,Hamilton,REP,3815,DEM,1963
+Florida,Hardee,REP,6122,DEM,2298
+Florida,Hendry,REP,7904,DEM,4929
+Florida,Hernando,REP,70321,DEM,37446
+Florida,Highlands,REP,34846,DEM,16917
+Florida,Hillsborough,REP,327306,DEM,376196
+Florida,Holmes,REP,8079,DEM,924
+Florida,Indian River,REP,58870,DEM,37843
+Florida,Jackson,REP,15488,DEM,6766
+Florida,Jefferson,REP,4478,DEM,3895
+Florida,Lafayette,REP,3128,DEM,509
+Florida,Lake,REP,125853,DEM,83491
+Florida,Lee,REP,233242,DEM,157672
+Florida,Leon,REP,57446,DEM,103492
+Florida,Levy,REP,16746,DEM,6203
+Florida,Liberty,REP,2846,DEM,693
+Florida,Madison,REP,5576,DEM,3747
+Florida,Manatee,REP,124966,DEM,90127
+Florida,Marion,REP,127825,DEM,74848
+Florida,Martin,REP,61152,DEM,36878
+Florida,Miami-Dade,REP,532734,DEM,617647
+Florida,Monroe,REP,25688,DEM,21864
+Florida,Nassau,REP,42563,DEM,15561
+Florida,Okaloosa,REP,79771,DEM,34227
+Florida,Okeechobee,REP,11470,DEM,4389
+Florida,Orange,REP,245325,DEM,394857
+Florida,Osceola,REP,73467,DEM,97278
+Florida,Palm Beach,REP,334642,DEM,433392
+Florida,Pasco,REP,179545,DEM,118918
+Florida,Pinellas,REP,276191,DEM,277397
+Florida,Polk,REP,194571,DEM,145022
+Florida,Putnam,REP,25514,DEM,10524
+Florida,St. Johns,REP,110886,DEM,63808
+Florida,St. Lucie,REP,86825,DEM,84115
+Florida,Santa Rosa,REP,77349,DEM,27582
+Florida,Sarasota,REP,148323,DEM,120050
+Florida,Seminole,REP,125217,DEM,132486
+Florida,Sumter,REP,62757,DEM,29331
+Florida,Suwannee,REP,16410,DEM,4485
+Florida,Taylor,REP,7748,DEM,2299
+Florida,Union,REP,5133,DEM,1053
+Florida,Volusia,REP,173797,DEM,130451
+Florida,Wakulla,REP,12873,DEM,5348
+Florida,Walton,REP,32942,DEM,10336
+Florida,Washington,REP,9876,DEM,2347
+Georgia,Appling,REP,6526,DEM,1779
+Georgia,Atkinson,REP,2300,DEM,825
+Georgia,Bacon,REP,4018,DEM,625
+Georgia,Baker,REP,897,DEM,652
+Georgia,Baldwin,REP,8903,DEM,9140
+Georgia,Banks,REP,7795,DEM,932
+Georgia,Barrow,REP,26804,DEM,10453
+Georgia,Bartow,REP,37674,DEM,12092
+Georgia,Ben Hill,REP,4110,DEM,2392
+Georgia,Berrien,REP,6419,DEM,1269
+Georgia,Bibb,REP,26585,DEM,43468
+Georgia,Bleckley,REP,4328,DEM,1311
+Georgia,Brantley,REP,6991,DEM,699
+Georgia,Brooks,REP,4260,DEM,2790
+Georgia,Bryan,REP,14244,DEM,6739
+Georgia,Bulloch,REP,18386,DEM,11243
+Georgia,Burke,REP,5400,DEM,5209
+Georgia,Butts,REP,8405,DEM,3272
+Georgia,Calhoun,REP,923,DEM,1260
+Georgia,Camden,REP,15251,DEM,7967
+Georgia,Candler,REP,3134,DEM,1269
+Georgia,Carroll,REP,37476,DEM,16238
+Georgia,Catoosa,REP,25167,DEM,6932
+Georgia,Charlton,REP,3419,DEM,1103
+Georgia,Chatham,REP,53288,DEM,78369
+Georgia,Chattahoochee,REP,880,DEM,667
+Georgia,Chattooga,REP,8064,DEM,1854
+Georgia,Cherokee,REP,99587,DEM,42794
+Georgia,Clarke,REP,14446,DEM,36048
+Georgia,Clay,REP,637,DEM,790
+Georgia,Clayton,REP,15813,DEM,95476
+Georgia,Clinch,REP,2105,DEM,747
+Georgia,Cobb,REP,165459,DEM,221846
+Georgia,Coffee,REP,10578,DEM,4511
+Georgia,Colquitt,REP,11777,DEM,4187
+Georgia,Columbia,REP,50013,DEM,29236
+Georgia,Cook,REP,4900,DEM,2059
+Georgia,Coweta,REP,51501,DEM,24210
+Georgia,Crawford,REP,4428,DEM,1615
+Georgia,Crisp,REP,4987,DEM,2986
+Georgia,Dade,REP,6066,DEM,1261
+Georgia,Dawson,REP,13398,DEM,2486
+Georgia,Decatur,REP,6758,DEM,4780
+Georgia,DeKalb,REP,58369,DEM,308140
+Georgia,Dodge,REP,5843,DEM,2171
+Georgia,Dooly,REP,2159,DEM,1911
+Georgia,Dougherty,REP,10449,DEM,24579
+Georgia,Douglas,REP,25323,DEM,42653
+Georgia,Early,REP,2722,DEM,2437
+Georgia,Echols,REP,1256,DEM,167
+Georgia,Effingham,REP,23357,DEM,7720
+Georgia,Elbert,REP,6226,DEM,2879
+Georgia,Emanuel,REP,6551,DEM,2884
+Georgia,Evans,REP,2888,DEM,1324
+Georgia,Fannin,REP,12169,DEM,2571
+Georgia,Fayette,REP,36375,DEM,31937
+Georgia,Floyd,REP,27120,DEM,10972
+Georgia,Forsyth,REP,85122,DEM,42203
+Georgia,Franklin,REP,9069,DEM,1593
+Georgia,Fulton,REP,137240,DEM,381144
+Georgia,Gilmer,REP,13429,DEM,2932
+Georgia,Glascock,REP,1403,DEM,155
+Georgia,Glynn,REP,25616,DEM,15879
+Georgia,Gordon,REP,19405,DEM,4384
+Georgia,Grady,REP,7034,DEM,3619
+Georgia,Greene,REP,7068,DEM,4088
+Georgia,Gwinnett,REP,166413,DEM,241827
+Georgia,Habersham,REP,16637,DEM,3563
+Georgia,Hall,REP,64170,DEM,25031
+Georgia,Hancock,REP,1159,DEM,2985
+Georgia,Haralson,REP,12331,DEM,1792
+Georgia,Harris,REP,14319,DEM,5457
+Georgia,Hart,REP,9464,DEM,3157
+Georgia,Heard,REP,4516,DEM,824
+Georgia,Henry,REP,48187,DEM,73276
+Georgia,Houston,REP,41534,DEM,32232
+Georgia,Irwin,REP,3134,DEM,1008
+Georgia,Jackson,REP,29497,DEM,7642
+Georgia,Jasper,REP,5822,DEM,1761
+Georgia,Jeff Davis,REP,4695,DEM,1028
+Georgia,Jefferson,REP,3537,DEM,4061
+Georgia,Jenkins,REP,2161,DEM,1266
+Georgia,Johnson,REP,2850,DEM,1222
+Georgia,Jones,REP,9965,DEM,4888
+Georgia,Lamar,REP,6330,DEM,2615
+Georgia,Lanier,REP,2509,DEM,1019
+Georgia,Laurens,REP,14493,DEM,8073
+Georgia,Lee,REP,12007,DEM,4558
+Georgia,Liberty,REP,7944,DEM,13051
+Georgia,Lincoln,REP,3179,DEM,1435
+Georgia,Long,REP,3528,DEM,2033
+Georgia,Lowndes,REP,25691,DEM,20117
+Georgia,Lumpkin,REP,12163,DEM,3126
+Georgia,McDuffie,REP,6169,DEM,4168
+Georgia,McIntosh,REP,4016,DEM,2612
+Georgia,Macon,REP,1783,DEM,2857
+Georgia,Madison,REP,11326,DEM,3411
+Georgia,Marion,REP,2275,DEM,1311
+Georgia,Meriwether,REP,6524,DEM,4287
+Georgia,Miller,REP,2066,DEM,749
+Georgia,Mitchell,REP,4935,DEM,3995
+Georgia,Monroe,REP,11060,DEM,4384
+Georgia,Montgomery,REP,2960,DEM,979
+Georgia,Morgan,REP,8230,DEM,3355
+Georgia,Murray,REP,12943,DEM,2302
+Georgia,Muscogee,REP,30049,DEM,49529
+Georgia,Newton,REP,23869,DEM,29794
+Georgia,Oconee,REP,16595,DEM,8162
+Georgia,Oglethorpe,REP,5593,DEM,2436
+Georgia,Paulding,REP,54525,DEM,29704
+Georgia,Peach,REP,6502,DEM,5920
+Georgia,Pickens,REP,14075,DEM,2808
+Georgia,Pierce,REP,7899,DEM,1100
+Georgia,Pike,REP,9127,DEM,1505
+Georgia,Polk,REP,13589,DEM,3658
+Georgia,Pulaski,REP,2805,DEM,1217
+Georgia,Putnam,REP,8291,DEM,3448
+Georgia,Quitman,REP,604,DEM,497
+Georgia,Rabun,REP,7474,DEM,1984
+Georgia,Randolph,REP,1391,DEM,1671
+Georgia,Richmond,REP,26781,DEM,59124
+Georgia,Rockdale,REP,13012,DEM,31244
+Georgia,Schley,REP,1800,DEM,462
+Georgia,Screven,REP,3916,DEM,2661
+Georgia,Seminole,REP,2611,DEM,1254
+Georgia,Spalding,REP,18057,DEM,11784
+Georgia,Stephens,REP,9368,DEM,2385
+Georgia,Stewart,REP,801,DEM,1182
+Georgia,Sumter,REP,5732,DEM,6318
+Georgia,Talbot,REP,1392,DEM,2114
+Georgia,Taliaferro,REP,360,DEM,561
+Georgia,Tattnall,REP,6053,DEM,2061
+Georgia,Taylor,REP,2418,DEM,1387
+Georgia,Telfair,REP,2825,DEM,1487
+Georgia,Terrell,REP,2004,DEM,2376
+Georgia,Thomas,REP,12954,DEM,8708
+Georgia,Tift,REP,10784,DEM,5322
+Georgia,Toombs,REP,7872,DEM,2939
+Georgia,Towns,REP,6384,DEM,1550
+Georgia,Treutlen,REP,2101,DEM,952
+Georgia,Troup,REP,18146,DEM,11585
+Georgia,Turner,REP,2349,DEM,1410
+Georgia,Twiggs,REP,2370,DEM,2044
+Georgia,Union,REP,12651,DEM,2801
+Georgia,Upson,REP,8608,DEM,4201
+Georgia,Walker,REP,23174,DEM,5769
+Georgia,Walton,REP,37617,DEM,12634
+Georgia,Ware,REP,9930,DEM,4249
+Georgia,Warren,REP,1177,DEM,1488
+Georgia,Washington,REP,4663,DEM,4730
+Georgia,Wayne,REP,9987,DEM,2687
+Georgia,Webster,REP,748,DEM,639
+Georgia,Wheeler,REP,1583,DEM,689
+Georgia,White,REP,12222,DEM,2411
+Georgia,Whitfield,REP,25636,DEM,10670
+Georgia,Wilcox,REP,2403,DEM,862
+Georgia,Wilkes,REP,2823,DEM,2159
+Georgia,Wilkinson,REP,2664,DEM,2075
+Georgia,Worth,REP,6831,DEM,2395
+Hawaii,Hawaii,REP,26851,DEM,58683
+Hawaii,Honolulu,REP,136259,DEM,238869
+Hawaii,Kauai,REP,11579,DEM,21217
+Hawaii,Maui,REP,22111,DEM,47301
+Idaho,Ada,REP,130699,DEM,120539
+Idaho,Adams,REP,1941,DEM,591
+Idaho,Bannock,REP,23331,DEM,14682
+Idaho,Bear Lake,REP,2914,DEM,350
+Idaho,Benewah,REP,3878,DEM,977
+Idaho,Bingham,REP,15295,DEM,4124
+Idaho,Blaine,REP,4031,DEM,8919
+Idaho,Boise,REP,3495,DEM,1214
+Idaho,Bonner,REP,18369,DEM,8310
+Idaho,Bonneville,REP,37805,DEM,14254
+Idaho,Boundary,REP,4937,DEM,1220
+Idaho,Butte,REP,1202,DEM,188
+Idaho,Camas,REP,507,DEM,149
+Idaho,Canyon,REP,61759,DEM,25881
+Idaho,Caribou,REP,2906,DEM,431
+Idaho,Cassia,REP,7907,DEM,1464
+Idaho,Clark,REP,264,DEM,41
+Idaho,Clearwater,REP,3453,DEM,877
+Idaho,Custer,REP,2089,DEM,603
+Idaho,Elmore,REP,7246,DEM,2601
+Idaho,Franklin,REP,5845,DEM,657
+Idaho,Fremont,REP,5548,DEM,998
+Idaho,Gem,REP,7951,DEM,1803
+Idaho,Gooding,REP,4659,DEM,1256
+Idaho,Idaho,REP,7826,DEM,1561
+Idaho,Jefferson,REP,12099,DEM,1661
+Idaho,Jerome,REP,5734,DEM,1893
+Idaho,Kootenai,REP,62837,DEM,24312
+Idaho,Latah,REP,9472,DEM,10236
+Idaho,Lemhi,REP,3592,DEM,1032
+Idaho,Lewis,REP,1489,DEM,349
+Idaho,Lincoln,REP,1469,DEM,414
+Idaho,Madison,REP,13559,DEM,2666
+Idaho,Minidoka,REP,6265,DEM,1550
+Idaho,Nez Perce,REP,13738,DEM,6686
+Idaho,Oneida,REP,2148,DEM,249
+Idaho,Owyhee,REP,3819,DEM,816
+Idaho,Payette,REP,8862,DEM,2161
+Idaho,Power,REP,2116,DEM,865
+Idaho,Shoshone,REP,4216,DEM,1693
+Idaho,Teton,REP,2858,DEM,3318
+Idaho,Twin Falls,REP,25897,DEM,9391
+Idaho,Valley,REP,3947,DEM,2976
+Idaho,Washington,REP,4154,DEM,1073
+Illinois,Adams,REP,24131,DEM,8569
+Illinois,Alexander,REP,3056,DEM,2522
+Illinois,Bond,REP,5612,DEM,2275
+Illinois,Boone,REP,13762,DEM,10372
+Illinois,Brown,REP,1930,DEM,485
+Illinois,Bureau,REP,10296,DEM,6545
+Illinois,Calhoun,REP,2043,DEM,674
+Illinois,Carroll,REP,5098,DEM,2737
+Illinois,Cass,REP,3624,DEM,1615
+Illinois,Champaign,REP,34774,DEM,55173
+Illinois,Christian,REP,11505,DEM,4286
+Illinois,Clark,REP,6215,DEM,1990
+Illinois,Clay,REP,5626,DEM,1129
+Illinois,Clinton,REP,14264,DEM,4459
+Illinois,Coles,REP,13981,DEM,7997
+Illinois,Cook,REP,546789,DEM,1682455
+Illinois,Crawford,REP,7025,DEM,2198
+Illinois,Cumberland,REP,4595,DEM,1141
+Illinois,DeKalb,REP,21818,DEM,24484
+Illinois,De Witt,REP,5623,DEM,2171
+Illinois,Douglas,REP,6221,DEM,2327
+Illinois,DuPage,REP,192426,DEM,279251
+Illinois,Edgar,REP,6169,DEM,1869
+Illinois,Edwards,REP,2833,DEM,488
+Illinois,Effingham,REP,14983,DEM,3700
+Illinois,Fayette,REP,8025,DEM,1815
+Illinois,Ford,REP,4956,DEM,1691
+Illinois,Franklin,REP,13514,DEM,4690
+Illinois,Fulton,REP,9798,DEM,6371
+Illinois,Gallatin,REP,2019,DEM,621
+Illinois,Greene,REP,4767,DEM,1349
+Illinois,Grundy,REP,16372,DEM,9445
+Illinois,Hamilton,REP,3429,DEM,821
+Illinois,Hancock,REP,5309,DEM,1114
+Illinois,Hardin,REP,0,DEM,0
+Illinois,Henderson,REP,2391,DEM,1186
+Illinois,Henry,REP,15266,DEM,9762
+Illinois,Iroquois,REP,10858,DEM,2895
+Illinois,Jackson,REP,10835,DEM,11104
+Illinois,Jasper,REP,4492,DEM,1006
+Illinois,Jefferson,REP,12461,DEM,4597
+Illinois,Jersey,REP,8699,DEM,2956
+Illinois,Jo Daviess,REP,7161,DEM,5097
+Illinois,Johnson,REP,5052,DEM,1280
+Illinois,Kane,REP,96771,DEM,130143
+Illinois,Kankakee,REP,28410,DEM,20112
+Illinois,Kendall,REP,28515,DEM,31394
+Illinois,Knox,REP,11818,DEM,10421
+Illinois,Lake,REP,120938,DEM,196479
+Illinois,LaSalle,REP,29482,DEM,21491
+Illinois,Lawrence,REP,4849,DEM,1414
+Illinois,Lee,REP,9584,DEM,6368
+Illinois,Livingston,REP,12134,DEM,4568
+Illinois,Logan,REP,9042,DEM,3769
+Illinois,McDonough,REP,7009,DEM,4973
+Illinois,McHenry,REP,81479,DEM,77208
+Illinois,McLean,REP,40365,DEM,43719
+Illinois,Macon,REP,28373,DEM,19633
+Illinois,Macoupin,REP,16058,DEM,7313
+Illinois,Madison,REP,75272,DEM,56845
+Illinois,Marion,REP,12540,DEM,4396
+Illinois,Marshall,REP,4196,DEM,2004
+Illinois,Mason,REP,4645,DEM,1984
+Illinois,Massac,REP,4989,DEM,1719
+Illinois,Menard,REP,4722,DEM,2003
+Illinois,Mercer,REP,5328,DEM,3212
+Illinois,Monroe,REP,14046,DEM,6489
+Illinois,Montgomery,REP,9504,DEM,3889
+Illinois,Morgan,REP,9903,DEM,5020
+Illinois,Moultrie,REP,4938,DEM,1645
+Illinois,Ogle,REP,16092,DEM,9300
+Illinois,Peoria,REP,37612,DEM,42600
+Illinois,Perry,REP,7305,DEM,2609
+Illinois,Piatt,REP,6219,DEM,3302
+Illinois,Pike,REP,6235,DEM,1458
+Illinois,Pope,REP,1720,DEM,432
+Illinois,Pulaski,REP,1699,DEM,891
+Illinois,Putnam,REP,1978,DEM,1309
+Illinois,Randolph,REP,11065,DEM,3590
+Illinois,Richland,REP,7988,DEM,1355
+Illinois,Rock Island,REP,28585,DEM,36647
+Illinois,St. Clair,REP,56000,DEM,66698
+Illinois,Saline,REP,8096,DEM,2786
+Illinois,Sangamon,REP,53303,DEM,48756
+Illinois,Schuyler,REP,2767,DEM,1064
+Illinois,Scott,REP,2104,DEM,569
+Illinois,Shelby,REP,9396,DEM,2488
+Illinois,Stark,REP,2000,DEM,814
+Illinois,Stephenson,REP,12253,DEM,8756
+Illinois,Tazewell,REP,42194,DEM,24486
+Illinois,Union,REP,6157,DEM,2575
+Illinois,Vermilion,REP,20710,DEM,10313
+Illinois,Wabash,REP,4228,DEM,1248
+Illinois,Warren,REP,4671,DEM,3087
+Illinois,Washington,REP,6110,DEM,1639
+Illinois,Wayne,REP,7172,DEM,1185
+Illinois,White,REP,5788,DEM,1517
+Illinois,Whiteside,REP,14472,DEM,12195
+Illinois,Will,REP,154351,DEM,182957
+Illinois,Williamson,REP,22681,DEM,10107
+Illinois,Winnebago,REP,60592,DEM,58791
+Illinois,Woodford,REP,14590,DEM,5976
+Illinois,Cook Suburbs,REP,367511,DEM,749899
+Indiana,Adams,REP,10685,DEM,3236
+Indiana,Allen,REP,92083,DEM,73189
+Indiana,Bartholomew,REP,22409,DEM,12934
+Indiana,Benton,REP,3007,DEM,1009
+Indiana,Blackford,REP,3838,DEM,1376
+Indiana,Boone,REP,22351,DEM,15244
+Indiana,Brown,REP,5725,DEM,2996
+Indiana,Carroll,REP,7086,DEM,2224
+Indiana,Cass,REP,10552,DEM,4304
+Indiana,Clark,REP,33656,DEM,23088
+Indiana,Clay,REP,9498,DEM,2549
+Indiana,Clinton,REP,9334,DEM,3361
+Indiana,Crawford,REP,3499,DEM,1369
+Indiana,Daviess,REP,9576,DEM,2169
+Indiana,Dearborn,REP,19524,DEM,5444
+Indiana,Decatur,REP,9570,DEM,2436
+Indiana,DeKalb,REP,14237,DEM,4966
+Indiana,Delaware,REP,26724,DEM,20328
+Indiana,Dubois,REP,15032,DEM,6292
+Indiana,Elkhart,REP,46972,DEM,26108
+Indiana,Fayette,REP,7755,DEM,2237
+Indiana,Floyd,REP,23400,DEM,17511
+Indiana,Fountain,REP,6154,DEM,1629
+Indiana,Franklin,REP,9691,DEM,2137
+Indiana,Fulton,REP,6694,DEM,2280
+Indiana,Gibson,REP,11817,DEM,4027
+Indiana,Grant,REP,18543,DEM,8015
+Indiana,Greene,REP,11103,DEM,3389
+Indiana,Hamilton,REP,101587,DEM,88390
+Indiana,Hancock,REP,28825,DEM,12824
+Indiana,Harrison,REP,14565,DEM,5343
+Indiana,Hendricks,REP,53802,DEM,32604
+Indiana,Henry,REP,15043,DEM,5543
+Indiana,Howard,REP,26400,DEM,13270
+Indiana,Huntington,REP,13147,DEM,4255
+Indiana,Jackson,REP,14555,DEM,4302
+Indiana,Jasper,REP,11383,DEM,3798
+Indiana,Jay,REP,6361,DEM,1926
+Indiana,Jefferson,REP,9659,DEM,4731
+Indiana,Jennings,REP,9490,DEM,2523
+Indiana,Johnson,REP,51209,DEM,24729
+Indiana,Knox,REP,11654,DEM,4067
+Indiana,Kosciusko,REP,26476,DEM,8350
+Indiana,LaGrange,REP,8110,DEM,2355
+Indiana,Lake,REP,91733,DEM,124801
+Indiana,LaPorte,REP,25991,DEM,22419
+Indiana,Lawrence,REP,15601,DEM,4961
+Indiana,Madison,REP,31215,DEM,19524
+Indiana,Marion,REP,133968,DEM,247265
+Indiana,Marshall,REP,13844,DEM,5712
+Indiana,Martin,REP,4029,DEM,1011
+Indiana,Miami,REP,10925,DEM,3235
+Indiana,Monroe,REP,22071,DEM,39861
+Indiana,Montgomery,REP,12659,DEM,4213
+Indiana,Morgan,REP,27510,DEM,7777
+Indiana,Newton,REP,4942,DEM,1509
+Indiana,Noble,REP,14195,DEM,4660
+Indiana,Ohio,REP,2392,DEM,750
+Indiana,Orange,REP,6432,DEM,2224
+Indiana,Owen,REP,7285,DEM,2419
+Indiana,Parke,REP,5398,DEM,1503
+Indiana,Perry,REP,5343,DEM,3202
+Indiana,Pike,REP,4692,DEM,1415
+Indiana,Porter,REP,45008,DEM,39746
+Indiana,Posey,REP,9206,DEM,3811
+Indiana,Pulaski,REP,4246,DEM,1463
+Indiana,Putnam,REP,12278,DEM,3946
+Indiana,Randolph,REP,8312,DEM,2512
+Indiana,Ripley,REP,11261,DEM,2774
+Indiana,Rush,REP,6035,DEM,1754
+Indiana,St. Joseph,REP,53152,DEM,59870
+Indiana,Scott,REP,7328,DEM,2698
+Indiana,Shelby,REP,14568,DEM,5023
+Indiana,Spencer,REP,7354,DEM,3208
+Indiana,Starke,REP,7466,DEM,2650
+Indiana,Steuben,REP,11322,DEM,4509
+Indiana,Sullivan,REP,6687,DEM,2153
+Indiana,Switzerland,REP,3133,DEM,964
+Indiana,Tippecanoe,REP,34581,DEM,35017
+Indiana,Tipton,REP,6110,DEM,1834
+Indiana,Union,REP,2687,DEM,736
+Indiana,Vanderburgh,REP,41838,DEM,34404
+Indiana,Vermillion,REP,5184,DEM,2145
+Indiana,Vigo,REP,24512,DEM,18080
+Indiana,Wabash,REP,10762,DEM,3494
+Indiana,Warren,REP,3401,DEM,974
+Indiana,Warrick,REP,21324,DEM,11919
+Indiana,Washington,REP,9114,DEM,2784
+Indiana,Wayne,REP,17567,DEM,9524
+Indiana,Wells,REP,10855,DEM,2928
+Indiana,White,REP,7957,DEM,3032
+Indiana,Whitley,REP,12856,DEM,4233
+Iowa,Adair,REP,2917,DEM,1197
+Iowa,Adams,REP,1528,DEM,590
+Iowa,Allamakee,REP,4733,DEM,2575
+Iowa,Appanoose,REP,4512,DEM,1891
+Iowa,Audubon,REP,2295,DEM,1071
+Iowa,Benton,REP,9179,DEM,5156
+Iowa,Black Hawk,REP,29623,DEM,35621
+Iowa,Boone,REP,8695,DEM,6303
+Iowa,Bremer,REP,8287,DEM,5954
+Iowa,Buchanan,REP,6420,DEM,4169
+Iowa,Buena Vista,REP,5004,DEM,2919
+Iowa,Butler,REP,5542,DEM,2424
+Iowa,Calhoun,REP,3689,DEM,1470
+Iowa,Carroll,REP,7737,DEM,3454
+Iowa,Cass,REP,4969,DEM,2201
+Iowa,Cedar,REP,6161,DEM,4337
+Iowa,Cerro Gordo,REP,12435,DEM,10941
+Iowa,Cherokee,REP,4495,DEM,1936
+Iowa,Chickasaw,REP,4308,DEM,2233
+Iowa,Clarke,REP,3140,DEM,1466
+Iowa,Clay,REP,6137,DEM,2662
+Iowa,Clayton,REP,6106,DEM,3340
+Iowa,Clinton,REP,13349,DEM,10806
+Iowa,Crawford,REP,4854,DEM,2220
+Iowa,Dallas,REP,27987,DEM,26879
+Iowa,Davis,REP,3032,DEM,1013
+Iowa,Decatur,REP,2615,DEM,1120
+Iowa,Delaware,REP,6666,DEM,3157
+Iowa,Des Moines,REP,10589,DEM,8887
+Iowa,Dickinson,REP,7438,DEM,3661
+Iowa,Dubuque,REP,27214,DEM,25655
+Iowa,Emmet,REP,3265,DEM,1520
+Iowa,Fayette,REP,6145,DEM,3834
+Iowa,Floyd,REP,4730,DEM,3168
+Iowa,Franklin,REP,3422,DEM,1626
+Iowa,Fremont,REP,2711,DEM,1078
+Iowa,Greene,REP,3221,DEM,1768
+Iowa,Grundy,REP,4929,DEM,2206
+Iowa,Guthrie,REP,4272,DEM,1985
+Iowa,Hamilton,REP,4956,DEM,2842
+Iowa,Hancock,REP,4390,DEM,1683
+Iowa,Hardin,REP,5850,DEM,2976
+Iowa,Harrison,REP,5569,DEM,2440
+Iowa,Henry,REP,6507,DEM,3275
+Iowa,Howard,REP,3127,DEM,1772
+Iowa,Humboldt,REP,3819,DEM,1442
+Iowa,Ida,REP,2876,DEM,917
+Iowa,Iowa,REP,6009,DEM,3547
+Iowa,Jackson,REP,6940,DEM,4029
+Iowa,Jasper,REP,12082,DEM,7737
+Iowa,Jefferson,REP,4442,DEM,4314
+Iowa,Johnson,REP,22925,DEM,59177
+Iowa,Jones,REP,6572,DEM,4213
+Iowa,Keokuk,REP,3797,DEM,1414
+Iowa,Kossuth,REP,6275,DEM,2696
+Iowa,Lee,REP,9763,DEM,6539
+Iowa,Linn,REP,53098,DEM,70451
+Iowa,Louisa,REP,3500,DEM,1726
+Iowa,Lucas,REP,3287,DEM,1284
+Iowa,Lyon,REP,5707,DEM,1067
+Iowa,Madison,REP,6507,DEM,3134
+Iowa,Mahaska,REP,8297,DEM,2894
+Iowa,Marion,REP,12657,DEM,6170
+Iowa,Marshall,REP,9564,DEM,8171
+Iowa,Mills,REP,5572,DEM,2500
+Iowa,Mitchell,REP,3677,DEM,2053
+Iowa,Monona,REP,3248,DEM,1407
+Iowa,Monroe,REP,2975,DEM,1078
+Iowa,Montgomery,REP,3659,DEM,1583
+Iowa,Muscatine,REP,10823,DEM,9372
+Iowa,O'Brien,REP,5861,DEM,1569
+Iowa,Osceola,REP,2688,DEM,600
+Iowa,Page,REP,5319,DEM,2086
+Iowa,Palo Alto,REP,3370,DEM,1519
+Iowa,Plymouth,REP,10492,DEM,3494
+Iowa,Pocahontas,REP,2825,DEM,932
+Iowa,Polk,REP,106800,DEM,146250
+Iowa,Pottawattamie,REP,26241,DEM,18570
+Iowa,Poweshiek,REP,5657,DEM,4306
+Iowa,Ringgold,REP,1964,DEM,708
+Iowa,Sac,REP,4061,DEM,1389
+Iowa,Scott,REP,43661,DEM,46890
+Iowa,Shelby,REP,4697,DEM,1959
+Iowa,Sioux,REP,15680,DEM,3019
+Iowa,Story,REP,20340,DEM,29175
+Iowa,Tama,REP,5303,DEM,3577
+Iowa,Taylor,REP,2463,DEM,746
+Iowa,Union,REP,4010,DEM,2061
+Iowa,Van Buren,REP,2859,DEM,875
+Iowa,Wapello,REP,9516,DEM,5821
+Iowa,Warren,REP,17738,DEM,12537
+Iowa,Washington,REP,6966,DEM,4558
+Iowa,Wayne,REP,2338,DEM,727
+Iowa,Webster,REP,10927,DEM,6604
+Iowa,Winnebago,REP,3707,DEM,2135
+Iowa,Winneshiek,REP,6235,DEM,5617
+Iowa,Woodbury,REP,25736,DEM,18704
+Iowa,Worth,REP,2738,DEM,1596
+Iowa,Wright,REP,4136,DEM,1996
+Kansas,Allen,REP,4155,DEM,1559
+Kansas,Anderson,REP,2874,DEM,765
+Kansas,Atchison,REP,4826,DEM,2314
+Kansas,Barber,REP,1992,DEM,284
+Kansas,Barton,REP,8480,DEM,2302
+Kansas,Bourbon,REP,4910,DEM,1505
+Kansas,Brown,REP,3206,DEM,1088
+Kansas,Butler,REP,22250,DEM,9003
+Kansas,Chase,REP,1114,DEM,341
+Kansas,Chautauqua,REP,1397,DEM,212
+Kansas,Cherokee,REP,6622,DEM,2163
+Kansas,Cheyenne,REP,1158,DEM,220
+Kansas,Clark,REP,885,DEM,143
+Kansas,Clay,REP,3129,DEM,883
+Kansas,Cloud,REP,3182,DEM,893
+Kansas,Coffey,REP,3407,DEM,928
+Kansas,Comanche,REP,745,DEM,126
+Kansas,Cowley,REP,9442,DEM,4171
+Kansas,Crawford,REP,9752,DEM,5971
+Kansas,Decatur,REP,1232,DEM,208
+Kansas,Dickinson,REP,7045,DEM,2040
+Kansas,Doniphan,REP,2949,DEM,678
+Kansas,Douglas,REP,16737,DEM,39436
+Kansas,Edwards,REP,1127,DEM,267
+Kansas,Elk,REP,1130,DEM,191
+Kansas,Ellis,REP,9569,DEM,3633
+Kansas,Ellsworth,REP,2106,DEM,646
+Kansas,Finney,REP,7079,DEM,4155
+Kansas,Ford,REP,5763,DEM,2926
+Kansas,Franklin,REP,8326,DEM,3623
+Kansas,Geary,REP,5193,DEM,3825
+Kansas,Gove,REP,1256,DEM,163
+Kansas,Graham,REP,1052,DEM,222
+Kansas,Grant,REP,1910,DEM,497
+Kansas,Gray,REP,1871,DEM,337
+Kansas,Greeley,REP,537,DEM,77
+Kansas,Greenwood,REP,2404,DEM,562
+Kansas,Hamilton,REP,684,DEM,134
+Kansas,Harper,REP,2128,DEM,453
+Kansas,Harvey,REP,10015,DEM,6652
+Kansas,Haskell,REP,1103,DEM,261
+Kansas,Hodgeman,REP,866,DEM,151
+Kansas,Jackson,REP,4435,DEM,1852
+Kansas,Jefferson,REP,6193,DEM,3106
+Kansas,Jewell,REP,1369,DEM,211
+Kansas,Johnson,REP,151280,DEM,177925
+Kansas,Kearny,REP,1134,DEM,255
+Kansas,Kingman,REP,3102,DEM,745
+Kansas,Kiowa,REP,957,DEM,153
+Kansas,Labette,REP,5639,DEM,2607
+Kansas,Lane,REP,757,DEM,114
+Kansas,Leavenworth,REP,21378,DEM,13753
+Kansas,Lincoln,REP,1273,DEM,266
+Kansas,Linn,REP,3940,DEM,863
+Kansas,Logan,REP,1231,DEM,185
+Kansas,Lyon,REP,7381,DEM,5878
+Kansas,McPherson,REP,9562,DEM,3977
+Kansas,Marion,REP,4377,DEM,1463
+Kansas,Marshall,REP,3662,DEM,1239
+Kansas,Meade,REP,1508,DEM,261
+Kansas,Miami,REP,12116,DEM,5133
+Kansas,Mitchell,REP,2454,DEM,547
+Kansas,Montgomery,REP,9768,DEM,3147
+Kansas,Morris,REP,2085,DEM,721
+Kansas,Morton,REP,1004,DEM,147
+Kansas,Nemaha,REP,4612,DEM,920
+Kansas,Neosho,REP,4795,DEM,1727
+Kansas,Ness,REP,1315,DEM,147
+Kansas,Norton,REP,1977,DEM,361
+Kansas,Osage,REP,5591,DEM,2099
+Kansas,Osborne,REP,1590,DEM,275
+Kansas,Ottawa,REP,2581,DEM,504
+Kansas,Pawnee,REP,2028,DEM,635
+Kansas,Phillips,REP,2855,DEM,373
+Kansas,Pottawatomie,REP,9247,DEM,3257
+Kansas,Pratt,REP,3087,DEM,924
+Kansas,Rawlins,REP,1253,DEM,214
+Kansas,Reno,REP,17948,DEM,8602
+Kansas,Republic,REP,2172,DEM,420
+Kansas,Rice,REP,3187,DEM,953
+Kansas,Riley,REP,11174,DEM,11940
+Kansas,Rooks,REP,2294,DEM,332
+Kansas,Rush,REP,1425,DEM,291
+Kansas,Russell,REP,2765,DEM,591
+Kansas,Saline,REP,15313,DEM,8022
+Kansas,Scott,REP,1991,DEM,290
+Kansas,Sedgwick,REP,117653,DEM,90820
+Kansas,Seward,REP,3285,DEM,1736
+Kansas,Shawnee,REP,39890,DEM,42032
+Kansas,Sheridan,REP,1237,DEM,144
+Kansas,Sherman,REP,2222,DEM,386
+Kansas,Smith,REP,1734,DEM,328
+Kansas,Stafford,REP,1631,DEM,355
+Kansas,Stanton,REP,607,DEM,147
+Kansas,Stevens,REP,1731,DEM,233
+Kansas,Sumner,REP,7998,DEM,2551
+Kansas,Thomas,REP,3106,DEM,622
+Kansas,Trego,REP,1341,DEM,238
+Kansas,Wabaunsee,REP,2813,DEM,956
+Kansas,Wallace,REP,762,DEM,44
+Kansas,Washington,REP,2332,DEM,467
+Kansas,Wichita,REP,803,DEM,147
+Kansas,Wilson,REP,3111,DEM,711
+Kansas,Woodson,REP,1189,DEM,283
+Kansas,Wyandotte,REP,18512,DEM,35566
+Kentucky,Adair,REP,7275,DEM,1391
+Kentucky,Allen,REP,7586,DEM,1642
+Kentucky,Anderson,REP,9651,DEM,3339
+Kentucky,Ballard,REP,3356,DEM,825
+Kentucky,Barren,REP,14646,DEM,5115
+Kentucky,Bath,REP,3986,DEM,1573
+Kentucky,Bell,REP,8140,DEM,1789
+Kentucky,Boone,REP,44811,DEM,20897
+Kentucky,Bourbon,REP,6190,DEM,3296
+Kentucky,Boyd,REP,14295,DEM,7083
+Kentucky,Boyle,REP,8872,DEM,5298
+Kentucky,Bracken,REP,3397,DEM,799
+Kentucky,Breathitt,REP,4265,DEM,1301
+Kentucky,Breckinridge,REP,7701,DEM,2350
+Kentucky,Bullitt,REP,30708,DEM,10551
+Kentucky,Butler,REP,4960,DEM,1078
+Kentucky,Caldwell,REP,4905,DEM,1432
+Kentucky,Calloway,REP,11351,DEM,5794
+Kentucky,Campbell,REP,28482,DEM,19373
+Kentucky,Carlisle,REP,2159,DEM,463
+Kentucky,Carroll,REP,2954,DEM,1116
+Kentucky,Carter,REP,8775,DEM,2642
+Kentucky,Casey,REP,6179,DEM,918
+Kentucky,Christian,REP,15080,DEM,8296
+Kentucky,Clark,REP,11811,DEM,6004
+Kentucky,Clay,REP,6677,DEM,831
+Kentucky,Clinton,REP,4280,DEM,603
+Kentucky,Crittenden,REP,3451,DEM,731
+Kentucky,Cumberland,REP,2769,DEM,508
+Kentucky,Daviess,REP,31023,DEM,17283
+Kentucky,Edmonson,REP,4828,DEM,1227
+Kentucky,Elliott,REP,2246,DEM,712
+Kentucky,Estill,REP,5100,DEM,1355
+Kentucky,Fayette,REP,58845,DEM,90566
+Kentucky,Fleming,REP,5534,DEM,1474
+Kentucky,Floyd,REP,12211,DEM,3855
+Kentucky,Franklin,REP,12900,DEM,12650
+Kentucky,Fulton,REP,1605,DEM,791
+Kentucky,Gallatin,REP,2955,DEM,822
+Kentucky,Garrard,REP,6754,DEM,1830
+Kentucky,Grant,REP,8725,DEM,2205
+Kentucky,Graves,REP,13206,DEM,3559
+Kentucky,Grayson,REP,9453,DEM,2400
+Kentucky,Green,REP,4838,DEM,920
+Kentucky,Greenup,REP,13064,DEM,4873
+Kentucky,Hancock,REP,3145,DEM,1351
+Kentucky,Hardin,REP,29832,DEM,18101
+Kentucky,Harlan,REP,9367,DEM,1494
+Kentucky,Harrison,REP,6334,DEM,2400
+Kentucky,Hart,REP,6345,DEM,1908
+Kentucky,Henderson,REP,12730,DEM,7639
+Kentucky,Henry,REP,5843,DEM,2142
+Kentucky,Hickman,REP,1714,DEM,458
+Kentucky,Hopkins,REP,15757,DEM,5439
+Kentucky,Jackson,REP,5450,DEM,605
+Kentucky,Jefferson,REP,150619,DEM,228288
+Kentucky,Jessamine,REP,17096,DEM,8567
+Kentucky,Johnson,REP,8446,DEM,1607
+Kentucky,Kenton,REP,48123,DEM,32265
+Kentucky,Knott,REP,4779,DEM,1412
+Kentucky,Knox,REP,11010,DEM,2111
+Kentucky,Larue,REP,5685,DEM,1504
+Kentucky,Laurel,REP,23234,DEM,4474
+Kentucky,Lawrence,REP,5633,DEM,1238
+Kentucky,Lee,REP,2159,DEM,459
+Kentucky,Leslie,REP,4318,DEM,446
+Kentucky,Letcher,REP,7226,DEM,1799
+Kentucky,Lewis,REP,4986,DEM,823
+Kentucky,Lincoln,REP,8489,DEM,2254
+Kentucky,Livingston,REP,4010,DEM,939
+Kentucky,Logan,REP,9067,DEM,3094
+Kentucky,Lyon,REP,3100,DEM,1092
+Kentucky,McCracken,REP,21820,DEM,11190
+Kentucky,McCreary,REP,5664,DEM,725
+Kentucky,McLean,REP,3633,DEM,1074
+Kentucky,Madison,REP,27353,DEM,15580
+Kentucky,Magoffin,REP,4174,DEM,1213
+Kentucky,Marion,REP,6113,DEM,2722
+Kentucky,Marshall,REP,13297,DEM,4071
+Kentucky,Martin,REP,3496,DEM,403
+Kentucky,Mason,REP,5477,DEM,2362
+Kentucky,Meade,REP,10184,DEM,3632
+Kentucky,Menifee,REP,2311,DEM,750
+Kentucky,Mercer,REP,8506,DEM,3033
+Kentucky,Metcalfe,REP,3957,DEM,973
+Kentucky,Monroe,REP,4628,DEM,657
+Kentucky,Montgomery,REP,8993,DEM,3630
+Kentucky,Morgan,REP,4297,DEM,1172
+Kentucky,Muhlenberg,REP,10496,DEM,3544
+Kentucky,Nelson,REP,15703,DEM,7188
+Kentucky,Nicholas,REP,2407,DEM,954
+Kentucky,Ohio,REP,8582,DEM,2404
+Kentucky,Oldham,REP,22651,DEM,14504
+Kentucky,Owen,REP,4292,DEM,1098
+Kentucky,Owsley,REP,1670,DEM,216
+Kentucky,Pendleton,REP,5515,DEM,1322
+Kentucky,Perry,REP,8118,DEM,2350
+Kentucky,Pike,REP,20279,DEM,4862
+Kentucky,Powell,REP,4041,DEM,1367
+Kentucky,Pulaski,REP,25441,DEM,5664
+Kentucky,Robertson,REP,884,DEM,253
+Kentucky,Rockcastle,REP,6577,DEM,1134
+Kentucky,Rowan,REP,5994,DEM,3880
+Kentucky,Russell,REP,7506,DEM,1329
+Kentucky,Scott,REP,17764,DEM,10564
+Kentucky,Shelby,REP,15054,DEM,8076
+Kentucky,Simpson,REP,5888,DEM,2681
+Kentucky,Spencer,REP,8737,DEM,2530
+Kentucky,Taylor,REP,9376,DEM,2961
+Kentucky,Todd,REP,4060,DEM,1202
+Kentucky,Trigg,REP,5487,DEM,1791
+Kentucky,Trimble,REP,3227,DEM,1012
+Kentucky,Union,REP,4965,DEM,1529
+Kentucky,Warren,REP,31790,DEM,22477
+Kentucky,Washington,REP,4482,DEM,1644
+Kentucky,Wayne,REP,7430,DEM,1700
+Kentucky,Webster,REP,4506,DEM,1412
+Kentucky,Whitley,REP,12567,DEM,2552
+Kentucky,Wolfe,REP,2097,DEM,837
+Kentucky,Woodford,REP,8362,DEM,6530
+Louisiana,Acadia,REP,22596,DEM,5443
+Louisiana,Allen,REP,7574,DEM,2108
+Louisiana,Ascension,REP,40687,DEM,20399
+Louisiana,Assumption,REP,7271,DEM,3833
+Louisiana,Avoyelles,REP,12028,DEM,4979
+Louisiana,Beauregard,REP,13575,DEM,2542
+Louisiana,Bienville,REP,3891,DEM,3067
+Louisiana,Bossier,REP,38074,DEM,15662
+Louisiana,Caddo,REP,48021,DEM,55110
+Louisiana,Calcasieu,REP,55066,DEM,25982
+Louisiana,Caldwell,REP,3976,DEM,745
+Louisiana,Cameron,REP,3671,DEM,324
+Louisiana,Catahoula,REP,3541,DEM,1269
+Louisiana,Claiborne,REP,3770,DEM,2731
+Louisiana,Concordia,REP,5550,DEM,3177
+Louisiana,De Soto,REP,9112,DEM,5457
+Louisiana,East Baton Rouge,REP,88420,DEM,115577
+Louisiana,East Carroll,REP,1080,DEM,1900
+Louisiana,East Feliciana,REP,6064,DEM,4280
+Louisiana,Evangeline,REP,11053,DEM,4158
+Louisiana,Franklin,REP,6970,DEM,2658
+Louisiana,Grant,REP,8117,DEM,1157
+Louisiana,Iberia,REP,21251,DEM,11027
+Louisiana,Iberville,REP,7893,DEM,8514
+Louisiana,Jackson,REP,5394,DEM,2143
+Louisiana,Jefferson,REP,105949,DEM,84477
+Louisiana,Jefferson Davis,REP,11423,DEM,3208
+Louisiana,Lafayette,REP,72519,DEM,39685
+Louisiana,Lafourche,REP,36024,DEM,8672
+Louisiana,LaSalle,REP,6378,DEM,638
+Louisiana,Lincoln,REP,11311,DEM,7559
+Louisiana,Livingston,REP,54877,DEM,9249
+Louisiana,Madison,REP,1930,DEM,2654
+Louisiana,Morehouse,REP,6510,DEM,4946
+Louisiana,Natchitoches,REP,9358,DEM,6896
+Louisiana,Orleans,REP,26664,DEM,147854
+Louisiana,Ouachita,REP,42255,DEM,25913
+Louisiana,Plaquemines,REP,7412,DEM,3414
+Louisiana,Pointe Coupee,REP,7503,DEM,4683
+Louisiana,Rapides,REP,38347,DEM,19475
+Louisiana,Red River,REP,2413,DEM,1644
+Louisiana,Richland,REP,6607,DEM,3225
+Louisiana,Sabine,REP,8776,DEM,1731
+Louisiana,St. Bernard,REP,11179,DEM,6151
+Louisiana,St. Charles,REP,18233,DEM,9800
+Louisiana,St. Helena,REP,2714,DEM,3346
+Louisiana,St. James,REP,5954,DEM,6510
+Louisiana,St. John the Baptist,REP,7538,DEM,13582
+Louisiana,St. Landry,REP,23171,DEM,17372
+Louisiana,St. Martin,REP,18203,DEM,8439
+Louisiana,St. Mary,REP,14811,DEM,8055
+Louisiana,St. Tammany,REP,99666,DEM,37746
+Louisiana,Tangipahoa,REP,37806,DEM,18887
+Louisiana,Tensas,REP,1197,DEM,1329
+Louisiana,Terrebonne,REP,34339,DEM,11198
+Louisiana,Union,REP,8407,DEM,2654
+Louisiana,Vermilion,REP,21930,DEM,5009
+Louisiana,Vernon,REP,14107,DEM,2898
+Louisiana,Washington,REP,13307,DEM,5970
+Louisiana,Webster,REP,11830,DEM,6172
+Louisiana,West Baton Rouge,REP,7684,DEM,6200
+Louisiana,West Carroll,REP,4317,DEM,710
+Louisiana,West Feliciana,REP,3863,DEM,2298
+Louisiana,Winn,REP,4619,DEM,1543
+Maine,Aroostook,REP,1141,DEM,1069
+Maine,Franklin,REP,0,DEM,0
+Maine,Franklin,REP,0,DEM,381
+Maine,Hancock,REP,0,DEM,0
+Maine,Hancock,REP,0,DEM,659
+Maine,Oxford,REP,0,DEM,0
+Maine,Oxford,REP,0,DEM,807
+Maine,Penobscot,REP,0,DEM,0
+Maine,Penobscot,REP,0,DEM,512
+Maine,Piscataquis Cty Townshps,REP,61,DEM,26
+Maine,Somerset,REP,0,DEM,0
+Maine,Washington,REP,0,DEM,0
+Maine,Washington,REP,0,DEM,415
+Maine,Indian Township Vtng Dst,REP,0,DEM,0
+Maine,Oxbow Plt.,REP,0,DEM,0
+Maine,Pleasant Point Votng Dst,REP,0,DEM,0
+Maine,Auburn,REP,5426,DEM,6471
+Maine,Durham,REP,1333,DEM,1361
+Maine,Greene,REP,1663,DEM,914
+Maine,Leeds,REP,818,DEM,505
+Maine,Lewiston,REP,7206,DEM,9578
+Maine,Lisbon,REP,2853,DEM,2190
+Maine,Livermore,REP,783,DEM,573
+Maine,Livermore Falls,REP,809,DEM,540
+Maine,Mechanic Falls,REP,989,DEM,650
+Maine,Minot,REP,1040,DEM,676
+Maine,Poland,REP,1906,DEM,1513
+Maine,Sabattus,REP,1765,DEM,1034
+Maine,Turner,REP,2052,DEM,1288
+Maine,Wales,REP,616,DEM,275
+Maine,Allagash,REP,95,DEM,74
+Maine,Amity,REP,0,DEM,0
+Maine,Ashland,REP,0,DEM,0
+Maine,Blaine,REP,0,DEM,0
+Maine,Bridgewater,REP,214,DEM,82
+Maine,Caribou,REP,2262,DEM,1702
+Maine,Cary Plt.,REP,0,DEM,0
+Maine,Castle Hill,REP,130,DEM,97
+Maine,Caswell,REP,0,DEM,0
+Maine,Chapman,REP,177,DEM,97
+Maine,Crystal,REP,120,DEM,39
+Maine,Cyr Plt.,REP,0,DEM,0
+Maine,Dyer Brook,REP,106,DEM,40
+Maine,Eagle Lake,REP,256,DEM,197
+Maine,Easton,REP,467,DEM,241
+Maine,Fort Fairfield,REP,985,DEM,674
+Maine,Fort Kent,REP,1141,DEM,1069
+Maine,Frenchville,REP,361,DEM,235
+Maine,Garfield Plt.,REP,0,DEM,0
+Maine,Glenwood Plt.,REP,0,DEM,0
+Maine,Grand Isle,REP,119,DEM,107
+Maine,Hamlin,REP,0,DEM,0
+Maine,Hammond,REP,0,DEM,0
+Maine,Haynesville,REP,0,DEM,0
+Maine,Hersey,REP,33,DEM,8
+Maine,Hodgdon,REP,613,DEM,113
+Maine,Houlton,REP,1639,DEM,1046
+Maine,Island Falls,REP,306,DEM,132
+Maine,Limestone,REP,423,DEM,325
+Maine,Linneus,REP,411,DEM,93
+Maine,Littleton,REP,381,DEM,141
+Maine,Ludlow,REP,0,DEM,0
+Maine,Macwahoc Plt.,REP,30,DEM,12
+Maine,Madawaska,REP,940,DEM,1143
+Maine,Mapleton,REP,726,DEM,406
+Maine,Mars Hill,REP,511,DEM,222
+Maine,Masardis,REP,0,DEM,0
+Maine,Merrill,REP,91,DEM,43
+Maine,Monticello,REP,335,DEM,96
+Maine,Moro Plt.,REP,0,DEM,0
+Maine,Nashville Plt.,REP,16,DEM,7
+Maine,New Canada,REP,93,DEM,61
+Maine,New Limerick,REP,253,DEM,115
+Maine,New Sweden,REP,178,DEM,137
+Maine,Oakfield,REP,0,DEM,0
+Maine,Orient,REP,0,DEM,0
+Maine,Penobscot Nation Vot Dst,REP,0,DEM,0
+Maine,Perham,REP,0,DEM,0
+Maine,Portage Lake,REP,160,DEM,99
+Maine,Presque Isle,REP,2266,DEM,1849
+Maine,Reed Plt.,REP,0,DEM,0
+Maine,Saint Agatha,REP,334,DEM,292
+Maine,St. Francis,REP,0,DEM,0
+Maine,St. John Plt.,REP,104,DEM,63
+Maine,Sherman,REP,497,DEM,157
+Maine,Smyrna,REP,111,DEM,46
+Maine,Stockholm,REP,86,DEM,70
+Maine,Van Buren,REP,0,DEM,0
+Maine,Wade,REP,79,DEM,53
+Maine,Wallagrass,REP,134,DEM,153
+Maine,Washburn,REP,518,DEM,278
+Maine,Westfield,REP,174,DEM,92
+Maine,Westmanland,REP,0,DEM,0
+Maine,Weston,REP,125,DEM,55
+Maine,Winterville Plt.,REP,72,DEM,49
+Maine,Woodland,REP,409,DEM,239
+Maine,Baldwin,REP,623,DEM,350
+Maine,Bridgton,REP,1528,DEM,1656
+Maine,Brunswick,REP,3729,DEM,9708
+Maine,Cape Elizabeth,REP,1462,DEM,5349
+Maine,Casco,REP,1184,DEM,1036
+Maine,Chebeague Island,REP,0,DEM,0
+Maine,Cumberland,REP,1800,DEM,4074
+Maine,Falmouth,REP,2672,DEM,6147
+Maine,Freeport,REP,1675,DEM,4327
+Maine,Frye Island,REP,19,DEM,38
+Maine,Gorham,REP,4275,DEM,6460
+Maine,Gray,REP,2557,DEM,2653
+Maine,Harpswell,REP,1423,DEM,2379
+Maine,Harrison,REP,796,DEM,741
+Maine,Long Island,REP,53,DEM,133
+Maine,Naples,REP,1389,DEM,1039
+Maine,New Gloucester,REP,1757,DEM,1720
+Maine,North Yarmouth,REP,1018,DEM,1862
+Maine,Portland,REP,6483,DEM,33784
+Maine,Pownal,REP,489,DEM,685
+Maine,Raymond,REP,1472,DEM,1589
+Maine,Scarborough,REP,5217,DEM,9487
+Maine,Sebago,REP,719,DEM,529
+Maine,South Portland,REP,3781,DEM,12075
+Maine,Standish,REP,3076,DEM,2818
+Maine,Westbrook,REP,3579,DEM,7359
+Maine,Windham,REP,5276,DEM,5780
+Maine,Yarmouth,REP,1439,DEM,4785
+Maine,Avon,REP,0,DEM,0
+Maine,Carrabassett Valley,REP,164,DEM,348
+Maine,Carthage,REP,0,DEM,0
+Maine,Chesterville,REP,0,DEM,0
+Maine,Coplin Plt.,REP,0,DEM,0
+Maine,Dallas Plt.,REP,0,DEM,0
+Maine,Eustis,REP,253,DEM,173
+Maine,Farmington,REP,1541,DEM,2225
+Maine,Industry,REP,253,DEM,232
+Maine,Jay,REP,1375,DEM,1220
+Maine,Kingfield,REP,444,DEM,407
+Maine,New Sharon,REP,528,DEM,391
+Maine,New Vineyard,REP,293,DEM,154
+Maine,Phillips,REP,0,DEM,0
+Maine,Rangeley,REP,449,DEM,294
+Maine,Rangeley Plt.,REP,86,DEM,57
+Maine,Sandy River Plt.,REP,0,DEM,0
+Maine,Strong,REP,526,DEM,266
+Maine,Temple,REP,155,DEM,172
+Maine,Weld,REP,144,DEM,149
+Maine,Wilton,REP,1113,DEM,973
+Maine,Amherst,REP,0,DEM,0
+Maine,Aurora,REP,0,DEM,0
+Maine,Bar Harbor,REP,804,DEM,2678
+Maine,Blue Hill,REP,624,DEM,1310
+Maine,Brooklin,REP,189,DEM,426
+Maine,Brooksville,REP,219,DEM,450
+Maine,Bucksport,REP,1481,DEM,1278
+Maine,Castine,REP,136,DEM,346
+Maine,Cranberry Isles,REP,36,DEM,95
+Maine,Dedham,REP,582,DEM,545
+Maine,Deer Isle,REP,496,DEM,806
+Maine,Eastbrook,REP,0,DEM,0
+Maine,Ellsworth,REP,2356,DEM,2273
+Maine,Franklin,REP,459,DEM,0
+Maine,Franklin,REP,459,DEM,381
+Maine,Frenchboro,REP,19,DEM,12
+Maine,Gouldsboro,REP,612,DEM,477
+Maine,Great Pond,REP,25,DEM,18
+Maine,Hancock,REP,778,DEM,0
+Maine,Hancock,REP,778,DEM,659
+Maine,Lamoine,REP,576,DEM,616
+Maine,Mariaville,REP,0,DEM,0
+Maine,Mount Desert,REP,381,DEM,1066
+Maine,Orland,REP,693,DEM,691
+Maine,Osborn,REP,0,DEM,0
+Maine,Otis,REP,323,DEM,153
+Maine,Penobscot,REP,306,DEM,0
+Maine,Penobscot,REP,306,DEM,512
+Maine,Sedgwick,REP,321,DEM,511
+Maine,Sorrento,REP,0,DEM,0
+Maine,Southwest Harbor,REP,381,DEM,728
+Maine,Stonington,REP,220,DEM,409
+Maine,Sullivan,REP,0,DEM,0
+Maine,Surry,REP,464,DEM,596
+Maine,Swan's Island,REP,129,DEM,132
+Maine,Tremont,REP,422,DEM,590
+Maine,Trenton,REP,451,DEM,509
+Maine,Verona,REP,0,DEM,0
+Maine,Waltham,REP,0,DEM,0
+Maine,Winter Harbor,REP,179,DEM,145
+Maine,Albion,REP,801,DEM,385
+Maine,Augusta,REP,4155,DEM,5248
+Maine,Belgrade,REP,1166,DEM,993
+Maine,Benton,REP,984,DEM,607
+Maine,Chelsea,REP,917,DEM,605
+Maine,China,REP,1395,DEM,1107
+Maine,Clinton,REP,1096,DEM,641
+Maine,Farmingdale,REP,768,DEM,903
+Maine,Fayette,REP,421,DEM,388
+Maine,Gardiner,REP,1471,DEM,1694
+Maine,Hallowell,REP,445,DEM,1277
+Maine,Litchfield,REP,1260,DEM,850
+Maine,Manchester,REP,810,DEM,832
+Maine,Monmouth,REP,1397,DEM,1079
+Maine,Mount Vernon,REP,0,DEM,0
+Maine,Oakland,REP,1853,DEM,1681
+Maine,Pittston,REP,1034,DEM,691
+Maine,Randolph,REP,533,DEM,467
+Maine,Readfield,REP,818,DEM,943
+Maine,Rome,REP,350,DEM,340
+Maine,Sidney,REP,1688,DEM,1184
+Maine,Unity,REP,455,DEM,444
+Maine,Vassalboro,REP,1394,DEM,1075
+Maine,Vienna,REP,208,DEM,186
+Maine,Waterville,REP,2619,DEM,4991
+Maine,Wayne,REP,343,DEM,506
+Maine,West Gardiner,REP,1317,DEM,1000
+Maine,Windsor,REP,899,DEM,477
+Maine,Winslow,REP,2360,DEM,2184
+Maine,Winthrop,REP,1649,DEM,1963
+Maine,Appleton,REP,407,DEM,478
+Maine,Camden,REP,832,DEM,2931
+Maine,Cushing,REP,520,DEM,424
+Maine,Friendship,REP,477,DEM,309
+Maine,Hope,REP,443,DEM,653
+Maine,Isle Au Haut,REP,0,DEM,0
+Maine,Matinicus Isle Plt.,REP,0,DEM,0
+Maine,North Haven,REP,0,DEM,0
+Maine,Owl's Head,REP,454,DEM,584
+Maine,Rockland,REP,1363,DEM,2493
+Maine,Rockport,REP,776,DEM,1694
+Maine,St. George,REP,660,DEM,1108
+Maine,South Thomaston,REP,403,DEM,574
+Maine,Thomaston,REP,664,DEM,960
+Maine,Union,REP,786,DEM,726
+Maine,Vinalhaven,REP,287,DEM,531
+Maine,Warren,REP,1258,DEM,918
+Maine,Washington,REP,540,DEM,0
+Maine,Washington,REP,540,DEM,415
+Maine,Alna,REP,174,DEM,320
+Maine,Boothbay,REP,922,DEM,1229
+Maine,Boothbay Harbor,REP,545,DEM,814
+Maine,Bremen,REP,0,DEM,0
+Maine,Bristol,REP,808,DEM,1275
+Maine,Damariscotta,REP,463,DEM,980
+Maine,Dresden,REP,580,DEM,542
+Maine,Edgecomb,REP,0,DEM,0
+Maine,Jefferson,REP,951,DEM,679
+Maine,Monhegan Plt.,REP,7,DEM,51
+Maine,Newcastle,REP,403,DEM,923
+Maine,Nobleboro,REP,559,DEM,729
+Maine,Somerville,REP,213,DEM,131
+Maine,South Bristol,REP,261,DEM,429
+Maine,Southport,REP,173,DEM,306
+Maine,Waldoboro,REP,1568,DEM,1294
+Maine,Westport,REP,231,DEM,303
+Maine,Whitefield,REP,753,DEM,688
+Maine,Wiscasset,REP,1112,DEM,1114
+Maine,Andover,REP,293,DEM,223
+Maine,Bethel,REP,749,DEM,1006
+Maine,Brownfield,REP,466,DEM,468
+Maine,Buckfield,REP,636,DEM,436
+Maine,Byron,REP,0,DEM,0
+Maine,Canton,REP,374,DEM,154
+Maine,Denmark,REP,392,DEM,404
+Maine,Dixfield,REP,803,DEM,460
+Maine,Fryeburg,REP,813,DEM,1060
+Maine,Gilead,REP,0,DEM,0
+Maine,Greenwood,REP,242,DEM,278
+Maine,Hanover,REP,92,DEM,101
+Maine,Hartford,REP,428,DEM,278
+Maine,Hebron,REP,427,DEM,323
+Maine,Hiram,REP,528,DEM,373
+Maine,Lincoln Plt.,REP,0,DEM,0
+Maine,Lovell,REP,353,DEM,399
+Maine,Magalloway Plt.,REP,0,DEM,0
+Maine,Mexico,REP,676,DEM,556
+Maine,Newry,REP,119,DEM,163
+Maine,Norway,REP,1363,DEM,1400
+Maine,Otisfield,REP,605,DEM,535
+Maine,Oxford,REP,1456,DEM,0
+Maine,Oxford,REP,1456,DEM,807
+Maine,Paris,REP,1494,DEM,1280
+Maine,Peru,REP,561,DEM,322
+Maine,Porter,REP,521,DEM,328
+Maine,Roxbury,REP,0,DEM,0
+Maine,Rumford,REP,1502,DEM,1275
+Maine,Stoneham,REP,0,DEM,0
+Maine,Stow,REP,0,DEM,0
+Maine,Sumner,REP,324,DEM,206
+Maine,Sweden,REP,0,DEM,0
+Maine,Upton,REP,0,DEM,0
+Maine,Waterford,REP,557,DEM,452
+Maine,West Paris,REP,552,DEM,372
+Maine,Woodstock,REP,534,DEM,368
+Maine,Alton,REP,0,DEM,0
+Maine,Bangor,REP,5498,DEM,8575
+Maine,Bradford,REP,0,DEM,0
+Maine,Bradley,REP,485,DEM,378
+Maine,Brewer,REP,2568,DEM,2533
+Maine,Burlington,REP,145,DEM,56
+Maine,Carmel,REP,1183,DEM,560
+Maine,Carroll Plt.,REP,73,DEM,17
+Maine,Charleston,REP,580,DEM,164
+Maine,Chester,REP,0,DEM,0
+Maine,Clifton,REP,324,DEM,187
+Maine,Corinna,REP,847,DEM,363
+Maine,Corinth,REP,1147,DEM,390
+Maine,Dexter,REP,1169,DEM,617
+Maine,Dixmont,REP,446,DEM,265
+Maine,Drew Plt.,REP,0,DEM,0
+Maine,East Millinocket,REP,1470,DEM,1144
+Maine,Eddington,REP,903,DEM,503
+Maine,Edinburg,REP,0,DEM,0
+Maine,Enfield,REP,585,DEM,279
+Maine,Etna,REP,495,DEM,216
+Maine,Exeter,REP,366,DEM,190
+Maine,Garland,REP,409,DEM,177
+Maine,Glenburn,REP,1612,DEM,1108
+Maine,Greenbush,REP,499,DEM,193
+Maine,Hampden,REP,2265,DEM,2451
+Maine,Hermon,REP,2427,DEM,1447
+Maine,Holden,REP,1200,DEM,871
+Maine,Howland,REP,390,DEM,221
+Maine,Hudson,REP,484,DEM,120
+Maine,Kenduskeag,REP,514,DEM,242
+Maine,LaGrange,REP,0,DEM,0
+Maine,Lakeville,REP,0,DEM,0
+Maine,Lee,REP,350,DEM,140
+Maine,Levant,REP,1149,DEM,477
+Maine,Lincoln,REP,1723,DEM,813
+Maine,Lowell,REP,193,DEM,56
+Maine,Mattawamkeag,REP,257,DEM,120
+Maine,Maxfield,REP,0,DEM,0
+Maine,Medway,REP,0,DEM,0
+Maine,Milford,REP,922,DEM,861
+Maine,Millinocket,REP,1310,DEM,1049
+Maine,Mount Chase,REP,81,DEM,39
+Maine,Newburgh,REP,599,DEM,366
+Maine,Newport,REP,0,DEM,0
+Maine,Old Town,REP,1668,DEM,2365
+Maine,Orono,REP,1200,DEM,3728
+Maine,Orrington,REP,1405,DEM,1089
+Maine,Passadumkeag,REP,0,DEM,0
+Maine,Patten,REP,0,DEM,0
+Maine,Plymouth,REP,505,DEM,230
+Maine,Seboeis Plt.,REP,19,DEM,22
+Maine,Springfield,REP,0,DEM,0
+Maine,Stacyville,REP,0,DEM,0
+Maine,Stetson,REP,0,DEM,0
+Maine,Veazie,REP,522,DEM,645
+Maine,Webster Plt.,REP,0,DEM,0
+Maine,Winn,REP,145,DEM,60
+Maine,Woodville,REP,0,DEM,0
+Maine,Abbot,REP,288,DEM,121
+Maine,Atkinson,REP,122,DEM,49
+Maine,Beaver Cove,REP,0,DEM,0
+Maine,Bowerbank,REP,0,DEM,0
+Maine,Brownville,REP,467,DEM,280
+Maine,Dover-Foxcroft,REP,1356,DEM,914
+Maine,Greenville,REP,644,DEM,486
+Maine,Guilford,REP,466,DEM,248
+Maine,Kingsbury Plt.,REP,0,DEM,0
+Maine,Lake View Plt.,REP,0,DEM,0
+Maine,Medford,REP,112,DEM,46
+Maine,Milo,REP,781,DEM,410
+Maine,Monson,REP,289,DEM,173
+Maine,Parkman,REP,333,DEM,148
+Maine,Sangerville,REP,479,DEM,255
+Maine,Sebec,REP,305,DEM,117
+Maine,Shirley,REP,0,DEM,0
+Maine,Wellington,REP,0,DEM,0
+Maine,Willimantic,REP,0,DEM,0
+Maine,Arrowsic,REP,104,DEM,260
+Maine,Bath,REP,1540,DEM,3421
+Maine,Bowdoin,REP,1079,DEM,755
+Maine,Bowdoinham,REP,856,DEM,1123
+Maine,Georgetown,REP,294,DEM,525
+Maine,Phippsburg,REP,745,DEM,794
+Maine,Richmond,REP,1056,DEM,934
+Maine,Topsham,REP,2390,DEM,3944
+Maine,West Bath,REP,629,DEM,737
+Maine,Woolwich,REP,1062,DEM,1038
+Maine,Anson,REP,796,DEM,398
+Maine,Athens,REP,332,DEM,167
+Maine,Bingham,REP,349,DEM,215
+Maine,Brighton Plt.,REP,0,DEM,0
+Maine,Cambridge,REP,0,DEM,0
+Maine,Canaan,REP,749,DEM,384
+Maine,Caratunk,REP,0,DEM,0
+Maine,Cornville,REP,471,DEM,283
+Maine,Dennistown Plt.,REP,0,DEM,0
+Maine,Detroit,REP,276,DEM,151
+Maine,Embden,REP,375,DEM,181
+Maine,Fairfield,REP,1843,DEM,1428
+Maine,Harmony,REP,0,DEM,0
+Maine,Hartland,REP,610,DEM,266
+Maine,Highland Plt.,REP,71,DEM,42
+Maine,Jackman,REP,0,DEM,0
+Maine,Madison,REP,1411,DEM,928
+Maine,Mercer,REP,0,DEM,0
+Maine,Moose River,REP,0,DEM,0
+Maine,Moscow,REP,194,DEM,74
+Maine,New Portland,REP,0,DEM,0
+Maine,Norridgewock,REP,1128,DEM,687
+Maine,Palmyra,REP,800,DEM,325
+Maine,Pittsfield,REP,1156,DEM,817
+Maine,Pleasant Ridge Plt.,REP,0,DEM,0
+Maine,Ripley,REP,195,DEM,100
+Maine,St. Albans,REP,0,DEM,0
+Maine,Skowhegan,REP,2215,DEM,1876
+Maine,Smithfield,REP,342,DEM,269
+Maine,Solon,REP,365,DEM,243
+Maine,Starks,REP,237,DEM,137
+Maine,The Forks Plt.,REP,0,DEM,0
+Maine,West Forks Plt.,REP,0,DEM,0
+Maine,Belfast,REP,1259,DEM,2847
+Maine,Belmont,REP,319,DEM,259
+Maine,Brooks,REP,317,DEM,246
+Maine,Burnham,REP,389,DEM,234
+Maine,Frankfort,REP,441,DEM,220
+Maine,Freedom,REP,236,DEM,201
+Maine,Islesboro,REP,120,DEM,309
+Maine,Jackson,REP,191,DEM,134
+Maine,Knox,REP,540,DEM,415
+Maine,Liberty,REP,308,DEM,265
+Maine,Lincolnville,REP,548,DEM,1059
+Maine,Monroe,REP,266,DEM,308
+Maine,Montville,REP,266,DEM,346
+Maine,Morrill,REP,355,DEM,242
+Maine,Northport,REP,408,DEM,670
+Maine,Palermo,REP,537,DEM,381
+Maine,Prospect,REP,242,DEM,170
+Maine,Searsmont,REP,481,DEM,430
+Maine,Searsport,REP,721,DEM,843
+Maine,Stockton Springs,REP,508,DEM,529
+Maine,Swanville,REP,454,DEM,339
+Maine,Thorndike,REP,0,DEM,0
+Maine,Troy,REP,340,DEM,233
+Maine,Waldo,REP,340,DEM,233
+Maine,Winterport,REP,1238,DEM,1032
+Maine,Addison,REP,451,DEM,235
+Maine,Alexander,REP,224,DEM,73
+Maine,Baileyville,REP,421,DEM,239
+Maine,Baring Plt.,REP,0,DEM,0
+Maine,Beals,REP,0,DEM,0
+Maine,Beddington,REP,0,DEM,0
+Maine,Calais,REP,856,DEM,626
+Maine,Charlotte,REP,0,DEM,0
+Maine,Cherryfield,REP,417,DEM,212
+Maine,Columbia,REP,0,DEM,0
+Maine,Columbia Falls,REP,204,DEM,119
+Maine,Cooper,REP,62,DEM,35
+Maine,Crawford,REP,0,DEM,0
+Maine,Cutler,REP,0,DEM,0
+Maine,Danforth,REP,0,DEM,0
+Maine,Deblois,REP,0,DEM,0
+Maine,Dennysville,REP,0,DEM,0
+Maine,East Machias,REP,528,DEM,270
+Maine,Eastport,REP,339,DEM,474
+Maine,Grand Lake Stream Plt,REP,60,DEM,37
+Maine,Harrington,REP,363,DEM,168
+Maine,Jonesboro,REP,0,DEM,0
+Maine,Jonesport,REP,447,DEM,243
+Maine,Lubec,REP,406,DEM,457
+Maine,Machias,REP,461,DEM,395
+Maine,Machiasport,REP,336,DEM,216
+Maine,Marshfield,REP,208,DEM,102
+Maine,Meddybemps,REP,0,DEM,0
+Maine,Milbridge,REP,391,DEM,326
+Maine,Northfield,REP,81,DEM,38
+Maine,Pembroke,REP,0,DEM,0
+Maine,Perry,REP,0,DEM,0
+Maine,Princeton,REP,340,DEM,118
+Maine,Robbinston,REP,0,DEM,0
+Maine,Roque Bluffs,REP,0,DEM,0
+Maine,Steuben,REP,409,DEM,245
+Maine,Talmadge,REP,0,DEM,0
+Maine,Topsfield,REP,100,DEM,24
+Maine,Vanceboro,REP,0,DEM,0
+Maine,Waite,REP,0,DEM,0
+Maine,Wesley,REP,0,DEM,0
+Maine,Whiting,REP,0,DEM,0
+Maine,Whitneyville,REP,0,DEM,0
+Maine,Acton,REP,930,DEM,651
+Maine,Alfred,REP,948,DEM,983
+Maine,Arundel,REP,1347,DEM,1405
+Maine,Berwick,REP,1519,DEM,3186
+Maine,Biddeford,REP,3703,DEM,7019
+Maine,Buxton,REP,2686,DEM,2416
+Maine,Cornish,REP,478,DEM,429
+Maine,Dayton,REP,756,DEM,582
+Maine,Eliot,REP,1788,DEM,2839
+Maine,Hollis,REP,1535,DEM,1268
+Maine,Kennebunk,REP,2682,DEM,5368
+Maine,Kennebunkport,REP,926,DEM,1777
+Maine,Kittery,REP,1809,DEM,4418
+Maine,Lebanon,REP,2178,DEM,1232
+Maine,Limerick,REP,948,DEM,813
+Maine,Limington,REP,1357,DEM,856
+Maine,Lyman,REP,1537,DEM,1315
+Maine,Newfield,REP,575,DEM,362
+Maine,North Berwick,REP,1557,DEM,1465
+Maine,Ogunquit,REP,311,DEM,731
+Maine,Old Orchrd Bch,REP,2368,DEM,3708
+Maine,Parsonsfield,REP,564,DEM,469
+Maine,Saco,REP,4497,DEM,7794
+Maine,Sanford,REP,5176,DEM,5382
+Maine,Shapleigh,REP,1034,DEM,704
+Maine,South Berwick,REP,1734,DEM,2748
+Maine,Waterboro,REP,2471,DEM,1861
+Maine,Wells,REP,3333,DEM,4465
+Maine,York,REP,3352,DEM,6117
+Maryland,Allegany,REP,20886,DEM,9158
+Maryland,Anne Arundel,REP,127810,DEM,172823
+Maryland,Baltimore,REP,136950,DEM,229339
+Maryland,Calvert,REP,25346,DEM,22587
+Maryland,Caroline,REP,10283,DEM,5095
+Maryland,Carroll,REP,60206,DEM,36454
+Maryland,Cecil,REP,29439,DEM,16809
+Maryland,Charles,REP,25579,DEM,62171
+Maryland,Dorchester,REP,8764,DEM,6857
+Maryland,Frederick,REP,62221,DEM,75094
+Maryland,Garrett,REP,12000,DEM,3281
+Maryland,Harford,REP,80930,DEM,63095
+Maryland,Howard,REP,48390,DEM,129433
+Maryland,Kent,REP,5195,DEM,5329
+Maryland,Montgomery,REP,93466,DEM,378957
+Maryland,Prince George's,REP,35624,DEM,366037
+Maryland,Queen Anne's,REP,18741,DEM,10709
+Maryland,St. Mary's,REP,30822,DEM,23137
+Maryland,Somerset,REP,5739,DEM,4241
+Maryland,Talbot,REP,10946,DEM,11062
+Maryland,Washington,REP,40221,DEM,26044
+Maryland,Wicomico,REP,22940,DEM,22054
+Maryland,Worcester,REP,18571,DEM,12560
+Maryland,Baltimore city,REP,24666,DEM,201995
+Massachusetts,Barnstable,REP,10824,DEM,15685
+Massachusetts,Bourne,REP,5026,DEM,5988
+Massachusetts,Brewster,REP,2334,DEM,4905
+Massachusetts,Chatham,REP,1827,DEM,3043
+Massachusetts,Dennis,REP,3934,DEM,6179
+Massachusetts,Eastham,REP,1150,DEM,2862
+Massachusetts,Falmouth,REP,7282,DEM,13911
+Massachusetts,Harwich,REP,3363,DEM,5761
+Massachusetts,Mashpee,REP,4078,DEM,5977
+Massachusetts,Orleans,REP,1455,DEM,3285
+Massachusetts,Provincetown,REP,181,DEM,2399
+Massachusetts,Sandwich,REP,5922,DEM,7519
+Massachusetts,Truro,REP,339,DEM,1386
+Massachusetts,Wellfleet,REP,478,DEM,1887
+Massachusetts,Yarmouth,REP,5954,DEM,9025
+Massachusetts,Adams,REP,1429,DEM,2894
+Massachusetts,Alford,REP,50,DEM,271
+Massachusetts,Becket,REP,0,DEM,0
+Massachusetts,Cheshire,REP,775,DEM,1121
+Massachusetts,Clarksburg,REP,0,DEM,0
+Massachusetts,Dalton,REP,0,DEM,0
+Massachusetts,Egremont,REP,174,DEM,782
+Massachusetts,Florida,REP,203,DEM,209
+Massachusetts,Great Barrington,REP,654,DEM,3364
+Massachusetts,Hancock,REP,207,DEM,257
+Massachusetts,Hinsdale,REP,402,DEM,771
+Massachusetts,Lanesborough,REP,602,DEM,1230
+Massachusetts,Lee,REP,977,DEM,2404
+Massachusetts,Lenox,REP,586,DEM,2657
+Massachusetts,Monterey,REP,102,DEM,481
+Massachusetts,Mount Washington,REP,16,DEM,101
+Massachusetts,New Ashford,REP,0,DEM,0
+Massachusetts,New Marlborough,REP,264,DEM,677
+Massachusetts,North Adams,REP,1600,DEM,4216
+Massachusetts,Otis,REP,438,DEM,550
+Massachusetts,Peru,REP,216,DEM,299
+Massachusetts,Pittsfield,REP,4966,DEM,16158
+Massachusetts,Richmond,REP,215,DEM,827
+Massachusetts,Sandisfield,REP,200,DEM,305
+Massachusetts,Savoy,REP,161,DEM,226
+Massachusetts,Sheffield,REP,578,DEM,1541
+Massachusetts,Stockbridge,REP,237,DEM,1098
+Massachusetts,Tyringham,REP,72,DEM,233
+Massachusetts,Washington,REP,287,DEM,510
+Massachusetts,West Stockbridge,REP,164,DEM,784
+Massachusetts,Williamstown,REP,487,DEM,3088
+Massachusetts,Windsor,REP,201,DEM,370
+Massachusetts,Acushnet,REP,3193,DEM,2550
+Massachusetts,Attleboro,REP,9127,DEM,13408
+Massachusetts,Berkley,REP,2244,DEM,1744
+Massachusetts,Dartmouth,REP,7567,DEM,9456
+Massachusetts,Dighton,REP,2473,DEM,2139
+Massachusetts,Easton,REP,5337,DEM,8440
+Massachusetts,Fairhaven,REP,4229,DEM,5028
+Massachusetts,Fall River,REP,13409,DEM,17379
+Massachusetts,Freetown,REP,2862,DEM,2446
+Massachusetts,Mansfield,REP,5145,DEM,9012
+Massachusetts,New Bedford,REP,12781,DEM,20805
+Massachusetts,North Attleborough,REP,6764,DEM,8943
+Massachusetts,Norton,REP,4551,DEM,5602
+Massachusetts,Raynham,REP,4233,DEM,4348
+Massachusetts,Rehoboth,REP,4026,DEM,3590
+Massachusetts,Seekonk,REP,3957,DEM,4769
+Massachusetts,Somerset,REP,5108,DEM,5811
+Massachusetts,Swansea,REP,5116,DEM,4734
+Massachusetts,Taunton,REP,11016,DEM,14704
+Massachusetts,Westport,REP,4947,DEM,5155
+Massachusetts,Aquinnah,REP,34,DEM,311
+Massachusetts,Chilmark,REP,111,DEM,796
+Massachusetts,Edgartown,REP,850,DEM,2181
+Massachusetts,Gosnold,REP,0,DEM,0
+Massachusetts,Oak Bluffs,REP,728,DEM,2401
+Massachusetts,Tisbury,REP,527,DEM,2156
+Massachusetts,West Tisbury,REP,338,DEM,1918
+Massachusetts,Amesbury,REP,3284,DEM,6692
+Massachusetts,Andover,REP,6395,DEM,13430
+Massachusetts,Beverly,REP,7057,DEM,16380
+Massachusetts,Boxford,REP,2235,DEM,3056
+Massachusetts,Danvers,REP,6662,DEM,9698
+Massachusetts,Essex,REP,790,DEM,1629
+Massachusetts,Georgetown,REP,2357,DEM,3002
+Massachusetts,Gloucester,REP,5308,DEM,11572
+Massachusetts,Groveland,REP,1961,DEM,2391
+Massachusetts,Hamilton,REP,1432,DEM,3289
+Massachusetts,Haverhill,REP,12410,DEM,18658
+Massachusetts,Ipswich,REP,3101,DEM,6189
+Massachusetts,Lawrence,REP,5776,DEM,16854
+Massachusetts,Lynn,REP,10191,DEM,24123
+Massachusetts,Lynnfield,REP,3949,DEM,4162
+Massachusetts,Manchester,REP,1007,DEM,2645
+Massachusetts,Marblehead,REP,3777,DEM,10089
+Massachusetts,Merrimac,REP,1680,DEM,2505
+Massachusetts,Methuen,REP,10945,DEM,14103
+Massachusetts,Middleton,REP,2936,DEM,2717
+Massachusetts,Nahant,REP,838,DEM,1599
+Massachusetts,Newbury,REP,1749,DEM,3112
+Massachusetts,Newburyport,REP,3241,DEM,9097
+Massachusetts,North Andover,REP,6531,DEM,11004
+Massachusetts,Peabody,REP,12688,DEM,16826
+Massachusetts,Rockport,REP,1307,DEM,3859
+Massachusetts,Rowley,REP,1936,DEM,2176
+Massachusetts,Salem,REP,5382,DEM,17786
+Massachusetts,Salisbury,REP,2587,DEM,2830
+Massachusetts,Saugus,REP,7349,DEM,7722
+Massachusetts,Swampscott,REP,2540,DEM,6816
+Massachusetts,Topsfield,REP,1600,DEM,2457
+Massachusetts,Wenham,REP,763,DEM,1757
+Massachusetts,West Newbury,REP,1051,DEM,2072
+Massachusetts,Ashfield,REP,180,DEM,993
+Massachusetts,Bernardston,REP,422,DEM,915
+Massachusetts,Buckland,REP,268,DEM,887
+Massachusetts,Charlemont,REP,235,DEM,492
+Massachusetts,Colrain,REP,306,DEM,667
+Massachusetts,Conway,REP,278,DEM,989
+Massachusetts,Deerfield,REP,834,DEM,2421
+Massachusetts,Erving,REP,0,DEM,0
+Massachusetts,Gill,REP,278,DEM,670
+Massachusetts,Greenfield,REP,2261,DEM,6852
+Massachusetts,Hawley,REP,70,DEM,155
+Massachusetts,Heath,REP,0,DEM,0
+Massachusetts,Leverett,REP,155,DEM,1140
+Massachusetts,Leyden,REP,155,DEM,330
+Massachusetts,Monroe,REP,0,DEM,0
+Massachusetts,Montague,REP,1200,DEM,3468
+Massachusetts,New Salem,REP,237,DEM,418
+Massachusetts,Northfield,REP,592,DEM,1211
+Massachusetts,Orange,REP,1699,DEM,1984
+Massachusetts,Rowe,REP,113,DEM,152
+Massachusetts,Shelburne,REP,208,DEM,910
+Massachusetts,Shutesbury,REP,144,DEM,1153
+Massachusetts,Sunderland,REP,0,DEM,0
+Massachusetts,Warwick,REP,160,DEM,343
+Massachusetts,Wendell,REP,0,DEM,0
+Massachusetts,Whately,REP,331,DEM,744
+Massachusetts,Agawam,REP,8021,DEM,7725
+Massachusetts,Blandford,REP,0,DEM,0
+Massachusetts,Brimfield,REP,0,DEM,0
+Massachusetts,Chester,REP,415,DEM,313
+Massachusetts,Chicopee,REP,10622,DEM,14452
+Massachusetts,East Longmeadow,REP,4612,DEM,5260
+Massachusetts,Granville,REP,565,DEM,402
+Massachusetts,Hampden,REP,1709,DEM,1532
+Massachusetts,Holland,REP,783,DEM,690
+Massachusetts,Holyoke,REP,4804,DEM,11013
+Massachusetts,Longmeadow,REP,3438,DEM,6599
+Massachusetts,Ludlow,REP,5660,DEM,5419
+Massachusetts,Monson,REP,2584,DEM,2440
+Massachusetts,Montgomery,REP,0,DEM,0
+Massachusetts,Palmer,REP,3240,DEM,3105
+Massachusetts,Russell,REP,0,DEM,0
+Massachusetts,Southwick,REP,3221,DEM,2359
+Massachusetts,Springfield,REP,13896,DEM,38849
+Massachusetts,Tolland,REP,186,DEM,136
+Massachusetts,Wales,REP,617,DEM,430
+Massachusetts,Westfield,REP,9695,DEM,9986
+Massachusetts,West Springfield,REP,5916,DEM,6985
+Massachusetts,Wilbraham,REP,4247,DEM,4920
+Massachusetts,Amherst,REP,849,DEM,10234
+Massachusetts,Belchertown,REP,3379,DEM,5728
+Massachusetts,Chesterfield,REP,287,DEM,510
+Massachusetts,Cummington,REP,159,DEM,412
+Massachusetts,Easthampton,REP,2504,DEM,7733
+Massachusetts,Goshen,REP,231,DEM,418
+Massachusetts,Granby,REP,1802,DEM,2039
+Massachusetts,Hadley,REP,918,DEM,2445
+Massachusetts,Hatfield,REP,683,DEM,1552
+Massachusetts,Huntington,REP,593,DEM,583
+Massachusetts,Middlefield,REP,124,DEM,199
+Massachusetts,Northampton,REP,1837,DEM,15219
+Massachusetts,Pelham,REP,88,DEM,818
+Massachusetts,Plainfield,REP,116,DEM,316
+Massachusetts,Southampton,REP,1811,DEM,2231
+Massachusetts,South Hadley,REP,3223,DEM,6587
+Massachusetts,Ware,REP,2440,DEM,2340
+Massachusetts,Westhampton,REP,426,DEM,746
+Massachusetts,Williamsburg,REP,337,DEM,1445
+Massachusetts,Worthington,REP,0,DEM,0
+Massachusetts,Acton,REP,2399,DEM,10793
+Massachusetts,Arlington,REP,4313,DEM,23024
+Massachusetts,Ashby,REP,1009,DEM,956
+Massachusetts,Ashland,REP,2926,DEM,7254
+Massachusetts,Ayer,REP,1534,DEM,2924
+Massachusetts,Bedford,REP,2183,DEM,6065
+Massachusetts,Belmont,REP,2920,DEM,11605
+Massachusetts,Billerica,REP,10532,DEM,12917
+Massachusetts,Boxborough,REP,784,DEM,2516
+Massachusetts,Burlington,REP,5510,DEM,9314
+Massachusetts,Cambridge,REP,3248,DEM,45426
+Massachusetts,Carlisle,REP,759,DEM,2746
+Massachusetts,Chelmsford,REP,7680,DEM,13635
+Massachusetts,Concord,REP,1972,DEM,10002
+Massachusetts,Dracut,REP,8692,DEM,8582
+Massachusetts,Dunstable,REP,868,DEM,1224
+Massachusetts,Everett,REP,4022,DEM,10343
+Massachusetts,Framingham,REP,7705,DEM,23613
+Massachusetts,Groton,REP,2108,DEM,4819
+Massachusetts,Holliston,REP,2543,DEM,6672
+Massachusetts,Hopkinton,REP,2936,DEM,6976
+Massachusetts,Hudson,REP,3850,DEM,7409
+Massachusetts,Lexington,REP,3298,DEM,16138
+Massachusetts,Lincoln,REP,661,DEM,3374
+Massachusetts,Littleton,REP,1977,DEM,4474
+Massachusetts,Lowell,REP,12054,DEM,24492
+Massachusetts,Malden,REP,5904,DEM,18417
+Massachusetts,Marlborough,REP,5827,DEM,12332
+Massachusetts,Maynard,REP,1651,DEM,4851
+Massachusetts,Medford,REP,7412,DEM,22717
+Massachusetts,Melrose,REP,4508,DEM,12847
+Massachusetts,Natick,REP,4890,DEM,15972
+Massachusetts,Newton,REP,8165,DEM,39428
+Massachusetts,North Reading,REP,4073,DEM,5501
+Massachusetts,Pepperell,REP,3170,DEM,3809
+Massachusetts,Reading,REP,5301,DEM,10791
+Massachusetts,Sherborn,REP,557,DEM,2206
+Massachusetts,Shirley,REP,1493,DEM,2099
+Massachusetts,Somerville,REP,4150,DEM,35392
+Massachusetts,Stoneham,REP,5348,DEM,8607
+Massachusetts,Stow,REP,1258,DEM,3544
+Massachusetts,Sudbury,REP,2611,DEM,9075
+Massachusetts,Tewksbury,REP,8631,DEM,9709
+Massachusetts,Townsend,REP,2601,DEM,2663
+Massachusetts,Tyngsborough,REP,3364,DEM,4028
+Massachusetts,Wakefield,REP,6019,DEM,10170
+Massachusetts,Waltham,REP,7624,DEM,19847
+Massachusetts,Watertown,REP,3795,DEM,14855
+Massachusetts,Wayland,REP,1681,DEM,7191
+Massachusetts,Westford,REP,4618,DEM,10078
+Massachusetts,Weston,REP,1703,DEM,5049
+Massachusetts,Wilmington,REP,6394,DEM,7950
+Massachusetts,Winchester,REP,3679,DEM,9445
+Massachusetts,Woburn,REP,8464,DEM,13504
+Massachusetts,Nantucket,REP,1912,DEM,5234
+Massachusetts,Avon,REP,1030,DEM,1599
+Massachusetts,Bellingham,REP,4383,DEM,5165
+Massachusetts,Braintree,REP,8680,DEM,12464
+Massachusetts,Brookline,REP,3322,DEM,26046
+Massachusetts,Canton,REP,4953,DEM,9147
+Massachusetts,Cohasset,REP,1662,DEM,3835
+Massachusetts,Dedham,REP,4743,DEM,10658
+Massachusetts,Dover,REP,1140,DEM,2759
+Massachusetts,Foxborough,REP,4287,DEM,6583
+Massachusetts,Franklin,REP,7073,DEM,12053
+Massachusetts,Holbrook,REP,2381,DEM,3710
+Massachusetts,Medfield,REP,2374,DEM,5668
+Massachusetts,Medway,REP,3000,DEM,5149
+Massachusetts,Millis,REP,1985,DEM,3464
+Massachusetts,Milton,REP,4348,DEM,12497
+Massachusetts,Needham,REP,4071,DEM,15538
+Massachusetts,Norfolk,REP,2548,DEM,4037
+Massachusetts,Norwood,REP,5721,DEM,10941
+Massachusetts,Plainville,REP,2445,DEM,3154
+Massachusetts,Quincy,REP,14224,DEM,29956
+Massachusetts,Randolph,REP,3513,DEM,13586
+Massachusetts,Sharon,REP,2530,DEM,8530
+Massachusetts,Stoughton,REP,0,DEM,0
+Massachusetts,Walpole,REP,6125,DEM,9237
+Massachusetts,Wellesley,REP,3264,DEM,12295
+Massachusetts,Westwood,REP,3430,DEM,6812
+Massachusetts,Weymouth,REP,12293,DEM,19254
+Massachusetts,Wrentham,REP,3313,DEM,4220
+Massachusetts,Abington,REP,4188,DEM,5127
+Massachusetts,Bridgewater,REP,6467,DEM,7507
+Massachusetts,Brockton,REP,0,DEM,0
+Massachusetts,Carver,REP,3503,DEM,3265
+Massachusetts,Duxbury,REP,3986,DEM,6758
+Massachusetts,East Bridgewater,REP,4311,DEM,4096
+Massachusetts,Halifax,REP,2385,DEM,2329
+Massachusetts,Hanover,REP,4479,DEM,4859
+Massachusetts,Hanson,REP,3312,DEM,3240
+Massachusetts,Hingham,REP,4848,DEM,10403
+Massachusetts,Hull,REP,2405,DEM,4446
+Massachusetts,Kingston,REP,3763,DEM,4498
+Massachusetts,Lakeville,REP,3778,DEM,3326
+Massachusetts,Marion,REP,1244,DEM,2367
+Massachusetts,Marshfield,REP,7377,DEM,9473
+Massachusetts,Mattapoisett,REP,1884,DEM,2712
+Massachusetts,Middleborough,REP,7022,DEM,6155
+Massachusetts,Norwell,REP,2910,DEM,4262
+Massachusetts,Pembroke,REP,5304,DEM,6118
+Massachusetts,Plymouth,REP,14936,DEM,20780
+Massachusetts,Plympton,REP,912,DEM,962
+Massachusetts,Rochester,REP,1987,DEM,1757
+Massachusetts,Rockland,REP,4319,DEM,5400
+Massachusetts,Scituate,REP,4611,DEM,8595
+Massachusetts,Wareham,REP,5427,DEM,6733
+Massachusetts,West Bridgewater,REP,2270,DEM,2217
+Massachusetts,Whitman,REP,3875,DEM,4487
+Massachusetts,Boston,REP,42707,DEM,225368
+Massachusetts,Chelsea,REP,2146,DEM,7953
+Massachusetts,Revere,REP,7181,DEM,13283
+Massachusetts,Winthrop,REP,3665,DEM,6057
+Massachusetts,Ashburnham,REP,1643,DEM,1982
+Massachusetts,Athol,REP,2552,DEM,2653
+Massachusetts,Auburn,REP,4260,DEM,5547
+Massachusetts,Barre,REP,1524,DEM,1528
+Massachusetts,Berlin,REP,815,DEM,1366
+Massachusetts,Blackstone,REP,2485,DEM,2381
+Massachusetts,Bolton,REP,1124,DEM,2484
+Massachusetts,Boylston,REP,1314,DEM,1876
+Massachusetts,Brookfield,REP,1054,DEM,944
+Massachusetts,Charlton,REP,4339,DEM,3749
+Massachusetts,Clinton,REP,2876,DEM,4661
+Massachusetts,Douglas,REP,2955,DEM,2457
+Massachusetts,Dudley,REP,3155,DEM,2716
+Massachusetts,East Brookfield,REP,740,DEM,592
+Massachusetts,Fitchburg,REP,5820,DEM,8837
+Massachusetts,Gardner,REP,3881,DEM,5075
+Massachusetts,Grafton,REP,3958,DEM,6977
+Massachusetts,Hardwick,REP,732,DEM,746
+Massachusetts,Harvard,REP,945,DEM,3005
+Massachusetts,Holden,REP,4895,DEM,7133
+Massachusetts,Hopedale,REP,1364,DEM,2235
+Massachusetts,Hubbardston,REP,1441,DEM,1387
+Massachusetts,Lancaster,REP,1737,DEM,2381
+Massachusetts,Leicester,REP,3145,DEM,3099
+Massachusetts,Leominster,REP,8447,DEM,12084
+Massachusetts,Lunenburg,REP,2878,DEM,3911
+Massachusetts,Mendon,REP,1767,DEM,2041
+Massachusetts,Milford,REP,5535,DEM,8691
+Massachusetts,Millbury,REP,3685,DEM,4117
+Massachusetts,Millville,REP,975,DEM,820
+Massachusetts,New Braintree,REP,336,DEM,319
+Massachusetts,Northborough,REP,2835,DEM,6273
+Massachusetts,Northbridge,REP,4241,DEM,4718
+Massachusetts,North Brookfield,REP,1459,DEM,1176
+Massachusetts,Oakham,REP,663,DEM,553
+Massachusetts,Oxford,REP,3761,DEM,3573
+Massachusetts,Paxton,REP,1259,DEM,1612
+Massachusetts,Petersham,REP,0,DEM,0
+Massachusetts,Phillipston,REP,607,DEM,484
+Massachusetts,Princeton,REP,969,DEM,1514
+Massachusetts,Royalston,REP,357,DEM,404
+Massachusetts,Rutland,REP,2661,DEM,2800
+Massachusetts,Shrewsbury,REP,7004,DEM,13325
+Massachusetts,Southborough,REP,1779,DEM,4477
+Massachusetts,Southbridge,REP,3022,DEM,4074
+Massachusetts,Spencer,REP,3290,DEM,3005
+Massachusetts,Sterling,REP,2431,DEM,2801
+Massachusetts,Sturbridge,REP,2474,DEM,3387
+Massachusetts,Sutton,REP,3041,DEM,3042
+Massachusetts,Templeton,REP,2287,DEM,2060
+Massachusetts,Upton,REP,1956,DEM,3099
+Massachusetts,Uxbridge,REP,4090,DEM,4347
+Massachusetts,Warren,REP,1374,DEM,1146
+Massachusetts,Webster,REP,4002,DEM,4003
+Massachusetts,Westborough,REP,2756,DEM,7490
+Massachusetts,West Boylston,REP,1842,DEM,2742
+Massachusetts,West Brookfield,REP,1127,DEM,1137
+Massachusetts,Westminster,REP,2388,DEM,2556
+Massachusetts,Winchendon,REP,2657,DEM,2310
+Massachusetts,Worcester,REP,21018,DEM,48030
+Michigan,Alcona,REP,4848,DEM,2142
+Michigan,Alger,REP,3014,DEM,2053
+Michigan,Allegan,REP,41381,DEM,24447
+Michigan,Alpena,REP,10686,DEM,6000
+Michigan,Antrim,REP,9783,DEM,7289
+Michigan,Arenac,REP,5928,DEM,2773
+Michigan,Baraga,REP,2512,DEM,1478
+Michigan,Barry,REP,23473,DEM,11804
+Michigan,Bay,REP,33347,DEM,26653
+Michigan,Benzie,REP,6600,DEM,5480
+Michigan,Berrien,REP,43519,DEM,37438
+Michigan,Branch,REP,14067,DEM,6161
+Michigan,Calhoun,REP,35900,DEM,28417
+Michigan,Cass,REP,16686,DEM,9122
+Michigan,Charlevoix,REP,9841,DEM,6939
+Michigan,Cheboygan,REP,10186,DEM,5437
+Michigan,Chippewa,REP,10682,DEM,6651
+Michigan,Clare,REP,10860,DEM,5200
+Michigan,Clinton,REP,25098,DEM,21968
+Michigan,Crawford,REP,4955,DEM,2612
+Michigan,Delta,REP,13206,DEM,7605
+Michigan,Dickinson,REP,9617,DEM,4744
+Michigan,Eaton,REP,31797,DEM,31297
+Michigan,Emmet,REP,12135,DEM,9662
+Michigan,Genesee,REP,99199,DEM,120082
+Michigan,Gladwin,REP,9893,DEM,4524
+Michigan,Gogebic,REP,4600,DEM,3573
+Michigan,Grand Traverse,REP,30502,DEM,28683
+Michigan,Gratiot,REP,12102,DEM,6693
+Michigan,Hillsdale,REP,17037,DEM,5883
+Michigan,Houghton,REP,10380,DEM,7755
+Michigan,Huron,REP,11949,DEM,5349
+Michigan,Ingham,REP,47640,DEM,94221
+Michigan,Ionia,REP,20657,DEM,10901
+Michigan,Iosco,REP,9760,DEM,5371
+Michigan,Iron,REP,4216,DEM,2493
+Michigan,Isabella,REP,14815,DEM,14072
+Michigan,Jackson,REP,47381,DEM,32004
+Michigan,Kalamazoo,REP,56823,DEM,83674
+Michigan,Kalkaska,REP,7436,DEM,3003
+Michigan,Kent,REP,165318,DEM,186753
+Michigan,Keweenaw,REP,862,DEM,672
+Michigan,Lake,REP,3946,DEM,2288
+Michigan,Lapeer,REP,35480,DEM,16368
+Michigan,Leelanau,REP,7915,DEM,8793
+Michigan,Lenawee,REP,31539,DEM,20916
+Michigan,Livingston,REP,76982,DEM,48220
+Michigan,Luce,REP,2109,DEM,842
+Michigan,Mackinac,REP,4304,DEM,2632
+Michigan,Macomb,REP,264535,DEM,225561
+Michigan,Manistee,REP,8321,DEM,6107
+Michigan,Marquette,REP,16288,DEM,20465
+Michigan,Mason,REP,10207,DEM,6802
+Michigan,Mecosta,REP,13265,DEM,7373
+Michigan,Menominee,REP,8120,DEM,4314
+Michigan,Midland,REP,27675,DEM,20493
+Michigan,Missaukee,REP,6648,DEM,1967
+Michigan,Monroe,REP,52710,DEM,32975
+Michigan,Montcalm,REP,21815,DEM,9703
+Michigan,Montmorency,REP,4171,DEM,1628
+Michigan,Muskegon,REP,44544,DEM,45508
+Michigan,Newaygo,REP,18864,DEM,7874
+Michigan,Oakland,REP,325916,DEM,433982
+Michigan,Oceana,REP,8892,DEM,4944
+Michigan,Ogemaw,REP,8253,DEM,3475
+Michigan,Ontonagon,REP,2358,DEM,1391
+Michigan,Osceola,REP,8928,DEM,3214
+Michigan,Oscoda,REP,3466,DEM,1342
+Michigan,Otsego,REP,9779,DEM,4743
+Michigan,Ottawa,REP,100913,DEM,64705
+Michigan,Presque Isle,REP,5343,DEM,2912
+Michigan,Roscommon,REP,9670,DEM,5166
+Michigan,Saginaw,REP,50785,DEM,51088
+Michigan,St. Clair,REP,59186,DEM,31363
+Michigan,St. Joseph,REP,18128,DEM,9262
+Michigan,Sanilac,REP,16194,DEM,5966
+Michigan,Schoolcraft,REP,3090,DEM,1589
+Michigan,Shiawassee,REP,23154,DEM,15371
+Michigan,Tuscola,REP,20310,DEM,8713
+Michigan,Van Buren,REP,21591,DEM,16800
+Michigan,Washtenaw,REP,56241,DEM,157130
+Michigan,Wayne,REP,264149,DEM,587074
+Michigan,Wexford,REP,12102,DEM,5838
+Minnesota,Aitkin,REP,6258,DEM,3607
+Minnesota,Anoka,REP,104903,DEM,100892
+Minnesota,Becker,REP,12452,DEM,6592
+Minnesota,Beltrami,REP,12188,DEM,11426
+Minnesota,Benton,REP,14382,DEM,7281
+Minnesota,Big Stone,REP,1862,DEM,1052
+Minnesota,Blue Earth,REP,16731,DEM,18330
+Minnesota,Brown,REP,9550,DEM,4750
+Minnesota,Carlton,REP,9787,DEM,10094
+Minnesota,Carver,REP,34012,DEM,30770
+Minnesota,Cass,REP,11621,DEM,6342
+Minnesota,Chippewa,REP,4250,DEM,2226
+Minnesota,Chisago,REP,21915,DEM,11803
+Minnesota,Clay,REP,15031,DEM,16345
+Minnesota,Clearwater,REP,3371,DEM,1258
+Minnesota,Cook,REP,1203,DEM,2496
+Minnesota,Cottonwood,REP,4165,DEM,1834
+Minnesota,Crow Wing,REP,25676,DEM,13726
+Minnesota,Dakota,REP,109183,DEM,145510
+Minnesota,Dodge,REP,7774,DEM,4074
+Minnesota,Douglas,REP,15799,DEM,7868
+Minnesota,Faribault,REP,5191,DEM,2531
+Minnesota,Fillmore,REP,7301,DEM,4551
+Minnesota,Freeborn,REP,9578,DEM,6889
+Minnesota,Goodhue,REP,16052,DEM,11805
+Minnesota,Grant,REP,2269,DEM,1300
+Minnesota,Hennepin,REP,205966,DEM,532608
+Minnesota,Houston,REP,6334,DEM,4851
+Minnesota,Hubbard,REP,8202,DEM,4462
+Minnesota,Isanti,REP,16491,DEM,7138
+Minnesota,Itasca,REP,15239,DEM,10787
+Minnesota,Jackson,REP,3948,DEM,1745
+Minnesota,Kanabec,REP,6278,DEM,2774
+Minnesota,Kandiyohi,REP,14437,DEM,8440
+Minnesota,Kittson,REP,1546,DEM,1006
+Minnesota,Koochiching,REP,4131,DEM,2657
+Minnesota,Lac qui Parle,REP,2527,DEM,1445
+Minnesota,Lake,REP,3392,DEM,3646
+Minnesota,Lake of the Woods,REP,1704,DEM,671
+Minnesota,Le Sueur,REP,10775,DEM,5671
+Minnesota,Lincoln,REP,2120,DEM,937
+Minnesota,Lyon,REP,7979,DEM,4630
+Minnesota,McLeod,REP,13986,DEM,6413
+Minnesota,Mahnomen,REP,1143,DEM,1112
+Minnesota,Marshall,REP,3721,DEM,1295
+Minnesota,Martin,REP,7476,DEM,3304
+Minnesota,Meeker,REP,9358,DEM,3867
+Minnesota,Mille Lacs,REP,9953,DEM,4403
+Minnesota,Morrison,REP,14819,DEM,4367
+Minnesota,Mower,REP,10067,DEM,8997
+Minnesota,Murray,REP,3363,DEM,1449
+Minnesota,Nicollet,REP,9018,DEM,9622
+Minnesota,Nobles,REP,5598,DEM,2928
+Minnesota,Norman,REP,1954,DEM,1404
+Minnesota,Olmsted,REP,39692,DEM,49492
+Minnesota,Otter Tail,REP,23794,DEM,11940
+Minnesota,Pennington,REP,4532,DEM,2568
+Minnesota,Pine,REP,10256,DEM,5416
+Minnesota,Pipestone,REP,3553,DEM,1306
+Minnesota,Polk,REP,9857,DEM,5435
+Minnesota,Pope,REP,4413,DEM,2478
+Minnesota,Ramsey,REP,77324,DEM,211362
+Minnesota,Red Lake,REP,1450,DEM,689
+Minnesota,Redwood,REP,5775,DEM,2358
+Minnesota,Renville,REP,5465,DEM,2497
+Minnesota,Rice,REP,17463,DEM,17402
+Minnesota,Rock,REP,3580,DEM,1554
+Minnesota,Roseau,REP,6065,DEM,2188
+Minnesota,St. Louis,REP,49214,DEM,67836
+Minnesota,Scott,REP,45871,DEM,40037
+Minnesota,Sherburne,REP,36221,DEM,18065
+Minnesota,Sibley,REP,5864,DEM,2417
+Minnesota,Stearns,REP,50960,DEM,31883
+Minnesota,Steele,REP,12656,DEM,7917
+Minnesota,Stevens,REP,3044,DEM,1921
+Minnesota,Swift,REP,3316,DEM,1784
+Minnesota,Todd,REP,9755,DEM,3286
+Minnesota,Traverse,REP,1173,DEM,662
+Minnesota,Wabasha,REP,8153,DEM,4696
+Minnesota,Wadena,REP,5520,DEM,2023
+Minnesota,Waseca,REP,6624,DEM,3496
+Minnesota,Washington,REP,73764,DEM,89164
+Minnesota,Watonwan,REP,3103,DEM,1987
+Minnesota,Wilkin,REP,2333,DEM,1027
+Minnesota,Winona,REP,13227,DEM,13333
+Minnesota,Wright,REP,53565,DEM,30854
+Minnesota,Yellow Medicine,REP,3734,DEM,1685
+Mississippi,Adams,REP,5222,DEM,6914
+Mississippi,Alcorn,REP,12818,DEM,2782
+Mississippi,Amite,REP,4503,DEM,2620
+Mississippi,Attala,REP,5178,DEM,3542
+Mississippi,Benton,REP,2570,DEM,1679
+Mississippi,Bolivar,REP,4260,DEM,7203
+Mississippi,Calhoun,REP,4625,DEM,1902
+Mississippi,Carroll,REP,3257,DEM,1203
+Mississippi,Chickasaw,REP,4175,DEM,3810
+Mississippi,Choctaw,REP,3001,DEM,1185
+Mississippi,Claiborne,REP,603,DEM,3772
+Mississippi,Clarke,REP,5372,DEM,2815
+Mississippi,Clay,REP,4181,DEM,5844
+Mississippi,Coahoma,REP,2400,DEM,6130
+Mississippi,Copiah,REP,6250,DEM,6470
+Mississippi,Covington,REP,5811,DEM,3382
+Mississippi,DeSoto,REP,45788,DEM,27733
+Mississippi,Forrest,REP,17290,DEM,13756
+Mississippi,Franklin,REP,2923,DEM,1480
+Mississippi,George,REP,9713,DEM,1218
+Mississippi,Greene,REP,4794,DEM,966
+Mississippi,Grenada,REP,4889,DEM,2866
+Mississippi,Hancock,REP,16132,DEM,4504
+Mississippi,Harrison,REP,46822,DEM,27728
+Mississippi,Hinds,REP,21242,DEM,59192
+Mississippi,Holmes,REP,1196,DEM,5182
+Mississippi,Humphreys,REP,1115,DEM,2994
+Mississippi,Issaquena,REP,308,DEM,355
+Mississippi,Itawamba,REP,9374,DEM,1230
+Mississippi,Jackson,REP,32563,DEM,12061
+Mississippi,Jasper,REP,4302,DEM,4341
+Mississippi,Jefferson,REP,529,DEM,3325
+Mississippi,Jefferson Davis,REP,2534,DEM,3599
+Mississippi,Jones,REP,21226,DEM,8517
+Mississippi,Kemper,REP,1787,DEM,2887
+Mississippi,Lafayette,REP,12949,DEM,10070
+Mississippi,Lamar,REP,20704,DEM,7340
+Mississippi,Lauderdale,REP,17967,DEM,12960
+Mississippi,Lawrence,REP,4254,DEM,2240
+Mississippi,Leake,REP,5228,DEM,3897
+Mississippi,Lee,REP,21297,DEM,9910
+Mississippi,Leflore,REP,2623,DEM,5444
+Mississippi,Lincoln,REP,11596,DEM,5040
+Mississippi,Lowndes,REP,13800,DEM,13087
+Mississippi,Madison,REP,26188,DEM,18931
+Mississippi,Marion,REP,8273,DEM,3787
+Mississippi,Marshall,REP,6591,DEM,6283
+Mississippi,Monroe,REP,9677,DEM,4565
+Mississippi,Montgomery,REP,2917,DEM,2121
+Mississippi,Neshoba,REP,8311,DEM,3247
+Mississippi,Newton,REP,6997,DEM,3075
+Mississippi,Noxubee,REP,1240,DEM,4040
+Mississippi,Oktibbeha,REP,8972,DEM,10257
+Mississippi,Panola,REP,8060,DEM,7403
+Mississippi,Pearl River,REP,19595,DEM,4148
+Mississippi,Perry,REP,4500,DEM,1362
+Mississippi,Pike,REP,8479,DEM,8646
+Mississippi,Pontotoc,REP,11550,DEM,2614
+Mississippi,Prentiss,REP,8312,DEM,2139
+Mississippi,Quitman,REP,1020,DEM,2138
+Mississippi,Rankin,REP,50895,DEM,18847
+Mississippi,Scott,REP,6285,DEM,4330
+Mississippi,Sharkey,REP,688,DEM,1465
+Mississippi,Simpson,REP,7635,DEM,4037
+Mississippi,Smith,REP,6458,DEM,1791
+Mississippi,Stone,REP,5239,DEM,1208
+Mississippi,Sunflower,REP,2784,DEM,6741
+Mississippi,Tallahatchie,REP,2488,DEM,3105
+Mississippi,Tate,REP,8707,DEM,4183
+Mississippi,Tippah,REP,8054,DEM,1937
+Mississippi,Tishomingo,REP,7854,DEM,1050
+Mississippi,Tunica,REP,926,DEM,2580
+Mississippi,Union,REP,10373,DEM,2160
+Mississippi,Walthall,REP,3426,DEM,2236
+Mississippi,Warren,REP,10236,DEM,10681
+Mississippi,Washington,REP,4114,DEM,6218
+Mississippi,Wayne,REP,6307,DEM,3624
+Mississippi,Webster,REP,4291,DEM,1043
+Mississippi,Wilkinson,REP,1311,DEM,2730
+Mississippi,Winston,REP,5084,DEM,4009
+Mississippi,Yalobusha,REP,3671,DEM,2785
+Mississippi,Yazoo,REP,4370,DEM,4533
+Missouri,Adair,REP,6391,DEM,3705
+Missouri,Andrew,REP,7256,DEM,2351
+Missouri,Atchison,REP,2199,DEM,564
+Missouri,Audrain,REP,7727,DEM,2703
+Missouri,Barry,REP,12425,DEM,2948
+Missouri,Barton,REP,5168,DEM,844
+Missouri,Bates,REP,6595,DEM,1672
+Missouri,Benton,REP,8106,DEM,2179
+Missouri,Bollinger,REP,5162,DEM,749
+Missouri,Boone,REP,38596,DEM,49999
+Missouri,Buchanan,REP,22450,DEM,13445
+Missouri,Butler,REP,14599,DEM,3301
+Missouri,Caldwell,REP,3725,DEM,897
+Missouri,Callaway,REP,14812,DEM,5868
+Missouri,Camden,REP,18825,DEM,5640
+Missouri,Cape Girardeau,REP,28873,DEM,10738
+Missouri,Carroll,REP,3706,DEM,785
+Missouri,Carter,REP,2451,DEM,418
+Missouri,Cass,REP,37172,DEM,19035
+Missouri,Cedar,REP,5786,DEM,1143
+Missouri,Chariton,REP,3109,DEM,916
+Missouri,Christian,REP,34904,DEM,11126
+Missouri,Clark,REP,2672,DEM,678
+Missouri,Clay,REP,64583,DEM,59519
+Missouri,Clinton,REP,7789,DEM,2894
+Missouri,Cole,REP,26066,DEM,12687
+Missouri,Cooper,REP,6272,DEM,2249
+Missouri,Crawford,REP,8725,DEM,2113
+Missouri,Dade,REP,3414,DEM,656
+Missouri,Dallas,REP,6620,DEM,1380
+Missouri,Daviess,REP,3077,DEM,740
+Missouri,DeKalb,REP,3827,DEM,930
+Missouri,Dent,REP,5987,DEM,1056
+Missouri,Douglas,REP,5896,DEM,1012
+Missouri,Dunklin,REP,8135,DEM,2200
+Missouri,Franklin,REP,38034,DEM,14561
+Missouri,Gasconade,REP,6222,DEM,1601
+Missouri,Gentry,REP,2580,DEM,613
+Missouri,Greene,REP,81312,DEM,53307
+Missouri,Grundy,REP,3585,DEM,799
+Missouri,Harrison,REP,3198,DEM,597
+Missouri,Henry,REP,8019,DEM,2615
+Missouri,Hickory,REP,3965,DEM,1054
+Missouri,Holt,REP,1976,DEM,338
+Missouri,Howard,REP,3552,DEM,1412
+Missouri,Howell,REP,15174,DEM,3214
+Missouri,Iron,REP,3596,DEM,945
+Missouri,Jackson,REP,125897,DEM,198031
+Missouri,Jasper,REP,37714,DEM,13539
+Missouri,Jefferson,REP,77021,DEM,37507
+Missouri,Johnson,REP,15468,DEM,6961
+Missouri,Knox,REP,1486,DEM,340
+Missouri,Laclede,REP,13755,DEM,2779
+Missouri,Lafayette,REP,12262,DEM,4470
+Missouri,Lawrence,REP,14421,DEM,3214
+Missouri,Lewis,REP,3541,DEM,984
+Missouri,Lincoln,REP,21702,DEM,6553
+Missouri,Linn,REP,4344,DEM,1274
+Missouri,Livingston,REP,5266,DEM,1409
+Missouri,McDonald,REP,7465,DEM,1437
+Missouri,Macon,REP,6075,DEM,1661
+Missouri,Madison,REP,4581,DEM,1017
+Missouri,Maries,REP,3890,DEM,814
+Missouri,Marion,REP,9910,DEM,3201
+Missouri,Mercer,REP,1541,DEM,222
+Missouri,Miller,REP,10175,DEM,2038
+Missouri,Mississippi,REP,3537,DEM,1178
+Missouri,Moniteau,REP,5738,DEM,1307
+Missouri,Monroe,REP,3466,DEM,931
+Missouri,Montgomery,REP,4457,DEM,1206
+Missouri,Morgan,REP,7439,DEM,1924
+Missouri,New Madrid,REP,5447,DEM,1748
+Missouri,Newton,REP,22090,DEM,5793
+Missouri,Nodaway,REP,6855,DEM,2849
+Missouri,Oregon,REP,3847,DEM,823
+Missouri,Osage,REP,6341,DEM,1031
+Missouri,Ozark,REP,4064,DEM,752
+Missouri,Pemiscot,REP,4116,DEM,1556
+Missouri,Perry,REP,7634,DEM,1661
+Missouri,Pettis,REP,13835,DEM,4776
+Missouri,Phelps,REP,13438,DEM,5619
+Missouri,Pike,REP,5856,DEM,1717
+Missouri,Platte,REP,29251,DEM,28111
+Missouri,Polk,REP,11849,DEM,2883
+Missouri,Pulaski,REP,10326,DEM,3735
+Missouri,Putnam,REP,1984,DEM,361
+Missouri,Ralls,REP,4396,DEM,1205
+Missouri,Randolph,REP,8018,DEM,2485
+Missouri,Ray,REP,8328,DEM,3107
+Missouri,Reynolds,REP,2733,DEM,529
+Missouri,Ripley,REP,4838,DEM,833
+Missouri,St. Charles,REP,128193,DEM,89346
+Missouri,St. Clair,REP,3930,DEM,988
+Missouri,Ste. Genevieve,REP,6627,DEM,2713
+Missouri,St. Francois,REP,20506,DEM,7044
+Missouri,St. Louis,REP,196808,DEM,322802
+Missouri,Saline,REP,6447,DEM,2903
+Missouri,Schuyler,REP,1606,DEM,373
+Missouri,Scotland,REP,1560,DEM,387
+Missouri,Scott,REP,13769,DEM,3753
+Missouri,Shannon,REP,3164,DEM,706
+Missouri,Shelby,REP,2699,DEM,592
+Missouri,Stoddard,REP,11460,DEM,1814
+Missouri,Stone,REP,14716,DEM,3486
+Missouri,Sullivan,REP,1974,DEM,478
+Missouri,Taney,REP,20426,DEM,5325
+Missouri,Texas,REP,9478,DEM,1716
+Missouri,Vernon,REP,7135,DEM,1902
+Missouri,Warren,REP,13222,DEM,4769
+Missouri,Washington,REP,8046,DEM,1804
+Missouri,Wayne,REP,4984,DEM,844
+Missouri,Webster,REP,14874,DEM,3572
+Missouri,Worth,REP,877,DEM,215
+Missouri,Wright,REP,7452,DEM,1167
+Missouri,St. Louis city,REP,21185,DEM,108385
+Montana,Beaverhead,REP,3923,DEM,1608
+Montana,Big Horn,REP,2207,DEM,2491
+Montana,Blaine,REP,1469,DEM,1589
+Montana,Broadwater,REP,3173,DEM,835
+Montana,Carbon,REP,4468,DEM,2421
+Montana,Carter,REP,775,DEM,74
+Montana,Cascade,REP,23314,DEM,15456
+Montana,Chouteau,REP,1888,DEM,988
+Montana,Custer,REP,4205,DEM,1514
+Montana,Daniels,REP,799,DEM,195
+Montana,Dawson,REP,3758,DEM,962
+Montana,Deer Lodge,REP,2186,DEM,2562
+Montana,Fallon,REP,1375,DEM,172
+Montana,Fergus,REP,4869,DEM,1496
+Montana,Flathead,REP,38321,DEM,20274
+Montana,Gallatin,REP,31696,DEM,37044
+Montana,Garfield,REP,764,DEM,41
+Montana,Glacier,REP,1884,DEM,3610
+Montana,Golden Valley,REP,414,DEM,78
+Montana,Granite,REP,1419,DEM,638
+Montana,Hill,REP,3957,DEM,2981
+Montana,Jefferson,REP,5345,DEM,2625
+Montana,Judith Basin,REP,1040,DEM,275
+Montana,Lake,REP,9322,DEM,6916
+Montana,Lewis and Clark,REP,21409,DEM,19743
+Montana,Liberty,REP,821,DEM,249
+Montana,Lincoln,REP,8672,DEM,2835
+Montana,McCone,REP,956,DEM,155
+Montana,Madison,REP,4191,DEM,1771
+Montana,Meagher,REP,833,DEM,258
+Montana,Mineral,REP,1828,DEM,686
+Montana,Missoula,REP,26347,DEM,43357
+Montana,Musselshell,REP,2423,DEM,413
+Montana,Park,REP,6025,DEM,5280
+Montana,Petroleum,REP,298,DEM,39
+Montana,Phillips,REP,1936,DEM,416
+Montana,Pondera,REP,2031,DEM,903
+Montana,Powder River,REP,970,DEM,154
+Montana,Powell,REP,2347,DEM,752
+Montana,Prairie,REP,603,DEM,126
+Montana,Ravalli,REP,19114,DEM,8763
+Montana,Richland,REP,4800,DEM,875
+Montana,Roosevelt,REP,1996,DEM,1910
+Montana,Rosebud,REP,2486,DEM,1199
+Montana,Sanders,REP,5660,DEM,1820
+Montana,Sheridan,REP,1403,DEM,574
+Montana,Silver Bow,REP,7745,DEM,10392
+Montana,Stillwater,REP,4462,DEM,1156
+Montana,Sweet Grass,REP,1840,DEM,549
+Montana,Teton,REP,2608,DEM,1007
+Montana,Toole,REP,1596,DEM,467
+Montana,Treasure,REP,373,DEM,78
+Montana,Valley,REP,3135,DEM,1030
+Montana,Wheatland,REP,823,DEM,225
+Montana,Wibaux,REP,516,DEM,77
+Montana,Yellowstone,REP,50772,DEM,30679
+Nebraska,Adams,REP,10085,DEM,4213
+Nebraska,Antelope,REP,3093,DEM,452
+Nebraska,Arthur,REP,260,DEM,21
+Nebraska,Banner,REP,362,DEM,43
+Nebraska,Blaine,REP,280,DEM,35
+Nebraska,Boone,REP,2653,DEM,499
+Nebraska,Box Butte,REP,4002,DEM,1051
+Nebraska,Boyd,REP,1010,DEM,135
+Nebraska,Brown,REP,1470,DEM,191
+Nebraska,Buffalo,REP,16640,DEM,6350
+Nebraska,Burt,REP,2580,DEM,1063
+Nebraska,Butler,REP,3526,DEM,869
+Nebraska,Cass,REP,10121,DEM,4737
+Nebraska,Cedar,REP,4174,DEM,725
+Nebraska,Chase,REP,1740,DEM,226
+Nebraska,Cherry,REP,2844,DEM,373
+Nebraska,Cheyenne,REP,3813,DEM,855
+Nebraska,Clay,REP,2848,DEM,632
+Nebraska,Colfax,REP,2636,DEM,1025
+Nebraska,Cuming,REP,3507,DEM,870
+Nebraska,Custer,REP,4996,DEM,768
+Nebraska,Dakota,REP,3926,DEM,2744
+Nebraska,Dawes,REP,2931,DEM,1082
+Nebraska,Dawson,REP,6524,DEM,2497
+Nebraska,Deuel,REP,871,DEM,141
+Nebraska,Dixon,REP,2335,DEM,651
+Nebraska,Dodge,REP,10963,DEM,5526
+Nebraska,Douglas,REP,117398,DEM,148058
+Nebraska,Dundy,REP,883,DEM,105
+Nebraska,Fillmore,REP,2359,DEM,693
+Nebraska,Franklin,REP,1434,DEM,276
+Nebraska,Frontier,REP,1229,DEM,189
+Nebraska,Furnas,REP,2163,DEM,399
+Nebraska,Gage,REP,7445,DEM,3385
+Nebraska,Garden,REP,1016,DEM,161
+Nebraska,Garfield,REP,925,DEM,133
+Nebraska,Gosper,REP,893,DEM,215
+Nebraska,Grant,REP,375,DEM,20
+Nebraska,Greeley,REP,1016,DEM,229
+Nebraska,Hall,REP,16189,DEM,7681
+Nebraska,Hamilton,REP,4297,DEM,1117
+Nebraska,Harlan,REP,1615,DEM,282
+Nebraska,Hayes,REP,494,DEM,34
+Nebraska,Hitchcock,REP,1264,DEM,175
+Nebraska,Holt,REP,4769,DEM,686
+Nebraska,Hooker,REP,376,DEM,59
+Nebraska,Howard,REP,2786,DEM,648
+Nebraska,Jefferson,REP,2616,DEM,1016
+Nebraska,Johnson,REP,1518,DEM,647
+Nebraska,Kearney,REP,2822,DEM,701
+Nebraska,Keith,REP,3544,DEM,763
+Nebraska,Keya Paha,REP,476,DEM,49
+Nebraska,Kimball,REP,1553,DEM,267
+Nebraska,Knox,REP,3721,DEM,905
+Nebraska,Lancaster,REP,70092,DEM,82293
+Nebraska,Lincoln,REP,13071,DEM,3692
+Nebraska,Logan,REP,407,DEM,38
+Nebraska,Loup,REP,370,DEM,75
+Nebraska,McPherson,REP,275,DEM,17
+Nebraska,Madison,REP,11678,DEM,3393
+Nebraska,Merrick,REP,3407,DEM,740
+Nebraska,Morrill,REP,2113,DEM,386
+Nebraska,Nance,REP,1437,DEM,359
+Nebraska,Nemaha,REP,2428,DEM,921
+Nebraska,Nuckolls,REP,1857,DEM,409
+Nebraska,Otoe,REP,5649,DEM,2490
+Nebraska,Pawnee,REP,1071,DEM,322
+Nebraska,Perkins,REP,1321,DEM,199
+Nebraska,Phelps,REP,4157,DEM,752
+Nebraska,Pierce,REP,3462,DEM,480
+Nebraska,Platte,REP,11827,DEM,3208
+Nebraska,Polk,REP,2286,DEM,527
+Nebraska,Red Willow,REP,4525,DEM,811
+Nebraska,Richardson,REP,3073,DEM,996
+Nebraska,Rock,REP,744,DEM,84
+Nebraska,Saline,REP,3631,DEM,1986
+Nebraska,Sarpy,REP,51518,DEM,41029
+Nebraska,Saunders,REP,9108,DEM,3331
+Nebraska,Scotts Bluff,REP,10952,DEM,4196
+Nebraska,Seward,REP,6490,DEM,2438
+Nebraska,Sheridan,REP,2292,DEM,340
+Nebraska,Sherman,REP,1322,DEM,343
+Nebraska,Sioux,REP,642,DEM,72
+Nebraska,Stanton,REP,2561,DEM,532
+Nebraska,Thayer,REP,2308,DEM,624
+Nebraska,Thomas,REP,377,DEM,45
+Nebraska,Thurston,REP,1180,DEM,1122
+Nebraska,Valley,REP,1901,DEM,412
+Nebraska,Washington,REP,8583,DEM,3554
+Nebraska,Wayne,REP,3055,DEM,1022
+Nebraska,Webster,REP,1511,DEM,335
+Nebraska,Wheeler,REP,438,DEM,59
+Nebraska,York,REP,5296,DEM,1619
+Nevada,Churchill,REP,9372,DEM,3051
+Nevada,Clark,REP,430930,DEM,521852
+Nevada,Douglas,REP,21630,DEM,11571
+Nevada,Elko,REP,16741,DEM,4557
+Nevada,Esmeralda,REP,400,DEM,74
+Nevada,Eureka,REP,895,DEM,105
+Nevada,Humboldt,REP,5877,DEM,1689
+Nevada,Lander,REP,2198,DEM,496
+Nevada,Lincoln,REP,2067,DEM,330
+Nevada,Lyon,REP,20914,DEM,8473
+Nevada,Mineral,REP,1423,DEM,829
+Nevada,Nye,REP,17528,DEM,7288
+Nevada,Pershing,REP,1731,DEM,547
+Nevada,Storey,REP,1908,DEM,902
+Nevada,Washoe,REP,116760,DEM,128128
+Nevada,White Pine,REP,3403,DEM,859
+Nevada,Carson,REP,16113,DEM,12735
+New Hampshire,Alton,REP,2420,DEM,1438
+New Hampshire,Barnstead,REP,1698,DEM,1150
+New Hampshire,Belmont,REP,2365,DEM,1609
+New Hampshire,Center Harbor,REP,407,DEM,379
+New Hampshire,Gilford,REP,2748,DEM,2508
+New Hampshire,Gilmanton,REP,1423,DEM,1020
+New Hampshire,Laconia,REP,4642,DEM,4141
+New Hampshire,Meredith,REP,2208,DEM,2139
+New Hampshire,New Hampton,REP,810,DEM,697
+New Hampshire,Sanbornton,REP,1134,DEM,875
+New Hampshire,Tilton,REP,1044,DEM,938
+New Hampshire,Albany,REP,190,DEM,250
+New Hampshire,Bartlett,REP,773,DEM,1374
+New Hampshire,Brookfield,REP,315,DEM,218
+New Hampshire,Chatham,REP,130,DEM,106
+New Hampshire,Conway,REP,2465,DEM,3411
+New Hampshire,Eaton,REP,117,DEM,188
+New Hampshire,Effingham,REP,526,DEM,391
+New Hampshire,Freedom,REP,538,DEM,538
+New Hampshire,Harts Location,REP,20,DEM,23
+New Hampshire,Jackson,REP,212,DEM,567
+New Hampshire,Madison,REP,760,DEM,926
+New Hampshire,Moultonborough,REP,1997,DEM,1605
+New Hampshire,Ossipee,REP,1487,DEM,965
+New Hampshire,Sandwich,REP,413,DEM,718
+New Hampshire,Tamworth,REP,838,DEM,899
+New Hampshire,Tuftonboro,REP,1012,DEM,875
+New Hampshire,Wakefield,REP,1986,DEM,1240
+New Hampshire,Wolfeboro,REP,2371,DEM,2355
+New Hampshire,Alstead,REP,477,DEM,684
+New Hampshire,Chesterfield,REP,958,DEM,1390
+New Hampshire,Dublin,REP,404,DEM,687
+New Hampshire,Fitzwilliam,REP,682,DEM,666
+New Hampshire,Gilsum,REP,263,DEM,240
+New Hampshire,Harrisville,REP,201,DEM,553
+New Hampshire,Hinsdale,REP,829,DEM,1048
+New Hampshire,Jaffrey,REP,1410,DEM,1528
+New Hampshire,Keene,REP,3764,DEM,8966
+New Hampshire,Marlborough,REP,441,DEM,806
+New Hampshire,Marlow,REP,207,DEM,277
+New Hampshire,Nelson,REP,164,DEM,275
+New Hampshire,Richmond,REP,413,DEM,292
+New Hampshire,Rindge,REP,2144,DEM,1443
+New Hampshire,Roxbury,REP,52,DEM,92
+New Hampshire,Stoddard,REP,430,DEM,419
+New Hampshire,Sullivan,REP,186,DEM,216
+New Hampshire,Surry,REP,252,DEM,307
+New Hampshire,Swanzey,REP,1763,DEM,2008
+New Hampshire,Troy,REP,583,DEM,509
+New Hampshire,Walpole,REP,834,DEM,1470
+New Hampshire,Westmoreland,REP,453,DEM,660
+New Hampshire,Winchester,REP,988,DEM,986
+New Hampshire,Berlin,REP,1852,DEM,2147
+New Hampshire,Carroll,REP,267,DEM,266
+New Hampshire,Clarksville,REP,108,DEM,72
+New Hampshire,Colebrook,REP,630,DEM,418
+New Hampshire,Columbia,REP,235,DEM,114
+New Hampshire,Dalton,REP,295,DEM,231
+New Hampshire,Dixville,REP,0,DEM,5
+New Hampshire,Dummer,REP,113,DEM,67
+New Hampshire,Errol,REP,148,DEM,74
+New Hampshire,Gorham,REP,748,DEM,906
+New Hampshire,Jefferson,REP,394,DEM,257
+New Hampshire,Lancaster,REP,874,DEM,817
+New Hampshire,Milan,REP,437,DEM,345
+New Hampshire,Millsfield,REP,16,DEM,5
+New Hampshire,Northumberland,REP,614,DEM,424
+New Hampshire,Pittsburg,REP,380,DEM,158
+New Hampshire,Randolph,REP,83,DEM,186
+New Hampshire,Shelburne,REP,122,DEM,131
+New Hampshire,Stark,REP,188,DEM,106
+New Hampshire,Stewartstown,REP,291,DEM,117
+New Hampshire,Stratford,REP,140,DEM,159
+New Hampshire,Wentworth's Location,REP,13,DEM,4
+New Hampshire,Whitefield,REP,669,DEM,631
+New Hampshire,Alexandria,REP,616,DEM,440
+New Hampshire,Ashland,REP,562,DEM,632
+New Hampshire,Bath,REP,353,DEM,259
+New Hampshire,Benton,REP,143,DEM,89
+New Hampshire,Bethlehem,REP,620,DEM,1021
+New Hampshire,Bridgewater,REP,472,DEM,364
+New Hampshire,Bristol,REP,994,DEM,842
+New Hampshire,Campton,REP,964,DEM,1120
+New Hampshire,Canaan,REP,890,DEM,1162
+New Hampshire,Dorchester,REP,124,DEM,105
+New Hampshire,Easton,REP,64,DEM,167
+New Hampshire,Ellsworth,REP,32,DEM,45
+New Hampshire,Enfield,REP,930,DEM,1777
+New Hampshire,Franconia,REP,248,DEM,542
+New Hampshire,Grafton,REP,423,DEM,345
+New Hampshire,Groton,REP,232,DEM,142
+New Hampshire,Hanover,REP,841,DEM,6210
+New Hampshire,Haverhill,REP,1180,DEM,925
+New Hampshire,Hebron,REP,267,DEM,239
+New Hampshire,Holderness,REP,569,DEM,890
+New Hampshire,Landaff,REP,155,DEM,126
+New Hampshire,Lebanon,REP,1954,DEM,5895
+New Hampshire,Lincoln,REP,397,DEM,513
+New Hampshire,Lisbon,REP,431,DEM,353
+New Hampshire,Littleton,REP,1507,DEM,1557
+New Hampshire,Lyman,REP,208,DEM,174
+New Hampshire,Lyme,REP,218,DEM,1074
+New Hampshire,Monroe,REP,309,DEM,227
+New Hampshire,Orange,REP,110,DEM,80
+New Hampshire,Orford,REP,269,DEM,539
+New Hampshire,Piermont,REP,194,DEM,241
+New Hampshire,Plymouth,REP,1123,DEM,2214
+New Hampshire,Rumney,REP,527,DEM,410
+New Hampshire,Sugar Hill,REP,153,DEM,316
+New Hampshire,Thornton,REP,737,DEM,958
+New Hampshire,Warren,REP,275,DEM,189
+New Hampshire,Waterville,REP,127,DEM,238
+New Hampshire,Wentworth,REP,323,DEM,280
+New Hampshire,Woodstock,REP,364,DEM,480
+New Hampshire,Amherst,REP,3208,DEM,4796
+New Hampshire,Antrim,REP,779,DEM,761
+New Hampshire,Bedford,REP,7052,DEM,7521
+New Hampshire,Bennington,REP,424,DEM,395
+New Hampshire,Brookline,REP,1647,DEM,1903
+New Hampshire,Deering,REP,670,DEM,462
+New Hampshire,Francestown,REP,534,DEM,592
+New Hampshire,Goffstown,REP,5040,DEM,4967
+New Hampshire,Greenfield,REP,466,DEM,529
+New Hampshire,Greenville,REP,532,DEM,501
+New Hampshire,Hancock,REP,408,DEM,875
+New Hampshire,Hillsborough,REP,1722,DEM,1475
+New Hampshire,Hollis,REP,2468,DEM,3277
+New Hampshire,Hudson,REP,7744,DEM,6632
+New Hampshire,Litchfield,REP,2824,DEM,2497
+New Hampshire,Lyndeborough,REP,541,DEM,564
+New Hampshire,Manchester,REP,22127,DEM,29464
+New Hampshire,Mason,REP,535,DEM,380
+New Hampshire,Merrimack,REP,7669,DEM,8725
+New Hampshire,Milford,REP,4123,DEM,4644
+New Hampshire,Mont Vernon,REP,730,DEM,1011
+New Hampshire,Nashua,REP,17806,DEM,26770
+New Hampshire,New Boston,REP,2036,DEM,1826
+New Hampshire,New Ipswich,REP,2099,DEM,962
+New Hampshire,Pelham,REP,5253,DEM,3480
+New Hampshire,Peterborough,REP,1246,DEM,3090
+New Hampshire,Sharon,REP,116,DEM,153
+New Hampshire,Temple,REP,432,DEM,518
+New Hampshire,Weare,REP,3213,DEM,2211
+New Hampshire,Wilton,REP,1090,DEM,1330
+New Hampshire,Windsor,REP,91,DEM,33
+New Hampshire,Allenstown,REP,1233,DEM,1050
+New Hampshire,Andover,REP,726,DEM,844
+New Hampshire,Boscawen,REP,1064,DEM,931
+New Hampshire,Bow,REP,2167,DEM,3256
+New Hampshire,Bradford,REP,478,DEM,563
+New Hampshire,Canterbury,REP,718,DEM,1009
+New Hampshire,Chichester,REP,930,DEM,770
+New Hampshire,Concord,REP,7983,DEM,15511
+New Hampshire,Danbury,REP,414,DEM,290
+New Hampshire,Dunbarton,REP,1121,DEM,877
+New Hampshire,Epsom,REP,1702,DEM,1180
+New Hampshire,Franklin,REP,2281,DEM,1804
+New Hampshire,Henniker,REP,1075,DEM,1569
+New Hampshire,Hill,REP,403,DEM,224
+New Hampshire,Hooksett,REP,4387,DEM,4060
+New Hampshire,Hopkinton,REP,1400,DEM,2688
+New Hampshire,Loudon,REP,2152,DEM,1489
+New Hampshire,Newbury,REP,726,DEM,905
+New Hampshire,New London,REP,1059,DEM,2081
+New Hampshire,Northfield,REP,1435,DEM,1122
+New Hampshire,Pembroke,REP,2057,DEM,2189
+New Hampshire,Pittsfield,REP,1230,DEM,807
+New Hampshire,Salisbury,REP,517,DEM,380
+New Hampshire,Sutton,REP,574,DEM,753
+New Hampshire,Warner,REP,844,DEM,1050
+New Hampshire,Webster,REP,669,DEM,548
+New Hampshire,Wilmot,REP,366,DEM,583
+New Hampshire,Atkinson,REP,2795,DEM,2250
+New Hampshire,Auburn,REP,2265,DEM,1619
+New Hampshire,Brentwood,REP,1372,DEM,1505
+New Hampshire,Candia,REP,1702,DEM,1039
+New Hampshire,Chester,REP,1951,DEM,1465
+New Hampshire,Danville,REP,1686,DEM,1082
+New Hampshire,Deerfield,REP,1786,DEM,1360
+New Hampshire,Derry,REP,9412,DEM,8215
+New Hampshire,East Kingston,REP,889,DEM,781
+New Hampshire,Epping,REP,2311,DEM,2047
+New Hampshire,Exeter,REP,3321,DEM,6820
+New Hampshire,Fremont,REP,1635,DEM,1151
+New Hampshire,Greenland,REP,1160,DEM,1723
+New Hampshire,Hampstead,REP,3303,DEM,2494
+New Hampshire,Hampton,REP,5212,DEM,6150
+New Hampshire,Hampton Falls,REP,863,DEM,845
+New Hampshire,Kensington,REP,726,DEM,805
+New Hampshire,Kingston,REP,2311,DEM,1731
+New Hampshire,Londonderry,REP,7905,DEM,7738
+New Hampshire,New Castle,REP,281,DEM,619
+New Hampshire,Newfields,REP,512,DEM,719
+New Hampshire,Newington,REP,325,DEM,304
+New Hampshire,Newmarket,REP,1925,DEM,3953
+New Hampshire,Newton,REP,1680,DEM,1277
+New Hampshire,North Hampton,REP,1455,DEM,1987
+New Hampshire,Northwood,REP,1483,DEM,1329
+New Hampshire,Nottingham,REP,1641,DEM,1769
+New Hampshire,Plaistow,REP,2504,DEM,2045
+New Hampshire,Portsmouth,REP,3836,DEM,10663
+New Hampshire,Raymond,REP,3517,DEM,2378
+New Hampshire,Rye,REP,1620,DEM,2781
+New Hampshire,Salem,REP,9969,DEM,7638
+New Hampshire,Sandown,REP,2273,DEM,1632
+New Hampshire,Seabrook,REP,2595,DEM,1973
+New Hampshire,South Hampton,REP,326,DEM,304
+New Hampshire,Stratham,REP,2115,DEM,3306
+New Hampshire,Windham,REP,5196,DEM,4567
+New Hampshire,Barrington,REP,2733,DEM,3142
+New Hampshire,Dover,REP,6331,DEM,12508
+New Hampshire,Durham,REP,1712,DEM,5970
+New Hampshire,Farmington,REP,2000,DEM,1365
+New Hampshire,Lee,REP,971,DEM,1957
+New Hampshire,Madbury,REP,454,DEM,824
+New Hampshire,Middleton,REP,643,DEM,378
+New Hampshire,Milton,REP,1476,DEM,1015
+New Hampshire,New Durham,REP,1109,DEM,727
+New Hampshire,Rochester,REP,8367,DEM,8132
+New Hampshire,Rollinsford,REP,735,DEM,951
+New Hampshire,Somersworth,REP,2550,DEM,3422
+New Hampshire,Strafford,REP,1408,DEM,1330
+New Hampshire,Acworth,REP,269,DEM,293
+New Hampshire,Charlestown,REP,1239,DEM,1185
+New Hampshire,Claremont,REP,2788,DEM,2895
+New Hampshire,Cornish,REP,408,DEM,679
+New Hampshire,Croydon,REP,319,DEM,172
+New Hampshire,Goshen,REP,284,DEM,186
+New Hampshire,Grantham,REP,747,DEM,1669
+New Hampshire,Langdon,REP,199,DEM,206
+New Hampshire,Lempster,REP,440,DEM,274
+New Hampshire,Newport,REP,1773,DEM,1301
+New Hampshire,Plainfield,REP,522,DEM,1135
+New Hampshire,Springfield,REP,436,DEM,437
+New Hampshire,Sunapee,REP,1086,DEM,1309
+New Hampshire,Unity,REP,531,DEM,335
+New Hampshire,Washington,REP,467,DEM,314
+New Jersey,Atlantic,REP,60957,DEM,68978
+New Jersey,Bergen,REP,182831,DEM,259358
+New Jersey,Burlington,REP,96583,DEM,145987
+New Jersey,Camden,REP,79126,DEM,161719
+New Jersey,Cape May,REP,32770,DEM,23583
+New Jersey,Cumberland,REP,27294,DEM,30148
+New Jersey,Essex,REP,68038,DEM,237981
+New Jersey,Gloucester,REP,83312,DEM,86588
+New Jersey,Hudson,REP,53435,DEM,157349
+New Jersey,Hunterdon,REP,42203,DEM,38658
+New Jersey,Mercer,REP,47788,DEM,112845
+New Jersey,Middlesex,REP,128535,DEM,205718
+New Jersey,Monmouth,REP,187393,DEM,176558
+New Jersey,Morris,REP,132713,DEM,145196
+New Jersey,Ocean,REP,203613,DEM,113359
+New Jersey,Passaic,REP,84873,DEM,118112
+New Jersey,Salem,REP,18042,DEM,13722
+New Jersey,Somerset,REP,67335,DEM,103875
+New Jersey,Sussex,REP,49609,DEM,33142
+New Jersey,Union,REP,72679,DEM,153667
+New Jersey,Warren,REP,32998,DEM,23861
+New Mexico,Bernalillo,REP,115682,DEM,192081
+New Mexico,Catron,REP,1698,DEM,594
+New Mexico,Chaves,REP,15656,DEM,6381
+New Mexico,Cibola,REP,3975,DEM,4745
+New Mexico,Colfax,REP,3271,DEM,2611
+New Mexico,Curry,REP,10444,DEM,4307
+New Mexico,De Baca,REP,656,DEM,231
+New Mexico,Do�a Ana,REP,32800,DEM,47958
+New Mexico,Eddy,REP,17454,DEM,5424
+New Mexico,Grant,REP,6553,DEM,7590
+New Mexico,Guadalupe,REP,916,DEM,1234
+New Mexico,Harding,REP,319,DEM,179
+New Mexico,Hidalgo,REP,1117,DEM,821
+New Mexico,Lea,REP,16531,DEM,4061
+New Mexico,Lincoln,REP,6942,DEM,3194
+New Mexico,Los Alamos,REP,4278,DEM,7554
+New Mexico,Luna,REP,4407,DEM,3565
+New Mexico,McKinley,REP,7782,DEM,17969
+New Mexico,Mora,REP,902,DEM,1744
+New Mexico,Otero,REP,14521,DEM,8483
+New Mexico,Quay,REP,2634,DEM,1170
+New Mexico,Rio Arriba,REP,5408,DEM,10990
+New Mexico,Roosevelt,REP,4634,DEM,1802
+New Mexico,Sandoval,REP,34174,DEM,40588
+New Mexico,San Juan,REP,32874,DEM,18081
+New Mexico,San Miguel,REP,3421,DEM,7888
+New Mexico,Santa Fe,REP,18329,DEM,62530
+New Mexico,Sierra,REP,3542,DEM,2265
+New Mexico,Socorro,REP,3255,DEM,3722
+New Mexico,Taos,REP,3663,DEM,13030
+New Mexico,Torrance,REP,4772,DEM,2344
+New Mexico,Union,REP,1388,DEM,383
+New Mexico,Valencia,REP,17363,DEM,14263
+New York,Albany,REP,45570,DEM,73189
+New York,Allegany,REP,12670,DEM,4188
+New York,Bronx,REP,55849,DEM,271835
+New York,Broome,REP,38351,DEM,32275
+New York,Cattaraugus,REP,20295,DEM,9142
+New York,Cayuga,REP,18208,DEM,13367
+New York,Chautauqua,REP,34846,DEM,23075
+New York,Chemung,REP,19388,DEM,11573
+New York,Chenango,REP,11736,DEM,5126
+New York,Clinton,REP,14354,DEM,12690
+New York,Columbia,REP,14235,DEM,19764
+New York,Cortland,REP,10788,DEM,10367
+New York,Delaware,REP,11952,DEM,6420
+New York,Dutchess,REP,59661,DEM,57720
+New York,Erie,REP,178349,DEM,198808
+New York,Essex,REP,7953,DEM,6970
+New York,Franklin,REP,8530,DEM,6586
+New York,Fulton,REP,13989,DEM,5804
+New York,Genesee,REP,17340,DEM,7048
+New York,Greene,REP,12722,DEM,7675
+New York,Hamilton,REP,1917,DEM,863
+New York,Herkimer,REP,17038,DEM,7282
+New York,Jefferson,REP,22779,DEM,12053
+New York,Kings,REP,174731,DEM,514133
+New York,Lewis,REP,7931,DEM,2768
+New York,Livingston,REP,16575,DEM,9150
+New York,Madison,REP,16553,DEM,10417
+New York,Monroe,REP,122995,DEM,146403
+New York,Montgomery,REP,11500,DEM,5746
+New York,Nassau,REP,295871,DEM,311385
+New York,New York,REP,65001,DEM,377605
+New York,Niagara,REP,51355,DEM,34809
+New York,Oneida,REP,51950,DEM,30542
+New York,Onondaga,REP,84117,DEM,113970
+New York,Ontario,REP,25757,DEM,20779
+New York,Orange,REP,76218,DEM,61868
+New York,Orleans,REP,11173,DEM,4082
+New York,Oswego,REP,28914,DEM,14677
+New York,Otsego,REP,13503,DEM,10906
+New York,Putnam,REP,26888,DEM,20266
+New York,Queens,REP,181225,DEM,412393
+New York,Rensselaer,REP,33371,DEM,30450
+New York,Richmond,REP,110094,DEM,67223
+New York,Rockland,REP,63830,DEM,50926
+New York,St. Lawrence,REP,21862,DEM,13036
+New York,Saratoga,REP,55248,DEM,49697
+New York,Schenectady,REP,27544,DEM,31685
+New York,Schoharie,REP,9010,DEM,4006
+New York,Schuyler,REP,5620,DEM,3902
+New York,Seneca,REP,7582,DEM,5076
+New York,Steuben,REP,26781,DEM,11299
+New York,Suffolk,REP,333617,DEM,259463
+New York,Sullivan,REP,15555,DEM,10995
+New York,Tioga,REP,13292,DEM,6724
+New York,Tompkins,REP,9640,DEM,22624
+New York,Ulster,REP,33580,DEM,42606
+New York,Warren,REP,15200,DEM,11811
+New York,Washington,REP,14577,DEM,8537
+New York,Wayne,REP,23734,DEM,12799
+New York,Westchester,REP,126013,DEM,220963
+New York,Wyoming,REP,12969,DEM,3840
+New York,Yates,REP,6208,DEM,4217
+North Carolina,Alamance,REP,46056,DEM,38825
+North Carolina,Alexander,REP,15888,DEM,4145
+North Carolina,Alleghany,REP,4527,DEM,1486
+North Carolina,Anson,REP,5321,DEM,5789
+North Carolina,Ashe,REP,11451,DEM,4164
+North Carolina,Avery,REP,7172,DEM,2191
+North Carolina,Beaufort,REP,16437,DEM,9633
+North Carolina,Bertie,REP,3817,DEM,5939
+North Carolina,Bladen,REP,9676,DEM,7326
+North Carolina,Brunswick,REP,55373,DEM,32984
+North Carolina,Buncombe,REP,62253,DEM,96383
+North Carolina,Burke,REP,31019,DEM,13118
+North Carolina,Cabarrus,REP,63237,DEM,52162
+North Carolina,Caldwell,REP,32119,DEM,10245
+North Carolina,Camden,REP,4312,DEM,1537
+North Carolina,Carteret,REP,30028,DEM,12093
+North Carolina,Caswell,REP,7089,DEM,4860
+North Carolina,Catawba,REP,56588,DEM,25689
+North Carolina,Chatham,REP,21186,DEM,26787
+North Carolina,Cherokee,REP,12628,DEM,3583
+North Carolina,Chowan,REP,4471,DEM,3247
+North Carolina,Clay,REP,5112,DEM,1699
+North Carolina,Cleveland,REP,33798,DEM,16955
+North Carolina,Columbus,REP,16696,DEM,9382
+North Carolina,Craven,REP,31032,DEM,21151
+North Carolina,Cumberland,REP,60032,DEM,84469
+North Carolina,Currituck,REP,11657,DEM,4195
+North Carolina,Dare,REP,13938,DEM,9936
+North Carolina,Davidson,REP,64658,DEM,22636
+North Carolina,Davie,REP,18228,DEM,6713
+North Carolina,Duplin,REP,13703,DEM,8676
+North Carolina,Durham,REP,32470,DEM,144754
+North Carolina,Edgecombe,REP,9206,DEM,16089
+North Carolina,Forsyth,REP,85060,DEM,113029
+North Carolina,Franklin,REP,20904,DEM,15882
+North Carolina,Gaston,REP,73033,DEM,40959
+North Carolina,Gates,REP,3367,DEM,2546
+North Carolina,Graham,REP,3710,DEM,905
+North Carolina,Granville,REP,16647,DEM,14565
+North Carolina,Greene,REP,4874,DEM,3832
+North Carolina,Guilford,REP,106384,DEM,171538
+North Carolina,Halifax,REP,9973,DEM,15382
+North Carolina,Harnett,REP,35177,DEM,22093
+North Carolina,Haywood,REP,22834,DEM,13144
+North Carolina,Henderson,REP,40032,DEM,27211
+North Carolina,Hertford,REP,3479,DEM,7097
+North Carolina,Hoke,REP,9453,DEM,11804
+North Carolina,Hyde,REP,1418,DEM,1046
+North Carolina,Iredell,REP,67010,DEM,33888
+North Carolina,Jackson,REP,11356,DEM,9591
+North Carolina,Johnston,REP,68354,DEM,41261
+North Carolina,Jones,REP,3280,DEM,2197
+North Carolina,Lee,REP,16469,DEM,12143
+North Carolina,Lenoir,REP,14590,DEM,13605
+North Carolina,Lincoln,REP,36341,DEM,13274
+North Carolina,McDowell,REP,16882,DEM,5832
+North Carolina,Macon,REP,14211,DEM,6230
+North Carolina,Madison,REP,7979,DEM,4901
+North Carolina,Martin,REP,6532,DEM,5911
+North Carolina,Mecklenburg,REP,179211,DEM,378107
+North Carolina,Mitchell,REP,7090,DEM,1867
+North Carolina,Montgomery,REP,8411,DEM,4327
+North Carolina,Moore,REP,36764,DEM,20779
+North Carolina,Nash,REP,25827,DEM,25947
+North Carolina,New Hanover,REP,63333,DEM,66146
+North Carolina,Northampton,REP,3989,DEM,6069
+North Carolina,Onslow,REP,46078,DEM,24266
+North Carolina,Orange,REP,20176,DEM,63594
+North Carolina,Pamlico,REP,4849,DEM,2713
+North Carolina,Pasquotank,REP,9626,DEM,9653
+North Carolina,Pender,REP,21956,DEM,11723
+North Carolina,Perquimans,REP,4894,DEM,2485
+North Carolina,Person,REP,13184,DEM,8465
+North Carolina,Pitt,REP,38982,DEM,47252
+North Carolina,Polk,REP,7689,DEM,4518
+North Carolina,Randolph,REP,56894,DEM,15618
+North Carolina,Richmond,REP,11830,DEM,8754
+North Carolina,Robeson,REP,26012,DEM,18094
+North Carolina,Rockingham,REP,30997,DEM,15811
+North Carolina,Rowan,REP,49297,DEM,23114
+North Carolina,Rutherford,REP,24891,DEM,9134
+North Carolina,Sampson,REP,17412,DEM,10962
+North Carolina,Scotland,REP,7473,DEM,7186
+North Carolina,Stanly,REP,25462,DEM,8133
+North Carolina,Stokes,REP,20143,DEM,5286
+North Carolina,Surry,REP,27538,DEM,8721
+North Carolina,Swain,REP,4161,DEM,2780
+North Carolina,Transylvania,REP,11636,DEM,8444
+North Carolina,Tyrrell,REP,1044,DEM,758
+North Carolina,Union,REP,80382,DEM,48725
+North Carolina,Vance,REP,8391,DEM,12431
+North Carolina,Wake,REP,226149,DEM,393254
+North Carolina,Warren,REP,3752,DEM,6400
+North Carolina,Washington,REP,2991,DEM,3849
+North Carolina,Watauga,REP,14451,DEM,17122
+North Carolina,Wayne,REP,30709,DEM,24215
+North Carolina,Wilkes,REP,27591,DEM,7510
+North Carolina,Wilson,REP,19581,DEM,20754
+North Carolina,Yadkin,REP,15933,DEM,3763
+North Carolina,Yancey,REP,7516,DEM,3688
+North Dakota,Adams,REP,981,DEM,258
+North Dakota,Barnes,REP,3568,DEM,1820
+North Dakota,Benson,REP,1094,DEM,822
+North Dakota,Billings,REP,541,DEM,72
+North Dakota,Bottineau,REP,2575,DEM,821
+North Dakota,Bowman,REP,1395,DEM,228
+North Dakota,Burke,REP,984,DEM,136
+North Dakota,Burleigh,REP,34744,DEM,14348
+North Dakota,Cass,REP,42619,DEM,40311
+North Dakota,Cavalier,REP,1499,DEM,474
+North Dakota,Dickey,REP,1742,DEM,608
+North Dakota,Divide,REP,904,DEM,265
+North Dakota,Dunn,REP,1951,DEM,342
+North Dakota,Eddy,REP,854,DEM,383
+North Dakota,Emmons,REP,1738,DEM,237
+North Dakota,Foster,REP,1362,DEM,373
+North Dakota,Golden Valley,REP,871,DEM,137
+North Dakota,Grand Forks,REP,16987,DEM,12880
+North Dakota,Grant,REP,1145,DEM,207
+North Dakota,Griggs,REP,907,DEM,308
+North Dakota,Hettinger,REP,1091,DEM,196
+North Dakota,Kidder,REP,1215,DEM,221
+North Dakota,LaMoure,REP,1645,DEM,527
+North Dakota,Logan,REP,930,DEM,128
+North Dakota,McHenry,REP,2364,DEM,564
+North Dakota,McIntosh,REP,1153,DEM,261
+North Dakota,McKenzie,REP,4482,DEM,814
+North Dakota,McLean,REP,4198,DEM,1230
+North Dakota,Mercer,REP,3856,DEM,704
+North Dakota,Morton,REP,12243,DEM,3872
+North Dakota,Mountrail,REP,2824,DEM,1256
+North Dakota,Nelson,REP,1141,DEM,586
+North Dakota,Oliver,REP,918,DEM,129
+North Dakota,Pembina,REP,2460,DEM,786
+North Dakota,Pierce,REP,1585,DEM,497
+North Dakota,Ramsey,REP,3577,DEM,1639
+North Dakota,Ransom,REP,1418,DEM,945
+North Dakota,Renville,REP,1065,DEM,220
+North Dakota,Richland,REP,5072,DEM,2510
+North Dakota,Rolette,REP,1257,DEM,2482
+North Dakota,Sargent,REP,1266,DEM,738
+North Dakota,Sheridan,REP,688,DEM,104
+North Dakota,Sioux,REP,258,DEM,804
+North Dakota,Slope,REP,380,DEM,44
+North Dakota,Stark,REP,12110,DEM,2499
+North Dakota,Steele,REP,652,DEM,392
+North Dakota,Stutsman,REP,6994,DEM,2676
+North Dakota,Towner,REP,830,DEM,317
+North Dakota,Traill,REP,2522,DEM,1493
+North Dakota,Walsh,REP,3324,DEM,1333
+North Dakota,Ward,REP,19974,DEM,7293
+North Dakota,Wells,REP,1893,DEM,442
+North Dakota,Williams,REP,11739,DEM,2169
+Ohio,Adams,REP,9660,DEM,2130
+Ohio,Allen,REP,32052,DEM,13611
+Ohio,Ashland,REP,19002,DEM,6448
+Ohio,Ashtabula,REP,26225,DEM,16207
+Ohio,Athens,REP,10386,DEM,14047
+Ohio,Auglaize,REP,20451,DEM,4583
+Ohio,Belmont,REP,23092,DEM,9007
+Ohio,Brown,REP,16032,DEM,4326
+Ohio,Butler,REP,111722,DEM,67729
+Ohio,Carroll,REP,10525,DEM,3206
+Ohio,Champaign,REP,14086,DEM,4946
+Ohio,Clark,REP,38217,DEM,23625
+Ohio,Clermont,REP,73077,DEM,33505
+Ohio,Clinton,REP,15061,DEM,4556
+Ohio,Columbiana,REP,35124,DEM,13183
+Ohio,Coshocton,REP,11982,DEM,4057
+Ohio,Crawford,REP,15043,DEM,4831
+Ohio,Cuyahoga,REP,195089,DEM,402315
+Ohio,Darke,REP,21569,DEM,4668
+Ohio,Defiance,REP,12778,DEM,5870
+Ohio,Delaware,REP,65163,DEM,56961
+Ohio,Erie,REP,21724,DEM,17142
+Ohio,Fairfield,REP,49714,DEM,30634
+Ohio,Fayette,REP,9220,DEM,2911
+Ohio,Franklin,REP,203154,DEM,391584
+Ohio,Fulton,REP,15396,DEM,6545
+Ohio,Gallia,REP,10289,DEM,2911
+Ohio,Geauga,REP,33581,DEM,20980
+Ohio,Greene,REP,50937,DEM,34023
+Ohio,Guernsey,REP,13077,DEM,4498
+Ohio,Hamilton,REP,173015,DEM,238101
+Ohio,Hancock,REP,25796,DEM,11535
+Ohio,Hardin,REP,9698,DEM,3025
+Ohio,Harrison,REP,5668,DEM,1742
+Ohio,Henry,REP,10273,DEM,3995
+Ohio,Highland,REP,15369,DEM,3741
+Ohio,Hocking,REP,9554,DEM,3836
+Ohio,Holmes,REP,10645,DEM,1981
+Ohio,Huron,REP,18537,DEM,7643
+Ohio,Jackson,REP,10804,DEM,3193
+Ohio,Jefferson,REP,22309,DEM,9823
+Ohio,Knox,REP,21825,DEM,8433
+Ohio,Lake,REP,71615,DEM,54337
+Ohio,Lawrence,REP,19759,DEM,7353
+Ohio,Licking,REP,57965,DEM,32324
+Ohio,Logan,REP,17625,DEM,4990
+Ohio,Lorain,REP,76719,DEM,72792
+Ohio,Lucas,REP,79628,DEM,111989
+Ohio,Madison,REP,13445,DEM,5558
+Ohio,Mahoning,REP,58601,DEM,56346
+Ohio,Marion,REP,18526,DEM,8089
+Ohio,Medina,REP,63451,DEM,39326
+Ohio,Meigs,REP,8163,DEM,2452
+Ohio,Mercer,REP,19145,DEM,3981
+Ohio,Miami,REP,40531,DEM,15420
+Ohio,Monroe,REP,5392,DEM,1597
+Ohio,Montgomery,REP,126085,DEM,131592
+Ohio,Morgan,REP,4932,DEM,1703
+Ohio,Morrow,REP,13784,DEM,3988
+Ohio,Muskingum,REP,27334,DEM,11755
+Ohio,Noble,REP,5024,DEM,1156
+Ohio,Ottawa,REP,14285,DEM,8847
+Ohio,Paulding,REP,6927,DEM,2172
+Ohio,Perry,REP,11959,DEM,4006
+Ohio,Pickaway,REP,20059,DEM,7167
+Ohio,Pike,REP,8872,DEM,3051
+Ohio,Portage,REP,45034,DEM,34935
+Ohio,Preble,REP,16697,DEM,4435
+Ohio,Putnam,REP,16218,DEM,3152
+Ohio,Richland,REP,40534,DEM,17231
+Ohio,Ross,REP,21687,DEM,10345
+Ohio,Sandusky,REP,18487,DEM,10391
+Ohio,Scioto,REP,21926,DEM,8876
+Ohio,Seneca,REP,16739,DEM,8147
+Ohio,Shelby,REP,19988,DEM,4399
+Ohio,Stark,REP,108610,DEM,74336
+Ohio,Summit,REP,122023,DEM,148151
+Ohio,Trumbull,REP,53756,DEM,43534
+Ohio,Tuscarawas,REP,29519,DEM,12643
+Ohio,Union,REP,21233,DEM,10985
+Ohio,Van Wert,REP,11470,DEM,3026
+Ohio,Vinton,REP,4525,DEM,1306
+Ohio,Warren,REP,85069,DEM,45040
+Ohio,Washington,REP,21798,DEM,9114
+Ohio,Wayne,REP,36059,DEM,16340
+Ohio,Williams,REP,13218,DEM,4726
+Ohio,Wood,REP,34815,DEM,29797
+Ohio,Wyandot,REP,8248,DEM,2690
+Oklahoma,Adair,REP,5585,DEM,1387
+Oklahoma,Alfalfa,REP,1978,DEM,232
+Oklahoma,Atoka,REP,4557,DEM,765
+Oklahoma,Beaver,REP,1968,DEM,190
+Oklahoma,Beckham,REP,6767,DEM,1048
+Oklahoma,Blaine,REP,3136,DEM,688
+Oklahoma,Bryan,REP,12344,DEM,3323
+Oklahoma,Caddo,REP,7013,DEM,2670
+Oklahoma,Canadian,REP,43550,DEM,16742
+Oklahoma,Carter,REP,14699,DEM,4470
+Oklahoma,Cherokee,REP,11223,DEM,6027
+Oklahoma,Choctaw,REP,4698,DEM,1082
+Oklahoma,Cimarron,REP,970,DEM,70
+Oklahoma,Cleveland,REP,66677,DEM,49827
+Oklahoma,Coal,REP,2091,DEM,374
+Oklahoma,Comanche,REP,20905,DEM,13747
+Oklahoma,Cotton,REP,2117,DEM,393
+Oklahoma,Craig,REP,4686,DEM,1217
+Oklahoma,Creek,REP,23294,DEM,6577
+Oklahoma,Custer,REP,8060,DEM,2369
+Oklahoma,Delaware,REP,13557,DEM,3472
+Oklahoma,Dewey,REP,2124,DEM,214
+Oklahoma,Ellis,REP,1688,DEM,162
+Oklahoma,Garfield,REP,16970,DEM,4919
+Oklahoma,Garvin,REP,8878,DEM,1865
+Oklahoma,Grady,REP,18538,DEM,4144
+Oklahoma,Grant,REP,1916,DEM,280
+Oklahoma,Greer,REP,1605,DEM,328
+Oklahoma,Harmon,REP,747,DEM,177
+Oklahoma,Harper,REP,1327,DEM,136
+Oklahoma,Haskell,REP,4165,DEM,783
+Oklahoma,Hughes,REP,3875,DEM,919
+Oklahoma,Jackson,REP,6392,DEM,1646
+Oklahoma,Jefferson,REP,2026,DEM,319
+Oklahoma,Johnston,REP,3441,DEM,738
+Oklahoma,Kay,REP,12834,DEM,4040
+Oklahoma,Kingfisher,REP,5521,DEM,854
+Oklahoma,Kiowa,REP,2673,DEM,699
+Oklahoma,Latimer,REP,3437,DEM,762
+Oklahoma,Le Flore,REP,15213,DEM,3299
+Oklahoma,Lincoln,REP,12013,DEM,2609
+Oklahoma,Logan,REP,15608,DEM,5455
+Oklahoma,Love,REP,3305,DEM,711
+Oklahoma,McClain,REP,15295,DEM,3582
+Oklahoma,McCurtain,REP,9485,DEM,1858
+Oklahoma,McIntosh,REP,6172,DEM,2031
+Oklahoma,Major,REP,3084,DEM,320
+Oklahoma,Marshall,REP,4891,DEM,1100
+Oklahoma,Mayes,REP,12749,DEM,3581
+Oklahoma,Murray,REP,4612,DEM,1156
+Oklahoma,Muskogee,REP,16526,DEM,8027
+Oklahoma,Noble,REP,3821,DEM,1003
+Oklahoma,Nowata,REP,3610,DEM,712
+Oklahoma,Okfuskee,REP,3058,DEM,896
+Oklahoma,Oklahoma,REP,145050,DEM,141724
+Oklahoma,Okmulgee,REP,9668,DEM,4357
+Oklahoma,Osage,REP,14121,DEM,6002
+Oklahoma,Ottawa,REP,8545,DEM,2686
+Oklahoma,Pawnee,REP,5267,DEM,1363
+Oklahoma,Payne,REP,17813,DEM,10904
+Oklahoma,Pittsburg,REP,13851,DEM,3768
+Oklahoma,Pontotoc,REP,10805,DEM,4117
+Oklahoma,Pottawatomie,REP,20240,DEM,7275
+Oklahoma,Pushmataha,REP,4016,DEM,668
+Oklahoma,Roger Mills,REP,1629,DEM,168
+Oklahoma,Rogers,REP,34031,DEM,9589
+Oklahoma,Seminole,REP,6011,DEM,2150
+Oklahoma,Sequoyah,REP,12113,DEM,3035
+Oklahoma,Stephens,REP,15560,DEM,3154
+Oklahoma,Texas,REP,4505,DEM,894
+Oklahoma,Tillman,REP,2076,DEM,597
+Oklahoma,Tulsa,REP,150574,DEM,108996
+Oklahoma,Wagoner,REP,26165,DEM,8464
+Oklahoma,Washington,REP,17076,DEM,5790
+Oklahoma,Washita,REP,4086,DEM,598
+Oklahoma,Woods,REP,2993,DEM,591
+Oklahoma,Woodward,REP,6611,DEM,1005
+Oregon,Baker,REP,7316,DEM,2332
+Oregon,Benton,REP,14853,DEM,35780
+Oregon,Clackamas,REP,110476,DEM,139015
+Oregon,Clatsop,REP,10205,DEM,12896
+Oregon,Columbia,REP,16779,DEM,13535
+Oregon,Coos,REP,21488,DEM,14024
+Oregon,Crook,REP,11103,DEM,3715
+Oregon,Curry,REP,8481,DEM,6056
+Oregon,Deschutes,REP,54183,DEM,64102
+Oregon,Douglas,REP,42513,DEM,18780
+Oregon,Gilliam,REP,834,DEM,324
+Oregon,Grant,REP,3544,DEM,928
+Oregon,Harney,REP,3475,DEM,894
+Oregon,Hood River,REP,3911,DEM,8671
+Oregon,Jackson,REP,63814,DEM,59442
+Oregon,Jefferson,REP,7044,DEM,4306
+Oregon,Josephine,REP,31732,DEM,18430
+Oregon,Klamath,REP,25048,DEM,10260
+Oregon,Lake,REP,3449,DEM,788
+Oregon,Lane,REP,80144,DEM,133924
+Oregon,Lincoln,REP,12336,DEM,17248
+Oregon,Linn,REP,43422,DEM,26448
+Oregon,Malheur,REP,8101,DEM,3202
+Oregon,Marion,REP,78424,DEM,80138
+Oregon,Morrow,REP,3557,DEM,1345
+Oregon,Multnomah,REP,82583,DEM,366129
+Oregon,Polk,REP,23670,DEM,22842
+Oregon,Sherman,REP,914,DEM,257
+Oregon,Tillamook,REP,8306,DEM,7956
+Oregon,Umatilla,REP,21002,DEM,10499
+Oregon,Union,REP,10247,DEM,4227
+Oregon,Wallowa,REP,3390,DEM,1619
+Oregon,Wasco,REP,6965,DEM,6467
+Oregon,Washington,REP,98916,DEM,209549
+Oregon,Wheeler,REP,710,DEM,216
+Oregon,Yamhill,REP,29500,DEM,27123
+Pennsylvania,Adams,REP,37567,DEM,18254
+Pennsylvania,Allegheny,REP,282170,DEM,428876
+Pennsylvania,Armstrong,REP,27340,DEM,8417
+Pennsylvania,Beaver,REP,54108,DEM,37747
+Pennsylvania,Bedford,REP,23025,DEM,4367
+Pennsylvania,Berks,REP,105941,DEM,89530
+Pennsylvania,Blair,REP,44714,DEM,17425
+Pennsylvania,Bradford,REP,21586,DEM,8044
+Pennsylvania,Bucks,REP,184440,DEM,201768
+Pennsylvania,Butler,REP,74279,DEM,37379
+Pennsylvania,Cambria,REP,48094,DEM,21752
+Pennsylvania,Cameron,REP,1771,DEM,634
+Pennsylvania,Carbon,REP,21773,DEM,11083
+Pennsylvania,Centre,REP,36371,DEM,40054
+Pennsylvania,Chester,REP,127693,DEM,181170
+Pennsylvania,Clarion,REP,14550,DEM,4671
+Pennsylvania,Clearfield,REP,29203,DEM,9673
+Pennsylvania,Clinton,REP,11897,DEM,5501
+Pennsylvania,Columbia,REP,20098,DEM,10532
+Pennsylvania,Crawford,REP,28002,DEM,12610
+Pennsylvania,Cumberland,REP,77212,DEM,62237
+Pennsylvania,Dauphin,REP,66365,DEM,78912
+Pennsylvania,Delaware,REP,118358,DEM,205332
+Pennsylvania,Elk,REP,12135,DEM,4517
+Pennsylvania,Erie,REP,66912,DEM,68336
+Pennsylvania,Fayette,REP,39978,DEM,19518
+Pennsylvania,Forest,REP,1864,DEM,715
+Pennsylvania,Franklin,REP,57308,DEM,22468
+Pennsylvania,Fulton,REP,6824,DEM,1085
+Pennsylvania,Greene,REP,12556,DEM,4900
+Pennsylvania,Huntingdon,REP,17059,DEM,5448
+Pennsylvania,Indiana,REP,28087,DEM,12634
+Pennsylvania,Jefferson,REP,17928,DEM,4498
+Pennsylvania,Juniata,REP,9648,DEM,2253
+Pennsylvania,Lackawanna,REP,52206,DEM,61768
+Pennsylvania,Lancaster,REP,159902,DEM,115294
+Pennsylvania,Lawrence,REP,29290,DEM,15772
+Pennsylvania,Lebanon,REP,46731,DEM,23932
+Pennsylvania,Lehigh,REP,82287,DEM,95889
+Pennsylvania,Luzerne,REP,86889,DEM,64822
+Pennsylvania,Lycoming,REP,41439,DEM,16961
+Pennsylvania,McKean,REP,14067,DEM,5076
+Pennsylvania,Mercer,REP,36059,DEM,20984
+Pennsylvania,Mifflin,REP,16663,DEM,4599
+Pennsylvania,Monroe,REP,38642,DEM,43884
+Pennsylvania,Montgomery,REP,184698,DEM,318041
+Pennsylvania,Montour,REP,5842,DEM,3768
+Pennsylvania,Northampton,REP,83732,DEM,84847
+Pennsylvania,Northumberland,REP,28975,DEM,12703
+Pennsylvania,Perry,REP,18293,DEM,5950
+Pennsylvania,Philadelphia,REP,129594,DEM,584059
+Pennsylvania,Pike,REP,19241,DEM,13052
+Pennsylvania,Potter,REP,7216,DEM,1716
+Pennsylvania,Schuylkill,REP,48100,DEM,20425
+Pennsylvania,Snyder,REP,13983,DEM,4910
+Pennsylvania,Somerset,REP,31105,DEM,8543
+Pennsylvania,Sullivan,REP,2622,DEM,921
+Pennsylvania,Susquehanna,REP,14879,DEM,6084
+Pennsylvania,Tioga,REP,15753,DEM,4959
+Pennsylvania,Union,REP,12342,DEM,7377
+Pennsylvania,Venango,REP,18569,DEM,7585
+Pennsylvania,Warren,REP,14020,DEM,5987
+Pennsylvania,Washington,REP,71397,DEM,44746
+Pennsylvania,Wayne,REP,18637,DEM,9191
+Pennsylvania,Westmoreland,REP,128596,DEM,71099
+Pennsylvania,Wyoming,REP,9936,DEM,4704
+Pennsylvania,York,REP,143415,DEM,85491
+Rhode Island,East Providence,REP,7930,DEM,14735
+Rhode Island,Exeter,REP,2009,DEM,1974
+Rhode Island,Foster,REP,1582,DEM,1224
+Rhode Island,Glocester,REP,3351,DEM,2638
+Rhode Island,Hopkinton,REP,2423,DEM,2298
+Rhode Island,Jamestown,REP,1212,DEM,2794
+Rhode Island,Johnston,REP,8222,DEM,6837
+Rhode Island,Lincoln,REP,5779,DEM,6633
+Rhode Island,Little Compton,REP,951,DEM,1524
+Rhode Island,Middletown,REP,2885,DEM,5529
+Rhode Island,Barrington,REP,2889,DEM,7713
+Rhode Island,Narragansett,REP,3551,DEM,5333
+Rhode Island,Newport,REP,2662,DEM,7866
+Rhode Island,New Shoreham,REP,195,DEM,748
+Rhode Island,North Kingstown,REP,6633,DEM,10534
+Rhode Island,North Providence,REP,7128,DEM,9438
+Rhode Island,North Smithfield,REP,3550,DEM,3506
+Rhode Island,Pawtucket,REP,7257,DEM,18046
+Rhode Island,Portsmouth,REP,3995,DEM,6649
+Rhode Island,Providence,REP,10185,DEM,45938
+Rhode Island,Richmond,REP,2343,DEM,2346
+Rhode Island,Bristol,REP,4595,DEM,6813
+Rhode Island,Scituate,REP,3806,DEM,2735
+Rhode Island,Smithfield,REP,5743,DEM,5566
+Rhode Island,South Kingstown,REP,5003,DEM,11254
+Rhode Island,Tiverton,REP,4017,DEM,5123
+Rhode Island,Warren,REP,2261,DEM,3524
+Rhode Island,Warwick,REP,19578,DEM,25845
+Rhode Island,Westerly,REP,5463,DEM,7152
+Rhode Island,West Greenwich,REP,2242,DEM,1693
+Rhode Island,West Warwick,REP,6493,DEM,7234
+Rhode Island,Woonsocket,REP,6265,DEM,7288
+Rhode Island,Burrillville,REP,4906,DEM,3434
+Rhode Island,Central Falls,REP,1113,DEM,3073
+Rhode Island,Charlestown,REP,2198,DEM,2909
+Rhode Island,Coventry,REP,10460,DEM,9122
+Rhode Island,Cranston,REP,17312,DEM,23037
+Rhode Island,Cumberland,REP,8417,DEM,10869
+Rhode Island,East Greenwich,REP,3226,DEM,5218
+South Carolina,Abbeville,REP,8215,DEM,4101
+South Carolina,Aiken,REP,51589,DEM,32275
+South Carolina,Allendale,REP,835,DEM,2718
+South Carolina,Anderson,REP,67565,DEM,27169
+South Carolina,Bamberg,REP,2417,DEM,4010
+South Carolina,Barnwell,REP,5492,DEM,4720
+South Carolina,Beaufort,REP,53194,DEM,43419
+South Carolina,Berkeley,REP,57397,DEM,45223
+South Carolina,Calhoun,REP,4305,DEM,3905
+South Carolina,Charleston,REP,93297,DEM,121485
+South Carolina,Cherokee,REP,18043,DEM,6983
+South Carolina,Chester,REP,8660,DEM,6941
+South Carolina,Chesterfield,REP,11297,DEM,7431
+South Carolina,Clarendon,REP,8361,DEM,8250
+South Carolina,Colleton,REP,10440,DEM,8602
+South Carolina,Darlington,REP,16832,DEM,15220
+South Carolina,Dillon,REP,6582,DEM,6436
+South Carolina,Dorchester,REP,41913,DEM,33824
+South Carolina,Edgefield,REP,8184,DEM,4953
+South Carolina,Fairfield,REP,4625,DEM,7382
+South Carolina,Florence,REP,32615,DEM,31153
+South Carolina,Georgetown,REP,20487,DEM,15822
+South Carolina,Greenville,REP,150021,DEM,103030
+South Carolina,Greenwood,REP,19431,DEM,12145
+South Carolina,Hampton,REP,3906,DEM,5323
+South Carolina,Horry,REP,118821,DEM,59180
+South Carolina,Jasper,REP,7078,DEM,7185
+South Carolina,Kershaw,REP,20471,DEM,12699
+South Carolina,Lancaster,REP,30312,DEM,18937
+South Carolina,Laurens,REP,20004,DEM,10159
+South Carolina,Lee,REP,3008,DEM,5329
+South Carolina,Lexington,REP,92817,DEM,49301
+South Carolina,McCormick,REP,2958,DEM,2687
+South Carolina,Marion,REP,5711,DEM,8872
+South Carolina,Marlboro,REP,5044,DEM,6290
+South Carolina,Newberry,REP,11443,DEM,6958
+South Carolina,Oconee,REP,29698,DEM,10414
+South Carolina,Orangeburg,REP,13603,DEM,27295
+South Carolina,Pickens,REP,42907,DEM,13645
+South Carolina,Richland,REP,58313,DEM,132570
+South Carolina,Saluda,REP,6210,DEM,2963
+South Carolina,Spartanburg,REP,93560,DEM,52926
+South Carolina,Sumter,REP,21000,DEM,27379
+South Carolina,Union,REP,8183,DEM,4935
+South Carolina,Williamsburg,REP,5532,DEM,10289
+South Carolina,York,REP,82727,DEM,59008
+South Dakota,Aurora,REP,1052,DEM,317
+South Dakota,Beadle,REP,4808,DEM,2107
+South Dakota,Bennett,REP,694,DEM,466
+South Dakota,Bon Homme,REP,2235,DEM,721
+South Dakota,Brookings,REP,8000,DEM,6110
+South Dakota,Brown,REP,10580,DEM,6538
+South Dakota,Brule,REP,1750,DEM,673
+South Dakota,Buffalo,REP,183,DEM,352
+South Dakota,Butte,REP,3731,DEM,939
+South Dakota,Campbell,REP,747,DEM,117
+South Dakota,Charles Mix,REP,2552,DEM,1177
+South Dakota,Clark,REP,1373,DEM,437
+South Dakota,Clay,REP,2456,DEM,3083
+South Dakota,Codington,REP,8958,DEM,3837
+South Dakota,Corson,REP,647,DEM,622
+South Dakota,Custer,REP,3852,DEM,1522
+South Dakota,Davison,REP,5613,DEM,2648
+South Dakota,Day,REP,1869,DEM,1052
+South Dakota,Deuel,REP,1699,DEM,609
+South Dakota,Dewey,REP,790,DEM,1131
+South Dakota,Douglas,REP,1468,DEM,216
+South Dakota,Edmunds,REP,1538,DEM,417
+South Dakota,Fall River,REP,2878,DEM,1053
+South Dakota,Faulk,REP,964,DEM,198
+South Dakota,Grant,REP,2618,DEM,1056
+South Dakota,Gregory,REP,1771,DEM,455
+South Dakota,Haakon,REP,1026,DEM,105
+South Dakota,Hamlin,REP,2372,DEM,647
+South Dakota,Hand,REP,1433,DEM,373
+South Dakota,Hanson,REP,1793,DEM,557
+South Dakota,Harding,REP,748,DEM,49
+South Dakota,Hughes,REP,5522,DEM,2953
+South Dakota,Hutchinson,REP,2944,DEM,762
+South Dakota,Hyde,REP,564,DEM,136
+South Dakota,Jackson,REP,738,DEM,359
+South Dakota,Jerauld,REP,721,DEM,270
+South Dakota,Jones,REP,498,DEM,90
+South Dakota,Kingsbury,REP,1904,DEM,819
+South Dakota,Lake,REP,3681,DEM,2068
+South Dakota,Lawrence,REP,8753,DEM,4537
+South Dakota,Lincoln,REP,19617,DEM,11981
+South Dakota,Lyman,REP,1042,DEM,525
+South Dakota,McCook,REP,2068,DEM,769
+South Dakota,McPherson,REP,1075,DEM,222
+South Dakota,Marshall,REP,1287,DEM,858
+South Dakota,Meade,REP,9875,DEM,3285
+South Dakota,Mellette,REP,449,DEM,298
+South Dakota,Miner,REP,787,DEM,320
+South Dakota,Minnehaha,REP,49249,DEM,40482
+South Dakota,Moody,REP,1951,DEM,1179
+South Dakota,Oglala Lakota,REP,297,DEM,2829
+South Dakota,Pennington,REP,35063,DEM,20606
+South Dakota,Perkins,REP,1401,DEM,239
+South Dakota,Potter,REP,1139,DEM,227
+South Dakota,Roberts,REP,2404,DEM,1828
+South Dakota,Sanborn,REP,905,DEM,257
+South Dakota,Spink,REP,2104,DEM,998
+South Dakota,Stanley,REP,1203,DEM,421
+South Dakota,Sully,REP,726,DEM,185
+South Dakota,Todd,REP,532,DEM,1963
+South Dakota,Tripp,REP,2161,DEM,495
+South Dakota,Turner,REP,3290,DEM,1139
+South Dakota,Union,REP,5944,DEM,2725
+South Dakota,Walworth,REP,1966,DEM,565
+South Dakota,Yankton,REP,6581,DEM,4016
+South Dakota,Ziebach,REP,404,DEM,481
+Tennessee,Anderson,REP,23163,DEM,11733
+Tennessee,Bedford,REP,14317,DEM,4443
+Tennessee,Benton,REP,5661,DEM,1526
+Tennessee,Bledsoe,REP,4725,DEM,971
+Tennessee,Blount,REP,47195,DEM,17834
+Tennessee,Bradley,REP,35194,DEM,9849
+Tennessee,Campbell,REP,12330,DEM,2438
+Tennessee,Cannon,REP,5190,DEM,1261
+Tennessee,Carroll,REP,9194,DEM,2558
+Tennessee,Carter,REP,19873,DEM,4613
+Tennessee,Cheatham,REP,14328,DEM,5457
+Tennessee,Chester,REP,5951,DEM,1411
+Tennessee,Claiborne,REP,10598,DEM,2201
+Tennessee,Clay,REP,2733,DEM,735
+Tennessee,Cocke,REP,12182,DEM,2524
+Tennessee,Coffee,REP,17863,DEM,5704
+Tennessee,Crockett,REP,4673,DEM,1382
+Tennessee,Cumberland,REP,25167,DEM,6728
+Tennessee,Davidson,REP,99415,DEM,197846
+Tennessee,Decatur,REP,4229,DEM,904
+Tennessee,DeKalb,REP,6663,DEM,1747
+Tennessee,Dickson,REP,17619,DEM,6098
+Tennessee,Dyer,REP,11766,DEM,3157
+Tennessee,Fayette,REP,15661,DEM,7000
+Tennessee,Fentress,REP,7403,DEM,1210
+Tennessee,Franklin,REP,13977,DEM,4863
+Tennessee,Gibson,REP,16245,DEM,5764
+Tennessee,Giles,REP,9783,DEM,3298
+Tennessee,Grainger,REP,8559,DEM,1463
+Tennessee,Greene,REP,22185,DEM,5183
+Tennessee,Grundy,REP,4795,DEM,985
+Tennessee,Hamblen,REP,18789,DEM,5497
+Tennessee,Hamilton,REP,91991,DEM,75360
+Tennessee,Hancock,REP,2372,DEM,362
+Tennessee,Hardeman,REP,5760,DEM,4180
+Tennessee,Hardin,REP,9556,DEM,1774
+Tennessee,Hawkins,REP,20372,DEM,4069
+Tennessee,Haywood,REP,3338,DEM,4000
+Tennessee,Henderson,REP,9797,DEM,2092
+Tennessee,Henry,REP,11230,DEM,3547
+Tennessee,Hickman,REP,7577,DEM,2130
+Tennessee,Houston,REP,2715,DEM,869
+Tennessee,Humphreys,REP,6116,DEM,2017
+Tennessee,Jackson,REP,4106,DEM,1133
+Tennessee,Jefferson,REP,18609,DEM,4645
+Tennessee,Johnson,REP,6466,DEM,1242
+Tennessee,Knox,REP,124339,DEM,91097
+Tennessee,Lake,REP,1492,DEM,526
+Tennessee,Lauderdale,REP,5672,DEM,3193
+Tennessee,Lawrence,REP,15334,DEM,3195
+Tennessee,Lewis,REP,4473,DEM,1068
+Tennessee,Lincoln,REP,12258,DEM,2909
+Tennessee,Loudon,REP,21684,DEM,6933
+Tennessee,McMinn,REP,18175,DEM,4357
+Tennessee,McNairy,REP,9085,DEM,1943
+Tennessee,Macon,REP,8095,DEM,1307
+Tennessee,Madison,REP,23922,DEM,18309
+Tennessee,Marion,REP,9873,DEM,3165
+Tennessee,Marshall,REP,11029,DEM,3603
+Tennessee,Maury,REP,31408,DEM,14386
+Tennessee,Meigs,REP,4464,DEM,1008
+Tennessee,Monroe,REP,16742,DEM,3760
+Tennessee,Montgomery,REP,42156,DEM,32426
+Tennessee,Moore,REP,2888,DEM,573
+Tennessee,Morgan,REP,6926,DEM,1161
+Tennessee,Obion,REP,10790,DEM,2589
+Tennessee,Overton,REP,7911,DEM,2028
+Tennessee,Perry,REP,2775,DEM,615
+Tennessee,Pickett,REP,2373,DEM,524
+Tennessee,Polk,REP,6792,DEM,1492
+Tennessee,Putnam,REP,23694,DEM,9154
+Tennessee,Rhea,REP,11031,DEM,2363
+Tennessee,Roane,REP,19195,DEM,6034
+Tennessee,Robertson,REP,24535,DEM,8690
+Tennessee,Rutherford,REP,81373,DEM,59189
+Tennessee,Scott,REP,8004,DEM,986
+Tennessee,Sequatchie,REP,5846,DEM,1295
+Tennessee,Sevier,REP,33742,DEM,8695
+Tennessee,Shelby,REP,129543,DEM,245208
+Tennessee,Smith,REP,7124,DEM,1798
+Tennessee,Stewart,REP,4942,DEM,1230
+Tennessee,Sullivan,REP,55774,DEM,17226
+Tennessee,Sumner,REP,63404,DEM,27630
+Tennessee,Tipton,REP,20063,DEM,6832
+Tennessee,Trousdale,REP,2930,DEM,1011
+Tennessee,Unicoi,REP,6593,DEM,1610
+Tennessee,Union,REP,6777,DEM,1248
+Tennessee,Van Buren,REP,2338,DEM,544
+Tennessee,Warren,REP,12323,DEM,4126
+Tennessee,Washington,REP,40120,DEM,18214
+Tennessee,Wayne,REP,5795,DEM,820
+Tennessee,Weakley,REP,10382,DEM,3011
+Tennessee,White,REP,9587,DEM,2134
+Tennessee,Williamson,REP,86469,DEM,50161
+Tennessee,Wilson,REP,50149,DEM,22197
+Texas,Anderson,REP,15062,DEM,3934
+Texas,Andrews,REP,4937,DEM,849
+Texas,Angelina,REP,25070,DEM,9136
+Texas,Aransas,REP,9210,DEM,2896
+Texas,Archer,REP,4300,DEM,446
+Texas,Armstrong,REP,1035,DEM,75
+Texas,Atascosa,REP,12020,DEM,5865
+Texas,Austin,REP,11282,DEM,2931
+Texas,Bailey,REP,1430,DEM,407
+Texas,Bandera,REP,10050,DEM,2503
+Texas,Bastrop,REP,20486,DEM,15452
+Texas,Baylor,REP,1478,DEM,179
+Texas,Bee,REP,5999,DEM,3280
+Texas,Bell,REP,67113,DEM,56032
+Texas,Bexar,REP,303871,DEM,440823
+Texas,Blanco,REP,5429,DEM,1905
+Texas,Borden,REP,395,DEM,16
+Texas,Bosque,REP,7446,DEM,1552
+Texas,Bowie,REP,27053,DEM,10692
+Texas,Brazoria,REP,89939,DEM,61780
+Texas,Brazos,REP,47456,DEM,35242
+Texas,Brewster,REP,2451,DEM,2251
+Texas,Briscoe,REP,639,DEM,77
+Texas,Brooks,REP,998,DEM,1470
+Texas,Brown,REP,13681,DEM,2103
+Texas,Burleson,REP,6740,DEM,1786
+Texas,Burnet,REP,18721,DEM,5615
+Texas,Caldwell,REP,7975,DEM,6536
+Texas,Calhoun,REP,5640,DEM,2146
+Texas,Callahan,REP,6006,DEM,734
+Texas,Cameron,REP,48834,DEM,63732
+Texas,Camp,REP,3626,DEM,1392
+Texas,Carson,REP,2747,DEM,289
+Texas,Cass,REP,10979,DEM,2777
+Texas,Castro,REP,1601,DEM,466
+Texas,Chambers,REP,17343,DEM,3997
+Texas,Cherokee,REP,15065,DEM,4196
+Texas,Childress,REP,1928,DEM,305
+Texas,Clay,REP,5064,DEM,614
+Texas,Cochran,REP,806,DEM,176
+Texas,Coke,REP,1565,DEM,215
+Texas,Coleman,REP,3640,DEM,451
+Texas,Collin,REP,250194,DEM,227868
+Texas,Collingsworth,REP,1048,DEM,155
+Texas,Colorado,REP,7440,DEM,2403
+Texas,Comal,REP,62260,DEM,24369
+Texas,Comanche,REP,5177,DEM,852
+Texas,Concho,REP,1058,DEM,197
+Texas,Cooke,REP,15579,DEM,3205
+Texas,Coryell,REP,15397,DEM,7542
+Texas,Cottle,REP,543,DEM,113
+Texas,Crane,REP,1247,DEM,241
+Texas,Crockett,REP,1219,DEM,344
+Texas,Crosby,REP,1396,DEM,527
+Texas,Culberson,REP,415,DEM,438
+Texas,Dallam,REP,1386,DEM,196
+Texas,Dallas,REP,307076,DEM,598576
+Texas,Dawson,REP,2951,DEM,808
+Texas,Deaf Smith,REP,3293,DEM,1263
+Texas,Delta,REP,2157,DEM,403
+Texas,Denton,REP,221829,DEM,188023
+Texas,DeWitt,REP,6567,DEM,1494
+Texas,Dickens,REP,850,DEM,130
+Texas,Dimmit,REP,1384,DEM,2264
+Texas,Donley,REP,1438,DEM,198
+Texas,Duval,REP,2442,DEM,2573
+Texas,Eastland,REP,7216,DEM,982
+Texas,Ector,REP,32586,DEM,11310
+Texas,Edwards,REP,893,DEM,166
+Texas,Ellis,REP,56651,DEM,27513
+Texas,El Paso,REP,81235,DEM,168801
+Texas,Erath,REP,13669,DEM,2914
+Texas,Falls,REP,4177,DEM,1899
+Texas,Fannin,REP,12150,DEM,2638
+Texas,Fayette,REP,10163,DEM,2650
+Texas,Fisher,REP,1448,DEM,352
+Texas,Floyd,REP,1581,DEM,437
+Texas,Foard,REP,445,DEM,99
+Texas,Fort Bend,REP,157595,DEM,195191
+Texas,Franklin,REP,4153,DEM,803
+Texas,Freestone,REP,6966,DEM,1629
+Texas,Frio,REP,2812,DEM,2421
+Texas,Gaines,REP,5323,DEM,572
+Texas,Galveston,REP,93306,DEM,58247
+Texas,Garza,REP,1411,DEM,231
+Texas,Gillespie,REP,12495,DEM,3163
+Texas,Glasscock,REP,611,DEM,39
+Texas,Goliad,REP,3081,DEM,872
+Texas,Gonzales,REP,5568,DEM,1894
+Texas,Gray,REP,6812,DEM,820
+Texas,Grayson,REP,43776,DEM,14223
+Texas,Gregg,REP,32352,DEM,14657
+Texas,Grimes,REP,9419,DEM,2831
+Texas,Guadalupe,REP,47423,DEM,28706
+Texas,Hale,REP,7162,DEM,2271
+Texas,Hall,REP,992,DEM,167
+Texas,Hamilton,REP,3613,DEM,641
+Texas,Hansford,REP,1848,DEM,166
+Texas,Hardeman,REP,1330,DEM,241
+Texas,Hardin,REP,23806,DEM,3449
+Texas,Harris,REP,699822,DEM,911974
+Texas,Harrison,REP,21318,DEM,7812
+Texas,Hartley,REP,1866,DEM,195
+Texas,Haskell,REP,1837,DEM,353
+Texas,Hays,REP,47427,DEM,59213
+Texas,Hemphill,REP,1486,DEM,206
+Texas,Henderson,REP,28816,DEM,7048
+Texas,Hidalgo,REP,89991,DEM,127507
+Texas,Hill,REP,11869,DEM,2829
+Texas,Hockley,REP,6534,DEM,1481
+Texas,Hood,REP,26487,DEM,5641
+Texas,Hopkins,REP,12713,DEM,3043
+Texas,Houston,REP,7050,DEM,2312
+Texas,Howard,REP,7899,DEM,2017
+Texas,Hudspeth,REP,771,DEM,371
+Texas,Hunt,REP,29135,DEM,8879
+Texas,Hutchinson,REP,7659,DEM,957
+Texas,Irion,REP,759,DEM,120
+Texas,Jack,REP,3415,DEM,331
+Texas,Jackson,REP,5116,DEM,1018
+Texas,Jasper,REP,12453,DEM,2906
+Texas,Jeff Davis,REP,783,DEM,501
+Texas,Jefferson,REP,47535,DEM,46022
+Texas,Jim Hogg,REP,831,DEM,1197
+Texas,Jim Wells,REP,7389,DEM,6025
+Texas,Johnson,REP,54523,DEM,16418
+Texas,Jones,REP,5621,DEM,989
+Texas,Karnes,REP,3959,DEM,1220
+Texas,Kaufman,REP,37474,DEM,18290
+Texas,Kendall,REP,20064,DEM,6008
+Texas,Kenedy,REP,127,DEM,65
+Texas,Kent,REP,411,DEM,47
+Texas,Kerr,REP,20858,DEM,6510
+Texas,Kimble,REP,1987,DEM,284
+Texas,King,REP,151,DEM,8
+Texas,Kinney,REP,1144,DEM,446
+Texas,Kleberg,REP,5557,DEM,5359
+Texas,Knox,REP,1180,DEM,265
+Texas,Lamar,REP,16698,DEM,4420
+Texas,Lamb,REP,3513,DEM,835
+Texas,Lampasas,REP,8070,DEM,2134
+Texas,La Salle,REP,1335,DEM,1052
+Texas,Lavaca,REP,8802,DEM,1333
+Texas,Lee,REP,6248,DEM,1745
+Texas,Leon,REP,7522,DEM,1072
+Texas,Liberty,REP,23288,DEM,5779
+Texas,Limestone,REP,6786,DEM,2213
+Texas,Lipscomb,REP,1203,DEM,131
+Texas,Live Oak,REP,4198,DEM,819
+Texas,Llano,REP,9996,DEM,3167
+Texas,Loving,REP,60,DEM,4
+Texas,Lubbock,REP,78560,DEM,39757
+Texas,Lynn,REP,1853,DEM,428
+Texas,McCulloch,REP,2898,DEM,490
+Texas,McLennan,REP,59432,DEM,36550
+Texas,McMullen,REP,460,DEM,53
+Texas,Madison,REP,4165,DEM,1084
+Texas,Marion,REP,3459,DEM,1331
+Texas,Martin,REP,1857,DEM,288
+Texas,Mason,REP,2108,DEM,566
+Texas,Matagorda,REP,9836,DEM,3726
+Texas,Maverick,REP,6881,DEM,8324
+Texas,Medina,REP,15599,DEM,6731
+Texas,Menard,REP,819,DEM,196
+Texas,Midland,REP,45463,DEM,12258
+Texas,Milam,REP,7950,DEM,2475
+Texas,Mills,REP,2214,DEM,271
+Texas,Mitchell,REP,2169,DEM,397
+Texas,Montague,REP,8613,DEM,1097
+Texas,Montgomery,REP,193224,DEM,74255
+Texas,Moore,REP,4356,DEM,1059
+Texas,Morris,REP,3841,DEM,1664
+Texas,Motley,REP,604,DEM,46
+Texas,Nacogdoches,REP,17359,DEM,8989
+Texas,Navarro,REP,13787,DEM,5097
+Texas,Newton,REP,4882,DEM,1175
+Texas,Nolan,REP,4127,DEM,1161
+Texas,Nueces,REP,64467,DEM,60749
+Texas,Ochiltree,REP,2811,DEM,302
+Texas,Oldham,REP,917,DEM,81
+Texas,Orange,REP,29170,DEM,6354
+Texas,Palo Pinto,REP,10170,DEM,2177
+Texas,Panola,REP,9322,DEM,2057
+Texas,Parker,REP,61584,DEM,12789
+Texas,Parmer,REP,2133,DEM,488
+Texas,Pecos,REP,3213,DEM,1378
+Texas,Polk,REP,18496,DEM,5353
+Texas,Potter,REP,22732,DEM,9867
+Texas,Presidio,REP,721,DEM,1463
+Texas,Rains,REP,5147,DEM,841
+Texas,Randall,REP,50597,DEM,12750
+Texas,Reagan,REP,942,DEM,172
+Texas,Real,REP,1643,DEM,320
+Texas,Red River,REP,4513,DEM,1244
+Texas,Reeves,REP,2249,DEM,1394
+Texas,Refugio,REP,2210,DEM,1108
+Texas,Roberts,REP,529,DEM,17
+Texas,Robertson,REP,5631,DEM,2359
+Texas,Rockwall,REP,38842,DEM,18149
+Texas,Runnels,REP,3682,DEM,531
+Texas,Rusk,REP,16511,DEM,4624
+Texas,Sabine,REP,4767,DEM,662
+Texas,San Augustine,REP,3005,DEM,979
+Texas,San Jacinto,REP,10154,DEM,2332
+Texas,San Patricio,REP,16495,DEM,8971
+Texas,San Saba,REP,2308,DEM,287
+Texas,Schleicher,REP,939,DEM,211
+Texas,Scurry,REP,4978,DEM,818
+Texas,Shackelford,REP,1484,DEM,130
+Texas,Shelby,REP,7962,DEM,2058
+Texas,Sherman,REP,885,DEM,91
+Texas,Smith,REP,68546,DEM,29343
+Texas,Somervell,REP,4099,DEM,768
+Texas,Starr,REP,8224,DEM,9099
+Texas,Stephens,REP,3385,DEM,396
+Texas,Sterling,REP,584,DEM,51
+Texas,Stonewall,REP,615,DEM,116
+Texas,Sutton,REP,1222,DEM,322
+Texas,Swisher,REP,1842,DEM,478
+Texas,Tarrant,REP,408224,DEM,409752
+Texas,Taylor,REP,39439,DEM,14489
+Texas,Terrell,REP,334,DEM,119
+Texas,Terry,REP,2809,DEM,757
+Texas,Throckmorton,REP,806,DEM,82
+Texas,Titus,REP,7563,DEM,2852
+Texas,Tom Green,REP,32129,DEM,12106
+Texas,Travis,REP,159907,DEM,432062
+Texas,Trinity,REP,5579,DEM,1323
+Texas,Tyler,REP,8095,DEM,1390
+Texas,Upshur,REP,15775,DEM,2869
+Texas,Upton,REP,1176,DEM,169
+Texas,Uvalde,REP,6160,DEM,4066
+Texas,Val Verde,REP,7839,DEM,6401
+Texas,Van Zandt,REP,22126,DEM,3419
+Texas,Victoria,REP,23347,DEM,10371
+Texas,Walker,REP,15368,DEM,7875
+Texas,Waller,REP,14206,DEM,8130
+Texas,Ward,REP,3238,DEM,761
+Texas,Washington,REP,12949,DEM,4254
+Texas,Webb,REP,25898,DEM,41820
+Texas,Wharton,REP,11892,DEM,4671
+Texas,Wheeler,REP,2158,DEM,168
+Texas,Wichita,REP,31930,DEM,13024
+Texas,Wilbarger,REP,3520,DEM,954
+Texas,Willacy,REP,2437,DEM,3097
+Texas,Williamson,REP,138649,DEM,142457
+Texas,Wilson,REP,18457,DEM,6350
+Texas,Winkler,REP,1753,DEM,358
+Texas,Wise,REP,26986,DEM,4953
+Texas,Wood,REP,18962,DEM,3487
+Texas,Yoakum,REP,2172,DEM,419
+Texas,Young,REP,7112,DEM,1036
+Texas,Zapata,REP,2032,DEM,1820
+Texas,Zavala,REP,1490,DEM,2864
+Utah,Beaver,REP,2673,DEM,356
+Utah,Box Elder,REP,21494,DEM,4461
+Utah,Cache,REP,36802,DEM,16069
+Utah,Carbon,REP,6255,DEM,2306
+Utah,Daggett,REP,473,DEM,105
+Utah,Davis,REP,103255,DEM,57029
+Utah,Duchesne,REP,7445,DEM,830
+Utah,Emery,REP,4166,DEM,566
+Utah,Garfield,REP,2158,DEM,514
+Utah,Grand,REP,2168,DEM,2733
+Utah,Iron,REP,18143,DEM,4685
+Utah,Juab,REP,5087,DEM,645
+Utah,Kane,REP,2998,DEM,1083
+Utah,Millard,REP,5145,DEM,603
+Utah,Morgan,REP,4957,DEM,1060
+Utah,Piute,REP,773,DEM,86
+Utah,Rich,REP,1157,DEM,180
+Utah,Salt Lake,REP,229555,DEM,289289
+Utah,San Juan,REP,3525,DEM,3082
+Utah,Sanpete,REP,10315,DEM,1773
+Utah,Sevier,REP,9052,DEM,1084
+Utah,Summit,REP,9928,DEM,14947
+Utah,Tooele,REP,21014,DEM,8943
+Utah,Uintah,REP,12777,DEM,1601
+Utah,Utah,REP,183778,DEM,72739
+Utah,Wasatch,REP,10542,DEM,6090
+Utah,Washington,REP,66585,DEM,20346
+Utah,Wayne,REP,1229,DEM,365
+Utah,Weber,REP,65414,DEM,40458
+Vermont,Jamaica,REP,149,DEM,406
+Vermont,Jay,REP,139,DEM,144
+Vermont,Jericho,REP,904,DEM,2657
+Vermont,Johnson,REP,528,DEM,994
+Vermont,Kirby,REP,129,DEM,190
+Vermont,Landgrove,REP,18,DEM,114
+Vermont,Leicester,REP,230,DEM,296
+Vermont,Lemington,REP,23,DEM,25
+Vermont,Lincoln,REP,211,DEM,723
+Vermont,Londonderry,REP,347,DEM,744
+Vermont,Barnet,REP,437,DEM,624
+Vermont,Lowell,REP,273,DEM,201
+Vermont,Ludlow,REP,473,DEM,718
+Vermont,Lunenburg,REP,366,DEM,243
+Vermont,Lyndon,REP,1136,DEM,1207
+Vermont,Maidstone,REP,74,DEM,67
+Vermont,Manchester,REP,732,DEM,1985
+Vermont,Marlboro,REP,94,DEM,528
+Vermont,Marshfield,REP,336,DEM,586
+Vermont,Mendon,REP,314,DEM,445
+Vermont,Middlebury,REP,732,DEM,3476
+Vermont,Barre,REP,1298,DEM,2380
+Vermont,Middlesex,REP,231,DEM,977
+Vermont,Middletown Springs,REP,225,DEM,308
+Vermont,Milton,REP,2612,DEM,3344
+Vermont,Monkton,REP,395,DEM,960
+Vermont,Montgomery,REP,278,DEM,449
+Vermont,Montpelier,REP,468,DEM,4576
+Vermont,Moretown,REP,223,DEM,926
+Vermont,Morgan,REP,218,DEM,172
+Vermont,Morristown,REP,833,DEM,2256
+Vermont,Mount Holly,REP,375,DEM,452
+Vermont,Barre Town,REP,2093,DEM,2512
+Vermont,Mount Tabor,REP,56,DEM,55
+Vermont,Newark,REP,159,DEM,169
+Vermont,Newbury,REP,490,DEM,682
+Vermont,Newfane,REP,261,DEM,842
+Vermont,New Haven,REP,396,DEM,732
+Vermont,Newport,REP,757,DEM,1033
+Vermont,Newport Town,REP,415,DEM,341
+Vermont,Northfield,REP,837,DEM,1508
+Vermont,North Hero,REP,250,DEM,430
+Vermont,Norton,REP,62,DEM,44
+Vermont,Barton,REP,570,DEM,687
+Vermont,Norwich,REP,211,DEM,2316
+Vermont,Orange,REP,324,DEM,261
+Vermont,Orwell,REP,351,DEM,367
+Vermont,Panton,REP,137,DEM,271
+Vermont,Pawlet,REP,369,DEM,496
+Vermont,Peacham,REP,141,DEM,357
+Vermont,Peru,REP,71,DEM,218
+Vermont,Pittsfield,REP,120,DEM,206
+Vermont,Pittsford,REP,784,DEM,896
+Vermont,Plainfield,REP,166,DEM,606
+Vermont,Belvidere,REP,93,DEM,79
+Vermont,Plymouth,REP,121,DEM,267
+Vermont,Pomfret,REP,146,DEM,509
+Vermont,Poultney,REP,755,DEM,844
+Vermont,Pownal,REP,831,DEM,892
+Vermont,Proctor,REP,392,DEM,534
+Vermont,Putney,REP,235,DEM,1234
+Vermont,Randolph,REP,801,DEM,1685
+Vermont,Reading,REP,120,DEM,312
+Vermont,Readsboro,REP,212,DEM,203
+Vermont,Richford,REP,478,DEM,434
+Vermont,Bennington,REP,2473,DEM,4369
+Vermont,Richmond,REP,572,DEM,2287
+Vermont,Ripton,REP,76,DEM,280
+Vermont,Rochester,REP,183,DEM,526
+Vermont,Rockingham,REP,718,DEM,1703
+Vermont,Roxbury,REP,134,DEM,281
+Vermont,Royalton,REP,492,DEM,930
+Vermont,Rupert,REP,154,DEM,269
+Vermont,Rutland,REP,3026,DEM,4679
+Vermont,Rutland Town,REP,1039,DEM,1376
+Vermont,Ryegate,REP,298,DEM,329
+Vermont,Benson,REP,305,DEM,258
+Vermont,St. Albans,REP,946,DEM,1982
+Vermont,St. Albans Town,REP,1557,DEM,2126
+Vermont,St. George,REP,131,DEM,310
+Vermont,St. Johnsbury,REP,1218,DEM,2033
+Vermont,Salisbury,REP,258,DEM,393
+Vermont,Sandgate,REP,96,DEM,147
+Vermont,Searsburg,REP,36,DEM,28
+Vermont,Shaftsbury,REP,818,DEM,1346
+Vermont,Sharon,REP,278,DEM,585
+Vermont,Sheffield,REP,163,DEM,197
+Vermont,Berkshire,REP,402,DEM,284
+Vermont,Shelburne,REP,953,DEM,4358
+Vermont,Sheldon,REP,533,DEM,435
+Vermont,Killington,REP,255,DEM,560
+Vermont,Shoreham,REP,263,DEM,445
+Vermont,Shrewsbury,REP,268,DEM,395
+Vermont,South Burlington,REP,2271,DEM,10057
+Vermont,South Hero,REP,376,DEM,903
+Vermont,Springfield,REP,1768,DEM,2583
+Vermont,Stamford,REP,267,DEM,254
+Vermont,Stannard,REP,28,DEM,82
+Vermont,Berlin,REP,520,DEM,960
+Vermont,Starksboro,REP,333,DEM,636
+Vermont,Stockbridge,REP,123,DEM,341
+Vermont,Stowe,REP,599,DEM,2706
+Vermont,Strafford,REP,118,DEM,656
+Vermont,Stratton,REP,67,DEM,119
+Vermont,Sudbury,REP,128,DEM,252
+Vermont,Sunderland,REP,240,DEM,386
+Vermont,Sutton,REP,275,DEM,245
+Vermont,Swanton,REP,1546,DEM,1566
+Vermont,Thetford,REP,409,DEM,1448
+Vermont,Bethel,REP,381,DEM,728
+Vermont,Addison,REP,379,DEM,445
+Vermont,Tinmouth,REP,163,DEM,170
+Vermont,Topsham,REP,356,DEM,273
+Vermont,Townshend,REP,191,DEM,553
+Vermont,Troy,REP,394,DEM,370
+Vermont,Tunbridge,REP,314,DEM,514
+Vermont,Underhill,REP,526,DEM,1633
+Vermont,Vergennes,REP,428,DEM,1016
+Vermont,Vernon,REP,549,DEM,718
+Vermont,Vershire,REP,134,DEM,264
+Vermont,Victory,REP,36,DEM,17
+Vermont,Bloomfield,REP,73,DEM,55
+Vermont,Waitsfield,REP,200,DEM,1023
+Vermont,Walden,REP,207,DEM,351
+Vermont,Wallingford,REP,563,DEM,703
+Vermont,Waltham,REP,102,DEM,216
+Vermont,Wardsboro,REP,159,DEM,325
+Vermont,Warren,REP,179,DEM,1039
+Vermont,Washington,REP,283,DEM,306
+Vermont,Waterbury,REP,621,DEM,2778
+Vermont,Waterford,REP,387,DEM,421
+Vermont,Waterville,REP,209,DEM,227
+Vermont,Bolton,REP,218,DEM,537
+Vermont,Weathersfield,REP,725,DEM,1018
+Vermont,Wells,REP,416,DEM,315
+Vermont,West Fairlee,REP,125,DEM,219
+Vermont,Westfield,REP,146,DEM,190
+Vermont,Westford,REP,413,DEM,964
+Vermont,West Haven,REP,70,DEM,78
+Vermont,Westminster,REP,429,DEM,1303
+Vermont,Westmore,REP,102,DEM,126
+Vermont,Weston,REP,114,DEM,332
+Vermont,West Rutland,REP,613,DEM,510
+Vermont,Bradford,REP,549,DEM,893
+Vermont,West Windsor,REP,200,DEM,618
+Vermont,Weybridge,REP,78,DEM,517
+Vermont,Wheelock,REP,200,DEM,236
+Vermont,Whiting,REP,84,DEM,124
+Vermont,Whitingham,REP,340,DEM,397
+Vermont,Williamstown,REP,923,DEM,858
+Vermont,Williston,REP,1699,DEM,4961
+Vermont,Wilmington,REP,341,DEM,789
+Vermont,Windham,REP,83,DEM,187
+Vermont,Windsor,REP,537,DEM,1266
+Vermont,Braintree,REP,260,DEM,434
+Vermont,Winhall,REP,182,DEM,473
+Vermont,Winooski,REP,585,DEM,3005
+Vermont,Wolcott,REP,306,DEM,589
+Vermont,Woodbury,REP,196,DEM,372
+Vermont,Woodford,REP,96,DEM,95
+Vermont,Woodstock,REP,402,DEM,1645
+Vermont,Worcester,REP,125,DEM,464
+Vermont,Brandon,REP,896,DEM,1213
+Vermont,Brattleboro,REP,1052,DEM,5423
+Vermont,Bridgewater,REP,212,DEM,372
+Vermont,Bridport,REP,321,DEM,392
+Vermont,Brighton,REP,342,DEM,258
+Vermont,Bristol,REP,691,DEM,1482
+Vermont,Albany,REP,235,DEM,286
+Vermont,Brookfield,REP,307,DEM,506
+Vermont,Brookline,REP,96,DEM,217
+Vermont,Brownington,REP,265,DEM,218
+Vermont,Brunswick,REP,35,DEM,27
+Vermont,Burke,REP,366,DEM,534
+Vermont,Burlington,REP,2293,DEM,19238
+Vermont,Cabot,REP,296,DEM,558
+Vermont,Calais,REP,221,DEM,886
+Vermont,Cambridge,REP,587,DEM,1521
+Vermont,Canaan,REP,241,DEM,239
+Vermont,Alburgh,REP,499,DEM,550
+Vermont,Castleton,REP,1042,DEM,1056
+Vermont,Cavendish,REP,297,DEM,466
+Vermont,Charleston,REP,274,DEM,247
+Vermont,Charlotte,REP,511,DEM,2285
+Vermont,Chelsea,REP,284,DEM,404
+Vermont,Chester,REP,619,DEM,1089
+Vermont,Chittenden,REP,343,DEM,473
+Vermont,Clarendon,REP,782,DEM,656
+Vermont,Colchester,REP,2852,DEM,6452
+Vermont,Concord,REP,343,DEM,262
+Vermont,Andover,REP,132,DEM,216
+Vermont,Corinth,REP,350,DEM,459
+Vermont,Cornwall,REP,145,DEM,663
+Vermont,Coventry,REP,294,DEM,245
+Vermont,Craftsbury,REP,190,DEM,558
+Vermont,Danby,REP,405,DEM,325
+Vermont,Danville,REP,559,DEM,855
+Vermont,Derby,REP,1280,DEM,1167
+Vermont,Dorset,REP,377,DEM,997
+Vermont,Dover,REP,295,DEM,613
+Vermont,Dummerston,REP,280,DEM,1034
+Vermont,Arlington,REP,511,DEM,929
+Vermont,Duxbury,REP,243,DEM,648
+Vermont,East Haven,REP,65,DEM,69
+Vermont,East Montpelier,REP,391,DEM,1315
+Vermont,Eden,REP,313,DEM,303
+Vermont,Elmore,REP,149,DEM,447
+Vermont,Enosburgh,REP,590,DEM,640
+Vermont,Essex,REP,3415,DEM,9573
+Vermont,Fairfax,REP,1229,DEM,1648
+Vermont,Fairfield,REP,474,DEM,625
+Vermont,Fair Haven,REP,647,DEM,624
+Vermont,Athens,REP,84,DEM,120
+Vermont,Fairlee,REP,160,DEM,442
+Vermont,Fayston,REP,150,DEM,796
+Vermont,Ferrisburg,REP,561,DEM,1202
+Vermont,Fletcher,REP,291,DEM,494
+Vermont,Franklin,REP,407,DEM,318
+Vermont,Georgia,REP,1295,DEM,1517
+Vermont,Glover,REP,239,DEM,401
+Vermont,Goshen,REP,34,DEM,90
+Vermont,Grafton,REP,0,DEM,263
+Vermont,Granby,REP,23,DEM,20
+Vermont,Bakersfield,REP,272,DEM,395
+Vermont,Grand Isle,REP,538,DEM,831
+Vermont,Granville,REP,30,DEM,136
+Vermont,Greensboro,REP,106,DEM,365
+Vermont,Groton,REP,272,DEM,248
+Vermont,Guildhall,REP,90,DEM,79
+Vermont,Guilford,REP,345,DEM,975
+Vermont,Halifax,REP,193,DEM,273
+Vermont,Hancock,REP,57,DEM,102
+Vermont,Hardwick,REP,576,DEM,932
+Vermont,Hartford,REP,1576,DEM,4525
+Vermont,Baltimore,REP,72,DEM,63
+Vermont,Hartland,REP,631,DEM,1511
+Vermont,Highgate,REP,977,DEM,698
+Vermont,Hinesburg,REP,749,DEM,2254
+Vermont,Holland,REP,210,DEM,139
+Vermont,Hubbardton,REP,191,DEM,221
+Vermont,Huntington,REP,312,DEM,1047
+Vermont,Hyde Park,REP,546,DEM,1118
+Vermont,Ira,REP,130,DEM,130
+Vermont,Irasburg,REP,405,DEM,257
+Vermont,Isle La Motte,REP,147,DEM,191
+Vermont,Barnard,REP,177,DEM,465
+Virginia,Accomack,REP,9172,DEM,7578
+Virginia,Albemarle,REP,20804,DEM,42466
+Virginia,Alleghany,REP,5859,DEM,2243
+Virginia,Amelia,REP,5390,DEM,2411
+Virginia,Amherst,REP,11041,DEM,5672
+Virginia,Appomattox,REP,6702,DEM,2418
+Virginia,Arlington,REP,22318,DEM,105344
+Virginia,Augusta,REP,30714,DEM,10840
+Virginia,Bath,REP,1824,DEM,674
+Virginia,Bedford,REP,35600,DEM,12176
+Virginia,Bland,REP,2903,DEM,532
+Virginia,Botetourt,REP,15102,DEM,5705
+Virginia,Brunswick,REP,3357,DEM,4552
+Virginia,Buchanan,REP,8311,DEM,1587
+Virginia,Buckingham,REP,4544,DEM,3471
+Virginia,Campbell,REP,21250,DEM,8073
+Virginia,Caroline,REP,8336,DEM,7657
+Virginia,Carroll,REP,12659,DEM,2842
+Virginia,Charles,REP,1761,DEM,2624
+Virginia,Charlotte,REP,3815,DEM,2317
+Virginia,Chesterfield,REP,93326,DEM,106935
+Virginia,Clarke,REP,5192,DEM,3920
+Virginia,Craig,REP,2536,DEM,587
+Virginia,Culpeper,REP,16012,DEM,10617
+Virginia,Cumberland,REP,3019,DEM,2230
+Virginia,Dickenson,REP,5748,DEM,1503
+Virginia,Dinwiddie,REP,8695,DEM,6224
+Virginia,Essex,REP,3075,DEM,3038
+Virginia,Fairfax,REP,168401,DEM,419943
+Virginia,Fairfax,REP,168401,DEM,9192
+Virginia,Fauquier,REP,25106,DEM,17565
+Virginia,Floyd,REP,6225,DEM,3004
+Virginia,Fluvanna,REP,8155,DEM,7414
+Virginia,Franklin,REP,20895,DEM,8381
+Virginia,Franklin,REP,20895,DEM,2525
+Virginia,Frederick,REP,30755,DEM,17200
+Virginia,Giles,REP,6876,DEM,2156
+Virginia,Gloucester,REP,14875,DEM,6964
+Virginia,Goochland,REP,9966,DEM,6685
+Virginia,Grayson,REP,6529,DEM,1535
+Virginia,Greene,REP,6866,DEM,4163
+Virginia,Greensville,REP,1914,DEM,2627
+Virginia,Halifax,REP,10418,DEM,7666
+Virginia,Hanover,REP,44318,DEM,25307
+Virginia,Henrico,REP,63440,DEM,116572
+Virginia,Henry,REP,16725,DEM,9127
+Virginia,Highland,REP,1092,DEM,417
+Virginia,Isle of Wight,REP,13707,DEM,9399
+Virginia,James,REP,23153,DEM,25553
+Virginia,King and Queen,REP,2450,DEM,1590
+Virginia,King George,REP,8446,DEM,5404
+Virginia,King William,REP,7320,DEM,3260
+Virginia,Lancaster,REP,3697,DEM,3368
+Virginia,Lee,REP,8365,DEM,1489
+Virginia,Loudoun,REP,82088,DEM,138372
+Virginia,Louisa,REP,13294,DEM,8269
+Virginia,Lunenburg,REP,3591,DEM,2418
+Virginia,Madison,REP,5300,DEM,2698
+Virginia,Mathews,REP,3900,DEM,1824
+Virginia,Mecklenburg,REP,9266,DEM,6803
+Virginia,Middlesex,REP,4196,DEM,2491
+Virginia,Montgomery,REP,20629,DEM,23218
+Virginia,Nelson,REP,4799,DEM,4307
+Virginia,New Kent,REP,9636,DEM,4610
+Virginia,Northampton,REP,2955,DEM,3667
+Virginia,Northumberland,REP,4485,DEM,3252
+Virginia,Nottoway,REP,4032,DEM,2976
+Virginia,Orange,REP,12426,DEM,7995
+Virginia,Page,REP,9345,DEM,3007
+Virginia,Patrick,REP,7485,DEM,1954
+Virginia,Pittsylvania,REP,23751,DEM,10115
+Virginia,Powhatan,REP,14055,DEM,5320
+Virginia,Prince Edward,REP,4434,DEM,4973
+Virginia,Prince George,REP,10103,DEM,7103
+Virginia,Prince William,REP,81222,DEM,142863
+Virginia,Pulaski,REP,12127,DEM,4925
+Virginia,Rappahannock,REP,2812,DEM,2096
+Virginia,Richmond,REP,2547,DEM,1513
+Virginia,Richmond,REP,2547,DEM,91503
+Virginia,Roanoke,REP,34268,DEM,22261
+Virginia,Roanoke,REP,34268,DEM,26773
+Virginia,Rockbridge,REP,8047,DEM,4022
+Virginia,Rockingham,REP,30349,DEM,12644
+Virginia,Russell,REP,10879,DEM,2373
+Virginia,Scott,REP,9063,DEM,1692
+Virginia,Shenandoah,REP,16463,DEM,6836
+Virginia,Smyth,REP,10963,DEM,3008
+Virginia,Southampton,REP,5730,DEM,3969
+Virginia,Spotsylvania,REP,39506,DEM,34385
+Virginia,Stafford,REP,37636,DEM,40245
+Virginia,Surry,REP,2025,DEM,2397
+Virginia,Sussex,REP,2219,DEM,2827
+Virginia,Tazewell,REP,16731,DEM,3205
+Virginia,Warren,REP,14069,DEM,6603
+Virginia,Washington,REP,21678,DEM,6617
+Virginia,Westmoreland,REP,5318,DEM,4501
+Virginia,Wise,REP,13366,DEM,3110
+Virginia,Wythe,REP,11733,DEM,3143
+Virginia,York,REP,20241,DEM,17683
+Virginia,Alexandria,REP,14544,DEM,66240
+Virginia,Bristol,REP,5347,DEM,2313
+Virginia,Buena Vista,REP,1863,DEM,825
+Virginia,Charlottesville,REP,3094,DEM,20696
+Virginia,Chesapeake,REP,58180,DEM,66377
+Virginia,Colonial Heights,REP,6007,DEM,2972
+Virginia,Covington,REP,1580,DEM,964
+Virginia,Danville,REP,7428,DEM,11710
+Virginia,Emporia,REP,754,DEM,1612
+Virginia,Fairfax,REP,4002,DEM,419943
+Virginia,Fairfax,REP,4002,DEM,9192
+Virginia,Falls Church,REP,1490,DEM,7146
+Virginia,Franklin,REP,1487,DEM,8381
+Virginia,Franklin,REP,1487,DEM,2525
+Virginia,Fredericksburg,REP,4037,DEM,8517
+Virginia,Galax,REP,1838,DEM,777
+Virginia,Hampton,REP,18430,DEM,46220
+Virginia,Harrisonburg,REP,5591,DEM,11022
+Virginia,Hopewell,REP,4018,DEM,5427
+Virginia,Lexington,REP,908,DEM,1797
+Virginia,Lynchburg,REP,17097,DEM,18048
+Virginia,Manassas,REP,6256,DEM,10356
+Virginia,Manassas Park,REP,2062,DEM,3913
+Virginia,Martinsville,REP,2165,DEM,3766
+Virginia,Newport News,REP,26377,DEM,53099
+Virginia,Norfolk,REP,23443,DEM,64440
+Virginia,Norton,REP,1112,DEM,464
+Virginia,Petersburg,REP,1584,DEM,12389
+Virginia,Poquoson,REP,5605,DEM,2054
+Virginia,Portsmouth,REP,12755,DEM,30948
+Virginia,Radford,REP,2786,DEM,3358
+Virginia,Richmond,REP,16500,DEM,1513
+Virginia,Richmond,REP,16500,DEM,91503
+Virginia,Roanoke,REP,15607,DEM,22261
+Virginia,Roanoke,REP,15607,DEM,26773
+Virginia,Salem,REP,7685,DEM,5148
+Virginia,Staunton,REP,5695,DEM,6981
+Virginia,Suffolk,REP,20082,DEM,28676
+Virginia,Virginia Beach,REP,105087,DEM,117393
+Virginia,Waynesboro,REP,5507,DEM,4961
+Virginia,Williamsburg,REP,1963,DEM,4790
+Virginia,Winchester,REP,5221,DEM,6610
+Washington,Adams,REP,3881,DEM,1789
+Washington,Asotin,REP,7259,DEM,4233
+Washington,Benton,REP,60045,DEM,38293
+Washington,Chelan,REP,22476,DEM,19005
+Washington,Clallam,REP,22912,DEM,24532
+Washington,Clark,REP,126047,DEM,140070
+Washington,Columbia,REP,1754,DEM,668
+Washington,Cowlitz,REP,34235,DEM,23830
+Washington,Douglas,REP,12908,DEM,7787
+Washington,Ferry,REP,2735,DEM,1465
+Washington,Franklin,REP,17849,DEM,13148
+Washington,Garfield,REP,1062,DEM,362
+Washington,Grant,REP,24594,DEM,11674
+Washington,Grays Harbor,REP,19590,DEM,17172
+Washington,Island,REP,22535,DEM,29003
+Washington,Jefferson,REP,6921,DEM,17190
+Washington,King,REP,267838,DEM,904823
+Washington,Kitsap,REP,61326,DEM,89928
+Washington,Kittitas,REP,13778,DEM,11004
+Washington,Klickitat,REP,7223,DEM,5947
+Washington,Lewis,REP,29318,DEM,14462
+Washington,Lincoln,REP,5134,DEM,1711
+Washington,Mason,REP,18676,DEM,17253
+Washington,Okanogan,REP,11710,DEM,8788
+Washington,Pacific,REP,6930,DEM,6776
+Washington,Pend Oreille,REP,5655,DEM,2578
+Washington,Pierce,REP,197311,DEM,249074
+Washington,San Juan,REP,2994,DEM,9606
+Washington,Skagit,REP,31117,DEM,36360
+Washington,Skamania,REP,3783,DEM,3100
+Washington,Snohomish,REP,165650,DEM,255609
+Washington,Spokane,REP,148049,DEM,135332
+Washington,Stevens,REP,18576,DEM,7451
+Washington,Thurston,REP,64705,DEM,95868
+Washington,Wahkiakum,REP,1711,DEM,1150
+Washington,Walla Walla,REP,14688,DEM,12606
+Washington,Whatcom,REP,50311,DEM,83342
+Washington,Whitman,REP,8642,DEM,10570
+Washington,Yakima,REP,50417,DEM,43025
+West Virginia,Barbour,REP,5116,DEM,1457
+West Virginia,Berkeley,REP,33279,DEM,17186
+West Virginia,Boone,REP,6816,DEM,2041
+West Virginia,Braxton,REP,4120,DEM,1457
+West Virginia,Brooke,REP,7545,DEM,2947
+West Virginia,Cabell,REP,21721,DEM,14994
+West Virginia,Calhoun,REP,2364,DEM,568
+West Virginia,Clay,REP,2679,DEM,641
+West Virginia,Doddridge,REP,2619,DEM,435
+West Virginia,Fayette,REP,11580,DEM,5063
+West Virginia,Gilmer,REP,2012,DEM,599
+West Virginia,Grant,REP,4871,DEM,607
+West Virginia,Greenbrier,REP,10925,DEM,4655
+West Virginia,Hampshire,REP,8033,DEM,1939
+West Virginia,Hancock,REP,9806,DEM,3790
+West Virginia,Hardy,REP,4859,DEM,1381
+West Virginia,Harrison,REP,20581,DEM,9149
+West Virginia,Jackson,REP,10093,DEM,3207
+West Virginia,Jefferson,REP,15033,DEM,12127
+West Virginia,Kanawha,REP,46398,DEM,34344
+West Virginia,Lewis,REP,5782,DEM,1538
+West Virginia,Lincoln,REP,6012,DEM,1711
+West Virginia,Logan,REP,10534,DEM,2333
+West Virginia,McDowell,REP,5148,DEM,1333
+West Virginia,Marion,REP,16300,DEM,8901
+West Virginia,Marshall,REP,10435,DEM,3455
+West Virginia,Mason,REP,8422,DEM,2511
+West Virginia,Mercer,REP,19237,DEM,5556
+West Virginia,Mineral,REP,10040,DEM,2660
+West Virginia,Mingo,REP,8521,DEM,1385
+West Virginia,Monongalia,REP,20803,DEM,20282
+West Virginia,Monroe,REP,5068,DEM,1345
+West Virginia,Morgan,REP,6537,DEM,1998
+West Virginia,Nicholas,REP,8279,DEM,2226
+West Virginia,Ohio,REP,12354,DEM,7223
+West Virginia,Pendleton,REP,2782,DEM,820
+West Virginia,Pleasants,REP,2742,DEM,699
+West Virginia,Pocahontas,REP,2895,DEM,1047
+West Virginia,Preston,REP,11190,DEM,3163
+West Virginia,Putnam,REP,20034,DEM,7878
+West Virginia,Raleigh,REP,24673,DEM,7982
+West Virginia,Randolph,REP,8673,DEM,3362
+West Virginia,Ritchie,REP,3649,DEM,586
+West Virginia,Roane,REP,4213,DEM,1455
+West Virginia,Summers,REP,4074,DEM,1448
+West Virginia,Taylor,REP,5477,DEM,1796
+West Virginia,Tucker,REP,2841,DEM,938
+West Virginia,Tyler,REP,3226,DEM,631
+West Virginia,Upshur,REP,7771,DEM,2256
+West Virginia,Wayne,REP,12462,DEM,3964
+West Virginia,Webster,REP,2759,DEM,610
+West Virginia,Wetzel,REP,4993,DEM,1539
+West Virginia,Wirt,REP,2134,DEM,466
+West Virginia,Wood,REP,26963,DEM,10816
+West Virginia,Wyoming,REP,7353,DEM,1157
+Wisconsin,Adams,REP,7362,DEM,4329
+Wisconsin,Ashland,REP,3841,DEM,4801
+Wisconsin,Barron,REP,15803,DEM,9194
+Wisconsin,Bayfield,REP,4617,DEM,6147
+Wisconsin,Brown,REP,75865,DEM,65509
+Wisconsin,Buffalo,REP,4834,DEM,2860
+Wisconsin,Burnett,REP,6462,DEM,3569
+Wisconsin,Calumet,REP,18156,DEM,12116
+Wisconsin,Chippewa,REP,21316,DEM,14001
+Wisconsin,Clark,REP,10002,DEM,4524
+Wisconsin,Columbia,REP,16927,DEM,16410
+Wisconsin,Crawford,REP,4620,DEM,3953
+Wisconsin,Dane,REP,78789,DEM,260157
+Wisconsin,Dodge,REP,31355,DEM,16356
+Wisconsin,Door,REP,9752,DEM,10044
+Wisconsin,Douglas,REP,10923,DEM,13218
+Wisconsin,Dunn,REP,13173,DEM,9897
+Wisconsin,Eau Claire,REP,25341,DEM,31620
+Wisconsin,Florence,REP,2133,DEM,781
+Wisconsin,Fond du Lac,REP,35754,DEM,20588
+Wisconsin,Forest,REP,3287,DEM,1722
+Wisconsin,Grant,REP,14142,DEM,10998
+Wisconsin,Green,REP,10169,DEM,10851
+Wisconsin,Green Lake,REP,7168,DEM,3344
+Wisconsin,Iowa,REP,5909,DEM,7828
+Wisconsin,Iron,REP,2438,DEM,1533
+Wisconsin,Jackson,REP,5791,DEM,4256
+Wisconsin,Jefferson,REP,27209,DEM,19904
+Wisconsin,Juneau,REP,8749,DEM,4747
+Wisconsin,Kenosha,REP,44972,DEM,42191
+Wisconsin,Kewaunee,REP,7927,DEM,3976
+Wisconsin,La Crosse,REP,28684,DEM,37846
+Wisconsin,Lafayette,REP,4821,DEM,3647
+Wisconsin,Langlade,REP,7330,DEM,3704
+Wisconsin,Lincoln,REP,10017,DEM,6261
+Wisconsin,Manitowoc,REP,27218,DEM,16818
+Wisconsin,Marathon,REP,44624,DEM,30808
+Wisconsin,Marinette,REP,15304,DEM,7366
+Wisconsin,Marquette,REP,5719,DEM,3239
+Wisconsin,Menominee,REP,278,DEM,1303
+Wisconsin,Milwaukee,REP,134355,DEM,317251
+Wisconsin,Monroe,REP,13775,DEM,8432
+Wisconsin,Oconto,REP,16226,DEM,6715
+Wisconsin,Oneida,REP,13671,DEM,10105
+Wisconsin,Outagamie,REP,58385,DEM,47667
+Wisconsin,Ozaukee,REP,33912,DEM,26517
+Wisconsin,Pepin,REP,2584,DEM,1489
+Wisconsin,Pierce,REP,12903,DEM,9839
+Wisconsin,Polk,REP,16611,DEM,9370
+Wisconsin,Portage,REP,19299,DEM,20428
+Wisconsin,Price,REP,5394,DEM,3032
+Wisconsin,Racine,REP,54479,DEM,50159
+Wisconsin,Richland,REP,4871,DEM,3995
+Wisconsin,Rock,REP,37133,DEM,46649
+Wisconsin,Rusk,REP,5257,DEM,2517
+Wisconsin,St. Croix,REP,32199,DEM,23190
+Wisconsin,Sauk,REP,17493,DEM,18108
+Wisconsin,Sawyer,REP,5883,DEM,4494
+Wisconsin,Shawano,REP,15173,DEM,7131
+Wisconsin,Sheboygan,REP,37609,DEM,27101
+Wisconsin,Taylor,REP,7656,DEM,2693
+Wisconsin,Trempealeau,REP,8828,DEM,6283
+Wisconsin,Vernon,REP,8218,DEM,7457
+Wisconsin,Vilas,REP,9261,DEM,5903
+Wisconsin,Walworth,REP,33844,DEM,22783
+Wisconsin,Washburn,REP,6332,DEM,3867
+Wisconsin,Washington,REP,60237,DEM,26650
+Wisconsin,Waukesha,REP,159633,DEM,103867
+Wisconsin,Waupaca,REP,18952,DEM,9703
+Wisconsin,Waushara,REP,9016,DEM,4388
+Wisconsin,Winnebago,REP,47796,DEM,44060
+Wisconsin,Wood,REP,24307,DEM,16360
+Wyoming,Albany,REP,8579,DEM,9092
+Wyoming,Big Horn,REP,4806,DEM,788
+Wyoming,Campbell,REP,16975,DEM,1935
+Wyoming,Carbon,REP,5014,DEM,1427
+Wyoming,Converse,REP,5917,DEM,861
+Wyoming,Crook,REP,3651,DEM,378
+Wyoming,Fremont,REP,12007,DEM,5519
+Wyoming,Goshen,REP,4878,DEM,1203
+Wyoming,Hot Springs,REP,1999,DEM,482
+Wyoming,Johnson,REP,3881,DEM,897
+Wyoming,Laramie,REP,27891,DEM,15217
+Wyoming,Lincoln,REP,8643,DEM,1509
+Wyoming,Natrona,REP,25271,DEM,8530
+Wyoming,Niobrara,REP,1118,DEM,155
+Wyoming,Park,REP,12813,DEM,3410
+Wyoming,Platte,REP,3898,DEM,890
+Wyoming,Sheridan,REP,11843,DEM,4043
+Wyoming,Sublette,REP,3957,DEM,882
+Wyoming,Sweetwater,REP,12229,DEM,3823
+Wyoming,Teton,REP,4341,DEM,9848
+Wyoming,Uinta,REP,7496,DEM,1591
+Wyoming,Washakie,REP,3245,DEM,651
+Wyoming,Weston,REP,3107,DEM,360
+Alabama,Cherokee,REP,10562,DEM,1619
+Alabama,Chilton,REP,16052,DEM,3056
+Alabama,Choctaw,REP,4294,DEM,3126
+Alabama,Clarke,REP,7310,DEM,5730
+Alabama,Clay,REP,5589,DEM,1262
+Alabama,Cleburne,REP,6472,DEM,672
+Alabama,Coffee,REP,16832,DEM,5050
+Alabama,Colbert,REP,17311,DEM,7057
+Alabama,Conecuh,REP,3435,DEM,2951
+Alabama,Coosa,REP,3626,DEM,1794
+Alabama,Autauga,REP,19764,DEM,7450
+Alabama,Covington,REP,14579,DEM,2717
+Alabama,Crenshaw,REP,4864,DEM,1700
+Alabama,Cullman,REP,36804,DEM,4454
+Alabama,Dale,REP,14281,DEM,5154
+Alabama,Dallas,REP,5523,DEM,12228
+Alabama,DeKalb,REP,24744,DEM,4271
+Alabama,Elmore,REP,30089,DEM,10304
+Alabama,Escambia,REP,10844,DEM,4894
+Alabama,Etowah,REP,35343,DEM,11487
+Alabama,Fayette,REP,7295,DEM,1390
+Alabama,Baldwin,REP,83055,DEM,24344
+Alabama,Franklin,REP,10364,DEM,2085
+Alabama,Geneva,REP,10844,DEM,1592
+Alabama,Greene,REP,875,DEM,3880
+Alabama,Hale,REP,3190,DEM,4687
+Alabama,Henry,REP,6593,DEM,2589
+Alabama,Houston,REP,32384,DEM,12738
+Alabama,Jackson,REP,19644,DEM,3709
+Alabama,Jefferson,REP,138443,DEM,180936
+Alabama,Lamar,REP,6168,DEM,978
+Alabama,Lauderdale,REP,31578,DEM,11872
+Alabama,Barbour,REP,5605,DEM,4772
+Alabama,Lawrence,REP,12266,DEM,3544
+Alabama,Lee,REP,42019,DEM,27600
+Alabama,Limestone,REP,34337,DEM,13510
+Alabama,Lowndes,REP,1835,DEM,4968
+Alabama,Macon,REP,1539,DEM,7084
+Alabama,Madison,REP,102395,DEM,86885
+Alabama,Marengo,REP,5337,DEM,5476
+Alabama,Marion,REP,12190,DEM,1457
+Alabama,Marshall,REP,33094,DEM,5880
+Alabama,Mobile,REP,100605,DEM,78754
+Alabama,Bibb,REP,7508,DEM,1982
+Alabama,Monroe,REP,6129,DEM,4425
+Alabama,Montgomery,REP,33122,DEM,64065
+Alabama,Morgan,REP,39504,DEM,13159
+Alabama,Perry,REP,1336,DEM,3849
+Alabama,Pickens,REP,5590,DEM,4017
+Alabama,Pike,REP,8020,DEM,5613
+Alabama,Randolph,REP,8548,DEM,2203
+Alabama,Russell,REP,9796,DEM,11078
+Alabama,St. Clair,REP,36119,DEM,7698
+Alabama,Shelby,REP,79428,DEM,33036
+Alabama,Blount,REP,24595,DEM,2627
+Alabama,Sumter,REP,1598,DEM,4639
+Alabama,Talladega,REP,22210,DEM,13092
+Alabama,Tallapoosa,REP,14905,DEM,5815
+Alabama,Tuscaloosa,REP,50961,DEM,37514
+Alabama,Walker,REP,25947,DEM,4826
+Alabama,Washington,REP,6554,DEM,2253
+Alabama,Wilcox,REP,1826,DEM,4036
+Alabama,Winston,REP,10187,DEM,974
+Alabama,Bullock,REP,1143,DEM,3439
+Alabama,Butler,REP,5448,DEM,3953
+Alabama,Calhoun,REP,34964,DEM,15118
+Alabama,Chambers,REP,8748,DEM,6356
+Alaska,ED 10,REP,7813,DEM,2680
+Alaska,ED 11,REP,6968,DEM,3084
+Alaska,ED 12,REP,7707,DEM,2887
+Alaska,ED 13,REP,4138,DEM,2372
+Alaska,ED 14,REP,5931,DEM,3826
+Alaska,ED 15,REP,2426,DEM,2335
+Alaska,ED 16,REP,3297,DEM,3960
+Alaska,ED 17,REP,2574,DEM,3785
+Alaska,ED 18,REP,2555,DEM,4336
+Alaska,ED 19,REP,1829,DEM,2896
+Alaska,ED 1,REP,3429,DEM,3401
+Alaska,ED 20,REP,2174,DEM,4526
+Alaska,ED 21,REP,3458,DEM,5046
+Alaska,ED 22,REP,4386,DEM,4236
+Alaska,ED 23,REP,3421,DEM,3513
+Alaska,ED 24,REP,5051,DEM,4452
+Alaska,ED 25,REP,4102,DEM,4302
+Alaska,ED 26,REP,4913,DEM,4228
+Alaska,ED 27,REP,4072,DEM,4476
+Alaska,ED 28,REP,5823,DEM,5906
+Alaska,ED 29,REP,6669,DEM,2631
+Alaska,ED 2,REP,3596,DEM,2073
+Alaska,ED 30,REP,6867,DEM,2543
+Alaska,ED 31,REP,6891,DEM,4988
+Alaska,ED 32,REP,3985,DEM,3164
+Alaska,ED 33,REP,2760,DEM,6982
+Alaska,ED 34,REP,4280,DEM,5484
+Alaska,ED 35,REP,4385,DEM,4755
+Alaska,ED 36,REP,5072,DEM,3762
+Alaska,ED 37,REP,1492,DEM,1486
+Alaska,ED 38,REP,1327,DEM,2176
+Alaska,ED 39,REP,1556,DEM,2946
+Alaska,ED 3,REP,6028,DEM,1879
+Alaska,ED 40,REP,1708,DEM,1951
+Alaska,ED 4,REP,4660,DEM,5769
+Alaska,ED 5,REP,4040,DEM,4135
+Alaska,ED 6,REP,5695,DEM,3224
+Alaska,ED 7,REP,6860,DEM,2173
+Alaska,ED 8,REP,7446,DEM,1931
+Alaska,ED 9,REP,7696,DEM,2738
+Arkansas,Clark,REP,4605,DEM,3413
+Arkansas,Clay,REP,4086,DEM,962
+Arkansas,Cleburne,REP,10292,DEM,1962
+Arkansas,Cleveland,REP,2867,DEM,651
+Arkansas,Columbia,REP,5469,DEM,2781
+Arkansas,Conway,REP,5672,DEM,2593
+Arkansas,Craighead,REP,25558,DEM,11921
+Arkansas,Crawford,REP,18607,DEM,4959
+Arkansas,Crittenden,REP,7244,DEM,8325
+Arkansas,Cross,REP,4928,DEM,1759
+Arkansas,Arkansas,REP,4301,DEM,1813
+Arkansas,Dallas,REP,1573,DEM,963
+Arkansas,Desha,REP,1921,DEM,2016
+Arkansas,Drew,REP,4338,DEM,2408
+Arkansas,Faulkner,REP,34338,DEM,18267
+Arkansas,Franklin,REP,5677,DEM,1300
+Arkansas,Fulton,REP,3944,DEM,1031
+Arkansas,Garland,REP,29069,DEM,14045
+Arkansas,Grant,REP,6794,DEM,1268
+Arkansas,Greene,REP,12651,DEM,3045
+Arkansas,Hempstead,REP,4463,DEM,2135
+Arkansas,Ashley,REP,5548,DEM,2125
+Arkansas,Hot Spring,REP,9202,DEM,3082
+Arkansas,Howard,REP,3367,DEM,1340
+Arkansas,Independence,REP,11232,DEM,2798
+Arkansas,Izard,REP,4615,DEM,1019
+Arkansas,Jackson,REP,3593,DEM,1365
+Arkansas,Jefferson,REP,9500,DEM,14882
+Arkansas,Johnson,REP,6867,DEM,2262
+Arkansas,Lafayette,REP,1757,DEM,839
+Arkansas,Lawrence,REP,4569,DEM,1080
+Arkansas,Lee,REP,1286,DEM,1423
+Arkansas,Baxter,REP,15836,DEM,4635
+Arkansas,Lincoln,REP,2725,DEM,1031
+Arkansas,Little River,REP,3714,DEM,1226
+Arkansas,Logan,REP,6438,DEM,1544
+Arkansas,Lonoke,REP,22884,DEM,6684
+Arkansas,Madison,REP,5630,DEM,1555
+Arkansas,Marion,REP,5783,DEM,1531
+Arkansas,Miller,REP,11907,DEM,4235
+Arkansas,Mississippi,REP,7262,DEM,4542
+Arkansas,Monroe,REP,1545,DEM,1146
+Arkansas,Montgomery,REP,3021,DEM,722
+Arkansas,Benton,REP,73965,DEM,42249
+Arkansas,Nevada,REP,2133,DEM,1076
+Arkansas,Newton,REP,3192,DEM,709
+Arkansas,Ouachita,REP,5253,DEM,3395
+Arkansas,Perry,REP,3479,DEM,1012
+Arkansas,Phillips,REP,2393,DEM,3561
+Arkansas,Pike,REP,3519,DEM,644
+Arkansas,Poinsett,REP,5852,DEM,1388
+Arkansas,Polk,REP,7035,DEM,1246
+Arkansas,Pope,REP,18041,DEM,5747
+Arkansas,Prairie,REP,2764,DEM,646
+Arkansas,Boone,REP,13652,DEM,3064
+Arkansas,Pulaski,REP,62389,DEM,98855
+Arkansas,Randolph,REP,5355,DEM,1215
+Arkansas,St. Francis,REP,3242,DEM,3604
+Arkansas,Saline,REP,39519,DEM,16042
+Arkansas,Scott,REP,2962,DEM,483
+Arkansas,Searcy,REP,3365,DEM,588
+Arkansas,Sebastian,REP,31024,DEM,14371
+Arkansas,Sevier,REP,3884,DEM,1116
+Arkansas,Sharp,REP,5938,DEM,1398
+Arkansas,Stone,REP,4616,DEM,1180
+Arkansas,Bradley,REP,2332,DEM,1208
+Arkansas,Union,REP,10446,DEM,5559
+Arkansas,Van Buren,REP,6034,DEM,1593
+Arkansas,Washington,REP,47504,DEM,43824
+Arkansas,White,REP,24057,DEM,5909
+Arkansas,Woodruff,REP,1543,DEM,856
+Arkansas,Yell,REP,5205,DEM,1275
+Arkansas,Calhoun,REP,1636,DEM,479
+Arkansas,Carroll,REP,7424,DEM,4023
+Arkansas,Chicot,REP,1752,DEM,2260
+California,Fresno,REP,162438,DEM,190403
+California,Glenn,REP,6854,DEM,3815
+California,Humboldt,REP,17474,DEM,37367
+California,Imperial,REP,17063,DEM,29709
+California,Inyo,REP,4611,DEM,4623
+California,Kern,REP,148297,DEM,121930
+California,Kings,REP,23169,DEM,17729
+California,Lake,REP,3955,DEM,6874
+California,Lassen,REP,8798,DEM,2772
+California,Los Angeles,REP,1121538,DEM,2980478
+California,Alameda,REP,135925,DEM,616180
+California,Madera,REP,29065,DEM,22814
+California,Marin,REP,24007,DEM,126652
+California,Mariposa,REP,5950,DEM,4088
+California,Mendocino,REP,6312,DEM,18303
+California,Merced,REP,38568,DEM,47861
+California,Modoc,REP,2675,DEM,1063
+California,Mono,REP,2504,DEM,3998
+California,Monterey,REP,45031,DEM,111656
+California,Napa,REP,19388,DEM,46962
+California,Nevada,REP,25864,DEM,34959
+California,Alpine,REP,238,DEM,473
+California,Orange,REP,674231,DEM,811916
+California,Placer,REP,116910,DEM,102749
+California,Plumas,REP,6247,DEM,4465
+California,Riverside,REP,390053,DEM,463241
+California,Sacramento,REP,234854,DEM,402630
+California,San Benito,REP,10412,DEM,17315
+California,San Bernardino,REP,348675,DEM,434162
+California,San Diego,REP,596937,DEM,960416
+California,San Francisco,REP,55988,DEM,375630
+California,San Joaquin,REP,94693,DEM,130522
+California,Amador,REP,13571,DEM,8147
+California,San Luis Obispo,REP,65907,DEM,86829
+California,San Mateo,REP,74756,DEM,288333
+California,Santa Barbara,REP,63583,DEM,126419
+California,Santa Clara,REP,203648,DEM,587945
+California,Santa Cruz,REP,26565,DEM,112975
+California,Shasta,REP,58886,DEM,29312
+California,Sierra,REP,1142,DEM,730
+California,Siskiyou,REP,13272,DEM,9582
+California,Solano,REP,68925,DEM,131078
+California,Sonoma,REP,60355,DEM,197010
+California,Butte,REP,47568,DEM,49402
+California,Stanislaus,REP,101792,DEM,103459
+California,Sutter,REP,23864,DEM,16961
+California,Tehama,REP,17739,DEM,8493
+California,Trinity,REP,2513,DEM,2383
+California,Tulare,REP,76315,DEM,65056
+California,Tuolumne,REP,17302,DEM,11808
+California,Ventura,REP,160835,DEM,249742
+California,Yolo,REP,19825,DEM,53621
+California,Yuba,REP,16210,DEM,10343
+California,Calaveras,REP,16287,DEM,9845
+California,Colusa,REP,4399,DEM,3114
+California,Contra Costa,REP,148623,DEM,407639
+California,Del Norte,REP,6434,DEM,4656
+California,El Dorado,REP,61614,DEM,51473
+Colorado,Clear Creek,REP,2753,DEM,3603
+Colorado,Conejos,REP,2286,DEM,1959
+Colorado,Costilla,REP,741,DEM,1311
+Colorado,Crowley,REP,1271,DEM,437
+Colorado,Custer,REP,2471,DEM,1111
+Colorado,Delta,REP,13081,DEM,5887
+Colorado,Denver,REP,71617,DEM,313292
+Colorado,Dolores,REP,1089,DEM,341
+Colorado,Douglas,REP,121270,DEM,104653
+Colorado,Eagle,REP,9891,DEM,18588
+Colorado,Adams,REP,95657,DEM,134202
+Colorado,Elbert,REP,14027,DEM,4490
+Colorado,El Paso,REP,202560,DEM,161636
+Colorado,Fremont,REP,17517,DEM,7369
+Colorado,Garfield,REP,14717,DEM,15427
+Colorado,Gilpin,REP,1833,DEM,2222
+Colorado,Grand,REP,4883,DEM,4709
+Colorado,Gunnison,REP,3599,DEM,6976
+Colorado,Hinsdale,REP,353,DEM,255
+Colorado,Huerfano,REP,2203,DEM,2076
+Colorado,Jackson,REP,681,DEM,175
+Colorado,Alamosa,REP,3813,DEM,3759
+Colorado,Jefferson,REP,148414,DEM,218393
+Colorado,Kiowa,REP,795,DEM,98
+Colorado,Kit Carson,REP,3143,DEM,662
+Colorado,Lake,REP,1497,DEM,2303
+Colorado,La Plata,REP,14233,DEM,20548
+Colorado,Larimer,REP,91488,DEM,126117
+Colorado,Las Animas,REP,4284,DEM,3497
+Colorado,Lincoln,REP,2135,DEM,470
+Colorado,Logan,REP,8087,DEM,2218
+Colorado,Mesa,REP,56888,DEM,31533
+Colorado,Arapahoe,REP,127356,DEM,213673
+Colorado,Mineral,REP,427,DEM,317
+Colorado,Moffat,REP,5670,DEM,1203
+Colorado,Montezuma,REP,9306,DEM,5836
+Colorado,Montrose,REP,16770,DEM,7687
+Colorado,Morgan,REP,9593,DEM,3876
+Colorado,Otero,REP,5756,DEM,3605
+Colorado,Ouray,REP,1577,DEM,2365
+Colorado,Park,REP,6990,DEM,4903
+Colorado,Phillips,REP,1958,DEM,486
+Colorado,Pitkin,REP,2780,DEM,8989
+Colorado,Archuleta,REP,5189,DEM,3738
+Colorado,Prowers,REP,4008,DEM,1458
+Colorado,Pueblo,REP,42252,DEM,43772
+Colorado,Rio Blanco,REP,3061,DEM,561
+Colorado,Rio Grande,REP,3660,DEM,2495
+Colorado,Routt,REP,5925,DEM,10582
+Colorado,Saguache,REP,1413,DEM,1884
+Colorado,San Juan,REP,202,DEM,342
+Colorado,San Miguel,REP,1136,DEM,3923
+Colorado,Sedgwick,REP,1121,DEM,301
+Colorado,Summit,REP,5319,DEM,12620
+Colorado,Baca,REP,1866,DEM,317
+Colorado,Teller,REP,11241,DEM,5278
+Colorado,Washington,REP,2595,DEM,369
+Colorado,Weld,REP,96133,DEM,66050
+Colorado,Yuma,REP,4107,DEM,785
+Colorado,Broomfield,REP,16295,DEM,29077
+Colorado,Bent,REP,1503,DEM,732
+Colorado,Boulder,REP,42501,DEM,159089
+Colorado,Chaffee,REP,6180,DEM,7112
+Colorado,Cheyenne,REP,993,DEM,131
+Connecticut,North Canaan,REP,812,DEM,862
+Connecticut,North Haven,REP,7879,DEM,7389
+Connecticut,North Stonington,REP,1710,DEM,1601
+Connecticut,Norwalk,REP,13311,DEM,29382
+Connecticut,Norwich,REP,5643,DEM,9306
+Connecticut,Old Lyme,REP,2099,DEM,3226
+Connecticut,Old Saybrook,REP,2995,DEM,4253
+Connecticut,Orange,REP,4317,DEM,4816
+Connecticut,Oxford,REP,5118,DEM,3269
+Connecticut,Plainfield,REP,4080,DEM,2849
+Connecticut,Bethlehem,REP,1393,DEM,937
+Connecticut,Plainville,REP,4811,DEM,4670
+Connecticut,Plymouth,REP,3984,DEM,2477
+Connecticut,Pomfret,REP,1113,DEM,1357
+Connecticut,Portland,REP,2641,DEM,3155
+Connecticut,Preston,REP,1529,DEM,1270
+Connecticut,Prospect,REP,3935,DEM,2110
+Connecticut,Putnam,REP,2193,DEM,2063
+Connecticut,Redding,REP,2052,DEM,3829
+Connecticut,Ridgefield,REP,5646,DEM,10114
+Connecticut,Rocky Hill,REP,4670,DEM,6115
+Connecticut,Bloomfield,REP,1698,DEM,11007
+Connecticut,Roxbury,REP,660,DEM,937
+Connecticut,Salem,REP,1291,DEM,1285
+Connecticut,Salisbury,REP,502,DEM,2023
+Connecticut,Scotland,REP,537,DEM,406
+Connecticut,Seymour,REP,5242,DEM,4011
+Connecticut,Sharon,REP,510,DEM,1019
+Connecticut,Shelton,REP,12747,DEM,10837
+Connecticut,Sherman,REP,1076,DEM,1234
+Connecticut,Simsbury,REP,5575,DEM,10296
+Connecticut,Somers,REP,3204,DEM,2445
+Connecticut,Bolton,REP,1482,DEM,1727
+Connecticut,Southbury,REP,6260,DEM,6570
+Connecticut,Southington,REP,13473,DEM,12855
+Connecticut,South Windsor,REP,5628,DEM,9595
+Connecticut,Sprague,REP,882,DEM,641
+Connecticut,Stafford,REP,3461,DEM,2809
+Connecticut,Stamford,REP,18242,DEM,40437
+Connecticut,Sterling,REP,1229,DEM,639
+Connecticut,Stonington,REP,4240,DEM,7453
+Connecticut,Stratford,REP,10004,DEM,16210
+Connecticut,Suffield,REP,4155,DEM,4363
+Connecticut,Bozrah,REP,817,DEM,703
+Connecticut,Thomaston,REP,2768,DEM,1528
+Connecticut,Thompson,REP,3005,DEM,2050
+Connecticut,Tolland,REP,3975,DEM,5103
+Connecticut,Torrington,REP,9220,DEM,7283
+Connecticut,Trumbull,REP,9175,DEM,11919
+Connecticut,Union,REP,307,DEM,249
+Connecticut,Vernon,REP,5848,DEM,9259
+Connecticut,Voluntown,REP,918,DEM,566
+Connecticut,Wallingford,REP,11831,DEM,13560
+Connecticut,Warren,REP,470,DEM,465
+Connecticut,Branford,REP,7098,DEM,10562
+Connecticut,Washington,REP,770,DEM,1461
+Connecticut,Waterbury,REP,14157,DEM,21573
+Connecticut,Waterford,REP,5124,DEM,6917
+Connecticut,Watertown,REP,7976,DEM,4612
+Connecticut,Westbrook,REP,1958,DEM,2288
+Connecticut,West Hartford,REP,8451,DEM,27298
+Connecticut,West Haven,REP,8126,DEM,14245
+Connecticut,Weston,REP,1680,DEM,4733
+Connecticut,Westport,REP,4222,DEM,13048
+Connecticut,Wethersfield,REP,6413,DEM,9612
+Connecticut,Bridgeport,REP,8269,DEM,33515
+Connecticut,Willington,REP,1445,DEM,1674
+Connecticut,Wilton,REP,3819,DEM,7676
+Connecticut,Winchester,REP,2799,DEM,2304
+Connecticut,Windham,REP,2824,DEM,5365
+Connecticut,Windsor,REP,4090,DEM,13183
+Connecticut,Windsor Locks,REP,3156,DEM,3751
+Connecticut,Wolcott,REP,6519,DEM,3333
+Connecticut,Woodbridge,REP,1816,DEM,3855
+Connecticut,Woodbury,REP,3295,DEM,3181
+Connecticut,Woodstock,REP,2520,DEM,2549
+Connecticut,Bridgewater,REP,549,DEM,667
+Connecticut,Bristol,REP,13834,DEM,15463
+Connecticut,Brookfield,REP,5246,DEM,5426
+Connecticut,Brooklyn,REP,2262,DEM,1876
+Connecticut,Andover,REP,998,DEM,1058
+Connecticut,Burlington,REP,3034,DEM,3099
+Connecticut,Canaan,REP,209,DEM,437
+Connecticut,Canterbury,REP,1755,DEM,1182
+Connecticut,Canton,REP,2663,DEM,3878
+Connecticut,Chaplin,REP,662,DEM,598
+Connecticut,Cheshire,REP,7349,DEM,9745
+Connecticut,Chester,REP,853,DEM,1701
+Connecticut,Clinton,REP,3312,DEM,4368
+Connecticut,Colchester,REP,4243,DEM,5216
+Connecticut,Colebrook,REP,571,DEM,403
+Connecticut,Ansonia,REP,3797,DEM,4521
+Connecticut,Columbia,REP,1600,DEM,1888
+Connecticut,Cornwall,REP,250,DEM,760
+Connecticut,Coventry,REP,3545,DEM,4011
+Connecticut,Cromwell,REP,3749,DEM,4872
+Connecticut,Danbury,REP,12788,DEM,18869
+Connecticut,Darien,REP,4921,DEM,7876
+Connecticut,Deep River,REP,1076,DEM,1785
+Connecticut,Derby,REP,2749,DEM,2963
+Connecticut,Durham,REP,2330,DEM,2363
+Connecticut,Eastford,REP,572,DEM,464
+Connecticut,Ashford,REP,1160,DEM,1330
+Connecticut,East Granby,REP,1405,DEM,1789
+Connecticut,East Haddam,REP,2731,DEM,2980
+Connecticut,East Hampton,REP,3746,DEM,4051
+Connecticut,East Hartford,REP,5524,DEM,14787
+Connecticut,East Haven,REP,7488,DEM,6569
+Connecticut,East Lyme,REP,4285,DEM,7290
+Connecticut,Easton,REP,2178,DEM,2777
+Connecticut,East Windsor,REP,2889,DEM,3891
+Connecticut,Ellington,REP,4515,DEM,4787
+Connecticut,Enfield,REP,9298,DEM,11263
+Connecticut,Avon,REP,4469,DEM,7299
+Connecticut,Essex,REP,1635,DEM,3011
+Connecticut,Fairfield,REP,12052,DEM,22861
+Connecticut,Farmington,REP,6160,DEM,9706
+Connecticut,Franklin,REP,674,DEM,553
+Connecticut,Glastonbury,REP,7998,DEM,13990
+Connecticut,Goshen,REP,1161,DEM,902
+Connecticut,Granby,REP,3166,DEM,4029
+Connecticut,Greenwich,REP,13264,DEM,22239
+Connecticut,Griswold,REP,3257,DEM,2565
+Connecticut,Groton,REP,6272,DEM,10699
+Connecticut,Barkhamsted,REP,1228,DEM,1154
+Connecticut,Guilford,REP,5050,DEM,9616
+Connecticut,Haddam,REP,2693,DEM,2728
+Connecticut,Hamden,REP,7685,DEM,21839
+Connecticut,Hampton,REP,551,DEM,572
+Connecticut,Hartford,REP,4116,DEM,28301
+Connecticut,Hartland,REP,818,DEM,457
+Connecticut,Harwinton,REP,2229,DEM,1397
+Connecticut,Hebron,REP,2731,DEM,3388
+Connecticut,Kent,REP,568,DEM,1277
+Connecticut,Killingly,REP,4678,DEM,3402
+Connecticut,Beacon Falls,REP,2191,DEM,1543
+Connecticut,Killingworth,REP,1979,DEM,2343
+Connecticut,Lebanon,REP,2268,DEM,2052
+Connecticut,Ledyard,REP,3664,DEM,4534
+Connecticut,Lisbon,REP,1331,DEM,1099
+Connecticut,Litchfield,REP,2555,DEM,2673
+Connecticut,Lyme,REP,576,DEM,1165
+Connecticut,Madison,REP,4638,DEM,7625
+Connecticut,Manchester,REP,8530,DEM,19455
+Connecticut,Mansfield,REP,1708,DEM,5608
+Connecticut,Marlborough,REP,1861,DEM,2119
+Connecticut,Berlin,REP,6687,DEM,6008
+Connecticut,Meriden,REP,9981,DEM,14955
+Connecticut,Middlebury,REP,2741,DEM,2259
+Connecticut,Middlefield,REP,1356,DEM,1442
+Connecticut,Middletown,REP,7611,DEM,15508
+Connecticut,Milford,REP,13997,DEM,17626
+Connecticut,Monroe,REP,5989,DEM,5838
+Connecticut,Montville,REP,4242,DEM,4406
+Connecticut,Morris,REP,874,DEM,653
+Connecticut,Naugatuck,REP,7740,DEM,6923
+Connecticut,New Britain,REP,7724,DEM,16031
+Connecticut,Bethany,REP,1718,DEM,1912
+Connecticut,New Canaan,REP,4855,DEM,7298
+Connecticut,New Fairfield,REP,4343,DEM,4101
+Connecticut,New Hartford,REP,2382,DEM,2089
+Connecticut,New Haven,REP,6146,DEM,35521
+Connecticut,Newington,REP,7074,DEM,10031
+Connecticut,New London,REP,2045,DEM,6912
+Connecticut,New Milford,REP,7493,DEM,8004
+Connecticut,Newtown,REP,7292,DEM,9750
+Connecticut,Norfolk,REP,381,DEM,659
+Connecticut,North Branford,REP,4786,DEM,3718
+Connecticut,Bethel,REP,4734,DEM,6270
+Arizona,Navajo,REP,27657,DEM,23383
+Arizona,Pima,REP,207758,DEM,304981
+Arizona,Pinal,REP,107077,DEM,75106
+Arizona,Santa Cruz,REP,6194,DEM,13138
+Arizona,Yavapai,REP,91527,DEM,49602
+Arizona,Yuma,REP,36534,DEM,32210
+Arizona,Apache,REP,11442,DEM,23293
+Arizona,Cochise,REP,35557,DEM,23732
+Arizona,Coconino,REP,27043,DEM,44609
+Arizona,Gila,REP,18377,DEM,8943
+Arizona,Graham,REP,10749,DEM,4034
+Arizona,Greenlee,REP,2433,DEM,1182
+Arizona,La Paz,REP,5129,DEM,2236
+Arizona,Maricopa,REP,995665,DEM,1040774
+Arizona,Mohave,REP,78535,DEM,24831
