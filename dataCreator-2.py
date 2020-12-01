@@ -53,6 +53,9 @@ electionData.loc[m, 'county'] = electionData.loc[m, 'county'].replace({' city': 
 m = countyData['name'] == 'District of Columbia'
 countyData.loc[m, 'state'] = 'District of Columbia'
 
+m = countyData['state'] == 'Alaska'
+countyData.loc[m, 'name'] = 'Alaska'
+
 # countyData.to_csv(r'./data/output/countyData-d3.csv', index=False)
 combineElectionState('District of Columbia', electionData)
 combineElectionState('Alaska', electionData)
@@ -83,8 +86,26 @@ for (a, b) in zip(countyData['DEM_votes'].astype("Float32"), countyData['REP_vot
         normalized.append('')
 countyData['normalized_election_outcome'] = normalized
 
-# Output:
-# electionDataCounty.to_csv(r'./data/output/electionDataCounty.csv', index=False)
+countyData = countyData.drop_duplicates()
+statedf = countyData[['state', 'state_id', 'DEM_votes', 'REP_votes']].copy(deep=True)
 
-countyData.drop_duplicates()[['state', 'county', 'state_id', 'county_id', 'DEM_votes', 'REP_votes', 'normalized_election_outcome']].to_csv(r'./data/output/countyData.csv', index=False)
+groups = statedf.groupby('state')
+for state, data in groups:
+    if state != 'Alaska':
+        sumDem = data['DEM_votes'].sum()
+        sumRep = data['REP_votes'].sum()
+
+        statedf.loc[(statedf['state'] == state), 'REP_votes'] = str(sumRep)
+        statedf.loc[(statedf['state'] == state), 'DEM_votes'] = str(sumDem)
+stateData = statedf.drop_duplicates()
+normalized = []
+for (a, b) in zip(stateData['DEM_votes'].astype("Float32"), stateData['REP_votes'].astype("Float32")):
+    try:
+        normalized.append(a / (a + b))
+    except:
+        normalized.append('')
+stateData['normalized_election_outcome'] = normalized
+
+# Output:
+countyData[['state', 'county', 'state_id', 'county_id', 'DEM_votes', 'REP_votes', 'normalized_election_outcome']].to_csv(r'./data/output/countyData.csv', index=False)
 stateData.to_csv(r'./data/output/stateData.csv', index=False)
