@@ -55,7 +55,7 @@ countyData.loc[m, 'state'] = 'District of Columbia'
 
 # countyData.to_csv(r'./data/output/countyData-d3.csv', index=False)
 combineElectionState('District of Columbia', electionData)
-
+combineElectionState('Alaska', electionData)
 # Select DEM en REP votes only
 electionDataCounty = electionData[electionData['party'].isin(['DEM', 'REP'])].drop(['won', 'candidate'], axis=1)
 # Do this for state as well
@@ -86,5 +86,5 @@ countyData['normalized_election_outcome'] = normalized
 # Output:
 # electionDataCounty.to_csv(r'./data/output/electionDataCounty.csv', index=False)
 
-countyData.drop_duplicates().to_csv(r'./data/output/countyData.csv', index=False)
+countyData.drop_duplicates()[['state', 'county', 'state_id', 'county_id', 'DEM_votes', 'REP_votes', 'normalized_election_outcome']].to_csv(r'./data/output/countyData.csv', index=False)
 stateData.to_csv(r'./data/output/stateData.csv', index=False)
