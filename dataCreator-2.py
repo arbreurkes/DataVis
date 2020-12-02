@@ -7,9 +7,6 @@ def combineElectionState(state, df):
     # Group per party
     groups = counties.groupby('party')
     for party, data in groups:
-        if state == 'District of Columbia':
-            print("YEET", party, data['total_votes'].sum())
-            print(data)
         # Sum all votes
         sum = data['total_votes'].sum()
         # Adjust the votes to the total
@@ -53,12 +50,8 @@ electionData['county'] = electionData['county'].replace({' City': ''}, regex=Tru
 m = electionData['state'] == 'Virginia'
 electionData.loc[m, 'county'] = electionData.loc[m, 'county'].replace({' city': ''}, regex=True)
 
-print(electionData[electionData['state'] == 'District of Columbia'])
-
 m = countyData['name'] == 'District of Columbia'
 countyData.loc[m, 'state'] = 'District of Columbia'
-
-print(countyData[countyData['state'] == 'District of Columbia'])
 
 countyData.to_csv(r'./data/output/test.csv', index=False)
 
@@ -100,9 +93,6 @@ statedf = countyData[['state', 'state_id', 'DEM_votes', 'REP_votes']].copy(deep=
 
 groups = statedf.groupby('state')
 for state, data in groups:
-    if state == 'District of Columbia':
-        print("All data:")
-        print(data)
     if state != 'Alaska':
         sumDem = data['DEM_votes'].sum()
         sumRep = data['REP_votes'].sum()
@@ -111,14 +101,14 @@ for state, data in groups:
         statedf.loc[(statedf['state'] == state), 'DEM_votes'] = str(sumDem)
 stateData = statedf.drop_duplicates()
 normalized = []
-for (a, b, c) in zip(stateData['DEM_votes'].astype("Float32"), stateData['REP_votes'].astype("Float32"), stateData['state']):
-    # print(a,b,c)
+for (a, b) in zip(stateData['DEM_votes'].astype("Float32"), stateData['REP_votes'].astype("Float32")):
     try:
         normalized.append((a / (a + b)))
     except:
         normalized.append('')
 stateData['normalized_election_outcome'] = normalized
+countyData['id'] = countyData['id'].astype("Int32")
 
 # Output:
-countyData[['state', 'county', 'state_id', 'county_id', 'DEM_votes', 'REP_votes', 'normalized_election_outcome']].to_csv(r'./data/output/countyData.csv', index=False)
+countyData[['state','id', 'county', 'state_id', 'county_id', 'DEM_votes', 'REP_votes', 'normalized_election_outcome']].to_csv(r'./data/output/countyData.csv', index=False)
 stateData.to_csv(r'./data/output/stateData.csv', index=False)
