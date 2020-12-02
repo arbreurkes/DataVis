@@ -1,22 +1,9 @@
 <template>
-  <div :class="[{'md-layout-item': inGrid}, size]">
-    <md-card ref="card">
-      <md-card-actions class="md-alignment-left">
-        <div class="md-title">{{ title }}</div>
-        <md-icon class="info-icon">info
-          <md-tooltip md-direction="left">{{ title }} Statistics</md-tooltip>
-        </md-icon>
-      </md-card-actions>
-      <md-card-content class="card-content">
-        <span class="map-title">
+  <div ref="card">
+    <span class="map-title">
           <span style="color:#C63432;">Republican</span> vs. <span style="color:#439AD3;">Democratic</span> lead in 2020 presidential election
         </span>
-        <div :id="'map-' + this.hashCode"></div>
-      </md-card-content>
-      <!--      <md-card-actions v-if="stats !== null" class="actions">-->
-      <!--        <md-button class="vote-button md-raised" @click="verifyPrompt = true">VOTE</md-button>-->
-      <!--      </md-card-actions>-->
-    </md-card>
+    <div :id="'map-' + this.hashCode"></div>
   </div>
 </template>
 <script>
@@ -54,7 +41,7 @@ export default {
     ...mapGetters([]),
     initializeMap: function () {
       var that = this;
-      var width = this.$refs.card.$el.scrollWidth - 32;
+      var width = this.$refs.card.scrollWidth;
       var height = width / 2.16; // Keep ratio of map.
 
       var projection = d3.geoAlbersUsa()
@@ -70,7 +57,8 @@ export default {
       var svg = d3.select('#map-' + that.hashCode)
           .append("svg")
           .attr("width", width)
-          .attr("height", height + 36);
+          .attr("height", height + 36)
+          .attr("class", "map-svg");
 
       var div = d3.select("body").append("div")
           .attr("id", "state-tt")
@@ -130,7 +118,7 @@ export default {
                 div.text(that.results[this.id]["state"] !== ""
                     ? that.results[this.id]["state"] : "No Data")
                     .style("left", (d.pageX) + "px")
-                    .style("top", (d.pageY -30) + "px")
+                    .style("top", (d.pageY - 30) + "px")
                     .style("opacity", 1);
               })
               .on("mouseout", function () {
@@ -164,9 +152,6 @@ export default {
 };
 </script>
 <style scoped>
-.card-content {
-  /*height: 530px !important;*/
-}
 
 .actions {
   justify-content: center !important;

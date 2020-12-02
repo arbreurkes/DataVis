@@ -10,9 +10,7 @@
 
         <md-tab id="tab-map" class="tab-one" md-label="States" :md-template-data="{icon: 'public'}"
                 to="/stats/tabOne">
-          <div class="md-layout md-gutter">
-            <states-card title="US States" :stats="null" :inGrid="true" size="md-size-100"></states-card>
-          </div>
+          <states-card title="US States" :stats="null" :inGrid="true" size="md-size-100"></states-card>
         </md-tab>
         <md-tab id="tab-two" class="tab-two" md-label="Counties" :md-template-data="{icon: 'map'}"
                 to="/stats/tabTwo">
@@ -79,8 +77,8 @@ export default {
   /*width: 100%;*/
 }
 
-.tab-one {
-  overflow-y: hidden;
+.tab-one, .tab-two {
+  overflow-y: scroll;
 }
 
 .md-content.md-tabs-content {
