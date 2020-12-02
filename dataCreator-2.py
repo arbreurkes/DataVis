@@ -7,6 +7,9 @@ def combineElectionState(state, df):
     # Group per party
     groups = counties.groupby('party')
     for party, data in groups:
+        if state == 'District of Columbia':
+            print("YEET", party, data['total_votes'].sum())
+            print(data)
         # Sum all votes
         sum = data['total_votes'].sum()
         # Adjust the votes to the total
@@ -50,8 +53,14 @@ electionData['county'] = electionData['county'].replace({' City': ''}, regex=Tru
 m = electionData['state'] == 'Virginia'
 electionData.loc[m, 'county'] = electionData.loc[m, 'county'].replace({' city': ''}, regex=True)
 
+print(electionData[electionData['state'] == 'District of Columbia'])
+
 m = countyData['name'] == 'District of Columbia'
 countyData.loc[m, 'state'] = 'District of Columbia'
+
+print(countyData[countyData['state'] == 'District of Columbia'])
+
+countyData.to_csv(r'./data/output/test.csv', index=False)
 
 m = countyData['state'] == 'Alaska'
 countyData.loc[m, 'name'] = 'Alaska'
@@ -71,8 +80,8 @@ repVotes = electionDataCounty[electionDataCounty['party'] == 'REP']
 electionDataCounty = repVotes.merge(demVotes, on=['state', 'county'], how='left', sort=False)
 # Rename Columns:
 electionDataCounty.rename(columns={"per capita income": "per_capita_income"}, inplace=True)
-electionDataCounty.rename(columns={"total_votes_x": "DEM_votes"}, inplace=True)
-electionDataCounty.rename(columns={"total_votes_y": "REP_votes"}, inplace=True)
+electionDataCounty.rename(columns={"total_votes_x": "REP_votes"}, inplace=True)
+electionDataCounty.rename(columns={"total_votes_y": "DEM_votes"}, inplace=True)
 
 # Merge D3 linking data with election data
 countyData = pd.merge(countyData, electionDataCounty, how='outer', left_on=['state', 'name'], right_on=['state', 'county'])
@@ -91,6 +100,9 @@ statedf = countyData[['state', 'state_id', 'DEM_votes', 'REP_votes']].copy(deep=
 
 groups = statedf.groupby('state')
 for state, data in groups:
+    if state == 'District of Columbia':
+        print("All data:")
+        print(data)
     if state != 'Alaska':
         sumDem = data['DEM_votes'].sum()
         sumRep = data['REP_votes'].sum()
@@ -99,9 +111,10 @@ for state, data in groups:
         statedf.loc[(statedf['state'] == state), 'DEM_votes'] = str(sumDem)
 stateData = statedf.drop_duplicates()
 normalized = []
-for (a, b) in zip(stateData['DEM_votes'].astype("Float32"), stateData['REP_votes'].astype("Float32")):
+for (a, b, c) in zip(stateData['DEM_votes'].astype("Float32"), stateData['REP_votes'].astype("Float32"), stateData['state']):
+    # print(a,b,c)
     try:
-        normalized.append(a / (a + b))
+        normalized.append((a / (a + b)))
     except:
         normalized.append('')
 stateData['normalized_election_outcome'] = normalized
