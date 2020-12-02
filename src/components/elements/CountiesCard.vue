@@ -95,7 +95,7 @@ export default {
       d3.json("/data/uscounties.json").then(json => {
         that.counties = json;
 
-        d3.csv("/data/out.csv").then(data => {
+        d3.csv("/data/countyData.csv").then(data => {
           that.results = data.reduce((k, v) => ({...k, [v.id]: v}), {})
 
           svg.selectAll("path")
@@ -127,7 +127,7 @@ export default {
                     .style('stroke-width', 1.5);
                 div.transition().duration(300)
                     .style("opacity", 1)
-                div.text(that.results[this.id]["county"] !== ""
+                div.text(that.results[this.id] !== undefined
                     ? that.results[this.id]["county"] : "No Data")
                     .style("left", (d.pageX) + "px")
                     .style("top", (d.pageY -30) + "px")
@@ -153,7 +153,7 @@ export default {
       var legendLinear = legendColor()
           .shapeWidth(30)
           .cells(6)
-          .labels(["10+%", "10-5%", "5-0%", "0-5%", "5-10%", "10+%"])
+          .labels(["20+%", ">20%", ">10%", ">10%", ">20%", "20+%"])
           .orient('horizontal')
           .scale(color);
 

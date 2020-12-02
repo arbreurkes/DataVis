@@ -8,6 +8,9 @@
         </md-icon>
       </md-card-actions>
       <md-card-content class="card-content">
+        <span class="map-title">
+          <span style="color:#C63432;">Republican</span> vs. <span style="color:#439AD3;">Democratic</span> lead in 2020 presidential election
+        </span>
         <div :id="'map-' + this.hashCode"></div>
       </md-card-content>
       <!--      <md-card-actions v-if="stats !== null" class="actions">-->
@@ -19,6 +22,8 @@
 <script>
 import * as d3 from "d3";
 import {mapActions, mapGetters} from 'vuex';
+import {legendColor} from "d3-svg-legend";
+import * as topojson from "topojson-client";
 
 export default {
   name: 'StatesCard',
@@ -30,7 +35,8 @@ export default {
   },
   data: function () {
     return {
-      states: {}
+      states: {},
+      results: {}
     }
   },
   computed: {
@@ -57,36 +63,102 @@ export default {
 
       var path = d3.geoPath(projection)
 
-      var color = {"DEM": "rgb(67,154,211)", "REP": "rgb(198,52,50)"};
+      var color = d3.scaleQuantile()
+          .domain([0, .40, .45, .5, .55, .60, 1])
+          .range(["#C63432", "#E37D71", "#F6BEB6", "#C8DCf1", "#8DBAE2", "#439AD3"]);
 
       var svg = d3.select('#map-' + that.hashCode)
           .append("svg")
           .attr("width", width)
-          .attr("height", height);
+          .attr("height", height + 36);
 
-      d3.json("/data/usstates.json").then(json => {
+      var div = d3.select("body").append("div")
+          .attr("id", "state-tt")
+          .attr("class", "tooltip")
+          .style("opacity", 0);
+
+      d3.selection.prototype.moveToFront = function () {
+        return this.each(function () {
+          this.parentNode.appendChild(this);
+        });
+      };
+
+      d3.selection.prototype.moveToBack = function () {
+        return this.each(function () {
+          var firstChild = this.parentNode.firstChild;
+          if (firstChild) {
+            this.parentNode.insertBefore(this, firstChild);
+          }
+        });
+      };
+
+      d3.json("/data/uscounties.json").then(json => {
         that.states = json;
 
-        d3.csv("/data/statesElection.csv").then(data => {
-          for (var i = 0; i < data.length; i++) {
-            that.states.features[i].party = data[i].party;
-          }
+        d3.csv("/data/stateData.csv").then(data => {
+          that.results = data.reduce((k, v) => ({...k, [v.state_id]: v}), {})
 
           svg.selectAll("path")
-              .data(that.states.features)
+              .data(topojson.feature(that.states, that.states.objects.states).features)
               .enter()
               .append("path")
               .attr("d", path)
-              .style("stroke", "#fff")
+              .attr("id", function (d) {
+                return d.id
+              })
+              .style("stroke", "#FFF")
               .style("stroke-width", "1")
               .style("fill", function (d) {
-                var value = d.party;
+                if (that.results[d.id]) {
+                  var result = that.results[d.id]["normalized_election_outcome"];
+                  var value = result === "" ? null : result > .5 ? "DEM" : "REP";
 
-                if (value) return color[value];
+                  if (value) return color(result);
+                  return "#888";
+                }
+
                 return "#888";
+              })
+              .on("mouseover", function (d) {
+                var sel = d3.select(this);
+                sel.moveToFront();
+                d3.select(this).transition().duration(300)
+                    .style('stroke', '#000')
+                    .style('stroke-width', 1.5);
+                div.transition().duration(300)
+                    .style("opacity", 1)
+                div.text(that.results[this.id]["state"] !== ""
+                    ? that.results[this.id]["state"] : "No Data")
+                    .style("left", (d.pageX) + "px")
+                    .style("top", (d.pageY -30) + "px")
+                    .style("opacity", 1);
+              })
+              .on("mouseout", function () {
+                var sel = d3.select(this);
+                sel.moveToBack();
+                d3.select(this)
+                    .transition().duration(300)
+                    .style('stroke', '#FFF')
+                    .style('stroke-width', 1);
+                div.transition().duration(300)
+                    .style("opacity", 0);
               });
         });
       });
+
+      svg.append("g")
+          .attr("class", "legendLinear")
+          .attr("transform", "translate(" + (width / 2 - 110) + ", " + height + ")");
+
+      var legendLinear = legendColor()
+          .shapeWidth(30)
+          .cells(6)
+          .labels(["20+%", ">20%", ">10%", ">10%", ">20%", "20+%"])
+          .orient('horizontal')
+          .scale(color);
+
+      svg.select(".legendLinear")
+          .call(legendLinear);
     }
   }
 };
