@@ -8,6 +8,9 @@
         </md-icon>
       </md-card-actions>
       <md-card-content class="card-content">
+        <span class="map-title">
+          <span style="color:#C63432;">Republican</span> vs. <span style="color:#439AD3;">Democratic</span> lead in 2020 presidential election
+        </span>
         <div :id="'map-' + this.hashCode"></div>
       </md-card-content>
       <!--      <md-card-actions v-if="stats !== null" class="actions">-->
@@ -19,6 +22,7 @@
 <script>
 import * as d3 from "d3";
 import * as topojson from "topojson-client";
+import {legendColor} from 'd3-svg-legend'
 import {mapActions, mapGetters} from 'vuex';
 
 export default {
@@ -59,14 +63,14 @@ export default {
 
       var path = d3.geoPath(projection)
 
-      var color = d3.scaleLinear()
-          .domain([0, .5, 1])
-          .range(["rgb(198,52,50)", "#FFFFFF", "rgb(67,154,211)"]);
+      var color = d3.scaleQuantile()
+          .domain([0, .40, .45, .5, .55, .60, 1])
+          .range(["#C63432", "#E37D71", "#F6BEB6", "#C8DCf1", "#8DBAE2", "#439AD3"]);
 
       var svg = d3.select('#map-' + that.hashCode)
           .append("svg")
           .attr("width", width)
-          .attr("height", height);
+          .attr("height", height + 36);
 
       var div = d3.select("body").append("div")
           .attr("id", "county-tt")
@@ -141,14 +145,36 @@ export default {
               });
         });
       });
+
+      svg.append("g")
+          .attr("class", "legendLinear")
+          .attr("transform", "translate(" + (width / 2 - 110) + ", " + height + ")");
+
+      var legendLinear = legendColor()
+          .shapeWidth(30)
+          .cells(6)
+          .labels(["10+%", "10-5%", "5-0%", "0-5%", "5-10%", "10+%"])
+          .orient('horizontal')
+          .scale(color);
+
+      svg.select(".legendLinear")
+          .call(legendLinear);
     }
   }
 }
 ;
 </script>
 <style>
-.card-content {
-  /*height: 530px !important;*/
+.map-title {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-size: 12pt !important;
+}
+
+.label {
+  line-height: 8pt;
+  font-size: 8pt;
 }
 
 .actions {
