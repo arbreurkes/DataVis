@@ -8,12 +8,22 @@ Vue.use(Vuex); // Use Vuex to store state.
 export default new Vuex.Store({
     state: { // The state in which all global variables are stored
         snackbarMessage: "", // Message to show in snackbar, non-empty triggers showing snackbar.
+        attributes: ["normalized_election_outcome", "DEM_votes", "REP_votes", "TotalPop", "Men", "Women", "Hispanic",
+            "White", "Black", "Native", "Asian", "Pacific", "IncomePerCap", "Income", "Poverty", "ChildPoverty",
+            "Unemployment"],
+        statOne: "normalized_election_outcome",
+        statTwo: "None"
     },
     getters: {  // Getters for each variable in state.
         getSnackbarMessage: (state) => state.snackbarMessage,
+        getAttributes: (state) => state.attributes,
+        getStatOne: (state) => state.statOne,
+        getStatTwo: (state) => state.statTwo
     },
     mutations: { // Setters for each variable in state.
         setSnackbarMessage: (state, value) => (state.snackbarMessage = value),
+        setStatOne: (state, value) => (state.statOne = value),
+        setStatTwo: (state, value) => (state.statTwo = value)
     },
     actions: { // Actions, commit to state and notify system. All except one are asynchronous.
         updateVerifyVotes({commit}, keyValue) { // Update the verify votes of the worker.

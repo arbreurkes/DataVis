@@ -14,12 +14,25 @@
 
     <md-drawer class="md-drawer md-drawer--modal" :md-active.sync="showNavigation" md-swipeable>
       <md-toolbar class="md-transparent" md-elevation="0">
-        <span class="md-title">Election HQ</span>
+        <span class="md-title">Select attributes</span>
       </md-toolbar>
-
       <md-list>
-        <md-list-item @click="showNavigation = false" to="/stats/">
-          Statistics
+        <md-list-item>
+          <md-field>
+            <label for="statOne">Stat one</label>
+            <md-select v-model="statOne" name="statOne" id="statOne">
+              <md-option v-for="a in attributes" :key="a" :value="a" :disabled="statTwo === a">{{ a }}</md-option>
+            </md-select>
+          </md-field>
+        </md-list-item>
+        <md-list-item>
+          <md-field>
+            <label for="statTwo">Stat two</label>
+            <md-select v-model="statTwo" name="statTwo" id="statTwo">
+              <md-option value="None">None</md-option>
+              <md-option v-for="a in attributes" :key="a" :value="a" :disabled="statOne === a">{{ a }}</md-option>
+            </md-select>
+          </md-field>
         </md-list-item>
       </md-list>
     </md-drawer>
@@ -52,6 +65,9 @@ export default {
     snackbarMessage: function () { // Message to display on the snackbar.
       return this.getSnackbarMessage();
     },
+    attributes: function () {
+      return this.getAttributes();
+    }
   },
   watch: {
     snackbarMessage: function () { // Watch snackbarMessage, when non-empty, show snackbar.
@@ -64,17 +80,25 @@ export default {
         this.setSnackbarMessage("");
       }
     },
+    statOne: function() {
+      this.setStatOne(this.statOne);
+    },
+    statTwo: function() {
+      this.setStatTwo(this.statTwo);
+    }
   },
   data: () => ({
     showNavigation: false, // Show the navigation drawer.
     showSnackbar: false, // Show snackbar or not.
-    disclaimerPrompt: false // Show disclaimer or not.
+    disclaimerPrompt: false, // Show disclaimer or not.
+    statOne: "normalized_election_outcome",
+    statTwo: "None"
   }),
-  mounted() {
-  }, // On first initialization.
+  mounted() { // On first initialization.
+  },
   methods: {
-    ...mapGetters(['getSnackbarMessage']),
-    ...mapMutations(['setSnackbarMessage']),
+    ...mapGetters(['getSnackbarMessage', 'getAttributes']),
+    ...mapMutations(['setSnackbarMessage', 'setStatOne', 'setStatTwo']),
   }
 }
 </script>
@@ -138,6 +162,14 @@ body {
 }
 
 .md-list.md-theme-default .router-link-active .md-list-item-content {
+  color: var(--mdc-theme-secondary) !important;
+}
+
+.md-select-menu {
+  z-index: 1001 !important;
+}
+
+.md-list.md-theme-default .md-selected .md-list-item-content, .md-list.md-theme-default .router-link-active .md-list-item-content {
   color: var(--mdc-theme-secondary) !important;
 }
 
