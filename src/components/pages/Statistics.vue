@@ -14,7 +14,7 @@
         </md-tab>
         <md-tab id="tab-two" class="tab-two" md-label="Counties" :md-template-data="{icon: 'map'}"
                 to="/stats/tabTwo">
-<!--          <counties-card title="US Counties" :stats="null" :inGrid="true" size="md-size-100"></counties-card>-->
+          <counties-card title="US Counties" :stats="null" :inGrid="true" size="md-size-100"></counties-card>
         </md-tab>
       </md-tabs>
       <hr class="tab-divider"/>
@@ -23,14 +23,14 @@
 </template>
 <script>
 import StatesCard from "@/components/elements/StatesCard";
-// import CountiesCard from "@/components/elements/CountiesCard";
+import CountiesCard from "@/components/elements/CountiesCard";
 import {mapActions, mapGetters, mapMutations} from 'vuex'
 
 export default {
   name: 'Statistics',
   components: {
     StatesCard,
-    // CountiesCard
+    CountiesCard
   },
   data: function () {
     return {

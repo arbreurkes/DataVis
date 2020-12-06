@@ -1,7 +1,12 @@
 <template>
   <div ref="card">
     <span class="map-title">
-          <span style="color:#C63432;">Republican</span> vs. <span style="color:#439AD3;">Democratic</span> lead in 2020 presidential election
+          <span :style="statOne === 'DEM_votes' ? 'color:#439AD3;' : 'color:#C63432;'">
+            {{ statOne === "normalized_election_outcome" ? "Republican" : statOne }}</span>
+            {{ statOne === 'normalized_election_outcome' || statTwo !== 'None' ? "vs. " : "" }}
+          <span v-if="statOne === 'normalized_election_outcome' || statTwo !== 'None'" style="color:#439AD3;">
+            {{ statOne === "normalized_election_outcome" ? "Democratic" : statTwo }}</span>
+            {{ statOne === "normalized_election_outcome" ? "lead " : "" }}during 2020 presidential election
         </span>
     <div :id="'map-' + this.hashCode"></div>
   </div>
@@ -29,16 +34,35 @@ export default {
   computed: {
     hashCode: function () {
       return window.hashCode(Math.round(Math.random() * 100000) + "")
+    },
+    statOne: function () {
+      return this.getStatOne()
+    },
+    statTwo: function () {
+      return this.getStatTwo()
+    }
+  },
+  watch: {
+    statOne: function () {
+      this.initializeMap();
+    },
+    statTwo: function () {
+      // if (this.statOne) this.initializeMap();
     }
   },
   mounted: function () {
     this.$nextTick(() => {
+      d3.select("body").append("div")
+          .attr("id", "county-tt")
+          .attr("class", "tooltip")
+          .style("opacity", 0);
+
       this.initializeMap()
     })
   },
   methods: {
     ...mapActions([]),
-    ...mapGetters([]),
+    ...mapGetters(['getStatOne', 'getStatTwo']),
     initializeMap: function () {
       var that = this;
       var width = this.$refs.card.scrollWidth;
@@ -50,19 +74,14 @@ export default {
 
       var path = d3.geoPath(projection)
 
-      var color = d3.scaleQuantile()
-          .domain([0, .40, .45, .5, .55, .60, 1])
-          .range(["#C63432", "#E37D71", "#F6BEB6", "#C8DCf1", "#8DBAE2", "#439AD3"]);
-
+      d3.select('#map-' + that.hashCode).html("")
       var svg = d3.select('#map-' + that.hashCode)
           .append("svg")
           .attr("width", width)
-          .attr("height", height + 36);
+          .attr("height", height + 36)
+          .attr("class", "map-svg");
 
-      var div = d3.select("body").append("div")
-          .attr("id", "county-tt")
-          .attr("class", "tooltip")
-          .style("opacity", 0);
+      var div = d3.select("#county-tt")
 
       d3.selection.prototype.moveToFront = function () {
         return this.each(function () {
@@ -84,6 +103,22 @@ export default {
 
         d3.csv("/data/countyData.csv").then(data => {
           that.results = data.reduce((k, v) => ({...k, [v.id]: v}), {})
+          var stat = data.map((x) => parseInt(x[that.statOne]));
+
+          var color = null
+          if (that.statOne === "normalized_election_outcome" && that.statTwo === "None") {
+            color = d3.scaleQuantile()
+                .domain([0, .40, .45, .5, .55, .60, 1])
+                .range(["#C63432", "#E37D71", "#F6BEB6", "#C8DCf1", "#8DBAE2", "#439AD3"]);
+          } else if (that.statTwo === "None" && that.statOne === "DEM_votes") {
+            color = d3.scaleLinear()
+                .domain([0, Math.max(...stat)])
+                .range(["#FFFFFF", "#439AD3"]);
+          } else if (that.statTwo === "None") {
+            color = d3.scaleLinear()
+                .domain([0, Math.max(...stat)])
+                .range(["#FFFFFF", "#C63432"]);
+          }
 
           svg.selectAll("path")
               .data(topojson.feature(that.counties, that.counties.objects.counties).features)
@@ -97,7 +132,7 @@ export default {
               .style("stroke-width", "1")
               .style("fill", function (d) {
                 if (that.results[d.id]) {
-                  var result = that.results[d.id]["normalized_election_outcome"];
+                  var result = that.results[d.id][that.statOne];
                   var value = result === "" ? null : result > .5 ? "DEM" : "REP";
 
                   if (value) return color(result);
@@ -130,22 +165,37 @@ export default {
                 div.transition().duration(300)
                     .style("opacity", 0);
               });
+
+          svg.append("g")
+              .attr("class", "legendLinear")
+              .attr("transform", "translate(" + (width / 2 - 110) + ", " + height + ")");
+
+          var legendLinear = legendColor()
+              .shapeWidth(30)
+              .cells(6)
+              .labels((d) => {
+                if (that.statOne === "normalized_election_outcome")
+                  return ["20+%", ">20%", ">10%", ">10%", ">20%", "20+%"][d.i];
+                else if (d.domain[1] > 10000000) {
+                  return (parseInt(d.generatedLabels[d.i]) / 1000000).toFixed(0) + "M";
+                } else if (d.domain[1] > 1000000) {
+                  return (parseInt(d.generatedLabels[d.i]) / 1000000).toFixed(1) + "M";
+                } else if (d.domain[1] > 10000) {
+                  return (parseInt(d.generatedLabels[d.i]) / 1000).toFixed(0) + "K";
+                } else if (d.domain[1] > 1000) {
+                  return (parseInt(d.generatedLabels[d.i]) / 1000).toFixed(1) + "K";
+                } else if (d.domain[1] <= 100 && d.domain[1] > 10) {
+                  return (parseInt(d.generatedLabels[d.i])).toFixed(0) + "%";
+                } else return (parseInt(d.generatedLabels[d.i])).toFixed(1) + "%";
+              })
+              .labelFormat(d3.format(".2f"))
+              .orient('horizontal')
+              .scale(color);
+
+          svg.select(".legendLinear")
+              .call(legendLinear);
         });
       });
-
-      svg.append("g")
-          .attr("class", "legendLinear")
-          .attr("transform", "translate(" + (width / 2 - 110) + ", " + height + ")");
-
-      var legendLinear = legendColor()
-          .shapeWidth(30)
-          .cells(6)
-          .labels(["20+%", ">20%", ">10%", ">10%", ">20%", "20+%"])
-          .orient('horizontal')
-          .scale(color);
-
-      svg.select(".legendLinear")
-          .call(legendLinear);
     }
   }
 }
