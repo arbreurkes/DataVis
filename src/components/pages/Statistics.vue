@@ -19,7 +19,7 @@
         <md-tab id="tab-three" class="tab-three" md-label="Scatter" :md-template-data="{icon: 'scatter_plot'}"
                 to="/stats/tabThree">
           <div class="md-layout md-gutter">
-            <basic-card title="Scatter Plots" :inGrid="true" size="md-size-33"></basic-card>
+            <scatter-card title="Scatter Plots" :inGrid="true" size="md-size-50"></scatter-card>
           </div>
         </md-tab>
       </md-tabs>
@@ -30,15 +30,15 @@
 <script>
 import StatesCard from "@/components/elements/StatesCard";
 import CountiesCard from "@/components/elements/CountiesCard";
-import BasicCard from "@/components/elements/BasicCard";
 import {mapActions, mapGetters, mapMutations} from 'vuex'
+import ScatterCard from "../elements/ScatterCard";
 
 export default {
   name: 'Statistics',
   components: {
+    ScatterCard,
     StatesCard,
     CountiesCard,
-    BasicCard
   },
   data: function () {
     return {
