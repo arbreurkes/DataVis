@@ -16,6 +16,10 @@
                 to="/stats/tabTwo">
           <counties-card title="US Counties" :stats="null" :inGrid="true" size="md-size-100"></counties-card>
         </md-tab>
+        <md-tab id="tab-three" class="tab-three" md-label="Scatter" :md-template-data="{icon: 'scatter_plot'}"
+                to="/stats/tabThree">
+          <scatter-card title="ScatterPlots" :stats="null" :inGrid="true" size="md-size-100"></scatter-card>
+        </md-tab>
       </md-tabs>
       <hr class="tab-divider"/>
     </div>
@@ -24,13 +28,15 @@
 <script>
 import StatesCard from "@/components/elements/StatesCard";
 import CountiesCard from "@/components/elements/CountiesCard";
+import ScatterCard from "@/components/elements/Scatter";
 import {mapActions, mapGetters, mapMutations} from 'vuex'
 
 export default {
   name: 'Statistics',
   components: {
     StatesCard,
-    CountiesCard
+    CountiesCard,
+    ScatterCard
   },
   data: function () {
     return {
