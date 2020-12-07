@@ -20,9 +20,6 @@ export default {
   name: 'StatesCard',
   props: {
     title: String, // Title of the card.
-    size: String, // Size of card in gutter.
-    inGrid: Boolean, // Is this card in gutter?
-    stats: Object, // Statistics,
   },
   data: function () {
     return {

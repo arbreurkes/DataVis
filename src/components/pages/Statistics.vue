@@ -10,15 +10,17 @@
 
         <md-tab id="tab-map" class="tab-one" md-label="States" :md-template-data="{icon: 'public'}"
                 to="/stats/tabOne">
-          <states-card title="US States" :stats="null" :inGrid="true" size="md-size-100"></states-card>
+          <states-card title="US States"></states-card>
         </md-tab>
         <md-tab id="tab-two" class="tab-two" md-label="Counties" :md-template-data="{icon: 'map'}"
                 to="/stats/tabTwo">
-          <counties-card title="US Counties" :stats="null" :inGrid="true" size="md-size-100"></counties-card>
+          <counties-card title="US Counties"></counties-card>
         </md-tab>
         <md-tab id="tab-three" class="tab-three" md-label="Scatter" :md-template-data="{icon: 'scatter_plot'}"
                 to="/stats/tabThree">
-          <scatter-card title="ScatterPlots" :stats="null" :inGrid="true" size="md-size-100"></scatter-card>
+          <div class="md-layout md-gutter">
+            <basic-card title="Scatter Plots" :inGrid="true" size="md-size-33"></basic-card>
+          </div>
         </md-tab>
       </md-tabs>
       <hr class="tab-divider"/>
@@ -28,7 +30,7 @@
 <script>
 import StatesCard from "@/components/elements/StatesCard";
 import CountiesCard from "@/components/elements/CountiesCard";
-import ScatterCard from "@/components/elements/Scatter";
+import BasicCard from "@/components/elements/BasicCard";
 import {mapActions, mapGetters, mapMutations} from 'vuex'
 
 export default {
@@ -36,7 +38,7 @@ export default {
   components: {
     StatesCard,
     CountiesCard,
-    ScatterCard
+    BasicCard
   },
   data: function () {
     return {
