@@ -41,7 +41,7 @@ export default {
   },
   watch: {
     statOne: function () {
-      this.initializeMap();
+      // this.initializeMap();
     },
     statTwo: function () {
       // if (this.statOne) this.initializeMap();
@@ -54,7 +54,7 @@ export default {
           .attr("class", "tooltip")
           .style("opacity", 0);
 
-      this.initializeMap()
+      // this.initializeMap()
     })
   },
   methods: {
@@ -125,7 +125,7 @@ export default {
               .attr("id", function (d) {
                 return d.id
               })
-              .style("stroke", "#FFF")
+              .style("stroke", "#BBB")
               .style("stroke-width", "1")
               .style("fill", function (d) {
                 if (that.results[d.id]) {

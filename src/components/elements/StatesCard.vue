@@ -1,11 +1,15 @@
 <template>
   <div ref="card">
     <span class="map-title">
-          <span :style="statOne === 'DEM_votes' ? 'color:#439AD3;' : 'color:#C63432;'">
-            {{ statOne === "normalized_election_outcome" ? "Republican" : statOne }}</span> vs.
-          <span v-if="statOne === 'normalized_election_outcome' || statTwo !== 'None'" style="color:#439AD3;">
-            {{ statOne === "normalized_election_outcome" ? "Democratic" : statTwo }}</span>
-            {{ statOne === "normalized_election_outcome" ? "lead " : "" }}during 2020 presidential election
+        <span :style="statOne === 'DEM_votes' ? 'color:#439AD3;' : 'color:#C63432;'">
+          {{ statOne === "normalized_election_outcome" ? "Republican" : statOne }}</span>
+        <span v-if="statOne === 'normalized_election_outcome' || statTwo !== 'None'">
+          vs.
+          <span style="color:#439AD3;">
+            {{ statOne === "normalized_election_outcome" ? "Democratic" : statTwo }}
+          </span>
+        </span>
+      {{ statOne === "normalized_election_outcome" ? "lead " : "" }}during 2020 presidential election
     </span>
     <div :id="'map-' + this.hashCode"></div>
   </div>
@@ -24,7 +28,8 @@ export default {
   data: function () {
     return {
       states: {},
-      results: {}
+      results: {},
+      color: {}
     }
   },
   computed: {
@@ -43,7 +48,7 @@ export default {
       this.initializeMap();
     },
     statTwo: function () {
-      // if (this.statOne) this.initializeMap();
+      if (this.statOne) this.initializeMap();
     }
   },
   mounted: function () {
@@ -94,26 +99,63 @@ export default {
         });
       };
 
+      var sortNumeric = function (a, b) {
+        if (a > b) return 1;
+        else if (a === b) return 0;
+        return -1;
+      }
+
       d3.json("/data/uscounties.json").then(json => {
         that.states = json;
 
         d3.csv("/data/stateData.csv").then(data => {
           that.results = data.reduce((k, v) => ({...k, [v.state_id]: v}), {})
-          var stat = data.map((x) => parseInt(x[that.statOne]));
+          var statOne = data.map((x) => parseFloat(x[that.statOne])).sort(sortNumeric);
+          var statTwo = data.map((x) => parseFloat(x[that.statTwo])).sort(sortNumeric);
+          var quantileOne = (statOne.length / 4).toFixed(0);
+          var quantileTwo = (statTwo.length / 4).toFixed(0);
+          var domainOne = [0, statOne[quantileOne], statOne[quantileOne * 2], statOne[quantileOne * 3],
+            statOne[statOne.length - 1]];
+          var domainTwo = [0, statTwo[quantileTwo], statTwo[quantileTwo * 2], statTwo[quantileTwo * 3],
+            statTwo[statTwo.length - 1]];
 
-          var color = null
-          if (that.statOne === "normalized_election_outcome" && that.statTwo === "None") {
-            color = d3.scaleQuantile()
+          if (that.statOne === "normalized_election_outcome" && that.statTwo === "None") { // && that.statTwo === "None") {
+            that.color = d3.scaleQuantile()
                 .domain([0, .40, .45, .5, .55, .60, 1])
                 .range(["#C63432", "#E37D71", "#F6BEB6", "#C8DCf1", "#8DBAE2", "#439AD3"]);
           } else if (that.statTwo === "None" && that.statOne === "DEM_votes") {
-            color = d3.scaleLinear()
-                .domain([0, Math.max(...stat)])
+            that.color = d3.scaleLinear()
+                .domain([0, statOne[statOne.length - 1]])
                 .range(["#FFFFFF", "#439AD3"]);
           } else if (that.statTwo === "None") {
-            color = d3.scaleLinear()
-                .domain([0, Math.max(...stat)])
+            that.color = d3.scaleLinear()
+                .domain([0, statOne[statOne.length - 1]])
                 .range(["#FFFFFF", "#C63432"]);
+          } else {
+            that.color = function (value) {
+              console.log(value);
+
+              var palette = [["#dedede", "#abc5d6", "#76abcd", "#3f90c5"],
+                ["#d3aaa9", "#a297a3", "#70839c", "#3b6e96"],
+                ["#c77372", "#99666e", "#695869", "#384a65"],
+                ["#b9312f", "#8e2b2d", "#62252b", "#341f29"]];
+
+              var x = (x) => {
+                if (x < domainOne[1]) return 0;
+                else if (x < domainOne[2]) return 1;
+                else if (x < domainOne[3]) return 2;
+                else return 3;
+              }
+
+              var y = (y) => {
+                if (y < domainTwo[1]) return 0;
+                else if (y < domainTwo[2]) return 1;
+                else if (y < domainTwo[3]) return 2;
+                else return 3;
+              }
+
+              return palette[x(value[0])][y(value[1])];
+            }
           }
 
           svg.selectAll("path")
@@ -124,18 +166,21 @@ export default {
               .attr("id", function (d) {
                 return d.id
               })
-              .style("stroke", "#FFF")
+              .style("stroke", "#BBBBBB")
               .style("stroke-width", "1")
               .style("fill", function (d) {
                 if (that.results[d.id]) {
                   var result = that.results[d.id][that.statOne];
-                  var value = result === "" ? null : result > .5 ? "DEM" : "REP";
+                  if (that.statTwo !== "None") {
+                    result = [result, that.results[d.id][that.statTwo]]
+                  }
+                  var value = result === "" ? null : true;
 
-                  if (value) return color(result);
-                  return "#888";
+                  if (value) return that.color(result);
+                  return "#888888";
                 }
 
-                return "#888";
+                return "#888888";
               })
               .on("mouseover", function (d) {
                 var sel = d3.select(this);
@@ -146,7 +191,10 @@ export default {
                 div.transition().duration(300)
                     .style("opacity", 1)
                 div.text(that.results[this.id]["state"] !== ""
-                    ? that.results[this.id]["state"] : "No Data")
+                    ? that.results[this.id]["state"] + ": "
+                      + that.results[this.id][that.statOne]
+                      + (that.statTwo !== "None" ? ", " + that.results[this.id][that.statTwo] : "")
+                    : "No Data")
                     .style("left", (d.pageX) + "px")
                     .style("top", (d.pageY - 30) + "px")
                     .style("opacity", 1);
@@ -156,40 +204,72 @@ export default {
                 sel.moveToBack();
                 d3.select(this)
                     .transition().duration(300)
-                    .style('stroke', '#FFF')
+                    .style('stroke', '#BBB')
                     .style('stroke-width', 1);
                 div.transition().duration(300)
                     .style("opacity", 0);
               });
 
-          svg.append("g")
-              .attr("class", "legendLinear")
-              .attr("transform", "translate(" + (width / 2 - 110) + ", " + height + ")");
+          if (that.statTwo === "None") {
+            svg.append("g")
+                .attr("class", "legendLinear")
+                .attr("transform", "translate(" + (width / 2 - 110) + ", " + height + ")");
 
-          var legendLinear = legendColor()
-              .shapeWidth(30)
-              .cells(6)
-              .labels((d) => {
-                if (that.statOne === "normalized_election_outcome")
-                  return ["20+%", ">20%", ">10%", ">10%", ">20%", "20+%"][d.i];
-                else if (d.domain[1] > 10000000) {
-                  return (parseInt(d.generatedLabels[d.i]) / 1000000).toFixed(0) + "M";
-                } else if (d.domain[1] > 1000000) {
-                  return (parseInt(d.generatedLabels[d.i]) / 1000000).toFixed(1) + "M";
-                } else if (d.domain[1] > 10000) {
-                  return (parseInt(d.generatedLabels[d.i]) / 1000).toFixed(0) + "K";
-                } else if (d.domain[1] > 1000) {
-                  return (parseInt(d.generatedLabels[d.i]) / 1000).toFixed(1) + "K";
-                } else if (d.domain[1] <= 100 && d.domain[1] > 10) {
-                  return (parseInt(d.generatedLabels[d.i])).toFixed(0) + "%";
-                } else return (parseInt(d.generatedLabels[d.i])).toFixed(1) + "%";
-              })
-              .labelFormat(d3.format(".2f"))
-              .orient('horizontal')
-              .scale(color);
+            var legendLinear = legendColor()
+                .shapeWidth(30)
+                .cells(6)
+                .labels((d) => {
+                  if (that.statOne === "normalized_election_outcome")
+                    return ["20+%", ">20%", ">10%", ">10%", ">20%", "20+%"][d.i];
+                  else if (d.domain[1] > 10000000) {
+                    return (parseInt(d.generatedLabels[d.i]) / 1000000).toFixed(0) + "M";
+                  } else if (d.domain[1] > 1000000) {
+                    return (parseInt(d.generatedLabels[d.i]) / 1000000).toFixed(1) + "M";
+                  } else if (d.domain[1] > 10000) {
+                    return (parseInt(d.generatedLabels[d.i]) / 1000).toFixed(0) + "K";
+                  } else if (d.domain[1] > 1000) {
+                    return (parseInt(d.generatedLabels[d.i]) / 1000).toFixed(1) + "K";
+                  } else if (d.domain[1] <= 100 && d.domain[1] > 10) {
+                    return (parseInt(d.generatedLabels[d.i])).toFixed(0) + "%";
+                  } else return (parseInt(d.generatedLabels[d.i])).toFixed(1) + "%";
+                })
+                .labelFormat(d3.format(".2f"))
+                .orient('horizontal')
+                .scale(that.color);
 
-          svg.select(".legendLinear")
-              .call(legendLinear);
+            svg.select(".legendLinear")
+                .call(legendLinear);
+          } else {
+            var nums = d3.range(16).map(function (d) {
+              var x = d % 4;
+              var y = Math.floor(d / 4);
+              var color = that.color([domainOne[x], domainTwo[y]]);
+
+              return {x: x, y: y, color: color}
+            })
+
+            var size = 30;
+
+            var legend = svg.append("g")
+                .attr("class", "legendLinear")
+                .attr("transform", "translate(" + (width - 220) + ", " + (height - 100) + ") rotate(-135)");
+
+            legend.selectAll("rect")
+                .data(nums)
+                .enter()
+                .append("rect")
+                .attr("x", function (d) {
+                  return d.x * size
+                })
+                .attr("y", function (d) {
+                  return d.y * size
+                })
+                .attr("width", size)
+                .attr("height", size)
+                .attr("fill", function (d) {
+                  return d.color;
+                });
+          }
         });
       });
     }

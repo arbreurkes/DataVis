@@ -8,9 +8,9 @@ Vue.use(Vuex); // Use Vuex to store state.
 export default new Vuex.Store({
     state: { // The state in which all global variables are stored
         snackbarMessage: "", // Message to show in snackbar, non-empty triggers showing snackbar.
-        attributes: ["normalized_election_outcome", "DEM_votes", "REP_votes", "TotalPop", "Men", "Women", "Hispanic",
-            "White", "Black", "Native", "Asian", "Pacific", "IncomePerCap", "Income", "Poverty", "ChildPoverty",
-            "Unemployment"],
+        attributes: ["normalized_election_outcome", "DEM_votes","REP_votes","TotalPop","normalizedMen","Men",
+            "Women","Hispanic","White","Black","Native","Asian","Pacific","IncomePerCap","Income","Poverty",
+            "ChildPoverty","Unemployment"],
         statOne: "normalized_election_outcome",
         statTwo: "None"
     },
