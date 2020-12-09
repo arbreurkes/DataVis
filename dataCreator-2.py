@@ -41,6 +41,15 @@ countyData = pd.merge(stateData, countyData, how='outer', left_index=True, right
 
 electionData = pd.read_csv("./data/election/president_county_candidate.csv")
 
+votes = {}
+total = 0
+byParty = electionData.groupby('party')
+for p, d in byParty:
+    sum = d['total_votes'].sum()
+    votes[p] = sum
+    total += sum
+count = votes['DEM'] + votes['REP']
+print(count/total)
 # Rename the election data to match the D3 linking data:
 electionData['county'] = electionData['county'].replace({' County': ''}, regex=True)
 electionData['county'] = electionData['county'].replace({' Parish': ''}, regex=True)
@@ -70,6 +79,7 @@ electionDataCounty = electionData[electionData['party'].isin(['DEM', 'REP'])].dr
 demVotes = electionDataCounty[electionDataCounty['party'] == 'DEM']
 repVotes = electionDataCounty[electionDataCounty['party'] == 'REP']
 
+
 electionDataCounty = repVotes.merge(demVotes, on=['state', 'county'], how='left', sort=False)
 # Rename Columns:
 electionDataCounty.rename(columns={"per capita income": "per_capita_income"}, inplace=True)
@@ -80,13 +90,20 @@ electionDataCounty.rename(columns={"total_votes_y": "DEM_votes"}, inplace=True)
 countyData = pd.merge(countyData, electionDataCounty, how='outer', left_on=['state', 'name'], right_on=['state', 'county'])
 
 # Normalize election data:
-normalized = []
+demNorm = []
+repNorm = []
 for (a, b) in zip(countyData['DEM_votes'].astype("Float32"), countyData['REP_votes'].astype("Float32")):
     try:
-        normalized.append(a / (a + b))
+        demNorm.append((a / (a + b)))
     except:
-        normalized.append('')
-countyData['normalized_election_outcome'] = normalized
+        demNorm.append('')
+    try:
+        repNorm.append((b / (a + b)))
+    except:
+        repNorm.append('')
+countyData['dem_votes_%'] = demNorm
+
+countyData['rep_votes_%'] = repNorm
 
 countyData = countyData.drop_duplicates()
 statedf = countyData[['state', 'state_id', 'DEM_votes', 'REP_votes']].copy(deep=True)
@@ -100,15 +117,23 @@ for state, data in groups:
         statedf.loc[(statedf['state'] == state), 'REP_votes'] = str(sumRep)
         statedf.loc[(statedf['state'] == state), 'DEM_votes'] = str(sumDem)
 stateData = statedf.drop_duplicates()
-normalized = []
+
+demNorm = []
+repNorm = []
 for (a, b) in zip(stateData['DEM_votes'].astype("Float32"), stateData['REP_votes'].astype("Float32")):
     try:
-        normalized.append((a / (a + b)))
+        demNorm.append((a / (a + b)))
     except:
-        normalized.append('')
-stateData['normalized_election_outcome'] = normalized
+        demNorm.append('')
+    try:
+        repNorm.append((b / (a + b)))
+    except:
+        repNorm.append('')
+stateData['dem_votes_%'] = demNorm
+stateData['rep_votes_%'] = repNorm
+
 countyData['id'] = countyData['id'].astype("Int32")
 
 # Output:
-countyData[['state','id', 'county', 'state_id', 'county_id', 'DEM_votes', 'REP_votes', 'normalized_election_outcome']].to_csv(r'./data/output/countyData.csv', index=False)
+countyData[['state','id', 'county', 'state_id', 'county_id', 'DEM_votes', 'REP_votes', 'dem_votes_%', 'rep_votes_%']].to_csv(r'./data/output/countyData.csv', index=False)
 stateData.to_csv(r'./data/output/stateData.csv', index=False)
