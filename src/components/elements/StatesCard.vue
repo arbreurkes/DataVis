@@ -133,8 +133,6 @@ export default {
                 .range(["#FFFFFF", "#C63432"]);
           } else {
             that.color = function (value) {
-              console.log(value);
-
               var palette = [["#dedede", "#abc5d6", "#76abcd", "#3f90c5"],
                 ["#d3aaa9", "#a297a3", "#70839c", "#3b6e96"],
                 ["#c77372", "#99666e", "#695869", "#384a65"],
@@ -192,8 +190,8 @@ export default {
                     .style("opacity", 1)
                 div.text(that.results[this.id]["state"] !== ""
                     ? that.results[this.id]["state"] + ": "
-                      + that.results[this.id][that.statOne]
-                      + (that.statTwo !== "None" ? ", " + that.results[this.id][that.statTwo] : "")
+                    + that.results[this.id][that.statOne]
+                    + (that.statTwo !== "None" ? ", " + that.results[this.id][that.statTwo] : "")
                     : "No Data")
                     .style("left", (d.pageX) + "px")
                     .style("top", (d.pageY - 30) + "px")
@@ -269,6 +267,47 @@ export default {
                 .attr("fill", function (d) {
                   return d.color;
                 });
+
+            legend.append('defs')
+                .append('marker')
+                .attr('id', 'arrow')
+                .attr('legendLinear', [0, 0, 10, 10])
+                .attr('refX', 5)
+                .attr('refY', 5)
+                .attr('markerWidth', 10)
+                .attr('markerHeight', 10)
+                .attr('orient', 'auto-start-reverse')
+                .append('path')
+                .attr('d', d3.line()([[0, 0], [0, 10], [10, 5]]))
+                .attr('stroke', 'black');
+
+            legend.append('path')
+                .attr('d', d3.line()([[0, 0], [0, 120]]))
+                .attr('stroke', 'black')
+                .attr('marker-end', 'url(#arrow)')
+                .attr('fill', 'none');
+
+            legend.append("text")
+                .attr("y", 14)
+                .attr("x", 60)
+                .attr('text-anchor', 'middle')
+                .attr("class", "myLabel")
+                .text(that.statOne)
+                .attr("transform", "rotate(90)");
+
+            legend.append('path')
+                .attr('d', d3.line()([[0, 0], [120, 0]]))
+                .attr('stroke', 'black')
+                .attr('marker-end', 'url(#arrow)')
+                .attr('fill', 'none');
+
+            legend.append("text")
+                .attr("y", 14)
+                .attr("x", -60)
+                .attr('text-anchor', 'middle')
+                .attr("class", "myLabel")
+                .text(that.statTwo)
+                .attr("transform", "rotate(-180)");
           }
         });
       });
