@@ -2,14 +2,17 @@
   <div ref="card">
     <span class="map-title">
         <span :style="statOne === 'DEM_votes' ? 'color:#439AD3;' : 'color:#C63432;'">
-          {{ statOne === "normalized_election_outcome" ? "Republican" : statOne }}</span>
-        <span v-if="statOne === 'normalized_election_outcome' || statTwo !== 'None'">
+          {{ statOne === "election_lead" ? "Republican" : statOne }}</span>
+        <span v-if="statOne === 'election_lead' || statTwo !== 'None'">
           vs.
           <span style="color:#439AD3;">
-            {{ statOne === "normalized_election_outcome" ? "Democratic" : statTwo }}
+            {{ statOne === "election_lead" ? "Democratic" : statTwo }}
           </span>
         </span>
-      {{ statOne === "normalized_election_outcome" ? "lead " : "" }}during 2020 presidential election
+      {{ statOne === "election_lead" ? "lead " : "" }}during 2020 presidential election
+      <md-icon class="info-icon">info
+          <md-tooltip md-direction="bottom">Click a state for more details.</md-tooltip>
+      </md-icon>
     </span>
     <div :id="'map-' + this.hashCode"></div>
   </div>
@@ -68,6 +71,7 @@ export default {
       var that = this;
       var width = this.$refs.card.scrollWidth;
       var height = width / 2.16; // Keep ratio of map.
+      var centered;
 
       var projection = d3.geoAlbersUsa()
           .translate([width / 2, height / 2])
@@ -118,15 +122,20 @@ export default {
             statOne[statOne.length - 1]];
           var domainTwo = [0, statTwo[quantileTwo], statTwo[quantileTwo * 2], statTwo[quantileTwo * 3],
             statTwo[statTwo.length - 1]];
+          console.log(domainOne, domainTwo)
 
-          if (that.statOne === "normalized_election_outcome" && that.statTwo === "None") { // && that.statTwo === "None") {
+          if (that.statOne === "election_lead" && that.statTwo === "None") {
             that.color = d3.scaleQuantile()
                 .domain([0, .40, .45, .5, .55, .60, 1])
                 .range(["#C63432", "#E37D71", "#F6BEB6", "#C8DCf1", "#8DBAE2", "#439AD3"]);
-          } else if (that.statTwo === "None" && that.statOne === "DEM_votes") {
+          } else if (that.statTwo === "None" && that.statOne === "DEM_votes" || that.statOne === "dem_votes_%") {
             that.color = d3.scaleLinear()
                 .domain([0, statOne[statOne.length - 1]])
                 .range(["#FFFFFF", "#439AD3"]);
+          } else if (that.statOne === "percentageMen" || that.statOne === "percentageWomen") {
+            that.color = d3.scaleQuantile()
+                .domain(domainOne)
+                .range(["#FFFFFF", "#FBD8D2", "#F3B1A7", "#E78A7E", "#D86257", "#C63432"]);
           } else if (that.statTwo === "None") {
             that.color = d3.scaleLinear()
                 .domain([0, statOne[statOne.length - 1]])
@@ -154,6 +163,50 @@ export default {
 
               return palette[x(value[0])][y(value[1])];
             }
+          }
+
+          var format = function (domain, label) {
+            if (that.statOne === "election_lead") {
+              var percentageLead = (Math.abs(label - .5) * 200);
+              if (percentageLead < 10) return "<10%";
+              else if (percentageLead < 20) return "<20%";
+              else return "20+%";
+            } else if (domain > 10000000) {
+              return (parseFloat(label) / 1000000).toFixed(label > 10000000 ? 0 : 1) + "M";
+            } else if (domain > 1000000) {
+              return (parseFloat(label) / 1000000).toFixed(1) + "M";
+            } else if (domain > 10000) {
+              return (parseInt(label) / 1000) + "K";
+            } else if (domain > 1000) {
+              return (parseFloat(label) / 1000).toFixed(1) + "K";
+            } else if (domain <= 100 && domain > 10) {
+              return (parseFloat(label)).toFixed(label > 10 ? 0 : 1) + "%";
+            } else return (parseFloat(label)).toFixed(1) + "%";
+          }
+
+          var clicked = function (d) {
+            var x, y, k;
+
+            if (d && centered !== d) {
+              var centroid = path.centroid(d);
+              x = centroid[0];
+              y = centroid[1];
+              k = 4;
+              centered = d;
+            } else {
+              x = width / 2;
+              y = height / 2;
+              k = 1;
+              centered = null;
+            }
+
+            svg.selectAll("path")
+                .classed("active", centered && function(d) { return d === centered; });
+
+            svg.transition()
+                .duration(750)
+                .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")scale(" + k + ")translate(" + -x + "," + -y + ")")
+                .style("stroke-width", 1.5 / k + "px");
           }
 
           svg.selectAll("path")
@@ -190,8 +243,10 @@ export default {
                     .style("opacity", 1)
                 div.text(that.results[this.id]["state"] !== ""
                     ? that.results[this.id]["state"] + ": "
-                    + that.results[this.id][that.statOne]
-                    + (that.statTwo !== "None" ? ", " + that.results[this.id][that.statTwo] : "")
+                    + format(statOne[statOne.length - 1], that.results[this.id][that.statOne])
+                    + (that.statTwo !== "None"
+                        ? ", " + format(statTwo[statTwo.length - 1], that.results[this.id][that.statTwo])
+                        : "")
                     : "No Data")
                     .style("left", (d.pageX) + "px")
                     .style("top", (d.pageY - 30) + "px")
@@ -206,7 +261,8 @@ export default {
                     .style('stroke-width', 1);
                 div.transition().duration(300)
                     .style("opacity", 0);
-              });
+              })
+              .on("click", clicked);
 
           if (that.statTwo === "None") {
             svg.append("g")
@@ -217,19 +273,9 @@ export default {
                 .shapeWidth(30)
                 .cells(6)
                 .labels((d) => {
-                  if (that.statOne === "normalized_election_outcome")
-                    return ["20+%", ">20%", ">10%", ">10%", ">20%", "20+%"][d.i];
-                  else if (d.domain[1] > 10000000) {
-                    return (parseInt(d.generatedLabels[d.i]) / 1000000).toFixed(0) + "M";
-                  } else if (d.domain[1] > 1000000) {
-                    return (parseInt(d.generatedLabels[d.i]) / 1000000).toFixed(1) + "M";
-                  } else if (d.domain[1] > 10000) {
-                    return (parseInt(d.generatedLabels[d.i]) / 1000).toFixed(0) + "K";
-                  } else if (d.domain[1] > 1000) {
-                    return (parseInt(d.generatedLabels[d.i]) / 1000).toFixed(1) + "K";
-                  } else if (d.domain[1] <= 100 && d.domain[1] > 10) {
-                    return (parseInt(d.generatedLabels[d.i])).toFixed(0) + "%";
-                  } else return (parseInt(d.generatedLabels[d.i])).toFixed(1) + "%";
+                  return format(d.domain[1], that.statOne === "election_lead"
+                      ? [0, .41, .46, .5, .55, .61, 1][d.i]
+                      : d.generatedLabels[d.i]);
                 })
                 .labelFormat(d3.format(".2f"))
                 .orient('horizontal')
@@ -289,11 +335,11 @@ export default {
 
             legend.append("text")
                 .attr("y", 14)
-                .attr("x", 60)
+                .attr("x", -60)
                 .attr('text-anchor', 'middle')
                 .attr("class", "myLabel")
                 .text(that.statOne)
-                .attr("transform", "rotate(90)");
+                .attr("transform", "rotate(-180)");
 
             legend.append('path')
                 .attr('d', d3.line()([[0, 0], [120, 0]]))
@@ -303,11 +349,11 @@ export default {
 
             legend.append("text")
                 .attr("y", 14)
-                .attr("x", -60)
+                .attr("x", 60)
                 .attr('text-anchor', 'middle')
                 .attr("class", "myLabel")
                 .text(that.statTwo)
-                .attr("transform", "rotate(-180)");
+                .attr("transform", "rotate(90)");
           }
         });
       });

@@ -21,6 +21,7 @@
           <md-field>
             <label for="statOne">Stat one</label>
             <md-select v-model="statOne" name="statOne" id="statOne">
+              <md-option value="election_lead">election_lead</md-option>
               <md-option v-for="a in attributes" :key="a" :value="a" :disabled="statTwo === a">{{ a }}</md-option>
             </md-select>
           </md-field>
@@ -91,7 +92,7 @@ export default {
     showNavigation: false, // Show the navigation drawer.
     showSnackbar: false, // Show snackbar or not.
     disclaimerPrompt: false, // Show disclaimer or not.
-    statOne: "normalized_election_outcome",
+    statOne: "election_lead",
     statTwo: "None"
   }),
   mounted() { // On first initialization.
