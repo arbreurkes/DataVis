@@ -94,11 +94,11 @@ demNorm = []
 repNorm = []
 for (a, b) in zip(countyData['DEM_votes'].astype("Float32"), countyData['REP_votes'].astype("Float32")):
     try:
-        demNorm.append((a / (a + b)))
+        demNorm.append((a / (a + b)) * 100)
     except:
         demNorm.append('')
     try:
-        repNorm.append((b / (a + b)))
+        repNorm.append((b / (a + b)) * 100)
     except:
         repNorm.append('')
 countyData['dem_votes_%'] = demNorm
@@ -122,11 +122,11 @@ demNorm = []
 repNorm = []
 for (a, b) in zip(stateData['DEM_votes'].astype("Float32"), stateData['REP_votes'].astype("Float32")):
     try:
-        demNorm.append((a / (a + b)))
+        demNorm.append((a / (a + b)) * 100)
     except:
         demNorm.append('')
     try:
-        repNorm.append((b / (a + b)))
+        repNorm.append((b / (a + b)) * 100)
     except:
         repNorm.append('')
 stateData['dem_votes_%'] = demNorm
