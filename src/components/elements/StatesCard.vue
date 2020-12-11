@@ -75,7 +75,7 @@ export default {
 
       var projection = d3.geoAlbersUsa()
           .translate([width / 2, height / 2])
-          .scale([width]);
+          .scale(width);
 
       var path = d3.geoPath(projection)
 
@@ -185,13 +185,15 @@ export default {
 
           var clicked = function (d) {
             var x, y, k;
+            console.log(path.centroid(d.target.__data__));
+            var source = d.target.__data__;
 
-            if (d && centered !== d) {
-              var centroid = path.centroid(d);
+            if (source && centered !== source) {
+              var centroid = path.centroid(source);
               x = centroid[0];
               y = centroid[1];
-              k = 4;
-              centered = d;
+              k = 3;
+              centered = source;
             } else {
               x = width / 2;
               y = height / 2;
@@ -200,12 +202,12 @@ export default {
             }
 
             svg.selectAll("path")
-                .classed("active", centered && function(d) { return d === centered; });
+                .classed("active", centered && function() { return source === centered; });
 
+            console.log(width, height, k, x, y);
             svg.transition()
                 .duration(750)
-                .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")scale(" + k + ")translate(" + -x + "," + -y + ")")
-                .style("stroke-width", 1.5 / k + "px");
+                .attr("transform", "scale(" + k + ")translate(" + ((width / 2) - x) + "," + ((height / 2) - y) + ")");
           }
 
           svg.selectAll("path")
@@ -261,7 +263,7 @@ export default {
                 div.transition().duration(300)
                     .style("opacity", 0);
               })
-              .on("click", clicked);
+              .on("click", function(d) { clicked(d) });
 
           if (that.statTwo === "None") {
             svg.append("g")
