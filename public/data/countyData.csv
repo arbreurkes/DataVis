@@ -1,4 +1,4 @@
-id,county,county_id,state,state_id,normalized_election_outcome,DEM_votes,REP_votes,dem_votes_%,rep_votes_%,TotalPop,percentageMen,percentageWomen,Men,Women,Hispanic,White,Black,Native,Asian,Pacific,IncomePerCap,Income,Poverty,ChildPoverty,Unemployment
+id,county,county_id,state,state_id,election_lead,DEM_votes,REP_votes,dem_votes_%,rep_votes_%,TotalPop,percentageMen,percentageWomen,Men,Women,Hispanic,White,Black,Native,Asian,Pacific,IncomePerCap,Income,Poverty,ChildPoverty,Unemployment
 1043,Cullman,43,Alabama,1,0.107954821,4454,36804,10.79548209,89.20451791,81703,49.2307504,49.2307504,40223,41480,4.2,92.3,1.1,0.4,0.6,0,21857,40997,16.4,19.6,5.8
 1049,DeKalb,49,Alabama,1,0.147199724,4271,24744,14.71997243,85.28002757,71194,49.62215917,49.62215917,35328,35866,14.3,80.8,1.4,1.2,0.3,0.1,20020,38842,21.5,31,5.1
 1095,Marshall,95,Alabama,1,0.150869811,5880,33094,15.08698106,84.91301894,94738,49.36878549,49.36878549,46771,47967,13.3,81.8,2.2,0.5,0.6,0.1,22710,41104,21,34.1,6.5
