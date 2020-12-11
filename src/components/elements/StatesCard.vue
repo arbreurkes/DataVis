@@ -122,13 +122,12 @@ export default {
             statOne[statOne.length - 1]];
           var domainTwo = [0, statTwo[quantileTwo], statTwo[quantileTwo * 2], statTwo[quantileTwo * 3],
             statTwo[statTwo.length - 1]];
-          console.log(domainOne, domainTwo)
 
           if (that.statOne === "election_lead" && that.statTwo === "None") {
             that.color = d3.scaleQuantile()
                 .domain([0, .40, .45, .5, .55, .60, 1])
                 .range(["#C63432", "#E37D71", "#F6BEB6", "#C8DCf1", "#8DBAE2", "#439AD3"]);
-          } else if (that.statTwo === "None" && that.statOne === "DEM_votes" || that.statOne === "dem_votes_%") {
+          } else if (that.statTwo === "None" && (that.statOne === "DEM_votes" || that.statOne === "dem_votes_%")) {
             that.color = d3.scaleLinear()
                 .domain([0, statOne[statOne.length - 1]])
                 .range(["#FFFFFF", "#439AD3"]);
