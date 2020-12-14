@@ -39,9 +39,6 @@
     </md-drawer>
     <md-content class="main-content" id="main-content">
       <router-view></router-view>
-      <md-snackbar md-position="center" :md-duration="4000" :md-active.sync="showSnackbar" md-persistent>
-        <span style="width: 100%; text-align: center;">{{ snackbarMessage }}</span>
-      </md-snackbar>
     </md-content>
     <md-dialog :md-active.sync="disclaimerPrompt">
       <md-dialog-title>Disclaimer</md-dialog-title>
@@ -63,24 +60,11 @@ export default {
   name: 'app',
   components: {},
   computed: {
-    snackbarMessage: function () { // Message to display on the snackbar.
-      return this.getSnackbarMessage();
-    },
     attributes: function () {
       return this.getAttributes();
     }
   },
   watch: {
-    snackbarMessage: function () { // Watch snackbarMessage, when non-empty, show snackbar.
-      if (this.snackbarMessage !== "") {
-        this.showSnackbar = true;
-      }
-    },
-    showSnackbar: function () { // Reset snackbarMessage after automatically hiding snackbar.
-      if (!this.showSnackbar) {
-        this.setSnackbarMessage("");
-      }
-    },
     statOne: function() {
       this.setStatOne(this.statOne);
     },
@@ -90,7 +74,6 @@ export default {
   },
   data: () => ({
     showNavigation: false, // Show the navigation drawer.
-    showSnackbar: false, // Show snackbar or not.
     disclaimerPrompt: false, // Show disclaimer or not.
     statOne: "election_lead",
     statTwo: "None"
@@ -98,8 +81,8 @@ export default {
   mounted() { // On first initialization.
   },
   methods: {
-    ...mapGetters(['getSnackbarMessage', 'getAttributes']),
-    ...mapMutations(['setSnackbarMessage', 'setStatOne', 'setStatTwo']),
+    ...mapGetters(['getAttributes']),
+    ...mapMutations(['setStatOne', 'setStatTwo']),
   }
 }
 </script>
@@ -107,6 +90,7 @@ export default {
 body {
   height: 100%;
   overflow: hidden;
+  background-color: var(--background-color);
 }
 
 :root {
@@ -116,7 +100,7 @@ body {
   --nyanza: #E0EEC6;
   --ivory: #F1F7ED;
   --ivory-white: #FFFFFF;
-  --background-color: #EFEFEF;
+  --background-color: #FFFFFF;
 
   /* Override MDC theme colors */
   --mdc-theme-primary: var(--MSU-green) !important;
@@ -174,33 +158,6 @@ body {
   color: var(--mdc-theme-secondary) !important;
 }
 
-.md-card {
-  height: 100%;
-  max-height: calc(100vh - 64px) !important;
-}
-
-.card-content {
-  height: 100%;
-  padding-bottom: 8px !important;
-  max-height: calc(100% - 48px);
-  overflow-y: scroll;
-}
-
-.md-progress-spinner.md-theme-default .md-progress-spinner-circle {
-  stroke: var(--nyanza) !important;
-}
-
-.progress {
-  height: 100% !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-}
-
-.md-empty-state {
-  height: 100%;
-}
-
 .confirm-button, .empty-state-button {
   background-color: var(--mdc-theme-secondary) !important;
 }
@@ -216,28 +173,8 @@ body {
   max-width: 100vw;
 }
 
-.md-layout {
-  margin-bottom: 16px;
-}
-
 .md-dialog-container {
   transform: none !important;
-}
-
-.vote-button, .omit-button, .unct-button {
-  color: white !important;
-}
-
-.vote-button:enabled {
-  background-color: var(--forest-green) !important;
-}
-
-.unct-button:enabled {
-  background-color: #a1a1a1 !important;
-}
-
-.omit-button:enabled {
-  background-color: #d32f2f !important;
 }
 
 .md-content {

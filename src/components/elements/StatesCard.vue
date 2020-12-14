@@ -22,7 +22,7 @@
 </template>
 <script>
 import * as d3 from "d3";
-import {mapActions, mapGetters} from 'vuex';
+import {mapGetters} from 'vuex';
 import {legendColor} from "d3-svg-legend";
 import * as topojson from "topojson-client";
 
@@ -90,7 +90,6 @@ export default {
     })
   },
   methods: {
-    ...mapActions([]),
     ...mapGetters(['getStatOne', 'getStatTwo']),
     initializeMap: function () {
       var that = this;
@@ -241,7 +240,7 @@ export default {
       var showStateCounties = function (id) {
         var filterfunc = (x) => {
           var countyId = x.id.toString().replace("county", "");
-          return countyId === "county" + id ||
+          return countyId === id ||
               (countyId.length === (id.length + 3) && countyId.substr(0, id.length) === id.toString());
         }
 
@@ -509,7 +508,7 @@ export default {
 </script>
 <style scoped>
 .zoom-button {
-  top: 0;
+  top: 48px;
   right: 0;
   position: absolute;
   background-color: var(--mdc-theme-secondary) !important;
@@ -530,10 +529,6 @@ export default {
 .label {
   line-height: 8pt;
   font-size: 8pt;
-}
-
-.actions {
-  justify-content: center !important;
 }
 
 div.tooltip {

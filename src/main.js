@@ -34,14 +34,10 @@ export default {
 const routes = [ // Determine the possible routes in this application.
   {
     path: '/',
-    redirect: '/stats/tabOne'
-  },
-  {
-    path: '/stats/*',
     name: 'Statistics',
     component: Statistics,
     props: {}
-  },
+  }
 ];
 
 const router = new VueRouter({ // Initialize the router.
