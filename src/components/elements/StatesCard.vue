@@ -161,7 +161,7 @@ export default {
         that.countyColor = d3.scaleLinear()
             .domain([0, countyStatOne[countyStatOne.length - 1]])
             .range(["#FFFFFF", "#439AD3"]);
-      } else if (that.statOne === "percentageMen" || that.statOne === "percentageWomen") {
+      } else if ((that.statOne === "percentageMen" || that.statOne === "percentageWomen") && that.statTwo === "None") {
         that.color = d3.scaleQuantile()
             .domain(domainOne)
             .range(["#FFFFFF", "#FBD8D2", "#F3B1A7", "#E78A7E", "#D86257", "#C63432"]);
